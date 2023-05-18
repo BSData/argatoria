@@ -43,6 +43,7 @@ __I found a bug / I'd do something differently__
 [Argatoria-Discord]: https://discord.com/channels/1085186335234600980/
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
 [Open Issue directly]: https://github.com/BSData/argatoria/issues
+[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 
 ## Additional info ##
 
