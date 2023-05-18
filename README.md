@@ -7,24 +7,23 @@ Argatoria Wargame
 [![Contributors](https://img.shields.io/github/contributors/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/pulse/monthly)
 
-__What is this?__
-
-Files for Argatoria Wargame that allows for creation of an army in BattleScribe.
-
 __Important__
 
 Army composition works properly only when you set a "Cost Limits" when creating a rooster!
+
 
 __I found a bug / I'd do something differently__
 
 * Drop me an email - you can find the address in the ReadMe file when you create a new army
 * [Open Issue directly][] (```New Issue```) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
 
+
 * __I'd just like to contact you.__
 
   Then join us on Argatoria Discord and drop us a line on #battlescribe channel
   
   [![Chat on Discord](https://img.shields.io/discord/1085186335234600980?style=popout-square)](https://discord.com/channels/1085186335234600980/)
+
 
 ## Links ##
 
