@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="2" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="10aa-0e03-65c2-1bda" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ced7-f70f-3822-af67" name="Barbarians" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a96f-73b9-b199-63d9" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1461-55e0-3e4a-eee3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6628-dde8-e77c-5d93" name="Barbarians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="1405-969d-81b2-b40c" name="Momentum" hidden="false">
+              <description>When charging, the unit has an A stat increased by 1</description>
+            </rule>
+            <rule id="270b-8e80-f03c-2ea2" name="Hunter Instinct" hidden="false">
+              <description>When fighting single models or units with a Creature special rule, they do not subtract dice from the difference between Strength and Toughness</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca67-c161-e196-93bf" name="Oduns" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ede2-83a2-9cea-444e" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f84b-6371-4cf5-1374" name="Oduns" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a4-ad06-7a36-2484" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a2-bc52-29b0-d7dd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="aa18-1141-6147-0966" name="Oduns" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">5</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="91da-db86-c553-ee29" name="Spear Storm" hidden="false" targetId="9e96-c41e-aaa3-104b" type="rule"/>
+            <infoLink id="622c-9257-e2c6-9aab" name="Woodiness" hidden="false" targetId="a619-15f1-d9e3-2840" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8107-48c3-91be-4047" name="Amazons on Spiders" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="81f2-6d44-4617-4374" value="5.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81f2-6d44-4617-4374" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="72c4-5776-d9b0-b9dd" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c36-ae51-089a-e85e" name="Amazons on Spiders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9058-3bc6-7c27-4cda" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9e-3e8a-3043-87b7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ef5a-8d86-1eb1-8784" name="Amazons on Spiders" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e25b-7b73-8628-8793" name="Venom" hidden="false">
+              <description>If an enemy unit is dealt a Wound during combat, the wounded base is removed. The rule does not apply to single models</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="98b9-a1a9-d129-170b" name="Keen Senses" hidden="false" targetId="a34a-7199-b81a-7fb3" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fe9-209f-e0ba-fbd1" name="Voraks" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="46c6-d9ef-d097-93c7" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c52d-8b8c-d03c-4c88" name="Voraks" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71f2-093c-2a0c-2c92" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="817f-1322-9525-72aa" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="67ae-1b1c-90f4-0310" name="Voraks" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="cb29-2f0a-6806-d05f" name="Sweeping Slash" hidden="false">
+              <description>This unit can re-roll each score of 6 during the Weapon Skill Test</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2b93-7e24-6d75-53de" name="Brutal Trap" hidden="false" targetId="dc7c-8af9-efc7-a666" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b189-8c2c-121d-73e2" name="Half-giants" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7eaa-54e4-58e7-8c2c" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="11ff-ec01-6b3d-adf0" name="Half-giants" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="755e-3a72-9aa9-a925" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b73-9c28-4110-dd3b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="10d7-5529-e5d8-9f9c" name="Half-giants" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f0c3-273b-c17d-b575" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6db0-6f3f-e4d4-fede" name="Slagors" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bedd-362c-7013-c5d2" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2943-5f3b-62a9-9acc" name="Slagors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc9-f93b-a8ab-b3df" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf41-3eb0-82c3-95f8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="99b7-ed4e-2b6f-a2a6" name="Slagors" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">5</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="8d53-e40e-74d2-73e8" name="Snake Move" hidden="false">
+              <description>This unit can move or charge through enemy or friendly units if its move ends outside the unit that it was moving or charging through</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="24ee-dd9d-df15-baf9" name="Creature" hidden="false" targetId="9b7f-2bac-83f4-ea51" type="rule"/>
+            <infoLink id="662d-3d95-8550-6384" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5291-3ff1-f779-d1e8" name="Trefloq" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="de77-9cbe-d96a-6a2a" name="Trefloq" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">6</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">8</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">5</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1147-9048-d802-701a" name="Toxic Spores" hidden="false">
+          <description>When attacking a Trefloq, the enemy unit always has -1 to S</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3d98-d004-97d9-fac1" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+        <infoLink id="feab-a0f3-b370-afd3" name="Woodiness" hidden="false" targetId="a619-15f1-d9e3-2840" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb7c-74cb-99e2-4980" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="56.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="048b-0219-e4ea-b41d" name="Wild Creatures" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b75c-daef-0fca-7eb9" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b091-549e-231b-2ab8" name="Wild Creatures" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="295d-89c2-a201-e544" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae8-ea6f-bbfb-6115" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="de7f-118d-8125-52fe" name="Wild Creatures" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">5</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="61fb-6b02-d9db-23e7" name="Under the spell" hidden="false">
+              <description>This unit can only be deployed if there is a Beast Master in the army. If the army loses its last Beast Master, roll a d6 before activating Wild Creatures. On a score of 5 or 6, the unit loses an Action Die. A different score means it can be activated normally</description>
+            </rule>
+            <rule id="a0b1-d925-a15f-41ef" name="Frenzy" hidden="false">
+              <description>When charging, this unit doubles its Attacks (A) stat</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="bd04-f310-7b92-6a8c" name="Creature" hidden="false" targetId="9b7f-2bac-83f4-ea51" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca8c-cd6f-98ad-cf54" name="Forest Dragon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bc68-cc4a-bd46-689a" name="Forest Dragon" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">4</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">4</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">7</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">6</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">8</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a896-161c-3b16-ccab" name="King of the Wild" hidden="false">
+          <description>Each enemy unit within 15 cm of the Forest Dragon loses the horde rule if it has one. Each friendly Gaeldor unit within 15 cm has a Fearless rule</description>
+        </rule>
+        <rule id="519a-2d2f-ce72-810b" name="Winged Creature" hidden="false">
+          <description>After both armies are deployed, the Forest Dragon can be deployed up to 20 cm from its deployment zone</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="01dd-0cd4-8d9f-9c1e" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b11a-02ce-5ff4-7eeb" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="96.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94f0-7641-4421-4a7e" name="Marmydon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="8ec9-c8ce-d15b-4f95" name="Marmydon" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">4</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">12</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">9</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">6</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">24</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9710-9e9a-29d1-7a02" name="Thick Hide" hidden="false">
+          <description>For each Wound dealt to this model, roll a d6 for protection by Thick Hide. Each score of 1 means a cancelled Wound</description>
+        </rule>
+        <rule id="84bf-9007-eb55-3fd2" name="Roar" hidden="false">
+          <description>Once per its turn, Marmydon may roll a d6. On a score of 2 or less, every enemy unit within 20 cm must take a Panic Test (4+) for two bases</description>
+        </rule>
+        <rule id="3c32-ad30-689d-cb56" name="The Fall of the Leviathan" hidden="false">
+          <description>If Marmydon loses its last W point, every unit or single model touching its base must roll 2d6. A score lower than LD means the enemy unit or model is dealt d6+2 Wounds with no armour or protection saves allowed</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d274-240e-fb07-ea27" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+        <infoLink id="fdd9-10ae-ef5e-90f4" name="Monster" hidden="false" targetId="83a1-36fd-47ff-200e" type="rule"/>
+        <infoLink id="8c1f-589f-b992-fa95" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9a62-9baa-10cd-f3dd" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+        <categoryLink id="9d54-fbba-f496-cb9b" name="Marmydon" hidden="false" targetId="78dd-3520-453b-2d1e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="248.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a63f-ddc8-6f3a-af34" name="Command Group" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="7399-e8ad-b7a4-6274" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
+        <categoryLink id="f941-122a-996b-52cd" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false"/>
+        <categoryLink id="5e61-a4c8-bc65-bf6d" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2f7b-8120-3094-afab" name="Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2382-806b-b169-ec2f" name="Champion of Forest" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="caff-a787-c204-039d" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="caff-a787-c204-039d" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caff-a787-c204-039d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="cc69-f189-2218-20f7" name="Champion of Forest" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Forest is attached to a friendly unit engaged in combat, make a d6 test before the fight. A score of 3 or less means the unit gets a +1 to S bonus in this cycle. The Champion of Forest allows to make a re-roll when rolling for terrain</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0301-3076-0f2c-b120" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="49d0-a237-693e-2b40" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="620e-3dd5-45c1-6cff" name="Beast Master" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="6614-37da-8ce4-f1eb" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+        <categoryLink id="b514-2802-2ba0-6494" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="69a5-9503-a2f7-76a2" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
+        <entryLink id="104f-68f3-bc0d-864d" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c564-c2bd-60e2-6376" name="Druid" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="726f-f5c3-bdca-fc16" name="Druid" hidden="false">
+          <description>Each friendly unit of Oduns and a Trefloq within 20 cm of the Druid can re-roll failed scores during the roll for protection (Woodiness)</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6782-94d1-f8f4-cc4e" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+        <categoryLink id="0528-dcb2-22d9-72ea" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="16b0-6837-b0ac-0462" name="Spells (6 point mage)" hidden="false" collective="false" import="true" targetId="5749-d46e-d8cf-1720" type="selectionEntryGroup"/>
+        <entryLink id="c8c5-c82e-66dd-7933" name="Magic items (6 point mage)" hidden="false" collective="false" import="true" targetId="5402-f23e-d2da-b983" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3502-7405-a615-3959" name="Gaeldaukar" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5b75-3d7a-f63f-e9ec" name="Gaeldaukar" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
+          <characteristics>
+            <characteristic name="LD" typeId="6103-ad18-a530-9636">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1e93-9974-ea7f-6382" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="a764-63d1-dba4-fc68" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2eee-624f-ddb5-0159" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e969-7557-f660-7df4" name="Champion of Beasts" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="0f8f-c342-3e0e-048a" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="0f8f-c342-3e0e-048a" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f8f-c342-3e0e-048a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4d1d-0595-d9e6-6ed0" name="Champion of Beasts" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Roll a d6 if the General failed to issue an order to a unit of: Oduns, Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means the General may re-roll the failed score. The Champion of Beasts attached to the listed units adds 2 more attacks to the pool</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="30fc-a5c9-d2ed-0f1e" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="4e87-5b45-bb6d-381b" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3747-33cb-f08a-9f91" name="Champion of Hunt" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="2cd7-35a5-804c-f4bb" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="2cd7-35a5-804c-f4bb" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cd7-35a5-804c-f4bb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b202-5d1b-5528-12ef" name="Champion of Hunt" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Hunt is attached to a friendly unit engaged in combat, he can make a test whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">2-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fcc6-77aa-14b6-d366" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="aeeb-1565-0900-7448" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="9b91-cf4a-e77c-2e17" name="The Wrath of the Forest" hidden="false">
+      <description>In the Gaeldor army, units (but not single models) may change any 1 scored when moving or charging to a score of 4</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="a619-15f1-d9e3-2840" name="Woodiness" page="" hidden="false">
+      <description>For each Wound dealt to this unit, roll a d6 for protection. Each score of 1 means a cancelled Wound</description>
+    </rule>
+  </sharedRules>
+</catalogue>

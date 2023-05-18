@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="3" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a139-7a39-1ea6-4a28" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="12ac-967d-0f5b-00e0" name="Reptilians" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326c-9bc5-7178-c1a8" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a858-cf8f-55e6-c1c2" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="493c-e625-ff0e-b08b" name="Reptilians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5009-7b81-600b-00c6" name="Iron Discipline" hidden="false">
+              <description>Orders issued to this unit can be rerolled, and each score of 1 means a free order</description>
+            </rule>
+            <rule id="99db-0f41-b9a2-490c" name="Responsive" hidden="false">
+              <description>This unit can be issued an order being within 40 cm from the General</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4095-340c-b30c-8aea" name="Liagulians" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e829-fe72-610d-e700" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e01b-af98-8ff4-a9d8" name="Liagulians" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-cf92-1d4a-4333" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee9-d8b2-d7c6-4e13" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b99e-dcf7-84b9-dad4" name="Liagulians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">2</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="57aa-c3bc-6b36-6d22" name="Sneaky" hidden="false">
+              <description>This unit gets an additional +2 bonus for attacking the enemy from the side or rear</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="cfad-3218-af73-31fa" name="Spear Storm" hidden="false" targetId="9e96-c41e-aaa3-104b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc75-cebe-752d-3abb" name="Repsolians" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8b31-49c4-df10-064f" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="193a-c60c-f467-0f75" name="Repsolians" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ca-1fa7-f158-cf66" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08aa-8c3f-d710-564e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="aa16-45c5-b252-0b3f" name="Repsolians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">4</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="61ba-8931-24d8-409e" name="Will to Fight" hidden="false">
+              <description>If the Repsolians unit destroyed an enemy unit, it can move up to 10 cm instead of 5 cm</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f3fa-69d0-e74a-96d1" name="Battle Inspiration" hidden="false" targetId="1615-8259-2e4e-3e65" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9124-7b7c-71e0-ad59" name="Ropuchons" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="64b2-7034-9341-3841" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="db1f-0b77-aa8f-1aa4" name="Ropuchons" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7c-c69c-90a3-9fba" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8721-e867-37d0-a00f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="35d6-d69f-4738-3120" name="Ropuchons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="27b8-ed9c-b8fb-2038" name="Poisonous Spit" hidden="false" targetId="e720-02b2-8459-7370" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e6a-06e5-efd9-b6f6" name="Martyrs of Voro-dan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a0d2-185c-1b24-3dc3" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3635-783f-c5aa-101f" name="Martyrs of Voro-dan" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c707-8ac3-67a2-64eb" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2088-1391-fadb-c340" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a9e1-71fa-8f7e-c39f" name="Martyrs of Voro-dan" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">5</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bf99-d776-d61d-5475" name="Vigilant" hidden="false">
+              <description>The enemy unit does not receive bonuses for attacking this unit from the side or rear</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a19e-b464-5cc9-5efb" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46ce-94bb-ec30-d509" name="Slagors" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fe4f-e6fd-55cc-9f42" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8bcd-e71d-9929-d1a9" name="Slagors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a95-e087-3bed-8b67" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7aa-4f5c-4227-d352" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2700-e8d2-d119-d739" name="Slagors" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">5</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b25e-3c65-f85d-91c6" name="Snake Move" hidden="false">
+              <description>This unit can move or charge through enemy or friendly units if its move ends outside the unit that it was moving or charging through</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d5b6-216e-f61a-bdbf" name="Creature" hidden="false" targetId="9b7f-2bac-83f4-ea51" type="rule"/>
+            <infoLink id="2994-b072-8a9d-d7c0" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95d0-ec57-4d06-c741" name="Desauros with Tomb Altar" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0331-8172-a9c0-72fe" name="Desauros with Tomb Altar" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">4</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">6</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">7</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">7</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6812-a42f-6681-1f78" name="Tomb Altar" hidden="false">
+          <description>Make a d6 test if your opponent lost at least 1 base as a result of a Desauros attack. A score of 2 or less means Desauros recovers 1 Wound</description>
+        </rule>
+        <rule id="d568-9691-55a5-5cfe" name="Primal Rampage" hidden="false">
+          <description>When charging, Desauros must take a d6 test to see if it goes berserk. A score of 2 or less means Desauros gains +3 Attacks</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="852e-3d4e-56b2-1f3c" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8776-ccdb-a342-6e81" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c8a-e8ab-5941-4455" name="Crushers on Scalyvars" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7f8d-a63a-0f1e-e17f" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="47fe-e81d-4598-3511" name="Crushers on Scalyvars" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b5-452b-3406-2549" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-f027-8c7a-96d3" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="94c7-1643-1d8a-060b" name="Crushers on Scalyvars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">4</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3700-632c-ff1a-71a8" name="Hammer Strike" hidden="false">
+              <description>For each score of 1 and 2 in the Wound Test, this unit can roll an additional d6 for wounding. The obtained scores do not generate new ones</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="637f-87c4-a437-b4ff" name="Battle Inspiration" hidden="false" targetId="1615-8259-2e4e-3e65" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="23.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f9e-6b09-c4ad-a75c" name="Forgon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0543-86f5-48b0-bc4a" name="Forgon" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">5</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">5</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">5</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8b51-cd26-3609-42c3" name="Living Catapult" hidden="false">
+          <description>Once per cycle, Forgon can spit at an enemy within 20 cm that is not engaged in combat. Roll a d6. A score of 3 or less means the enemy unit must take a Panic Test for its 3 bases</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9da4-2951-799b-7c4f" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b33-0d68-9e1d-b775" name="Command Group" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8ff7-c377-cede-ae56" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="fa1a-a79d-7020-0a98" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e74d-6282-d3ad-1da3" name="Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="030a-bb9d-283f-ce3e" name="Champion of Night" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f143-72b8-a8c9-e6d7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="22b9-6529-47ce-c835" name="Champion of Night" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the enemy unit is engaged in combat with the unit that the Champion of Night is attached to, make a d6 test before the enemy attacks. A score of 3 or less means the enemy gets a -1 to WS modifier in combat</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9d2d-ac25-80cb-938a" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="ea23-2987-a8fe-02a2" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3725-5f2a-7721-ce19" name="Champion of Death" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="62d8-650a-9a05-f5a3" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="62d8-650a-9a05-f5a3" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d8-650a-9a05-f5a3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="36a1-43b5-0dc9-d696" name="Champion of Death" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Death is attached to a friendly unit engaged in combat, roll a d6 for each base that the enemy unit lost. A score of 2 or less means your opponent must remove another base</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e5c2-fdee-89d2-666b" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="5c95-bd4a-5bf6-62e9" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d83-2531-72b5-eda7" name="Champion of Wrath" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="2941-fd0b-3e44-fd86" value="1.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="2941-fd0b-3e44-fd86" value="2.0">
+          <conditions>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2941-fd0b-3e44-fd86" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2db8-9956-9999-d406" name="Champion of Wrath" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Choose a friendly unit within 20 cm of the Champion of Wrath and make a d6 test before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging</characteristic>
+            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c62a-8a58-a712-4748" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="90b4-b234-aab6-193d" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcea-81d2-842e-ba4e" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1d7d-7849-b6d6-06e9" name="Abazatragon" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
+          <characteristics>
+            <characteristic name="LD" typeId="6103-ad18-a530-9636">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="77c8-49c0-8cf6-acfc" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="902d-2d2b-1697-a61c" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f54e-922d-b27e-5d6b" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5efd-f60f-c34c-cb82" name="Tomb Priest" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="4c4d-363e-d97e-bef1" name="Tomb Priest" hidden="false">
+          <description>Each friendly unit within 10 cm of the Tomb Priest may add 3 cm to the charge range</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5e8d-cc87-4752-335a" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+        <categoryLink id="5a01-fb92-fc02-9c8e" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b83c-74e2-020b-53c5" name="Spells (6 point mage)" hidden="false" collective="false" import="true" targetId="5749-d46e-d8cf-1720" type="selectionEntryGroup"/>
+        <entryLink id="b846-3bb1-cf25-6469" name="Magic items (6 point mage)" hidden="false" collective="false" import="true" targetId="5402-f23e-d2da-b983" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5dac-fcdc-1ddf-2119" name="Guardian of the Underworld" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="a613-3ad6-8f58-999c" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+        <categoryLink id="b4ae-308a-40d4-fd40" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0a9-4ea1-a3f1-7b0b" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
+        <entryLink id="8f40-869d-b2b6-704e" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="be2e-fed3-a0a9-7fdb" name="Heralds of the Torment" hidden="false">
+      <description>The Sorgax General is given the option to issue one additional free order per cycle if the opponent has suffered certain losses during the battle. Check how many Blood Points your opponent has lost so far and compare it with the table below to find out what score you need to get to successfully issue the free order:  6BP 1-, 12BP 2-, 24BP 3-</description>
+    </rule>
+  </rules>
+</catalogue>

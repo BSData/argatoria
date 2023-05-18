@@ -1,34 +1,61 @@
-Argatoria
-==================
+Argatoria Wargame BattleScribe data
+===================================
 
 [![Latest release](https://img.shields.io/github/release/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/releases/latest)
 [![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/argatoria/latest.svg?style=flat-square)](https://github.com/BSData/argatoria/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/argatoria/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/codedoneright-eu/argatoria-en.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria-en/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/pulse/monthly)
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+## ReadMe ##
 
-## Overview ##
+__What is this?__
 
-__What's this?__
+Files for Argatoria Wargame that allows for creation of an army in BattleScribe.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+__I just want files__
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+Sure:
+* Open BattleScribe
+* Go into 'Manage Data'
+* Download Argatoria data
+* Happy building
 
-__I found a bug!__ / *I have another request*
 
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
+__Can I use it on my phone?__
+* Yes, open the app and navigate to 'Manage Data'
+* Go into 'Manage Data'
+* Download Argatoria data
+* Happy building
+
+
+__I found a bug / I'd do something differently__
+
+* Drop me an email - you can find the address in the ReadMe file when you create a new army
+* Or create an issue on GitHub
 
 ## Links ##
 
-* [BSData organization homepage][BSData.net]
-* [BattleScribe app homepage](https://www.battlescribe.net/)
+* [Spellcrow – Creators of Argatoria Wargame][Spellcrow]
+* [Umbra Turris Chronicles][Umbra Turris Chronicles]
+* [Spellcrow Community Group][Spellcrow Community Group]
+* [BattleScribe][BattleScribe]
+* [Discord][Discord]
 
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/argatoria/issues/new/choose
+[Spellcrow]: https://www.spellcrow.com/
+[Umbra Turris Chronicles]: https://utchronicles.com/
+[Spellcrow Community Group]: https://www.facebook.com/groups/155087831991825/
+[BattleScribe]: https://battlescribe.net/
+[Discord]: https://discord.com/channels/1085186335234600980/
+
+## Additional info ##
+
+This project *is not* endorsed by Spellcrow Ltd. and *is a 100% fan project*
+
+The goal of this is to help people build their armies and to allow for easier entry for new people
+
+If you want to help out, give me a shout
+
+Support creators by buying minis and books through their website linked above
+
+©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.

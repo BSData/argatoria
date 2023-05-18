@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
+
+©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+  <selectionEntries>
+    <selectionEntry id="e03e-2982-ebd8-e8b0" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="57b7-9dcf-ca33-e46b" name="Abazatragon" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
+          <characteristics>
+            <characteristic name="LD" typeId="cac3-aea3-a917-6b13">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b81e-1957-9c90-bba8" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
+        <categoryLink id="d83c-a03d-8094-47b5" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3322-f737-757e-8141" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e0c-171d-6240-c4d7" name="Strażnik Podziemi" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="53c0-3fb3-225d-1e82" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+        <categoryLink id="b66e-1a80-e9ed-ca61" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b909-92cd-1e9b-a74a" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
+        <entryLink id="02a9-d629-5062-10f2" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a44-bb1f-e563-7f11" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="dcb7-3fa9-8f8b-53d7" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
+        <categoryLink id="3485-02b2-0682-e808" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a0df-634e-b989-bffb" name="Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="326a-09c6-0705-49ba" name="Czempion Nocy" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="7b7d-14cc-f54c-d837" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7b7d-14cc-f54c-d837" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7d-14cc-f54c-d837" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="37b6-f89d-efd8-a930" name="Czempion Nocy" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli wrogi oddział styka się z oddziałem, którego dotyka Czempion Nocy, przeprowadź test k6 przed atakami wroga. Wynik 3 lub mniej oznacza, że wróg ma modyfikator -1 do WS podczas walki</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a28e-e690-2749-bad5" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="5413-dfa6-0346-27fe" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8586-b4b9-91f3-e6d2" name="Czempion Śmierci" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="57fc-9fb6-be7f-0850" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="57fc-9fb6-be7f-0850" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57fc-9fb6-be7f-0850" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e9ce-ce35-3da9-723b" name="Czempion Śmierci" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Śmierci styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj rzut za każdą podstawkę, która zeszła przeciwnikowi. Wynik 2 lub mniej oznacza, że przeciwnik musi zdjąć dodatkową podstawkę</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3d5f-5020-f36d-f2d3" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="360d-7fa6-ffab-3141" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65a8-f68d-312b-f839" name="Czempion Gniewu" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="ef7d-285b-4803-c649" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ef7d-285b-4803-c649" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef7d-285b-4803-c649" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2f49-07b1-e085-b207" name="Czempion Gniewu" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wytypuj przyjazną jednostkę w promieniu 20 cm od Czempiona Gniewu i wykonaj test k6 przed jej szarżą. Wynik 4 lub mniej oznacza, że wybrana jednostka, przeprowadzając szarżę, otrzymuje +1 do WS</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="afda-819e-b397-39c5" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="4554-9594-acd0-5000" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3abc-6160-49f7-8fab" name="Grobowy Kapłan" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="15e2-e91d-78e3-c9ba" name="Grobowy Kapłan" hidden="false">
+          <description>Każdy oddział w promieniu 10 cm od Grobowego Kapłana może dodać 3 cm do zasięgu szarży</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="07a3-774a-d0be-9e7c" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+        <categoryLink id="9098-680c-1622-8fd7" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ea3-453c-8c8d-a009" name="Czary (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="dc2f-dde6-bafe-9059" type="selectionEntryGroup"/>
+        <entryLink id="38d5-00b1-db18-809e" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1fb-a411-1a6d-1ac6" name="Reptilianie" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c98c-0a59-6fad-0e83" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1e75-3faf-d5e4-b158" name="Reptilianie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="214a-3ad1-8659-eb33" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c38-5ba2-71a0-4a0e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8819-791e-9457-1fc2" name="Reptilianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a183-951c-b318-8611" name="Żelazna Dyscyplina" hidden="false">
+              <description>Rozkazy wydawane Reptilianom mogą być przerzucone, a 1 oznacza darmowy rozkaz</description>
+            </rule>
+            <rule id="1bd7-c539-642e-c9b2" name="Wyczuleni" hidden="false">
+              <description>Mogą otrzymywać rozkazy będąc w odległości do 40 cm od Generała</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1366-79b8-c6dc-a430" name="Liagulianie" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="41df-8175-ff52-297b" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="285f-8785-3d0a-753a" name="Liagulianie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="452b-e44f-1d33-bec9" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6591-b6c9-031c-85d8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0057-5f1d-9c7e-bfd5" name="Liagulianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f5a2-0996-a3c1-0b75" name="Podstępni" hidden="false">
+              <description>Otrzymują dodatkowy bonus +2 za atakowanie wroga od boku lub tyłu</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1803-bac9-addb-e44f" name="Grom Włóczni" hidden="false" targetId="c4e7-b255-b1c7-3642" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4288-dcbe-3cea-04d3" name="Repsolianie" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="035e-043a-2e49-8ec0" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5783-8429-5a7c-def8" name="Repsolianie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c07-7a16-ea33-7788" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a0-090d-0f86-3bd1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a315-8411-02e2-a73f" name="Repsolianie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">4</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f194-67b9-c65e-6006" name="Wola Walki " hidden="false">
+              <description>Jeśli oddział Repsolian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="622d-5124-73d9-e15f" name="Bitewna Inspiracja" hidden="false" targetId="6a10-dea2-2b74-bfb5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22fa-2a61-7025-7f46" name="Ropuchoni" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ed55-0cf9-de81-2f96" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c186-8eb6-97ea-5b32" name="Ropuchoni" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fd-4531-9592-96a8" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75b-84ae-f590-3b67" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0d3d-34f6-7311-de01" name="Ropuchoni" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ffe6-08c0-c113-582e" name="Trujące Splunięcie" hidden="false">
+              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4893-c046-8fc2-3899" name="Cierpiętnicy z Voro-dan" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="32e5-c14e-31a3-e3a4" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6f2f-bf7e-9567-bfb8" name="Cierpiętnicy z Voro-dan" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9806-5da0-e0ae-f15e" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd3-5ad4-21dc-47e9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2812-a928-d2e0-a175" name="Cierpiętnicy z Voro-dan" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">5</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9831-a245-3b5a-4f65" name="Czujni" hidden="false">
+              <description>Przeciwnik nie otrzymuje bonusów za atak od boku lub tyłu</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="872e-59a5-013e-b6a3" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfcb-745d-fb84-e4c4" name="Slagory" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1842-ae17-76bf-3353" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="05ac-6cec-7b69-86b4" name="Slagory" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4889-ba31-952c-e101" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef59-6216-ec4a-86b0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9533-088e-6cee-74e3" name="Slagory" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">5</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e5be-8ae3-caee-595f" name="Gadzi Ruch" hidden="false">
+              <description>Slagory mogą wykonać ruch lub szarżę przez jednostki wroga lub swoje, jeśli ich ruch zakończy się poza oddziałem, przez który przechodziły</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d6ab-3e54-468a-6bda" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="de55-847a-0b03-ca4c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3af6-e7a9-f29d-e67a" name="Desauros z Grobowym Ołtarzem" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2834-6e1d-2ec2-946b" name="Desauros z Grobowym Ołtarzem" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">4</characteristic>
+            <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+            <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+            <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">7</characteristic>
+            <characteristic name="A" typeId="395a-f9df-359b-774c">7</characteristic>
+            <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4f1e-a6ff-e8ba-4a03" name="Pierwotny Szał " hidden="false">
+          <description>Podczas szarży Desauros musi wyko nać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki</description>
+        </rule>
+        <rule id="fea6-ffa8-fa18-c52d" name="Grobowy Ołtarz " hidden="false">
+          <description>Za każdą ranę zadaną przeciwnikowi w wyniku ataku Desaurosa z Grobowym Ołtarzem, Desauros zyskuje 1 punkt W. Desauros może posiadać max. 12 punktów W</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="af28-595d-9265-a540" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="97bc-6506-b0cf-6df7" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e01-5864-1c90-308d" name="Forgon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7fd1-4cd9-4ee6-c307" name="Forgon" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+            <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+            <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+            <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">5</characteristic>
+            <characteristic name="A" typeId="395a-f9df-359b-774c">5</characteristic>
+            <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5793-94a7-da67-beeb" name="Żywa Katapulta" hidden="false">
+          <description>Raz na cykl Forgon może wykonać splunięcie do niezaangażowanego w walkę wroga na odległość 20 cm. Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wrogi oddział musi wykonać Test Paniki dla 3 podstawek</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4d58-0cae-71d5-8e98" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f84e-1487-ef60-6af1" name="Miażdżyciele na Skalivarach" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="30f8-906f-99f8-b66f" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2bbc-af29-e790-29b5" name="Miażdżyciele na Skalivarach" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66db-0a0f-b1cc-de1c" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8c-4a88-7b22-9130" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="95d0-01d5-ec7e-0e4e" name="Miażdżyciele na Skalivarach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">4</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ba74-a8aa-9e28-7cf6" name="Uderzenie Młota" hidden="false">
+              <description>Podczas Testu Ranienia za każdą 1 i 2 można wykonać dodatkowy rzut k6 na ranienie. Uzyskane wyniki nie generują kolejnych</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="1452-ec66-614c-e674" name="Bitewna Inspiracja" hidden="false" targetId="6a10-dea2-2b74-bfb5" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="23.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="1aeb-564a-03e4-60aa" name="Zwiastujący Udrękę " hidden="false">
+      <description>Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-</description>
+    </rule>
+  </rules>
+</catalogue>

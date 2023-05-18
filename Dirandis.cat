@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
+
+©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+  <selectionEntries>
+    <selectionEntry id="323d-337d-8b95-46f2" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7417-b1ff-1de6-5f5f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="547c-cad5-09f0-9ca9" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e87e-160c-432b-f20a" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5829-c8b2-bf77-dcfb" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="657b-8a72-7922-d60e" name="Barbarzyńcy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="68d5-65c4-9051-aaca" name="Skupiony Atak" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8c9-bec0-176d-e0a2" name="Jeźdźcy na Gridonach" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="d803-4d09-0c3a-ccf3" value="5.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-4d09-0c3a-ccf3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8ac2-35d6-eca7-201e" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3b64-265b-ae41-04a6" name="Jeźdźcy na Gridonach" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f0d-e35a-d0c6-2011" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c2-1053-37cb-f38f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8a45-a6ff-e86c-2389" name="Jeźdźcy na Gridonach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6d24-5f79-7b0e-c5b2" name="Skupiony Atak" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+            <infoLink id="ef0c-2d7f-006a-df5e" name="Zaciekły Szturm " hidden="false" targetId="2a2c-4cda-7024-1fa9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="21.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db42-4886-670d-1baa" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ce16-b6a4-08a9-b6a5" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8494-0fcf-1769-635b" name="Amazonki" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9540-b753-697e-ee14" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-ce13-0d4f-d450" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3c07-8f10-3654-4c09" name="Amazonki" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6c77-7cf1-facb-2cec" name="Precyzyjne Uderzenie " hidden="false">
+              <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów w Teście WS</description>
+            </rule>
+            <rule id="2672-1728-b2b7-a8b0" name="Obrona Lekką Tarczą " hidden="false">
+              <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę lekką tarczą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ef4-ce1f-968d-e1e3" name="Wilczy Bracia" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="151f-3f6a-6db4-db98" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c208-fe49-65b4-cb43" name="Wilczy Bracia" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9932-99e6-740d-904d" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82dc-544c-b34f-8754" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="27a5-aead-aa87-1bd3" name="Wilczy Bracia" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9323-46fe-e83c-b9b8" name="Magiczne Runy " hidden="false">
+              <description>Podczas Testu Modlitwy uzyskana suma 3 lub mniej oznacza darmową modlitwę (pula modlitw nie zmniejsza się)</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="19cf-c757-6576-7d4a" name="Skupiony Atak" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+            <infoLink id="649f-177c-3b87-d89c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1d1-e422-c0e9-49a4" name="Pół-giganci" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e7f8-becc-b188-be4f" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0db8-6878-1d8a-9cfc" name="Pół-giganci" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb2a-8712-2d44-7a4b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e983-6b91-ba09-df37" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8b32-c007-b2a6-5bcb" name="Pół-giganci" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9cbc-2305-61c4-4c79" name="Miażdżący Cios " hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91a9-41ec-a199-b53a" name="Gigant" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="82d8-5c9e-16fe-ef5f" name="Gigant" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+            <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+            <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+            <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+            <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">5</characteristic>
+            <characteristic name="A" typeId="395a-f9df-359b-774c">5</characteristic>
+            <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c6b-1354-8aca-bd84" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b53d-7dd0-eb99-c420" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8a0-64ad-88ad-7c2d" name="Sasquatche" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="561d-edff-a9c8-7385" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="00c0-f83a-1dd0-0ca5" name="Sasquatche" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a184-8872-a737-6e24" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2e-a28f-8d5a-5165" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="46e7-258f-bcd8-c1e5" name="Sasquatche" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">5</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">5</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5f5f-bf96-0314-aa2e" name="Zasadzka" hidden="false">
+              <description>Oddział Sasquatchy może wykonać darmowy ruch przed bitwą. Dodatkowo wróg podczas szarży na Sasquatche nie może korzystać z bonusów do szarży oraz niezależnych</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32d6-2f9f-3185-e521" name="Wilhary" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4bb8-d5ce-9207-37b1" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6b18-e540-6d37-4ebd" name="Wilhary" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="226f-2ca6-8c38-f5cd" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aba-e6d0-a8a0-fb56" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bcb4-fdab-f06c-708c" name="Wilhary" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7e69-28ba-4639-12a1" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+            <infoLink id="d855-6ec8-b141-2baa" name="Dzika Szybkość" hidden="false" targetId="ec17-b919-3559-1160" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbbd-718a-2160-1777" name="Elefanton" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4f08-e4c1-026b-4c31" name="Elefanton" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">4</characteristic>
+            <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+            <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">8</characteristic>
+            <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">6</characteristic>
+            <characteristic name="A" typeId="395a-f9df-359b-774c">6</characteristic>
+            <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="92b1-1250-bb2f-4e24" name="Tratowanie" hidden="false">
+          <description>Za każdy udany rzut podczas Testu Walki Standardowej może wykonać dodatkowy rzut k6. Dodatkowe udane rzuty nie generują kolejnych</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9ea4-aba1-914d-7ed2" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="8b46-aee4-21e3-f0a5" name="Monstrum" hidden="false" targetId="1446-e9eb-60e8-b494" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a183-c927-ba89-71ab" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="88.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c27-d6af-b07f-068f" name="Wielki Łowca" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="25cc-981c-73ca-82e5" name="Wielki Łowca" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
+          <characteristics>
+            <characteristic name="LD" typeId="cac3-aea3-a917-6b13">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d808-a84c-fe41-f6a1" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
+        <categoryLink id="c0dc-9a33-fcb7-bbf9" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="785a-5398-0356-956f" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7233-41da-69fd-1a82" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="3717-56a1-5cae-5dc7" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
+        <categoryLink id="e2cb-be57-0498-fe82" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="42fa-8dc7-8dab-05e4" name="Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd41-1ad5-fb2f-9170" name="Czempion Lodu" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="d213-733e-30a1-dfe7" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="d213-733e-30a1-dfe7" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d213-733e-30a1-dfe7" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b4f3-1cbf-4257-0f94" name="Czempion Lodu" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Lodu styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed rozpatrzeniem ataku wroga. Wynik 3 lub mniej oznacza, że wrogi oddział otrzymuje modyfikator -1 do WS podczas Testu Walki Standardowej do końca trwania cyklu</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5ada-815f-4872-e348" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="83e9-ba08-4de2-91ff" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fe3-be4b-1138-cb5d" name="Czempion Ognia" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="3bcf-db7d-ae5a-3bd3" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="3bcf-db7d-ae5a-3bd3" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bcf-db7d-ae5a-3bd3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ec8c-0c9c-ba3a-6e42" name="Czempion Ognia" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Ognia styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział otrzymuje do końca cyklu 3 dodatkowe kości do Testu Ranienia</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0c68-c86e-2de6-98c0" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="0b5c-da17-c792-ce9b" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b061-2a54-6040-0deb" name="Czempion Burzy" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="30d9-2a9b-763f-720b" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="30d9-2a9b-763f-720b" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d9-2a9b-763f-720b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c764-1052-b97c-7997" name="Czempion Burzy" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test przed lub po wykonaniu ruchu Czempionem Burzy. Wybrany wrogi oddział w promieniu 30 cm musi wykonać Test Paniki dla jednej podstawki</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9011-cacd-618c-3566" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="82c1-bb91-27c3-8149" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1023-ab32-d50b-2ede" name="Kapłan Starych Bogów" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="7d19-cd9f-90c6-e07f" name="Kapłan Starych Bogów" hidden="false">
+          <description>Dopóki Kapłan Starych Bogów jest na polu walki, dodatkowy przyjazny oddział może wykonać modlitwy</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="902b-46fa-dc3e-994a" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+        <categoryLink id="e47e-01b6-aa81-2dc7" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5c49-6dbc-67e1-83b8" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
+        <entryLink id="9ba4-d4dd-4f96-0ea7" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32a2-010f-930e-69b0" name="Wróżbitka" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="5272-031e-4d49-6b00" name="Wróżbitka" hidden="false">
+          <description>Jeśli Wróżbitka jest w 10 cm od Wielkiego Wodza podczas Rzutu za Aktywację, gracz może wykonać raz w cyklu test k6. Wynik 3 lub mniej oznacza, że wynik Rzutu za Aktywację może zostać zmodyfikowany o +1 lub -2</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9d99-9dc2-25ed-18df" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+        <categoryLink id="b11e-e6bc-2220-ad30" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="eeb4-d591-5812-1857" name="Czary (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="dc2f-dde6-bafe-9059" type="selectionEntryGroup"/>
+        <entryLink id="a33f-8a92-9cdc-3aa8" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="c385-a835-8682-c266" name="Wierni Bogom" hidden="false">
+      <description>Oddziały Podstawowe i Elitarne w armii Dirandis mogą wykonać przerzut nieudanych Testów Modlitwy</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="e7c9-8b3d-a89d-5ef2" name="Skupiony Atak" hidden="false">
+      <description>Podczas szarży oddział otrzymuje bonus +1 do WS</description>
+    </rule>
+  </sharedRules>
+</catalogue>
