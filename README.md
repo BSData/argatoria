@@ -18,7 +18,7 @@ Army composition works properly only when you set a "Cost Limits" when creating 
 __I found a bug / I'd do something differently__
 
 * Drop me an email - you can find the address in the ReadMe file when you create a new army
-* [Open Issue directly][] (green ```New Issue``` in upper-right) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
+* [Open Issue directly][] (```New Issue```) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
 
 * __I'd just like to contact you.__
 
@@ -43,6 +43,7 @@ __I found a bug / I'd do something differently__
 [BattleScribe homepage]: https://battlescribe.net/
 [Argatoria-Discord]: https://discord.com/channels/1085186335234600980/
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
+[Open Issue directly]: https://github.com/BSData/argatoria/issues
 
 ## Additional info ##
 
