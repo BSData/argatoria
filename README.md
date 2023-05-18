@@ -4,7 +4,7 @@ Argatoria Wargame
 [![Latest release](https://img.shields.io/github/release/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/releases/latest)
 [![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/argatoria/latest.svg?style=flat-square)](https://github.com/BSData/argatoria/releases)
 [![Open bugs](https://img.shields.io/github/issues/BSData/argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/argatoria/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/pulse/monthly)
 
 __Important__
