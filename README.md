@@ -10,7 +10,7 @@ Argatoria Wargame
 
 ## Important ##
 
-Army composition rules work properly only when you set a "Cost Limits" when creating a rooster!
+Army composition rules work properly ONLY when you set a "Cost Limits" when creating a rooster!
 
 ## I found a bug / I'd do something differently ##
 
@@ -25,14 +25,14 @@ Try Argatoria Discord and drop us a line on #battlescribe channel, you'll probab
 
 * [Spellcrow – Creators of Argatoria Wargame][Spellcrow]
 * [Spellcrow Community Group][Spellcrow Community Group]
-* [Argatoria-Discord][Argatoria-Discord]
+* [Argatoria Discord][Argatoria Discord]
 * [BattleScribe homepage][BattleScribe homepage]
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
 [Spellcrow]: https://www.spellcrow.com/
 [Spellcrow Community Group]: https://www.facebook.com/groups/155087831991825/
-[Argatoria-Discord]: https://discord.com/channels/1085186335234600980/
+[Argatoria Discord]: https://discord.com/channels/1085186335234600980/
 [BattleScribe homepage]: https://battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started
@@ -42,5 +42,7 @@ Try Argatoria Discord and drop us a line on #battlescribe channel, you'll probab
 ## Additional info ##
 
 This project *is not* endorsed by Spellcrow Ltd. and *is a 100% fan project*
+
 Support creators by buying minis and books through their website linked above
+
 ©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.
