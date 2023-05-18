@@ -7,6 +7,8 @@ Argatoria Wargame
 [![Contributors](https://img.shields.io/github/contributors/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/argatoria.svg?style=flat-square)](https://github.com/BSData/argatoria/pulse/monthly)
 
+[![Chat on Discord](https://img.shields.io/discord/1085186335234600980.svg?logo=discord&style=popout-square)]([https://www.bsdata.net/discord](https://discord.com/channels/1085186335234600980/))
+
 __Important__
 
 Army composition works properly only when you set a "Cost Limits" when creating a rooster!
