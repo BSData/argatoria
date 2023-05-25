@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
 
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+©2021 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="5aa0-3e2a-18ff-c868" name="Argatoria Rulebook" shortName="Rulebook" publisher="Argatoria Wargame Rulebook" publicationDate="2021" publisherUrl="https://www.spellcrow.com/argatoria-wargame-rulebook-pl-p-1018.html"/>
     <publication id="3ffb-f035-c2bb-f33b" name="Purole Warlock nr 2" shortName="PW" publisher="Purole Warlock nr 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-numer-2-figurkowy-magazyn-hobbystyczny-pdf-p-1064.html"/>
@@ -121,7 +121,7 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981f-98f2-edb8-ef16" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981f-98f2-edb8-ef16" type="min"/>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4d-bdff-1032-81e7" type="max"/>
           </constraints>
         </categoryLink>
