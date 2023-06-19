@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -259,8 +259,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
   <sharedSelectionEntries>
     <selectionEntry id="3815-39ae-5c47-4200" name="Saint Gardon’s Bastard Sword" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e87-d10c-cfbc-aba7" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3681-6a52-9fe8-b149" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3e87-d10c-cfbc-aba7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3681-6a52-9fe8-b149" type="max"/>
       </constraints>
       <profiles>
         <profile id="4fc1-3e7c-ca62-cdff" name="Saint Gardon’s Bastard Sword" hidden="false" typeId="f344-3760-8c38-dcf2" typeName="Artefact">
@@ -275,8 +275,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="d045-718e-f3f4-e7c7" name="Diadem of Despair" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8cc-97d9-66ec-0344" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b51-a2e8-9d3c-28cd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8cc-97d9-66ec-0344" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b51-a2e8-9d3c-28cd" type="max"/>
       </constraints>
       <profiles>
         <profile id="a1b3-9851-a04f-20eb" name="Diadem of Despair" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -291,8 +291,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="a892-f92b-6088-5739" name="Blessed Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e97-d099-9f1c-cc2d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafe-213c-ec47-349b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9e97-d099-9f1c-cc2d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fafe-213c-ec47-349b" type="max"/>
       </constraints>
       <profiles>
         <profile id="5e70-03fc-56d7-3a60" name="Blessed Banner" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -307,8 +307,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="3508-f7f5-9c3d-3f40" name="Dispel" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fd-463e-6ed1-3eb6" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e563-66cb-e69d-d14a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40fd-463e-6ed1-3eb6" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e563-66cb-e69d-d14a" type="max"/>
       </constraints>
       <profiles>
         <profile id="afa3-5bfd-a245-c496" name="Dispel" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -323,8 +323,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="579b-7b18-0dda-da26" name="Elixir" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a901-eea3-d66a-b5d6" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a822-ef73-b7e9-bd84" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a901-eea3-d66a-b5d6" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a822-ef73-b7e9-bd84" type="max"/>
       </constraints>
       <profiles>
         <profile id="df8e-9f68-98ca-1937" name="Elixir" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -339,8 +339,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="66b6-28b0-a8f6-5759" name="Terror" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9abc-332c-e975-adaf" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2558-7a70-e4b3-e086" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9abc-332c-e975-adaf" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2558-7a70-e4b3-e086" type="max"/>
       </constraints>
       <profiles>
         <profile id="3178-c723-4dfd-8753" name="Terror" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -356,8 +356,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="2d36-6160-e6d4-742b" name="(PW2) Shackles of Pain" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4406-3c9f-2b34-3af7" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="962e-4386-785e-41c5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4406-3c9f-2b34-3af7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="962e-4386-785e-41c5" type="max"/>
       </constraints>
       <profiles>
         <profile id="d28a-d06d-4d2d-f5ce" name="Shackles of Pain" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -373,8 +373,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="28e0-3148-e4cb-0c9b" name="Staff" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecc8-209a-55f7-76a9" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66b-1406-f741-7519" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecc8-209a-55f7-76a9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c66b-1406-f741-7519" type="max"/>
       </constraints>
       <profiles>
         <profile id="fede-b98a-8503-3e94" name="Staff" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -389,8 +389,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="8c49-b165-3549-ad20" name="Book of the Dead" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae0d-a1b6-ea47-76fb" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df2-ecc2-41d0-a469" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae0d-a1b6-ea47-76fb" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8df2-ecc2-41d0-a469" type="max"/>
       </constraints>
       <profiles>
         <profile id="cfcd-4190-a176-fb8e" name="Book of the Dead" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -405,8 +405,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="c92e-ba4f-3062-6e7a" name="Fireball" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44c4-7344-22ea-ae93" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed3d-49df-d5d8-9fdd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="44c4-7344-22ea-ae93" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed3d-49df-d5d8-9fdd" type="max"/>
       </constraints>
       <profiles>
         <profile id="6862-7c62-111a-be5d" name="Fireball" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -422,8 +422,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="a849-0961-d0fc-a484" name="Mythical Helm of Destiny" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="552d-31b6-2ab5-cb0a" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71c0-418b-1ad3-9d94" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="552d-31b6-2ab5-cb0a" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="71c0-418b-1ad3-9d94" type="max"/>
       </constraints>
       <profiles>
         <profile id="750b-8bc2-32bc-ebd9" name="Mythical Helm of Destiny" hidden="false" typeId="f344-3760-8c38-dcf2" typeName="Artefact">
@@ -438,8 +438,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="338c-393e-6b8b-290b" name="Blade of Contempt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b409-80aa-b135-6ba4" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c748-fe98-a64d-91df" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b409-80aa-b135-6ba4" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c748-fe98-a64d-91df" type="max"/>
       </constraints>
       <profiles>
         <profile id="337b-0e8f-6855-b453" name="Blade of Contempt" hidden="false" typeId="f344-3760-8c38-dcf2" typeName="Artefact">
@@ -454,8 +454,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="f7e1-2ec4-cb5f-4bac" name="Ring of Power" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a70-ff96-3b2e-495c" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b50-57fe-a55e-48fa" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a70-ff96-3b2e-495c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b50-57fe-a55e-48fa" type="max"/>
       </constraints>
       <profiles>
         <profile id="77c4-1725-0c52-e19d" name="Ring of Power" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -470,8 +470,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="44a0-759d-8046-a0f8" name="(PW2) Thunderbolt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a223-58f3-c45a-318b" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76b2-3794-ccc3-d54a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a223-58f3-c45a-318b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76b2-3794-ccc3-d54a" type="max"/>
       </constraints>
       <profiles>
         <profile id="c4d8-84cd-fb61-45e8" name="Thunderbolt" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -487,8 +487,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="b168-898c-262e-a8d5" name="(PW2) Death Blast" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77fa-48a2-1519-7c5d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8a-8454-4563-eb80" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="77fa-48a2-1519-7c5d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe8a-8454-4563-eb80" type="max"/>
       </constraints>
       <profiles>
         <profile id="502d-7162-59a3-32ff" name="Death Blast" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -504,8 +504,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="d79c-80f4-8baa-6c04" name="Haburis Horn" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="011a-ea99-2030-fde6" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da30-83c4-f8ad-d4a3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="011a-ea99-2030-fde6" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="da30-83c4-f8ad-d4a3" type="max"/>
       </constraints>
       <profiles>
         <profile id="2d07-2182-b782-7579" name="Haburis Horn" hidden="false" typeId="f344-3760-8c38-dcf2" typeName="Artefact">
@@ -520,8 +520,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="7f82-8558-9a43-1a93" name="Old Parchment" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cae5-5e28-e7b9-1a37" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e393-832c-1756-41bd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cae5-5e28-e7b9-1a37" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e393-832c-1756-41bd" type="max"/>
       </constraints>
       <profiles>
         <profile id="87ac-7888-484f-38d6" name="Old Parchment" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -536,8 +536,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="4324-dc34-245c-fad9" name="Whispers of the Gods" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9702-4dff-6656-81c2" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b3d-1fa5-4518-ae0a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9702-4dff-6656-81c2" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b3d-1fa5-4518-ae0a" type="max"/>
       </constraints>
       <profiles>
         <profile id="1e84-e180-6059-9750" name="Whispers of the Gods" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -553,8 +553,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="c034-1ea9-3c98-d86d" name="Battle Banner" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62b-1f5a-2e75-2e3d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="554c-c3d5-f1c0-3f55" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c62b-1f5a-2e75-2e3d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="554c-c3d5-f1c0-3f55" type="max"/>
       </constraints>
       <profiles>
         <profile id="ffa4-d385-4684-7c40" name="Battle Banner" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -569,8 +569,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="4964-ed87-5bc2-6020" name="Banner of Glory" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a4-7fcc-ad75-98c9" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e060-4a8e-3f47-afd4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="45a4-7fcc-ad75-98c9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e060-4a8e-3f47-afd4" type="max"/>
       </constraints>
       <profiles>
         <profile id="eb7a-653e-d02d-2442" name="Banner of Glory" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -585,8 +585,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="dc2c-02bf-2253-b1ff" name="Banner of Courage" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="146f-42b7-af8c-0256" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b89-c753-e1fc-aa86" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="146f-42b7-af8c-0256" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0b89-c753-e1fc-aa86" type="max"/>
       </constraints>
       <profiles>
         <profile id="11c0-0084-0466-3422" name="Banner of Courage" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -601,8 +601,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="6011-c13a-c28e-b254" name="Banner of Prudence" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b531-bf5a-0197-e753" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b018-b5bc-a7c7-431e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b531-bf5a-0197-e753" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b018-b5bc-a7c7-431e" type="max"/>
       </constraints>
       <profiles>
         <profile id="1d95-872a-4384-9f8a" name="Banner of Prudence" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -617,8 +617,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="7453-a40f-6025-e2af" name="Banner of Persistence" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c4-2092-4da9-f79c" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2472-10c2-9383-7269" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="21c4-2092-4da9-f79c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2472-10c2-9383-7269" type="max"/>
       </constraints>
       <profiles>
         <profile id="c5d2-79e9-b003-d873" name="Banner of Persistence" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -633,8 +633,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="5116-2e20-f27e-cbf3" name="Banner of Destruction" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158c-5734-8f7f-2bb1" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ccd-12ef-b961-c03e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="158c-5734-8f7f-2bb1" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3ccd-12ef-b961-c03e" type="max"/>
       </constraints>
       <profiles>
         <profile id="568f-f270-d5bb-005d" name="Banner of Destruction" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -649,8 +649,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="80fc-3b21-7684-4261" name="Talisman of Ragloq" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c372-a011-bdbd-d02e" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee7-a071-496c-83ec" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c372-a011-bdbd-d02e" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3ee7-a071-496c-83ec" type="max"/>
       </constraints>
       <profiles>
         <profile id="e8df-8197-cc6e-144a" name="Talisman of Ragloq" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
@@ -665,8 +665,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="7837-d2f4-7d10-0cb2" name="Will to Fight" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c98-ce9b-8504-a085" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db3-9c10-7516-6434" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c98-ce9b-8504-a085" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6db3-9c10-7516-6434" type="max"/>
       </constraints>
       <profiles>
         <profile id="3dbb-42b9-52a3-4c7a" name="Will to Fight" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -682,8 +682,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="4e0b-e078-62e5-b727" name="Blizzard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc4-cd30-31db-4a02" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ee-a80a-1ce3-ffbe" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8cc4-cd30-31db-4a02" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11ee-a80a-1ce3-ffbe" type="max"/>
       </constraints>
       <profiles>
         <profile id="7127-b52e-9dda-28f1" name="Blizzard" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -716,8 +716,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="d421-3f71-d5f8-67f3" name="Katakhanes Poison Blade" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d0-97c6-790f-8ab8" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="011c-f7b2-00a5-5143" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="50d0-97c6-790f-8ab8" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="011c-f7b2-00a5-5143" type="max"/>
       </constraints>
       <profiles>
         <profile id="af32-eb50-aab2-41f8" name="Katakhanes Poison Blade" hidden="false" typeId="f344-3760-8c38-dcf2" typeName="Artefact">
@@ -732,8 +732,8 @@ Each Mage gives an army an additional prayer in the cycle</description>
     </selectionEntry>
     <selectionEntry id="6e38-0618-1a3d-aa99" name="(PW2) Vengeance" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ec-b0ae-98bd-387f" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c178-bf53-b8d5-339d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ec-b0ae-98bd-387f" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c178-bf53-b8d5-339d" type="max"/>
       </constraints>
       <profiles>
         <profile id="bc19-30f8-ea96-fcaa" name="Vengeance" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
