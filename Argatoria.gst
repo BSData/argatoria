@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
@@ -286,8 +286,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
   <sharedSelectionEntries>
     <selectionEntry id="3418-7f68-c221-585a" name="Kula Ognia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea0e-d5e5-6613-a8ec" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e452-9097-8f34-1c71" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea0e-d5e5-6613-a8ec" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e452-9097-8f34-1c71" type="max"/>
       </constraints>
       <profiles>
         <profile id="623e-f5ab-c2ee-7f74" name="Kula Ognia" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -303,8 +303,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="190b-3b4d-98ea-d965" name="Zamieć" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4431-629c-6bd3-4c4c" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6322-5538-fdc4-8d98" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4431-629c-6bd3-4c4c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6322-5538-fdc4-8d98" type="max"/>
       </constraints>
       <profiles>
         <profile id="564e-b263-cb44-dac9" name="Zamieć" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -320,8 +320,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="47ea-13ca-009f-9450" name="Groza" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe9-5e15-c1c2-dceb" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd3-0fe1-7b75-896a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cfe9-5e15-c1c2-dceb" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5cd3-0fe1-7b75-896a" type="max"/>
       </constraints>
       <profiles>
         <profile id="8bd7-c3d7-863f-91c9" name="Groza" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -337,8 +337,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="d4ef-8a40-819e-908a" name="Wola Walki" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9a-9614-002c-9225" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d822-dd2b-5f7a-1acc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e9a-9614-002c-9225" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d822-dd2b-5f7a-1acc" type="max"/>
       </constraints>
       <profiles>
         <profile id="c143-3b32-a7f5-bea8" name="Wola Walki" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -354,8 +354,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="082d-d4b1-0856-cc91" name="Szepty Bogów" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a26-b5f9-5255-3949" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c59f-aa4c-55a2-a20f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a26-b5f9-5255-3949" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c59f-aa4c-55a2-a20f" type="max"/>
       </constraints>
       <profiles>
         <profile id="c5aa-aade-1358-d4f1" name="Szepty Bogów" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -371,8 +371,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="b0f1-deba-1970-ee6c" name="Talizman z Ragloq" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314b-e0f8-9e64-ed84" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b1a-9821-da78-835e" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="314b-e0f8-9e64-ed84" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6b1a-9821-da78-835e" type="max"/>
       </constraints>
       <profiles>
         <profile id="b155-0802-23d9-15d6" name="Talizman z Ragloq" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -387,8 +387,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="14db-68f2-f77b-5f4a" name="Eliksir" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7296-0e0c-84eb-d78f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd2-8a51-0660-2a26" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7296-0e0c-84eb-d78f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dd2-8a51-0660-2a26" type="max"/>
       </constraints>
       <profiles>
         <profile id="5c4e-4469-f41b-64bc" name="Eliksir" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -403,8 +403,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="2e16-24be-494f-559f" name="Stary Pergamin" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa66-5bdd-d639-b163" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b063-0956-0f83-692b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa66-5bdd-d639-b163" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b063-0956-0f83-692b" type="max"/>
       </constraints>
       <profiles>
         <profile id="47fd-5359-6a39-5a65" name="Stary Pergamin" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -419,8 +419,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="c6bf-2715-d887-a175" name="Księga Zmarłych" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b38-88d2-9703-0eac" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3250-e4d0-1c47-1172" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b38-88d2-9703-0eac" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3250-e4d0-1c47-1172" type="max"/>
       </constraints>
       <profiles>
         <profile id="a1dd-e969-59e5-0985" name="Księga Zmarłych" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -435,8 +435,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="c1f6-4960-c04f-7df6" name="Dispel" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4397-3bca-eae7-3c20" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4389-9d0f-9ea7-7810" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4397-3bca-eae7-3c20" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4389-9d0f-9ea7-7810" type="max"/>
       </constraints>
       <profiles>
         <profile id="d16b-a9ee-5ffe-479b" name="Dispel" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -451,8 +451,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="8bf1-0782-2f28-6ebd" name="Pierścień Mocy" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e2c-226d-3a1a-bc5f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c086-efa1-063e-4879" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6e2c-226d-3a1a-bc5f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c086-efa1-063e-4879" type="max"/>
       </constraints>
       <profiles>
         <profile id="ac08-d3f8-49fa-41c1" name="Pierścień Mocy" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -467,8 +467,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="049b-0974-02f7-3360" name="Kostur" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f652-8d6c-8c02-a54e" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f8f-cae8-7eca-88eb" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f652-8d6c-8c02-a54e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6f8f-cae8-7eca-88eb" type="max"/>
       </constraints>
       <profiles>
         <profile id="1f26-bcc1-cf24-1497" name="Kostur" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -483,8 +483,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="9c68-5ff6-a74d-2775" name="Diadem Rozpaczy" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa86-d93b-3d9a-5675" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad33-b23d-78ee-68bf" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa86-d93b-3d9a-5675" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad33-b23d-78ee-68bf" type="max"/>
       </constraints>
       <profiles>
         <profile id="2a4e-5595-3d8b-7e60" name="Diadem Rozpaczy" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -499,8 +499,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="d5bf-506a-7ee7-8b49" name="(PW2) Zamroczenie" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="147f-c777-82b6-fd42" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2756-d580-066b-2efd" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="147f-c777-82b6-fd42" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2756-d580-066b-2efd" type="max"/>
       </constraints>
       <profiles>
         <profile id="39ce-e098-b022-2230" name="Zamroczenie" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -516,8 +516,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="8d72-1193-f5ae-9a36" name="(PW2) Zemsta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8cc-fdb1-7a5e-e760" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70d-77c6-f62c-b6a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8cc-fdb1-7a5e-e760" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d70d-77c6-f62c-b6a0" type="max"/>
       </constraints>
       <profiles>
         <profile id="aeb4-9f98-dfb8-de76" name="Zemsta" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -533,8 +533,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="28c1-e605-902c-77a4" name="(PW2) Kajdany Bólu" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f876-82f3-1c43-ec6f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbe-be36-c42e-316d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f876-82f3-1c43-ec6f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cbe-be36-c42e-316d" type="max"/>
       </constraints>
       <profiles>
         <profile id="76fb-23f4-a856-77f5" name="Kajdany Bólu" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -550,8 +550,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="a9c4-c4c8-80cc-ce6d" name="Ostrze Pogardy" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acab-fb7b-39f2-62b5" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4491-b6a8-a898-319c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="acab-fb7b-39f2-62b5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4491-b6a8-a898-319c" type="max"/>
       </constraints>
       <profiles>
         <profile id="88f2-4524-f330-26a1" name="Ostrze Pogardy" hidden="false" typeId="5219-ca27-c297-2a6c" typeName="Artefakt">
@@ -566,8 +566,8 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     </selectionEntry>
     <selectionEntry id="226a-1687-b623-bcba" name="Mityczny Hełm Przeznaczenia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef3c-9868-ee19-9efe" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd4a-8087-ea02-7ee9" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef3c-9868-ee19-9efe" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd4a-8087-ea02-7ee9" type="max"/>
       </constraints>
       <profiles>
         <profile id="389f-16f5-bbb9-b830" name="Mityczny Hełm Przeznaczenia" hidden="false" typeId="5219-ca27-c297-2a6c" typeName="Artefakt">
@@ -583,8 +583,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="ce5a-651e-59a9-6090" name="Róg Haburisa" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d878-afa0-39a4-5fc8" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d80-5687-39ab-0290" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d878-afa0-39a4-5fc8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2d80-5687-39ab-0290" type="max"/>
       </constraints>
       <profiles>
         <profile id="53f2-68de-7167-34e2" name="Róg Haburisa" hidden="false" typeId="5219-ca27-c297-2a6c" typeName="Artefakt">
@@ -599,8 +599,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="dac0-ae25-c04b-58ed" name="Zatrute Ostrze Katakhanes" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c17-e049-b7ce-e305" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d26-2a24-1372-42a3" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c17-e049-b7ce-e305" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d26-2a24-1372-42a3" type="max"/>
       </constraints>
       <profiles>
         <profile id="78eb-2e0c-01ba-4817" name="Zatrute Ostrze Katakhanes" hidden="false" typeId="5219-ca27-c297-2a6c" typeName="Artefakt">
@@ -615,8 +615,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="1b44-df13-7e1e-b39d" name="Bastard Świętego Gardona" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ef-95ec-8bd9-05c3" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f871-d2d2-a14a-5537" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04ef-95ec-8bd9-05c3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f871-d2d2-a14a-5537" type="max"/>
       </constraints>
       <profiles>
         <profile id="afd9-3d83-2e90-d00c" name="Bastard Świętego Gardona" hidden="false" typeId="5219-ca27-c297-2a6c" typeName="Artefakt">
@@ -631,8 +631,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="2835-5e5f-7e6a-7956" name="Sztandar Chwały" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3662-441d-32f8-725c" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d3-f237-e673-332b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3662-441d-32f8-725c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c2d3-f237-e673-332b" type="max"/>
       </constraints>
       <profiles>
         <profile id="0289-908c-578e-dd87" name="Sztandar Chwały" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -647,7 +647,7 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="3daa-3a83-6e50-fa4e" name="Sztandar Uporu" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2917-8a04-af1e-ade3" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2917-8a04-af1e-ade3" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ee-cb3b-eae5-f30e" type="max"/>
       </constraints>
       <profiles>
@@ -663,8 +663,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="a9fa-1ad9-a3b9-72e7" name="Sztandar Bitewny" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a6-f9c9-8159-21be" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c3-7702-3a3e-aba7" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80a6-f9c9-8159-21be" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12c3-7702-3a3e-aba7" type="max"/>
       </constraints>
       <profiles>
         <profile id="288e-ae08-adf5-d617" name="Sztandar Bitewny" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -679,8 +679,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="8136-3281-2e36-ddcb" name="Błogosławiony Sztandar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59bb-8db4-894c-c254" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fa-f29b-6009-169c" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59bb-8db4-894c-c254" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="21fa-f29b-6009-169c" type="max"/>
       </constraints>
       <profiles>
         <profile id="790d-d0ee-f240-8c06" name="Błogosławiony Sztandar" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -695,8 +695,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="a70b-3fd9-e3ea-58b9" name="Sztandar Odwagi" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfa-3b57-c654-3f56" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb1-9c2a-9781-ea03" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4cfa-3b57-c654-3f56" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cb1-9c2a-9781-ea03" type="max"/>
       </constraints>
       <profiles>
         <profile id="03fd-1f51-90fd-1826" name="Sztandar Odwagi" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -711,8 +711,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="044e-829c-85e4-d1c9" name="Sztandar Rozwagi" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57eb-e4ff-e6f0-8175" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b44-f611-921d-99cc" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57eb-e4ff-e6f0-8175" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b44-f611-921d-99cc" type="max"/>
       </constraints>
       <profiles>
         <profile id="b3cd-7965-a13a-7433" name="Sztandar Rozwagi" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -727,8 +727,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="2b6c-3c72-319c-9ae3" name="Sztandar Zniszczenia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981d-394c-ba18-bdb6" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf6e-94f0-13be-02b2" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="981d-394c-ba18-bdb6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf6e-94f0-13be-02b2" type="max"/>
       </constraints>
       <profiles>
         <profile id="9032-c2c2-42e1-ca6f" name="Sztandar Zniszczenia" hidden="false" typeId="8d62-f2ce-fb98-567c" typeName="Przedmiot Magiczny">
@@ -743,8 +743,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="f7ee-80e1-4daa-2830" name="(PW2) Piorun" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20b4-a05c-c57a-2306" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0793-80be-0a2f-b99f" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20b4-a05c-c57a-2306" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0793-80be-0a2f-b99f" type="max"/>
       </constraints>
       <profiles>
         <profile id="931c-d2ac-0797-5883" name="Piorun" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -760,8 +760,8 @@ w 30 cm</characteristic>
     </selectionEntry>
     <selectionEntry id="0e49-3d06-d610-36c4" name="(PW2) Podmuch Śmierci" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b117-2ba7-f170-f371" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5a-0b14-47da-3aca" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b117-2ba7-f170-f371" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad5a-0b14-47da-3aca" type="max"/>
       </constraints>
       <profiles>
         <profile id="dcb8-23fc-41eb-20bf" name="Podmuch Śmierci" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
