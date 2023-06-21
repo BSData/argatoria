@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="2" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="3" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -274,6 +274,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="048b-0219-e4ea-b41d" name="Wild Creatures" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="9850-67e5-476b-7508" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="620e-3dd5-45c1-6cff" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9850-67e5-476b-7508" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="b75c-daef-0fca-7eb9" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>

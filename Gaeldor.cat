@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -278,6 +276,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9678-6ccf-0e16-e42d" name="Dzika Zwierzyna" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="d92b-2d61-8459-5c57" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="807c-d1a0-dd7a-19d6" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e625-e804-1130-cdae" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d92b-2d61-8459-5c57" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="05ae-16ff-b664-a906" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
       </categoryLinks>
