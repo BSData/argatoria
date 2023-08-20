@@ -19,7 +19,7 @@ Army composition rules work properly ONLY when you set a "Cost Limits" when crea
 
 ## I'd just like to contact you ##
 
-Try Argatoria Discord and drop us a line on #battlescribe channel, you'll probabily not get an answer regarding these files on BattleScribe Discord
+Try Argatoria Discord and drop us a line on International #chat channel, you'll probabily not get an answer regarding these files on BattleScribe Discord
 
 ## Links ##
 
