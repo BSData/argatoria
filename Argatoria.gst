@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
@@ -281,6 +281,19 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
   <rules>
     <rule id="992e-2ea6-fee8-41a6" name="Maruderzy" hidden="false">
       <description>Każdy oddział, który wystawiłeś na pole bitwy, składający się z maksymalnej liczby podstawek (16 sztuk) pozwala na wystawienie darmowego dodatkowego oddziału zwanego Maruderami. Oddział ten zawsze liczy 4 podstawki, jest tego samego rodzaju co 16 podstawek, które pozwoliły go wystawić, i jest wystawiany bez wliczania do kosztu armii. Nie obowiązuje go również żaden limit wystawianych jednostek. Oddział nie może być powiększany ani łączony z innymi oddziałami Maruderów. Za pokonanie Maruderów wróg normalnie zdobywa Punkty Krwi</description>
+    </rule>
+    <rule id="1c4f-3749-aad7-36d6" name="Modlitwy" hidden="false">
+      <description>Wykonaj rzut 2k6. Wynik równy lub niższy niż LD oddziału oznacza, że modlitwa się udała. Gracz może wybrać jedną modlitwę z listy i zastosować ją do oddziału, którym odprawiał modły. Wyodrębniamy modlitwy o:
+Furię: Jeśli oddział wykona udaną szarżę, otrzymuje bonus +3 ataki do puli.
+Odwagę: Oddział nie musi do końca trwania tego cyklu wykonywać Testu Zimnej Krwi.
+Siłę: Oddział może podczas walki, w którą był już wcześniej zaangażowany, wykonać przerzut nieudanych ranień.
+Szczęście: Oddział może wykonać przerzut nieudanych wyników podczas Testu Walki Standardowej.
+Nieszczęście u Wroga: Oddział może wytypować wrogi oddział, który się z nim styka. Podczas Testu Walki Standardowej przeprowadzanej przez wroga, wróg musi wykonać przerzut wszystkich udanych trafień.
+Gniew Natury: Jeśli oddział wykona udaną szarżę, rzuć k6. Po uzyskaniu wyniku:
+1-2 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 3 podstawki.
+3-4 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 2 podstawki.
+5-6 Wrogi zaszarżowany oddział musi natychmiast wykonać Test Paniki za 1 podstawkę.
+Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo przemnożyć wynik uzyskany na jednej z kości przez 2.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>

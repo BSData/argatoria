@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -254,6 +254,19 @@ Each Mage gives an army an additional prayer in the cycle</description>
   <rules>
     <rule id="cb3a-5348-b472-1879" name="Marauders" hidden="false">
       <description>Each unit you have deployed on the battlefield, consisting of the maximum number of bases (16 bases), allows you to place a free additional unit called Marauders. This unit always has 4 bases, is the same type as the 16 bases that allowed it to be placed, and is deployed without adding to the army cost. Such a unit does not count to the number of units that can be deployed in the army. The Marauders unit cannot be expanded or combined with other Marauders. The enemy gains Blood Points as normal for defeating Marauders</description>
+    </rule>
+    <rule id="10d3-8909-2377-78f4" name="Prayers" hidden="false">
+      <description>Roll 2d6 to make a Prayer Test. A score equal to or lower than the unit’s LD means the prayer was successful. The unit can choose one prayer from the following list and apply it to the unit that prayed. There are prayers for:
+Fury: If the unit makes a successful charge, it gets a bonus of +3 attacks to the pool.
+Courage: The unit does not have to make a Cold Blood Test until the end of this cycle.
+Strength: The unit can re-roll the failed scores in the Wound Test during a combat in which it was already engaged.
+Fortune: The unit may re-roll the failed scores in the Weapon Skill Test.
+Enemy’s Misfortune: A unit can select an enemy unit which it is in base contact with. During an enemy’s Weapon Skill Test, the enemy must re-roll all successful scores.
+Nature’s Wrath: If the unit makes a successful charge, roll a d6. Compare the results:
+1-2 The charged enemy unit must immediately make a Panic Test for its 3 bases.
+3-4 The charged enemy unit must immediately make a Panic Test for its 2 bases.
+5-6 The charged enemy unit must immediately make a Panic Test for its 1 base.
+Agility: The unit that will move or charge has the right to double the score on one of the dice by 2.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
