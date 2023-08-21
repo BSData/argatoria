@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="772a-9393-0b30-b6a5" name="Arox" revision="3" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="772a-9393-0b30-b6a5" name="Arox" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d89f-e453-596e-040d" name="Liagulians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -102,7 +102,7 @@
           </profiles>
           <rules>
             <rule id="f283-71ee-967e-fac7" name="Will to Fight" hidden="false">
-              <description>If the Repsolians unit destroyed an enemy unit, it can move up to 10 cm instead of 5 cm</description>
+              <description>If this unit destroyed an enemy unit, it can move up to 10 cm instead of 5 cm</description>
             </rule>
           </rules>
           <infoLinks>
@@ -246,7 +246,7 @@
       </profiles>
       <rules>
         <rule id="c3b5-c1a3-5ba5-1f86" name="Sun Monolith" hidden="false">
-          <description>For each Wound Desauros lost in combat, roll a d6. A score of 3 or less means that the chosen unit or single model within 20 cm suffers 2 Wounds</description>
+          <description>Roll a d6 for each Wound Desauros lost in combat. A score of 2 or less means that the chosen unit or single model within 20 cm is dealt 2 Wounds</description>
         </rule>
         <rule id="2952-cfbf-fe90-cced" name="Primal Rampage" hidden="false">
           <description>When charging, Desauros must take a d6 test to see if it goes berserk. A score of 2 or less means Desauros gains +3 Attacks</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c7c1-5acf-bb58-752e" name="Amazons" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -279,7 +279,7 @@
       </profiles>
       <rules>
         <rule id="bbd7-3743-910a-b707" name="Trample" hidden="false">
-          <description>For each successful score in the Weapon Skill Test, roll an additional d6. Additional successful scores do not generate new ones</description>
+          <description>For each successful score in the Weapon Skill Test, roll an additional d6 for hitting. Additional successful scores do not generate the new ones</description>
         </rule>
       </rules>
       <infoLinks>
@@ -454,7 +454,7 @@
             <rule id="7e4a-1590-f83f-7dbe" name="Cult" hidden="false">
               <description>The enemy gains 1 Blood Point for destroying two bases instead of one in this unit</description>
             </rule>
-            <rule id="c022-b814-fc7b-5c35" name="Fear" hidden="false">
+            <rule id="c022-b814-fc7b-5c35" name="Scare" hidden="false">
               <description>The enemy unit that is in base contact with this unit, must take a Panic Test at the end of the cycle for each base lost earlier in the same cycle</description>
             </rule>
             <rule id="4e62-de39-4e26-8d2a" name="The God of Slaughter Blessing" hidden="false">
@@ -514,7 +514,7 @@
   </rules>
   <sharedRules>
     <rule id="3214-2137-81a2-f33b" name="Light Shield Defence" hidden="false">
-      <description>For each Wound dealt to this unit, roll a d6 for the light shield defence. Each score of 1 means a cancelled Wound</description>
+      <description>For each Wound dealt to this unit, roll a d6 for the Light Shield Defence. Each score of 1 means a cancelled Wound</description>
     </rule>
     <rule id="e92f-67dd-55ca-ba5a" name="Bloodshed" hidden="false">
       <description>This unit may re-roll all failed scores in the Wound Test</description>

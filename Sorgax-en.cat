@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -29,7 +29,7 @@
               <description>Orders issued to this unit can be rerolled, and each score of 1 means a free order</description>
             </rule>
             <rule id="99db-0f41-b9a2-490c" name="Responsive" hidden="false">
-              <description>This unit can be issued an order being within 40 cm from the General</description>
+              <description>This unit can be issued an order in 40 cm from the General</description>
             </rule>
           </rules>
           <costs>
@@ -66,7 +66,7 @@
           </profiles>
           <rules>
             <rule id="57aa-c3bc-6b36-6d22" name="Sneaky" hidden="false">
-              <description>This unit gets an additional +2 bonus for attacking the enemy from the side or rear</description>
+              <description>This unit gets an additional +2 bonus for attacking the enemy’s flank or rear</description>
             </rule>
           </rules>
           <infoLinks>
@@ -106,7 +106,7 @@
           </profiles>
           <rules>
             <rule id="61ba-8931-24d8-409e" name="Will to Fight" hidden="false">
-              <description>If the Repsolians unit destroyed an enemy unit, it can move up to 10 cm instead of 5 cm</description>
+              <description>If this unit destroyed an enemy unit, it can move up to 10 cm instead of 5 cm</description>
             </rule>
           </rules>
           <infoLinks>
@@ -181,7 +181,7 @@
           </profiles>
           <rules>
             <rule id="bf99-d776-d61d-5475" name="Vigilant" hidden="false">
-              <description>The enemy unit does not receive bonuses for attacking this unit from the side or rear</description>
+              <description>The enemy unit does not receive bonuses for attacking this unit’s flank or rear</description>
             </rule>
           </rules>
           <infoLinks>
@@ -253,7 +253,7 @@
       </profiles>
       <rules>
         <rule id="6812-a42f-6681-1f78" name="Tomb Altar" hidden="false">
-          <description>Make a d6 test if your opponent lost at least 1 base as a result of a Desauros attack. A score of 2 or less means Desauros recovers 1 Wound</description>
+          <description>Each Wound the Desauros with Tomb Altar deals to the opponent means the Desauros gains 1 Wound. Desauros may have a maximum of 12 Wounds</description>
         </rule>
         <rule id="d568-9691-55a5-5cfe" name="Primal Rampage" hidden="false">
           <description>When charging, Desauros must take a d6 test to see if it goes berserk. A score of 2 or less means Desauros gains +3 Attacks</description>
