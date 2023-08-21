@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -193,7 +193,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <profiles>
         <profile id="b197-6da3-6164-51de" name="Czempion Hord" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test, jeśli oddział, do którego jest dołączony Czempion Hord, wykonał udaną szarżę lub został zaszarżowany. Wynik 3 lub mniej oznacza, że oddział, który posiada minimum 12 podstawek, może wykonać przerzut nieudanych rzutów podczas Testu WS. Jeśli oddział nie był hordą lub stracił swoją zasadę, zyskuje (odzyskuje) zasady hordy</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test, jeśli oddział, do którego jest dołączony Czempion Hord, wykonał udaną szarżę lub został zaszarżowany. Wynik 3 lub mniej oznacza, że oddział, który posiada minimum 12 podstawek, może wykonać przerzut nieudanych rzutów podczas Testu WS, a jeśli oddział nie był hordą, zyskuje (odzyskuje) zasady hordy.</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>

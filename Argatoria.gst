@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
@@ -373,7 +373,7 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
       <profiles>
         <profile id="c5aa-aade-1358-d4f1" name="Szepty Bogów" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
           <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz Generała w promieniu 30 cm. Rzuć k6 – wynik 4 lub mniej oznacza udany czar. Wybrany Generał otrzyma modyfikator +2 lub -2, zależnie od decyzji gracza, podczas kolejnej Fazy Inicjatywy</characteristic>
+            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz Generała w promieniu 30 cm. Rzuć k6 – wynik 4 lub mniej oznacza udany czar. Wybierz modyfikator +2 lub -2. Wybrany Generał otrzyma go podczas kolejnej Fazy Inicjatywy</characteristic>
             <characteristic name="Test" typeId="73d8-877b-79f6-209e">4-</characteristic>
           </characteristics>
         </profile>
@@ -779,7 +779,7 @@ w 30 cm</characteristic>
       <profiles>
         <profile id="dcb8-23fc-41eb-20bf" name="Podmuch Śmierci" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
           <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz do trzech dowolnych oddziałów wroga posiadających rany w promieniu 40 cm. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że wytypowane oddziały muszą zdjąć podstawkę wraz z kostką oznaczającą rany</characteristic>
+            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz do trzech dowolnych oddziałów wroga (ale nie modeli pojedynczych) posiadających rany w promieniu 40 cm. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że wytypowane oddziały muszą zdjąć podstawkę wraz z kostką oznaczającą rany</characteristic>
             <characteristic name="Test" typeId="73d8-877b-79f6-209e">4-</characteristic>
           </characteristics>
         </profile>
@@ -1063,7 +1063,7 @@ w 30 cm</characteristic>
       <description>Podczas szarży każdy udany rzut w teście WS wykonany przez ten oddział jest traktowany jak Podwójny Cios</description>
     </rule>
     <rule id="f593-c25f-aa8a-bbc8" name="Zaciekłość" hidden="false">
-      <description>Podczas Testu Ranienia za każdą 1 można wykonać dodatkowe dwa testy k6 na ranienie</description>
+      <description>Podczas Testu Ranienia za każdą 1 można wykonać dodatkowe dwa testy k6 na ranienie. Dodatkowe Testy Ranienia i uzyskane 1 nie generują kolejnych.</description>
     </rule>
     <rule id="05b0-8373-2d27-5168" name="Straszliwe Obrażenia" hidden="false">
       <description>Podczas Testu Ranienia każda wyrzucona 1 oznacza dodatkową ranę</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -555,7 +555,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="1e84-e180-6059-9750" name="Whispers of the Gods" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose a General within 30 cm. Roll a d6 - a score of 4 or less means a successful spell. The selected General will receive a +2 or -2 modifier, depending on the player’s decision, in the next Initiative Phase</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose a General within 30 cm. Roll a d6 - a score of 4 or less means a successful spell. Choose a modifier: +2 or -2. The selected General will receive it in the next Initiative Phase.</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">4-</characteristic>
           </characteristics>
         </profile>
@@ -910,7 +910,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>This unit can turn freely before making a move or charge</description>
     </rule>
     <rule id="0d9e-56aa-0367-c8c1" name="Fierce" hidden="false">
-      <description>For each score of 1 in the Wound Test, this unit may roll 2 additional d6 for wounding</description>
+      <description>For each score of 1 in the Wound Test, this unit may roll 2 additional d6 for wounding. The obtained scores do not generate the new ones.</description>
     </rule>
     <rule id="5986-f542-b132-1c02" name="Fierce Assault" hidden="false">
       <description>When charging, this unit gets +2 additional attacks for each full rank</description>

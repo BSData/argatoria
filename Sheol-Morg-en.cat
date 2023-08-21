@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="983e-330c-70fe-98a9" name="Lord of the Abyss" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -880,7 +880,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
       <profiles>
         <profile id="559c-aa23-35c1-9f24" name="Champion of Hordes" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Make a d6 test if the unit with the Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test. If the unit wasn’t a horde or it lost its rule, it gains (regains) the horde’s rules</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Make a d6 test if the unit with the Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test, and if the unit wasn’t a horde or it lost its rule, it gains (regains) the horde’s rules.</characteristic>
             <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
