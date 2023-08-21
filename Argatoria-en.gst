@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -294,7 +294,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="a1b3-9851-a04f-20eb" name="Diadem of Despair" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
           <characteristics>
-            <characteristic name="Description" typeId="f6e7-308a-df47-d810">The Diadem can be used to support a unit within 20 cm of the Mage. Each score of 1 in the Wound Test deals 2 Wounds</characteristic>
+            <characteristic name="Description" typeId="f6e7-308a-df47-d810">The Diadem can be used to support target unit within 20 cm of the Mage. Each score of 1 in the Wound Test made by the chosen unit deals 2 Wounds</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -358,7 +358,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="3178-c723-4dfd-8753" name="Terror" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose an enemy unit within 30 cm. Roll a d6 - a score of 4 or less means a successful spell. The enemy unit must take a Cold Blood Test at the beginning of the next cycle. If the test it failed, that unit loses an Action Die</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target enemy unit within 30 cm. Roll a d6 – a score of 4 or less means a successful spell. The enemy unit must take a Cold Blood Test at the beginning of the next cycle. If the test it failed, that unit loses an Action Die</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">4-</characteristic>
           </characteristics>
         </profile>
@@ -392,7 +392,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="fede-b98a-8503-3e94" name="Staff" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
           <characteristics>
-            <characteristic name="Description" typeId="f6e7-308a-df47-d810">Any selected unit within 20 cm of the Mage must re-roll all failed or successful hits in combat</characteristic>
+            <characteristic name="Description" typeId="f6e7-308a-df47-d810">Target unit within 20 cm of the Mage must re-roll all failed or successful hits in combat</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -408,7 +408,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="cfcd-4190-a176-fb8e" name="Book of the Dead" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
           <characteristics>
-            <characteristic name="Description" typeId="f6e7-308a-df47-d810">Every enemy unit within 20 cm of the Mage must take a d6 test. A score of 2 or less means the enemy unit suffers 2 Wounds</characteristic>
+            <characteristic name="Description" typeId="f6e7-308a-df47-d810">Every enemy unit within 20 cm of the Mage must take a d6 test. A score of 2 or less means the enemy unit is dealt 2 Wounds</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -424,7 +424,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="6862-7c62-111a-be5d" name="Fireball" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose an enemy unit (not a single model) within 20 cm that is not engaged in combat. Roll a d6 - a score of 3 or less means a successful spell. Two bases from that unit must take a Panic Test</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target enemy unit (not a single model) within 20 cm that is not engaged in combat. Roll a d6 – a score of 3 or less means a successful spell. Two bases from that unit must take a Panic Test</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">3-</characteristic>
           </characteristics>
         </profile>
@@ -473,7 +473,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="77c4-1725-0c52-e19d" name="Ring of Power" hidden="false" typeId="665c-952d-089b-8726" typeName="Magic item">
           <characteristics>
-            <characteristic name="Description" typeId="f6e7-308a-df47-d810">The Mage can teleport up to 40 cm during activation</characteristic>
+            <characteristic name="Description" typeId="f6e7-308a-df47-d810">The Mage can teleport up to 40 cm during its activation</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -684,7 +684,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="3dbb-42b9-52a3-4c7a" name="Will to Fight" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose any friendly unit within 20 cm that is not engaged in combat. Roll a d6 - a score of 3 or less means a successful spell. The unit can make any turn and move by 15 cm</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target friendly unit within 20 cm that is not engaged in combat. Roll a d6 – a score of 3 or less means a successful spell. The unit can make any turn and move by 15 cm.</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">3-</characteristic>
           </characteristics>
         </profile>
@@ -701,7 +701,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="7127-b52e-9dda-28f1" name="Blizzard" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose an enemy unit within 30 cm that is not engaged in combat. Roll a d6 - a score of 4 or less means a successful spell. The enemy unit can be moved 5 cm forwards or backwards</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target enemy unit within 30 cm that is not engaged in combat. Roll a d6 – a score of 4 or less means a successful spell. The enemy unit can be moved 5 cm forwards or backwards</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">4-</characteristic>
           </characteristics>
         </profile>
@@ -889,7 +889,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>The unit doubles the bonus for attacking the enemy from the side or rear</description>
     </rule>
     <rule id="2ffb-5ae6-6925-f2f4" name="Wild Speed" hidden="false">
-      <description>This unit always has an additional d6 when moving and charging, no matter the situation</description>
+      <description>This unit always rolls an additional d6 when moving and charging, regardless of the situation</description>
     </rule>
     <rule id="9e96-c41e-aaa3-104b" name="Spear Storm" hidden="false">
       <description>This unit always attacks also with the second rank</description>
@@ -898,7 +898,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>When charging, each successful score in the Weapon Skill Test made by this unit is considered a Double Hit</description>
     </rule>
     <rule id="83a1-36fd-47ff-200e" name="Monster" hidden="false">
-      <description>The enemy fails a Panic Test on a 2+ instead of a 4+</description>
+      <description>The enemy engaged in combat with this unit fails a Panic Test on a 2+ instead of a 4+</description>
     </rule>
     <rule id="95aa-6686-0cf9-f679" name="Fear" hidden="false">
       <description>After a successful charge with this unit, the enemy must take a Panic Test for 1 base. If the unit is a horde, the enemy must take a Panic Test for 2 bases</description>
@@ -916,7 +916,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>When charging, this unit gets +2 additional attacks for each full rank</description>
     </rule>
     <rule id="81a9-106d-0594-e9b9" name="Immunity" hidden="false">
-      <description>This unit’s Panic Test is failed only on a score of 6</description>
+      <description>When this unit takes a Panic Test, it is failed only on a score of 6</description>
     </rule>
     <rule id="e1c4-eeee-7703-bba2" name="Fettered" hidden="false">
       <description>The opponent gains Blood Points for this unit’s bases only after destroying the entire unit</description>
@@ -928,7 +928,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>This unit cannot pray</description>
     </rule>
     <rule id="e720-02b2-8459-7370" name="Poisonous Spit" hidden="false">
-      <description>After they finished their attacks, Ropuchons may additionally spit on the opponent. Roll a d6 for each Ropuchon in base contact with the enemy unit. The opponent has to take a Panic Test for each score of 1 or 2</description>
+      <description>After Ropuchons finish their attacks, they can additionally spit on the opponent. Roll a d6 for each Ropuchon that is in full base contact with the enemy. The opponent has to take a Panic Test for each score of 1 or 2</description>
     </rule>
   </sharedRules>
 </gameSystem>
