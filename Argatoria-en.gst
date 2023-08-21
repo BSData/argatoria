@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -98,7 +98,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
     <categoryEntry id="38a8-b0e1-a7b1-6f5a" name="Basic units" hidden="false"/>
     <categoryEntry id="6518-c7a0-7e65-5999" name="Elite units" hidden="false"/>
     <categoryEntry id="75b7-154c-09bb-c13b" name="Rare units" hidden="false"/>
-    <categoryEntry id="25b5-9054-a7c2-90ed" name="Uniqe units" hidden="false"/>
+    <categoryEntry id="25b5-9054-a7c2-90ed" name="Unique units" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4d55-1cac-8967-5a22" name="Argatoria" hidden="false">
@@ -231,7 +231,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e51-c9b7-fd13-79f1" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a354-0eed-714b-60f6" name="Uniqe units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="false">
+        <categoryLink id="a354-0eed-714b-60f6" name="Unique units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="false">
           <modifiers>
             <modifier type="set" field="cd6d-1dce-fb6a-1321" value="3.0">
               <conditions>
