@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="20" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
@@ -300,7 +300,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="3418-7f68-c221-585a" name="Kula Ognia" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea0e-d5e5-6613-a8ec" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e452-9097-8f34-1c71" type="max"/>
       </constraints>
       <profiles>
         <profile id="623e-f5ab-c2ee-7f74" name="Kula Ognia" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -317,7 +316,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="190b-3b4d-98ea-d965" name="Zamieć" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4431-629c-6bd3-4c4c" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6322-5538-fdc4-8d98" type="max"/>
       </constraints>
       <profiles>
         <profile id="564e-b263-cb44-dac9" name="Zamieć" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -334,7 +332,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="47ea-13ca-009f-9450" name="Groza" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cfe9-5e15-c1c2-dceb" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5cd3-0fe1-7b75-896a" type="max"/>
       </constraints>
       <profiles>
         <profile id="8bd7-c3d7-863f-91c9" name="Groza" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -351,7 +348,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="d4ef-8a40-819e-908a" name="Wola Walki" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e9a-9614-002c-9225" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d822-dd2b-5f7a-1acc" type="max"/>
       </constraints>
       <profiles>
         <profile id="c143-3b32-a7f5-bea8" name="Wola Walki" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -368,7 +364,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="082d-d4b1-0856-cc91" name="Szepty Bogów" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a26-b5f9-5255-3949" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c59f-aa4c-55a2-a20f" type="max"/>
       </constraints>
       <profiles>
         <profile id="c5aa-aade-1358-d4f1" name="Szepty Bogów" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -513,7 +508,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="d5bf-506a-7ee7-8b49" name="(PW2) Zamroczenie" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="147f-c777-82b6-fd42" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2756-d580-066b-2efd" type="max"/>
       </constraints>
       <profiles>
         <profile id="39ce-e098-b022-2230" name="Zamroczenie" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -530,7 +524,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="8d72-1193-f5ae-9a36" name="(PW2) Zemsta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8cc-fdb1-7a5e-e760" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d70d-77c6-f62c-b6a0" type="max"/>
       </constraints>
       <profiles>
         <profile id="aeb4-9f98-dfb8-de76" name="Zemsta" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -547,7 +540,6 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
     <selectionEntry id="28c1-e605-902c-77a4" name="(PW2) Kajdany Bólu" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f876-82f3-1c43-ec6f" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cbe-be36-c42e-316d" type="max"/>
       </constraints>
       <profiles>
         <profile id="76fb-23f4-a856-77f5" name="Kajdany Bólu" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -757,7 +749,6 @@ w 30 cm</characteristic>
     <selectionEntry id="f7ee-80e1-4daa-2830" name="(PW2) Piorun" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20b4-a05c-c57a-2306" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0793-80be-0a2f-b99f" type="max"/>
       </constraints>
       <profiles>
         <profile id="931c-d2ac-0797-5883" name="Piorun" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
@@ -774,7 +765,6 @@ w 30 cm</characteristic>
     <selectionEntry id="0e49-3d06-d610-36c4" name="(PW2) Podmuch Śmierci" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b117-2ba7-f170-f371" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad5a-0b14-47da-3aca" type="max"/>
       </constraints>
       <profiles>
         <profile id="dcb8-23fc-41eb-20bf" name="Podmuch Śmierci" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">

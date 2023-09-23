@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -353,7 +353,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="66b6-28b0-a8f6-5759" name="Terror" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9abc-332c-e975-adaf" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2558-7a70-e4b3-e086" type="max"/>
       </constraints>
       <profiles>
         <profile id="3178-c723-4dfd-8753" name="Terror" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -370,7 +369,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="2d36-6160-e6d4-742b" name="(PW2) Shackles of Pain" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4406-3c9f-2b34-3af7" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="962e-4386-785e-41c5" type="max"/>
       </constraints>
       <profiles>
         <profile id="d28a-d06d-4d2d-f5ce" name="Shackles of Pain" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -419,7 +417,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="c92e-ba4f-3062-6e7a" name="Fireball" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="44c4-7344-22ea-ae93" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed3d-49df-d5d8-9fdd" type="max"/>
       </constraints>
       <profiles>
         <profile id="6862-7c62-111a-be5d" name="Fireball" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -484,7 +481,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="44a0-759d-8046-a0f8" name="(PW2) Thunderbolt" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a223-58f3-c45a-318b" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="76b2-3794-ccc3-d54a" type="max"/>
       </constraints>
       <profiles>
         <profile id="c4d8-84cd-fb61-45e8" name="Thunderbolt" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -501,7 +497,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="b168-898c-262e-a8d5" name="(PW2) Death Blast" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="77fa-48a2-1519-7c5d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe8a-8454-4563-eb80" type="max"/>
       </constraints>
       <profiles>
         <profile id="502d-7162-59a3-32ff" name="Death Blast" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -550,7 +545,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="4324-dc34-245c-fad9" name="Whispers of the Gods" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9702-4dff-6656-81c2" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9b3d-1fa5-4518-ae0a" type="max"/>
       </constraints>
       <profiles>
         <profile id="1e84-e180-6059-9750" name="Whispers of the Gods" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -679,7 +673,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="7837-d2f4-7d10-0cb2" name="Will to Fight" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c98-ce9b-8504-a085" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6db3-9c10-7516-6434" type="max"/>
       </constraints>
       <profiles>
         <profile id="3dbb-42b9-52a3-4c7a" name="Will to Fight" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -696,7 +689,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="4e0b-e078-62e5-b727" name="Blizzard" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8cc4-cd30-31db-4a02" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="11ee-a80a-1ce3-ffbe" type="max"/>
       </constraints>
       <profiles>
         <profile id="7127-b52e-9dda-28f1" name="Blizzard" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -713,7 +705,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="1dc3-6cb7-bf40-9bac" name="(PW2) Blackout" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="117b-0408-266a-f00e" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ba-13d2-731c-e71b" type="max"/>
       </constraints>
       <profiles>
         <profile id="fa8a-2ced-dd16-e3bb" name="Blackout" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
@@ -746,7 +737,6 @@ Agility: The unit that will move or charge has the right to double the score on 
     <selectionEntry id="6e38-0618-1a3d-aa99" name="(PW2) Vengeance" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74ec-b0ae-98bd-387f" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c178-bf53-b8d5-339d" type="max"/>
       </constraints>
       <profiles>
         <profile id="bc19-30f8-ea96-fcaa" name="Vengeance" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
