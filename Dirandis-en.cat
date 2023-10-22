@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="3" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="990e-9289-2e68-4c6d" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -466,6 +466,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="7bd8-c72e-266a-d3f9" name="Devoted to Gods" hidden="false">
+          <description>Basic and Elite Units in the Dirandis army may re-roll failed Prayer Tests</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="153d-726c-28a1-b602" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
         <categoryLink id="75cb-e05b-961b-0244" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
@@ -491,11 +496,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="67c4-bbb4-2d23-aa77" name="Devoted to Gods" hidden="false">
-      <description>Basic and Elite Units in the Dirandis army may re-roll failed Prayer Tests</description>
-    </rule>
-  </rules>
   <sharedRules>
     <rule id="f32d-151d-46cb-c91c" name="Focused Attack" hidden="false">
       <description>When charging, this unit gets +1 to WS</description>

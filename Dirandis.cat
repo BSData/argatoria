@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -336,6 +336,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="e690-1f56-e8b2-ecdb" name="Wierni Bogom" hidden="false">
+          <description>Oddziały Podstawowe i Elitarne w armii Dirandis mogą wykonać przerzut nieudanych Testów Modlitwy</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="d808-a84c-fe41-f6a1" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
         <categoryLink id="c0dc-9a33-fcb7-bbf9" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -492,11 +497,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="c385-a835-8682-c266" name="Wierni Bogom" hidden="false">
-      <description>Oddziały Podstawowe i Elitarne w armii Dirandis mogą wykonać przerzut nieudanych Testów Modlitwy</description>
-    </rule>
-  </rules>
   <sharedRules>
     <rule id="e7c9-8b3d-a89d-5ef2" name="Skupiony Atak" hidden="false">
       <description>Podczas szarży oddział otrzymuje bonus +1 do WS</description>

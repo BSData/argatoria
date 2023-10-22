@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -12,6 +12,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="ca79-ac49-67df-4e36" name="Zwiastujący Udrękę " hidden="false">
+          <description>Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="b81e-1957-9c90-bba8" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
         <categoryLink id="d83c-a03d-8094-47b5" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -502,9 +507,4 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="1aeb-564a-03e4-60aa" name="Zwiastujący Udrękę " hidden="false">
-      <description>Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-</description>
-    </rule>
-  </rules>
 </catalogue>

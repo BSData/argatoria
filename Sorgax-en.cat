@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -454,6 +454,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="6d58-2d8e-b70e-d72f" name="Heralds of the Torment" hidden="false">
+          <description>The Sorgax General is given the option to issue one additional free order per cycle if the opponent has suffered certain losses during the battle. Check how many Blood Points your opponent has lost so far and compare it with the table below to find out what score you need to get to successfully issue the free order:  6BP 1-, 12BP 2-, 24BP 3-</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="77c8-49c0-8cf6-acfc" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
         <categoryLink id="902d-2d2b-1697-a61c" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
@@ -497,9 +502,4 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="be2e-fed3-a0a9-7fdb" name="Heralds of the Torment" hidden="false">
-      <description>The Sorgax General is given the option to issue one additional free order per cycle if the opponent has suffered certain losses during the battle. Check how many Blood Points your opponent has lost so far and compare it with the table below to find out what score you need to get to successfully issue the free order:  6BP 1-, 12BP 2-, 24BP 3-</description>
-    </rule>
-  </rules>
 </catalogue>

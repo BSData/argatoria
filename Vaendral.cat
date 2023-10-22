@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -372,6 +372,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="9d73-f17a-71f0-755c" name="Urodzeni Wojownicy" hidden="false">
+          <description>Armia Vaendral może wykonać przerzut wyniku 1 lub 6 podczas Rzutu za Aktywację</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="3d1d-dc4b-24ce-0f58" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
         <categoryLink id="7a65-25ce-2781-b610" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -525,11 +530,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="32fa-eb8d-1d13-5966" name="Urodzeni Wojownicy" hidden="false">
-      <description>Armia Vaendral może wykonać przerzut wyniku 1 lub 6 podczas Rzutu za Aktywację</description>
-    </rule>
-  </rules>
   <sharedRules>
     <rule id="5d77-9886-81ff-ad84" name="Rozlew Krwi" hidden="false">
       <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów podczas Testu Ranienia</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -345,6 +345,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="d2df-1e68-1c2a-7c39" name="Gorąca Krew " hidden="false">
+          <description>Armia Arox może wykonać przerzut Testu Inicjatywy</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="a32e-6a36-668c-200e" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
         <categoryLink id="a721-1146-07d7-3f33" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -498,11 +503,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="601c-a52e-ac02-0c0d" name="Gorąca Krew " hidden="false">
-      <description>Armia Arox może wykonać przerzut Testu Inicjatywy</description>
-    </rule>
-  </rules>
   <sharedRules>
     <rule id="02a4-8aa0-b119-a834" name="Złoty Pancerz" hidden="false">
       <description>Każde obrażenie, które zostało zadane temu oddziałowi, może być zniwelowane przez niezwykły pancerz. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że obrażenie zostało zniwelowane</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -409,6 +409,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="acf8-0c4f-99cc-2536" name="Gniew Kniei " hidden="false">
+          <description>W armii Gaeldor oddziały (ale nie modele pojedyncze) mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="dfaa-ab4d-0124-12bb" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
         <categoryLink id="0a79-2e56-8f68-a91d" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -574,11 +579,6 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
-  <rules>
-    <rule id="4347-ef14-de7b-3504" name="Gniew Kniei " hidden="false">
-      <description>W armii Gaeldor oddziały (ale nie modele pojedyncze) mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
-    </rule>
-  </rules>
   <sharedRules>
     <rule id="2260-b0ac-2aa6-bbbc" name="Zdrewnienie" hidden="false">
       <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
