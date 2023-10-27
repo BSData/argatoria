@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="e03e-2982-ebd8-e8b0" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8903-05db-28e6-cb10" type="min"/>
+      </constraints>
       <profiles>
         <profile id="57b7-9dcf-ca33-e46b" name="Abazatragon" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
           <characteristics>
@@ -42,6 +43,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5a44-bb1f-e563-7f11" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27d-0c75-2660-87df" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="dcb7-3fa9-8f8b-53d7" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
         <categoryLink id="3485-02b2-0682-e808" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -168,6 +172,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b1fb-a411-1a6d-1ac6" name="Reptilianie" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20db-f422-1020-a603" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c98c-0a59-6fad-0e83" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>

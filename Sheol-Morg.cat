@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
   </publications>
@@ -193,7 +191,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <profiles>
         <profile id="b197-6da3-6164-51de" name="Czempion Hord" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test, jeśli oddział, do którego jest dołączony Czempion Hord, wykonał udaną szarżę lub został zaszarżowany. Wynik 3 lub mniej oznacza, że oddział, który posiada minimum 12 podstawek, może wykonać przerzut nieudanych rzutów podczas Testu WS, a jeśli oddział nie był hordą, zyskuje (odzyskuje) zasady hordy.</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test, jeśli oddział, do którego jest dołączony Czempion Hord, wykonał udaną szarżę lub został zaszarżowany. Wynik 3 lub mniej oznacza, że oddział, który posiada minimum 12 podstawek, może wykonać przerzut nieudanych rzutów podczas Testu WS, a jeśli oddział nie był hordą, zyskuje (odzyskuje) zasady hordy</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
@@ -295,7 +293,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
           </profiles>
           <rules>
             <rule id="e839-8d18-5fdf-8801" name="Spazmy" hidden="false">
-              <description>Przed walką oddział otrzymuje bonus k6+1 atak. Jeśli oddział jest hordą, liczba bonusowych ataków to 2k6+3</description>
+              <description>Przed walką oddział otrzymuje bonus k6+1 atak. Jeśli oddział jest hordą, liczba bonusowych ataków to k6+4</description>
             </rule>
           </rules>
           <infoLinks>
@@ -534,7 +532,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Kozary w armii Lorda Sheol-Morg mogą poświęcić jedną podstawkę podczas nieudanego rozkazu, by wykonać przerzut wyniku</description>
+              <description>Oddział w armii Lorda Sheol-morg może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu</description>
             </rule>
           </rules>
           <costs>
@@ -791,7 +789,7 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
                 <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
                 <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
                 <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
-                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
               </characteristics>
             </profile>
           </profiles>

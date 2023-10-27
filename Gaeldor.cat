@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7959-aa2b-6301-435d" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="1ca3-1793-29a3-c65f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
@@ -402,6 +405,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7fdf-6155-55d8-ff4d" name="Gaeldaukar" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e3-a069-e463-a127" type="min"/>
+      </constraints>
       <profiles>
         <profile id="6de8-a296-2099-38c9" name="Gaeldaukar" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
           <characteristics>
@@ -411,7 +417,7 @@
       </profiles>
       <rules>
         <rule id="acf8-0c4f-99cc-2536" name="Gniew Kniei " hidden="false">
-          <description>W armii Gaeldor oddziały (ale nie modele pojedyncze) mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
+          <description>Oddziały Podstawowe i Elitarne w armii Gaeldor  mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
         </rule>
       </rules>
       <categoryLinks>
@@ -567,6 +573,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f0ce-5129-a9b0-be68" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfdd-227a-2cc0-8f7a" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="168a-b7a8-bea9-1bed" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
         <categoryLink id="d9b7-a86c-531a-c5cb" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>

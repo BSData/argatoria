@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="323d-337d-8b95-46f2" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="797c-eff8-dbb3-19ec" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7417-b1ff-1de6-5f5f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
@@ -329,6 +330,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0c27-d6af-b07f-068f" name="Wielki Łowca" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56cb-8b35-326d-2ece" type="min"/>
+      </constraints>
       <profiles>
         <profile id="25cc-981c-73ca-82e5" name="Wielki Łowca" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
           <characteristics>
@@ -353,12 +357,15 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7233-41da-69fd-1a82" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5045-e0bd-297e-79fd" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="3717-56a1-5cae-5dc7" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
         <categoryLink id="e2cb-be57-0498-fe82" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="42fa-8dc7-8dab-05e4" name="Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
+        <entryLink id="42fa-8dc7-8dab-05e4" name="(PW2) Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>

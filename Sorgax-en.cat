@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-39ca-f8ab-24fb" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a139-7a39-1ea6-4a28" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
@@ -339,6 +343,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9b33-0d68-9e1d-b775" name="Command Group" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5850-6292-ce0c-6fdb" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="8ff7-c377-cede-ae56" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
         <categoryLink id="fa1a-a79d-7020-0a98" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
@@ -447,6 +454,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dcea-81d2-842e-ba4e" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a68-8b93-d171-94f1" type="min"/>
+      </constraints>
       <profiles>
         <profile id="1d7d-7849-b6d6-06e9" name="Abazatragon" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
           <characteristics>

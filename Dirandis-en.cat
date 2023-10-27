@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="990e-9289-2e68-4c6d" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa55-aa56-bde4-44e3" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="a5e8-edca-b9db-9896" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
@@ -459,6 +463,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="db10-2b83-f366-b6ef" name="Great Hunter" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bee-10e1-a505-c7ba" type="min"/>
+      </constraints>
       <profiles>
         <profile id="32cf-61c2-1907-7097" name="Great Hunter" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
           <characteristics>
@@ -483,6 +490,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b79f-576a-0630-67c4" name="Command Group" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68e4-72aa-caec-9316" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="ccc3-5cf6-9832-4f74" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
         <categoryLink id="9aed-a66b-4356-2436" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false"/>

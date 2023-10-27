@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023</readme>
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cae-d65f-6951-af51" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="f7f4-2dc3-3e2c-727c" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
@@ -353,6 +356,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="64d2-78bc-6cc9-89e0" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17f-5181-08e3-f752" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="989c-4c55-b00f-62fe" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
         <categoryLink id="006c-aae7-bead-d0df" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -365,6 +371,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="bab1-3395-eb7d-5cb8" name="Krwawy Wódz" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="791d-7204-05cd-cbbe" type="min"/>
+      </constraints>
       <profiles>
         <profile id="afc8-c055-1251-e9e4" name="Krwawy Wódz" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
           <characteristics>
@@ -382,7 +391,7 @@
         <categoryLink id="7a65-25ce-2781-b610" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="98ea-1bfb-a8b7-7cad" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
+        <entryLink id="98ea-1bfb-a8b7-7cad" name="(PW2) Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>

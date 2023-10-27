@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9e9-9482-cf0c-d1d5" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="10aa-0e03-65c2-1bda" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
@@ -397,6 +401,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a63f-ddc8-6f3a-af34" name="Command Group" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edea-1530-e695-09c7" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7399-e8ad-b7a4-6274" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
         <categoryLink id="f941-122a-996b-52cd" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false"/>
@@ -473,6 +480,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3502-7405-a615-3959" name="Gaeldaukar" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dc5-bf8e-77b0-5635" type="min"/>
+      </constraints>
       <profiles>
         <profile id="5b75-3d7a-f63f-e9ec" name="Gaeldaukar" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
           <characteristics>

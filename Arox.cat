@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
-
-©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="1846-02e4-d7ed-4645" name="Liagulianie" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff55-0ed0-cc3f-a24e" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c6dd-45f2-a10c-b51a" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
       </categoryLinks>
@@ -338,6 +339,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b7c8-a8ba-f53f-2895" name="Sox’Augatir" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b17-6356-a0d7-a6c0" type="min"/>
+      </constraints>
       <profiles>
         <profile id="a6ea-b931-5a97-6a5c" name="Sox’Augatir" hidden="false" typeId="50ee-1030-6a91-1b8d" typeName="Generał">
           <characteristics>
@@ -362,6 +366,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4fa3-c268-bfd2-0c23" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3541-d7b6-4cd6-0054" type="min"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="872a-287c-9c6d-c7f9" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
         <categoryLink id="386d-f331-250f-9c68" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>

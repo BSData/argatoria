@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="20" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="21" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>Ostatnia aktualizacja – 27 października 2023
+
+Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
 
@@ -352,7 +354,7 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
       <profiles>
         <profile id="c143-3b32-a7f5-bea8" name="Wola Walki" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
           <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny przyjazny oddział w promieniu 20 cm, niezaangażowany w walkę. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Oddział może dowolnie wykonać rotację i być przemieszczony o 15 cm</characteristic>
+            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny przyjazny oddział w promieniu 20 cm, niezaangażowany w walkę. Rzuć k6 – wynik 3 lub mniej oznacza udany czar. Oddział może dowolnie się obrócić i wykonać ruch do 15 cm + k6</characteristic>
             <characteristic name="Test" typeId="73d8-877b-79f6-209e">3-</characteristic>
           </characteristics>
         </profile>
