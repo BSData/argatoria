@@ -109,6 +109,12 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3696-d1f1-2854-2ccd" type="min"/>
           </constraints>
         </categoryLink>
+		<categoryLink id="e7af-47eb-9e7b-78f2" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fe-513b-78a2-a7a3" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3683-0d5d-534d-8e6d" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="3f4a-8d25-c5e4-ddcb" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
           <modifiers>
             <modifier type="set" field="6b4d-bdff-1032-81e7" value="3.0">
@@ -125,12 +131,6 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981f-98f2-edb8-ef16" type="min"/>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b4d-bdff-1032-81e7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e7af-47eb-9e7b-78f2" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fe-513b-78a2-a7a3" type="min"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3683-0d5d-534d-8e6d" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="619e-52d4-1202-1dd8" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">

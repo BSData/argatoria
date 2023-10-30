@@ -108,6 +108,12 @@ Each Mage gives an army an additional prayer in the cycle</description>
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a218-9b34-1f6b-c7b6" type="min"/>
           </constraints>
         </categoryLink>
+		<categoryLink id="2df9-1c26-0d67-bbdf" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5043-884c-9450-a86c" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-1c06-829b-d9ce" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="cd61-eed0-9530-6641" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="false">
           <modifiers>
             <modifier type="set" field="96cf-5adb-2427-8ed5" value="3.0">
@@ -124,12 +130,6 @@ Each Mage gives an army an additional prayer in the cycle</description>
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ce6-3679-767c-bc81" type="min"/>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96cf-5adb-2427-8ed5" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2df9-1c26-0d67-bbdf" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5043-884c-9450-a86c" type="min"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-1c06-829b-d9ce" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="f321-13ff-8a70-455a" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false">
@@ -184,20 +184,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc05-0168-5376-ed15" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="13a9-f1b1-c954-c54a" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="false">
-          <modifiers>
-            <modifier type="increment" field="0bde-8cab-1046-4e7f" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38a8-b0e1-a7b1-6f5a" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e248-fe6b-4588-76a5" type="min"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bde-8cab-1046-4e7f" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="46a8-22de-0f15-c10b" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
+		<categoryLink id="46a8-22de-0f15-c10b" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
           <modifiers>
             <modifier type="set" field="6b77-772c-db3b-519b" value="4.0">
               <conditions>
@@ -212,6 +199,19 @@ Each Mage gives an army an additional prayer in the cycle</description>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b77-772c-db3b-519b" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="13a9-f1b1-c954-c54a" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="false">
+          <modifiers>
+            <modifier type="increment" field="0bde-8cab-1046-4e7f" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38a8-b0e1-a7b1-6f5a" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e248-fe6b-4588-76a5" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bde-8cab-1046-4e7f" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="8afa-f7c9-286e-0834" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="false">
