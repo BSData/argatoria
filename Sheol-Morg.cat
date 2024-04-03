@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
@@ -223,7 +223,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <profiles>
         <profile id="0122-a36e-a071-71d8" name="Czempion Bogów Mroku" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów Mroku styka się z przyjaznym oddziałem zaangażowanym w walkę, dodaje 5 ataków zamiast 4. Dodatkowo wykonaj test przed atakami wroga. Wynik 3 lub mniej oznacza, że wróg musi wykonać przerzut wszystkich udanych rzutów podczas Testu WS oraz Testu Ranienia</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów Mroku styka się z przyjaznym oddziałem zaangażowanym w walkę, dodaje 5 ataków zamiast 4. Dodatkowo wykonaj test przed atakami wroga. Wynik 3 lub mniej oznacza, że wróg musi, zgodnie z twoim wyborem, wykonać przerzut wszystkich udanych rzutów podczas Testu WS lub Testu Ranienia.</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
@@ -388,6 +388,13 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       </costs>
     </selectionEntry>
     <selectionEntry id="10bc-ab86-1c2c-d78c" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="34c6-84f4-34ea-19ca" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
       </categoryLinks>
@@ -475,7 +482,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Kozary w armii Lorda Sheol-Morg mogą poświęcić jedną podstawkę podczas nieudanego rozkazu, by wykonać przerzut wyniku</description>
+              <description>Oddział w armii Lorda Sheol-morg będący Hordą może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu.</description>
             </rule>
           </rules>
           <costs>
@@ -532,7 +539,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Oddział w armii Lorda Sheol-morg może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu</description>
+              <description>Oddział w armii Lorda Sheol-morg będący Hordą może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu.</description>
             </rule>
           </rules>
           <costs>
@@ -588,7 +595,7 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
             <infoLink id="f675-bb2b-12bd-4b18" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -645,7 +652,7 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
             <infoLink id="2e11-0db3-2979-90fc" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -894,9 +901,64 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
 5–6 Rytuał Ciemności Każdy Oddział Podstawowy oraz Elitarny w armii posiada zasadę Strach. Po wykonaniu udanej szarży tym oddziałem wróg musi wykonać Test Paniki dla 1 podstawki. Jeśli oddział jest hordą, wróg musi wykonać Test Paniki dla 2 podstawek</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="9f8a-49b8-673d-02b6" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+        <categoryLink id="2721-3caa-bd88-7f86" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="2456-f9ca-1a1d-3ccc" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
+        <entryLink id="c739-21ec-d969-3fbb" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edc7-4f59-d178-9752" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0010-9869-e1d2-dc9c" name="New CategoryLink" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="540e-c0bd-6cad-3242" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47d-7972-3da8-dd25" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a7-e3ad-d282-ac8b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="cd32-3f74-45c2-ac5b" name="Truhlaki na Upadłych Ogarach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="90aa-f677-86c1-f1bf" name="Dzika Szybkość" hidden="false" targetId="ec17-b919-3559-1160" type="rule"/>
+            <infoLink id="2639-2257-c47f-ddc2" name="Strach" hidden="false" targetId="b756-0f19-9c03-7378" type="rule"/>
+            <infoLink id="8e56-341c-5dad-4775" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="6180-9e73-4611-4283" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>

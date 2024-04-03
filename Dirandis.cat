@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="323d-337d-8b95-46f2" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -32,7 +32,7 @@
             <infoLink id="68d5-65c4-9051-aaca" name="Skupiony Atak" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -118,7 +118,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -151,7 +151,7 @@
           </profiles>
           <rules>
             <rule id="9323-46fe-e83c-b9b8" name="Magiczne Runy " hidden="false">
-              <description>Podczas Testu Modlitwy uzyskana suma 3 lub mniej oznacza darmową modlitwę (pula modlitw nie zmniejsza się)</description>
+              <description>Udany Test Modlitwy tego oddziału oznacza, że oddział może użyć zasad dwóch różnych modlitw zamiast jednej. Dodatkowa modlitwa nie zmniejsza puli modlitw.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -159,7 +159,7 @@
             <infoLink id="649f-177c-3b87-d89c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -185,16 +185,17 @@
                 <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
                 <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
                 <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
-                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
                 <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="9cbc-2305-61c4-4c79" name="Miażdżący Cios " hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+            <infoLink id="69e7-a2d9-dd77-4d66" name="Rozpłatanie" hidden="false" targetId="32f7-0a99-bfc7-33c7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="22.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -218,6 +219,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="7c6b-1354-8aca-bd84" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="9a02-7c8a-5863-fdb0" name="Miotanie kamieniami" hidden="false" targetId="7a33-c76a-61cb-5124" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b53d-7dd0-eb99-c420" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
@@ -255,7 +257,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -454,7 +456,7 @@
       <profiles>
         <profile id="c764-1052-b97c-7997" name="Czempion Burzy" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test przed lub po wykonaniu ruchu Czempionem Burzy. Wybrany wrogi oddział w promieniu 30 cm musi wykonać Test Paniki dla jednej podstawki</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Po aktywowaniu Czempiona Burzy, wybierz wrogi oddział w promieniu 30 cm i wykonaj rzut k6 za każdy posiadany przez niego szereg. Każdy wynik 4 lub mniej oznacza, że oddział otrzymuje 1 ranę. Oddziału nie chronią żadne pancerze ani inne rodzaje ochrony.</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>

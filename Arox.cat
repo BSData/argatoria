@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="1846-02e4-d7ed-4645" name="Liagulianie" hidden="false" collective="false" import="true" type="unit">
@@ -181,11 +181,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="1e02-935b-acff-d0a0" name="Trujące Splunięcie" hidden="false">
-              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="54f7-3ba5-cbd4-6324" name="Trujące Splunięcie" hidden="false" targetId="914b-0df3-b497-6049" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
           </costs>
@@ -321,13 +319,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="11b6-4754-6f2e-6c60" name="Trujące Splunięcie" hidden="false">
-              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
-            </rule>
-          </rules>
           <infoLinks>
             <infoLink id="15d4-dd13-2e00-c07b" name="Złoty Pancerz" hidden="false" targetId="02a4-8aa0-b119-a834" type="rule"/>
+            <infoLink id="1d64-cf1e-a1fd-164a" name="Trujące Splunięcie" hidden="false" targetId="914b-0df3-b497-6049" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
@@ -432,7 +426,7 @@
       <profiles>
         <profile id="5d3e-ee17-2949-4340" name="Czempion Bogów" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział ma prawo przerzucić wszystkie nieudane rzuty podczas Testu WS oraz Testu Ranienia do końca trwania cyklu</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział ma prawo przerzucić wszystkie nieudane rzuty podczas Testu WS lub Testu Ranienia</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>

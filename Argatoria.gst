@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="21" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="22" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Ostatnia aktualizacja – 27 października 2023
 
 Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
@@ -109,7 +109,7 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3696-d1f1-2854-2ccd" type="min"/>
           </constraints>
         </categoryLink>
-		<categoryLink id="e7af-47eb-9e7b-78f2" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
+        <categoryLink id="e7af-47eb-9e7b-78f2" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fe-513b-78a2-a7a3" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3683-0d5d-534d-8e6d" type="max"/>
@@ -514,7 +514,7 @@ Zwinność: Oddział, który będzie wykonywał ruch lub szarżę, ma prawo prze
       <profiles>
         <profile id="39ce-e098-b022-2230" name="Zamroczenie" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
           <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny oddział lub model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. W kolejnym cyklu oddział lub model pojedynczy może wykonywać ruch lub szarżę tylko na odległość k6 lub 2k6 cm bez dodawania cechy M</characteristic>
+            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny oddział lub model pojedynczy w promieniu 30 cm. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. W kolejnym cyklu oddział lub model pojedynczy może wykonywać ruch lub szarżę tylko na odległość k6 lub 2k6 cm bez dodawania cechy M. Jeśli szarża oddziału była nieudana, pozostaje on w miejscu, ale może być obrócony przez przeciwnika do 90 stopni.</characteristic>
             <characteristic name="Test" typeId="73d8-877b-79f6-209e">2-</characteristic>
           </characteristics>
         </profile>
@@ -755,7 +755,7 @@ w 30 cm</characteristic>
       <profiles>
         <profile id="931c-d2ac-0797-5883" name="Piorun" hidden="false" typeId="a968-261e-9dd4-8c71" typeName="Czar">
           <characteristics>
-            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny niezaangażowany w walkę wrogi oddział lub model pojedynczy w promieniu 20 cm. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. Wybrany oddział otrzymuje trzy rany. Jeśli jednostka ma dowolny rodzaj ochrony, pancerza lub jest na większej podstawce niż 20 mm, otrzymuje 4 rany. Przed Piorunem nie chronią żadne pancerze</characteristic>
+            <characteristic name="Opis" typeId="24a5-5e20-a1e3-adde">Wybierz dowolny niezaangażowany w walkę wrogi oddział lub model pojedynczy na polu bitwy. Rzuć k6 – wynik 2 lub mniej oznacza udany czar. Wybrany oddział otrzymuje trzy rany. Jeśli jednostka ma dowolny rodzaj ochrony, pancerza lub jest na większej podstawce niż 20 mm, otrzymuje 4 rany. Przed Piorunem nie chronią żadne pancerze</characteristic>
             <characteristic name="Test" typeId="73d8-877b-79f6-209e">2-</characteristic>
           </characteristics>
         </profile>
@@ -1052,7 +1052,7 @@ w 30 cm</characteristic>
       <description>Oddział podwaja bonus za atakowanie wroga od boku lub tyłu</description>
     </rule>
     <rule id="8c60-8ad3-d241-afd1" name="Miażdżący Cios" hidden="false">
-      <description>Podczas szarży każdy udany rzut w teście WS wykonany przez ten oddział jest traktowany jak Podwójny Cios</description>
+      <description>Każdy udany rzut w teście WS wykonany przez ten oddział jest traktowany jak Podwójny Cios</description>
     </rule>
     <rule id="f593-c25f-aa8a-bbc8" name="Zaciekłość" hidden="false">
       <description>Podczas Testu Ranienia za każdą 1 można wykonać dodatkowe dwa testy k6 na ranienie. Dodatkowe Testy Ranienia i uzyskane 1 nie generują kolejnych.</description>
@@ -1074,6 +1074,15 @@ w 30 cm</characteristic>
     </rule>
     <rule id="2a2c-4cda-7024-1fa9" name="Zaciekły Szturm" hidden="false">
       <description>Podczas szarży oddział otrzymuje +2 dodatkowe ataki za każdy pełen szereg</description>
+    </rule>
+    <rule id="32f7-0a99-bfc7-33c7" name="Rozpłatanie" hidden="false">
+      <description>Przed ciosami Pół-gigantów nie chronią żadne pancerze ani inne rodzaje ochrony.</description>
+    </rule>
+    <rule id="7a33-c76a-61cb-5124" name="Miotanie kamieniami" hidden="false">
+      <description>Jeśli przyjazny oddział w promieniu 20 cm od Giganta został zaszarżowany przez wrogi oddział, Gigant natychmiast rzuca w szarżującego wroga kamieniami. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że Gigantowi udało się dorzucić kamieniami do wroga. Teraz należy wykonać kolejny rzut k6, a uzyskany wynik to liczba ataków, które wrogi oddział musi odjąć ze swojej puli. Gigant może użyć tej zdolności raz na cykl.</description>
+    </rule>
+    <rule id="914b-0df3-b497-6049" name="Trujące Splunięcie" hidden="false">
+      <description>Po rozstrzygnięciu ataków Ropuchonów wybierz wrogi oddział, który się z nimi styka. Wykonaj rzut k6 za każdą podstawkę w oddziale Ropuchonów. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2.</description>
     </rule>
   </sharedRules>
 </gameSystem>

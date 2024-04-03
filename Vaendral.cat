@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -33,7 +33,7 @@
             <infoLink id="dd26-568a-73ed-7114" name="Obrona Lekką Tarczą " hidden="false" targetId="9070-3277-af8a-e4fa" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -119,7 +119,7 @@
             <infoLink id="46e2-50e4-c942-9a1a" name="Furia" hidden="false" targetId="b951-e170-9c36-9787" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="24.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -165,7 +165,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -191,16 +191,17 @@
                 <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
                 <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
                 <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
-                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
                 <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="a867-d8a8-cef6-8ec7" name="Miażdżący Cios " hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+            <infoLink id="a867-d8a8-cef6-8ec7" name="Miażdżący Cios" hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+            <infoLink id="1103-10a8-1485-db4b" name="Rozpłatanie" hidden="false" targetId="32f7-0a99-bfc7-33c7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="22.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -224,6 +225,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="62e7-60c9-30d2-e8eb" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="40bf-d6e1-49a5-5047" name="Miotanie kamieniami" hidden="false" targetId="7a33-c76a-61cb-5124" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8e2e-b603-1993-2622" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
@@ -264,7 +266,7 @@
             <infoLink id="3032-f444-4607-c35e" name="Brutalna Pułapka" hidden="false" targetId="ae08-76ed-ff77-59e4" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -317,7 +319,7 @@
             <infoLink id="7987-9812-3a69-3292" name="Obrona Lekką Tarczą " hidden="false" targetId="9070-3277-af8a-e4fa" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -416,7 +418,7 @@
       <profiles>
         <profile id="4470-61de-c7ae-b30a" name="Czempion Krwi" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Krwi styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział otrzymuje dodatkowe 4 ataki do puli w tym cyklu</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że przyjazne oddziały będące w promieniu 20 cm od Czempiona Krwi otrzymują do końca trwania cyklu +2 ataki do puli jeśli nie posiadają zasady Rozlew Krwi. Jeśli ją posiadają, otrzymują w zamian bonus +1 do S.</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
@@ -544,7 +546,7 @@
       <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów podczas Testu Ranienia</description>
     </rule>
     <rule id="b951-e170-9c36-9787" name="Furia" hidden="false">
-      <description>Podczas szarży oddział otrzymuje 2 dodatkowe ataki do puli</description>
+      <description>Podczas szarży oddział otrzymuje 2 dodatkowe ataki do puli za każdy pełen szereg wrogiego oddziału lub +1 atak za każdy punkt W wrogiego modelu pojedynczego. Bonus z Furii nigdy nie może przekroczyć 10 ataków.</description>
     </rule>
     <rule id="9070-3277-af8a-e4fa" name="Obrona Lekką Tarczą " hidden="false">
       <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę lekką tarczą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>

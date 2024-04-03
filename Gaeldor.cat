@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -189,16 +189,17 @@
                 <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
                 <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
                 <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
-                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
                 <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="a01d-8827-7259-f021" name="Miażdżący Cios " hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+            <infoLink id="93d5-1528-0738-89fd" name="Rozpłatanie" hidden="false" targetId="32f7-0a99-bfc7-33c7" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="22.0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -387,7 +388,7 @@
       </profiles>
       <rules>
         <rule id="d558-8f9d-c1e2-c763" name="Król Dziczy" hidden="false">
-          <description>Każda wroga jednostka w 15 cm od Leśnego Smoka traci zasadę Hordy, jeśli ją posiada Każda przyjazna jednostka Gaeldor w 15 cm posiada zasadę Nieustraszony
+          <description>Każda wroga jednostka w 10 cm od Leśnego Smoka traci zasadę Hordy, jeśli ją posiada Każda przyjazna jednostka Gaeldor w 10 cm posiada zasadę Nieustraszony
 </description>
         </rule>
         <rule id="2fac-8f76-9e88-67ff" name="Skrzydlate Stworzenie" hidden="false">
@@ -417,7 +418,7 @@
       </profiles>
       <rules>
         <rule id="acf8-0c4f-99cc-2536" name="Gniew Kniei " hidden="false">
-          <description>Oddziały Podstawowe i Elitarne w armii Gaeldor  mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
+          <description>Oddziały Podstawowe i Elitarne w armii Gaeldor  mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 3</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -447,7 +448,7 @@
     <selectionEntry id="abf2-de35-a21f-22ed" name="Druid" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="eb3b-c162-2a5e-751f" name="Druid" hidden="false">
-          <description>Każdy przyjazny oddział Odunów oraz Trefloq mogą wykonać w 20 cm od Druida przerzut nieudanych wyników podczas rzutu na obronę (Zdrewnienie)</description>
+          <description>Każdy przyjazny oddział Odunów oraz Trefloq mogą wykonać w 10 cm od Druida przerzut nieudanych wyników podczas rzutu na obronę (Zdrewnienie)</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -527,7 +528,7 @@
       <profiles>
         <profile id="12e2-476d-82b5-c523" name="Czempion Bestii" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6, jeśli Generał miał nieudany rzut wydając rozkaz oddziałowi Odunów, Amazonkom na Pająkach, Leśnym Wijom lub Dzikiej Zwierzynie. Wynik 4 lub mniej oznacza, że Generał może przerzucić nieudany wynik. Czempion Bestii dołączony do wymienionych oddziałów dodaje 2 kolejne ataki do Puli</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6, jeśli Generał miał nieudany rzut wydając rozkaz oddziałowi Amazonek na Pająkach, Leśnym Wijom lub Dzikiej Zwierzynie. Wynik 4 lub mniej oznacza, że Generał może przerzucić nieudany wynik. Czempion Bestii dołączony do wymienionych oddziałów dodaje 2 kolejne ataki do Puli</characteristic>
             <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8110-2ed0-8275-a6b7" name="Sorgax" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="e03e-2982-ebd8-e8b0" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
@@ -109,7 +109,7 @@
         <profile id="e9ce-ce35-3da9-723b" name="Czempion Śmierci" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Śmierci styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj rzut za każdą podstawkę, która zeszła przeciwnikowi. Wynik 2 lub mniej oznacza, że przeciwnik musi zdjąć dodatkową podstawkę</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
+            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">2-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -317,11 +317,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="ffe6-08c0-c113-582e" name="Trujące Splunięcie" hidden="false">
-              <description>Po zakończeniu walki Ropuchoni mogą dodatkowo wykonać splunięcia na przeciwnika. Wykonaj test k6 za każdą podstawkę Ropuchona, która styka się z wrogiem. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="50fb-7f1f-7a37-d621" name="Trujące Splunięcie" hidden="false" targetId="914b-0df3-b497-6049" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
           </costs>
