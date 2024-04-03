@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -108,7 +108,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a218-9b34-1f6b-c7b6" type="min"/>
           </constraints>
         </categoryLink>
-		<categoryLink id="2df9-1c26-0d67-bbdf" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="false">
+        <categoryLink id="2df9-1c26-0d67-bbdf" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5043-884c-9450-a86c" type="min"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-1c06-829b-d9ce" type="max"/>
@@ -184,7 +184,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc05-0168-5376-ed15" type="max"/>
           </constraints>
         </categoryLink>
-		<categoryLink id="46a8-22de-0f15-c10b" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
+        <categoryLink id="46a8-22de-0f15-c10b" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
           <modifiers>
             <modifier type="set" field="6b77-772c-db3b-519b" value="4.0">
               <conditions>
@@ -485,7 +485,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="c4d8-84cd-fb61-45e8" name="Thunderbolt" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target unengaged enemy unit or single model within 20 cm. Roll a d6 – a score of 2 or less means a successful spell. The target unit is dealt 3 Wounds. If the unit has any type of protection, armour, or is on a base larger than 20 mm, it is dealt 4 Wounds. No armour or other protection work against Thunderbolt</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target unengaged enemy unit or single model on the battlefield. Roll a d6 – a score of 2 or less means a successful spell. The target unit is dealt 3 Wounds. If the unit has any type of protection, armour, or is on a base larger than 20 mm, it is dealt 4 Wounds. No armour or other protection work against Thunderbolt</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">2-</characteristic>
           </characteristics>
         </profile>
@@ -677,7 +677,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="3dbb-42b9-52a3-4c7a" name="Will to Fight" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target friendly unit within 20 cm that is not engaged in combat. Roll a d6 – a score of 3 or less means a successful spell. The unit can make any turn and move by 15 cm.</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target friendly unit within 20 cm that is not engaged in combat. Roll a d6 – a score of 3 or less means a successful spell. The unit can make any turn and move up to 15 cm + d6.</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">3-</characteristic>
           </characteristics>
         </profile>
@@ -709,7 +709,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <profiles>
         <profile id="fa8a-2ced-dd16-e3bb" name="Blackout" hidden="false" typeId="9788-5055-6e88-ac53" typeName="Spell">
           <characteristics>
-            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target unit or single model within 30 cm. Roll a d6 – a score of 2 or less means a successful spell. In the following cycle, the target unit or model may only move or charge a distance of d6 or 2d6 cm without adding its Mobility (M) stat</characteristic>
+            <characteristic name="Description" typeId="e970-3948-c1f6-0530">Choose target unit or single model within 30 cm. Roll a d6 – a score of 2 or less means a successful spell. In the following cycle, the target unit or model may only move or charge a distance of d6 or 2d6 cm without adding its Mobility (M) stat. If the target unit fails to charge, it remains in place but can be turned by the opponent up to 90 degrees.</characteristic>
             <characteristic name="Test" typeId="2849-405d-3af8-d221">2-</characteristic>
           </characteristics>
         </profile>
@@ -885,7 +885,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>This unit always attacks also with the second rank</description>
     </rule>
     <rule id="3182-3e0f-4c43-ffcd" name="Crushing Blow" hidden="false">
-      <description>When charging, each successful score in the Weapon Skill Test made by this unit is considered a Double Hit</description>
+      <description>Each successful score in the Weapon Skill Test made by this unit is considered a Double Hit</description>
     </rule>
     <rule id="83a1-36fd-47ff-200e" name="Monster" hidden="false">
       <description>The enemy engaged in combat with this unit fails a Panic Test on a 2+ instead of a 4+</description>
@@ -918,7 +918,13 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>This unit cannot pray</description>
     </rule>
     <rule id="e720-02b2-8459-7370" name="Poisonous Spit" hidden="false">
-      <description>After Ropuchons finish their attacks, they can additionally spit on the opponent. Roll a d6 for each Ropuchon that is in full base contact with the enemy. The opponent has to take a Panic Test for each score of 1 or 2</description>
+      <description>After resolving the Ropuchons’ attacks, select an enemy unit that is in base contact with them. Roll a d6 for each base in the Ropuchons unit. The opponent must take a Panic Test for each 1 and 2 you scored.</description>
+    </rule>
+    <rule id="ae6e-4729-6b16-d673" name="Cleaving" hidden="false">
+      <description>No armour or other protection saves against this unit’s attacks.</description>
+    </rule>
+    <rule id="bab7-9e46-b1ec-21c4" name="Throwing stones" hidden="false">
+      <description>If a friendly unit within 20 cm of the Giant is charged by an enemy unit, the Giant immediately throws stones at the charging enemy. Roll a d6. A score of 4 or less means that the Giant managed to throw stones at the enemy. Now you need to roll another d6, and the obtained score is the number of attacks that the enemy unit must subtract from its pool. The Giant can use this ability once per cycle.</description>
     </rule>
   </sharedRules>
 </gameSystem>

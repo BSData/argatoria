@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -196,9 +196,10 @@
           </profiles>
           <infoLinks>
             <infoLink id="f0c3-273b-c17d-b575" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+            <infoLink id="6e75-5dae-3f70-5bf5" name="Cleaving" hidden="false" targetId="ae6e-4729-6b16-d673" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="22.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -346,7 +347,7 @@
       </profiles>
       <rules>
         <rule id="a896-161c-3b16-ccab" name="King of the Wild" hidden="false">
-          <description>Each enemy unit within 15 cm of the Forest Dragon loses the horde rule if it has one. Each friendly Gaeldor unit within 15 cm has a Fearless rule</description>
+          <description>Each enemy unit within 10 cm of the Forest Dragon loses the horde rule if it has one. Each friendly Gaeldor unit within 10 cm has a Fearless rule</description>
         </rule>
         <rule id="519a-2d2f-ce72-810b" name="Winged Creature" hidden="false">
           <description>After both armies are deployed, the Forest Dragon can be deployed up to 20 cm from its deployment zone</description>
@@ -464,7 +465,7 @@
     <selectionEntry id="c564-c2bd-60e2-6376" name="Druid" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="726f-f5c3-bdca-fc16" name="Druid" hidden="false">
-          <description>Each friendly unit of Oduns and a Trefloq within 20 cm of the Druid can re-roll failed scores during the roll for protection (Woodiness)</description>
+          <description>Each friendly unit of Oduns and a Trefloq within 10 cm of the Druid can re-roll failed scores during the roll for protection (Woodiness)</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -492,7 +493,7 @@
       </profiles>
       <rules>
         <rule id="42b5-ef3c-24cd-0cb8" name="The Wrath of the Forest" hidden="false">
-          <description>In the Gaeldor army, units (but not single models) may change any 1 scored when moving or charging to a score of 4</description>
+          <description>In the Gaeldor army, units (but not single models) may change any 1 scored when moving or charging to a score of 3</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -525,7 +526,7 @@
       <profiles>
         <profile id="4d1d-0595-d9e6-6ed0" name="Champion of Beasts" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Roll a d6 if the General failed to issue an order to a unit of: Oduns, Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means the General may re-roll the failed score. The Champion of Beasts attached to the listed units adds 2 more attacks to the pool</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Roll a d6 if the General failed to issue an order to a unit of Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means the General may re-roll the failed score. The Champion of Beasts attached to the listed units adds 2 more attacks to the pool</characteristic>
             <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>

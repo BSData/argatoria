@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="990e-9289-2e68-4c6d" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -32,7 +32,7 @@
             <infoLink id="5f46-325b-8148-309f" name="Focused Attack" hidden="false" targetId="f32d-151d-46cb-c91c" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -72,7 +72,7 @@
             <infoLink id="0921-b106-3efa-0a4c" name="Light Shield Defence" hidden="false" targetId="1a2b-58a0-4a1c-4f64" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="10.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -151,7 +151,7 @@
           </profiles>
           <rules>
             <rule id="808f-272a-475b-c309" name="Magic Runes" hidden="false">
-              <description>A total score of 3 or less in the Prayer Test made by this unit is considered a free prayer (the prayers’ pool does not decrease)</description>
+              <description>A successful Prayer Test of this unit means that the unit can use the rules of two different prayers instead of one. Such additional prayer does not decrease the pool of prayers.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -159,7 +159,7 @@
             <infoLink id="61a5-14e7-1ad1-3a91" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -183,6 +183,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="0b75-467c-6bb7-70c2" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+        <infoLink id="b6b5-a114-279a-9449" name="Throwing stones" hidden="false" targetId="bab7-9e46-b1ec-21c4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2569-e092-c575-db37" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
@@ -209,16 +210,17 @@
                 <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
                 <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
                 <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
-                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
                 <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="893b-18f6-925b-0d4d" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+            <infoLink id="72bc-76fd-0f8f-4c38" name="Cleaving" hidden="false" targetId="ae6e-4729-6b16-d673" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="22.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -255,7 +257,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -412,7 +414,7 @@
       <profiles>
         <profile id="4477-58f7-ebd3-1751" name="Champion of Storm" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Make a d6 test before or after moving the Champion of Storm. Choose an enemy unit within 30 cm. A score of 4 or less means the chosen unit must take a Panic Test for 1 base</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">After activating the Champion of Storm, select an enemy unit within 30 cm and roll a d6 for each rank in that unit. Each score of 4 or less means that the unit is dealt 1 Wound. The unit is not protected by any armour or other protection.</characteristic>
             <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>

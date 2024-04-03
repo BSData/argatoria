@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="983e-330c-70fe-98a9" name="Lord of the Abyss" hidden="false" collective="false" import="true" type="model">
@@ -38,7 +38,9 @@
         <rule id="3e7f-febf-4295-57ee" name="Your Souls Belong to Us!" hidden="false">
           <description>If the Lord Necromancer’s opponent rolls a 1 or 2 in an Initiative Test, he loses the test regardless of other rules, magic items, modifiers, or re-roll opportunities
 
-Also, if the enemy has lost 5 or more Blood Points, you may roll a d6 once per cycle when activating the Lord Necromancer. A score of 2 or less means you can place a unit of The Damned* (4 bases) facing any direction without an Action Die within 20 cm of the Lord Necromancer. In a new cycle, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed</description>
+Also, if the enemy has lost 5 or more Blood Points, you may roll a d6 once per cycle when activating the Lord Necromancer. A score of 2 or less means you can place a unit of The Damned* (4 bases) facing any direction without an Action Die within 20 cm of the Lord Necromancer. In a new cycle, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed
+
+In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Units, not the Rare Units</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -62,7 +64,7 @@ Also, if the enemy has lost 5 or more Blood Points, you may roll a d6 once per c
       </profiles>
       <rules>
         <rule id="3250-5c47-8b83-e81c" name="Ab... huul! Daaqul, salib!!!" hidden="false">
-          <description>The Ritual Master (Mage) always joins the army for free. He is not included in the Mages limit and cannot have magic items</description>
+          <description>The Ritual Master (Mage) is always included in the army for free. He is counted to the Mages limit and may use any magic spells and items.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -145,8 +147,13 @@ Also, if the enemy has lost 5 or more Blood Points, you may roll a d6 once per c
 5–6 Ritual of the Darkness Each Basic and Elite Unit in the army has the Fear rule. After a successful charge with this unit, the enemy must take a Panic Test for 1 base. If the unit is a horde, the enemy must take a Panic Test for 2 bases</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="0de2-7fc3-f1e7-b623" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="5064-85f4-88f7-7b04" name="New CategoryLink" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="d316-dd59-20df-4359" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
+        <entryLink id="e5de-a8c0-467e-a169" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
@@ -349,7 +356,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="42bd-a9d4-61e0-9e21" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="9.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -408,7 +415,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="d4f4-60dc-03e3-bf90" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="9.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -473,7 +480,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Kozars in the Lord’s of Sheol-morg army may sacrifice one base during a failed order issued by their General to re-roll the result</description>
+              <description>In the army of the Lord of Sheol-morg, as long as this unit is a Horde, it may sacrifice one base to re-roll the failed order issued to them by the General</description>
             </rule>
             <rule id="a041-8670-1e29-ca12" name="Baaaaaa!!!" hidden="false">
               <description>During prayers, this unit’s LD stat is 9</description>
@@ -538,7 +545,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
                   </conditions>
                 </modifier>
               </modifiers>
-              <description>Kozars in the Lord’s of Sheol-morg army may sacrifice one base during a failed order issued by their General to re-roll the result</description>
+              <description>In the army of the Lord of Sheol-morg, as long as this unit is a Horde, it may sacrifice one base to re-roll the failed order issued to them by the General</description>
             </rule>
             <rule id="b612-b9c2-b347-af54" name="Baaaaaa!!!" hidden="false">
               <description>During prayers, this unit’s LD stat is 9</description>
@@ -575,7 +582,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
                 <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
                 <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
                 <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
-                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">3</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -593,6 +600,21 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="643d-e846-dc2a-f858" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="2e32-7f0d-ca1d-8940" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e32-7f0d-ca1d-8940" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="3cf6-0810-f4f4-e2aa" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
       </categoryLinks>
@@ -733,7 +755,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
           </profiles>
           <rules>
             <rule id="f519-5b0c-ad39-f6ba" name="Spasms" hidden="false">
-              <description>Before combat, this unit receives a d6+1 attack bonus. If this unit is a horde, the number of bonus attacks is 2d6+3</description>
+              <description>Before combat, this unit receives a d6+1 attack bonus. If this unit is a horde, the number of bonus attacks is d6+4</description>
             </rule>
           </rules>
           <infoLinks>
@@ -924,6 +946,69 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4716-d07b-ab78-26dc" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="62f7-870c-843f-dcd8" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f7-870c-843f-dcd8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="074c-9eb1-7a9e-8499" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eefa-144d-f712-c1d2" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a808-86a9-cb41-c2d8" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0e3-0f04-9f5c-352b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f417-1370-7754-3b15" name="Truhlaks on Fallen Ogars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">6</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">15</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1412-aad9-e197-8128" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+            <infoLink id="e3ae-718f-f26b-d710" name="Creature" hidden="false" targetId="9b7f-2bac-83f4-ea51" type="rule"/>
+            <infoLink id="33be-f086-c95a-9387" name="Wild Speed" hidden="false" targetId="2ffb-5ae6-6925-f2f4" type="rule"/>
+            <infoLink id="8576-a334-846b-2958" name="Fear" hidden="false" targetId="95aa-6686-0cf9-f679" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

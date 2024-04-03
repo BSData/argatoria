@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="c7c1-5acf-bb58-752e" name="Amazons" hidden="false" collective="false" import="true" type="unit">
@@ -33,7 +33,7 @@
             <infoLink id="7ca9-702f-0a87-e8ab" name="Bloodshed" hidden="false" targetId="e92f-67dd-55ca-ba5a" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="11.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -164,7 +164,7 @@
       <profiles>
         <profile id="aec6-68fb-67a0-e4b6" name="Champion of Blood" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Blood is attached to a friendly unit engaged in combat, make a d6 test before the fight. A score of 3 or less means the unit gets additional 4 attacks to the pool in this cycle</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Take a d6 test. A score of 3 or less means that all friendly units within 20 cm of the Champion of Blood are granted +2 attacks to the pool if they do not have the Bloodshed rule. If they have it, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</characteristic>
             <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
@@ -267,7 +267,7 @@
             <infoLink id="45b2-7a39-aadc-b75c" name="Light Shield Defence" hidden="false" targetId="3214-2137-81a2-f33b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -350,6 +350,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="3e80-3dc0-d81b-a811" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
+        <infoLink id="de29-9983-7f75-944b" name="Throwing stones" hidden="false" targetId="bab7-9e46-b1ec-21c4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4bc3-f3a6-b767-6f24" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
@@ -396,7 +397,7 @@
             <infoLink id="e4e0-bf59-1b4e-ac88" name="Fury" hidden="false" targetId="e653-bff4-978e-1ec3" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="24.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -422,16 +423,17 @@
                 <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
                 <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
                 <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
-                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
                 <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="55a3-7fa3-721d-5c60" name="Crushing Blow" hidden="false" targetId="3182-3e0f-4c43-ffcd" type="rule"/>
+            <infoLink id="88f7-89bc-0f98-f301" name="Cleaving" hidden="false" targetId="ae6e-4729-6b16-d673" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="22.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="18.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -477,7 +479,7 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="11.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -513,7 +515,7 @@
             <infoLink id="12f1-54d2-389c-e7c3" name="Brutal Trap" hidden="false" targetId="dc7c-8af9-efc7-a666" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -530,7 +532,7 @@
       <description>This unit may re-roll all failed scores in the Wound Test</description>
     </rule>
     <rule id="e653-bff4-978e-1ec3" name="Fury" hidden="false">
-      <description>When charging, this unit gets +2 additional attacks to the pool</description>
+      <description>When charging, this unit gets +2 additional attacks to the pool for each full rank of the enemy unit or +1 additional attack for each W point of the enemy single model. The bonus from Fury can never exceed 10 attacks.</description>
     </rule>
   </sharedRules>
 </catalogue>
