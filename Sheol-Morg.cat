@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
@@ -64,7 +64,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       </profiles>
       <rules>
         <rule id="ba7d-75ec-11d1-5de6" name="Ab... huul! Daaqul, salib!!!" hidden="false">
-          <description>Do armii zawsze dołączony jest za darmo Mistrz Rytuału (Mag), który nie jest wliczany do limitu Magów i nie może posiadać magicznych przedmiotów. Przed bitwą Mag odprawia specjalny rytuał (patrz zasady Mistrza Rytuału)</description>
+          <description>Do armii zawsze dołączony jest za darmo Mistrz Rytuału (Mag), który jest wliczany do limitu Magów i może korzystać z czarów i przedmiotów. Przed bitwą Mag odprawia specjalny rytuał (patrz zasady Mistrza Rytuału)</description>
         </rule>
       </rules>
       <categoryLinks>
