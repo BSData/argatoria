@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
@@ -48,7 +48,6 @@ Gaeldor and Sheol-Morg armies are also in testing phase and their composition is
     <profileType id="0b4b-1b33-d5fd-5d82" name="Ability">
       <characteristicTypes>
         <characteristicType id="80c5-70a3-dda4-71fe" name="Description"/>
-        <characteristicType id="3a4a-c8b6-95f1-24e0" name="Test"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -924,7 +923,7 @@ Agility: The unit that will move or charge has the right to double the score on 
       <description>No armour or other protection saves against this unit’s attacks.</description>
     </rule>
     <rule id="bab7-9e46-b1ec-21c4" name="Throwing stones" hidden="false">
-      <description>If a friendly unit within 20 cm of the Giant is charged by an enemy unit, the Giant immediately throws stones at the charging enemy. Roll a d6. A score of 4 or less means that the Giant managed to throw stones at the enemy. Now you need to roll another d6, and the obtained score is the number of attacks that the enemy unit must subtract from its pool. The Giant can use this ability once per cycle.</description>
+      <description>If a friendly unit within 20 cm of the Giant is charged by an enemy unit, the Giant may immediately throw stones at the charging enemy. Roll a d6. A score of 4 or less means that the Giant managed to throw stones at the enemy. Now you need to roll another d6, and the obtained score is the number of attacks that the enemy unit must subtract from its pool. The Giant can use this ability once per cycle.</description>
     </rule>
   </sharedRules>
 </gameSystem>

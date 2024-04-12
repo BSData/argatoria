@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="22" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="23" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Ostatnia aktualizacja – 27 października 2023
 
 Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
@@ -35,7 +35,6 @@ Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może 
     <profileType id="7637-0d34-a79d-477b" name="Zdolność">
       <characteristicTypes>
         <characteristicType id="d023-e767-bbca-ad83" name="Opis"/>
-        <characteristicType id="d283-bd6e-44c3-e421" name="Test"/>
       </characteristicTypes>
     </profileType>
     <profileType id="8d62-f2ce-fb98-567c" name="Przedmiot Magiczny">
@@ -1079,7 +1078,7 @@ w 30 cm</characteristic>
       <description>Przed ciosami Pół-gigantów nie chronią żadne pancerze ani inne rodzaje ochrony.</description>
     </rule>
     <rule id="7a33-c76a-61cb-5124" name="Miotanie kamieniami" hidden="false">
-      <description>Jeśli przyjazny oddział w promieniu 20 cm od Giganta został zaszarżowany przez wrogi oddział, Gigant natychmiast rzuca w szarżującego wroga kamieniami. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że Gigantowi udało się dorzucić kamieniami do wroga. Teraz należy wykonać kolejny rzut k6, a uzyskany wynik to liczba ataków, które wrogi oddział musi odjąć ze swojej puli. Gigant może użyć tej zdolności raz na cykl.</description>
+      <description>Jeśli przyjazny oddział w promieniu 20 cm od Giganta został zaszarżowany przez wrogi oddział, Gigant może natychmiast rzucić w szarżującego wroga kamieniami. Wykonaj rzut k6. Wynik 4 lub mniej oznacza, że Gigantowi udało się dorzucić kamieniami do wroga. Teraz należy wykonać kolejny rzut k6, a uzyskany wynik to liczba ataków, które wrogi oddział musi odjąć ze swojej puli. Gigant może użyć tej zdolności raz na cykl.</description>
     </rule>
     <rule id="914b-0df3-b497-6049" name="Trujące Splunięcie" hidden="false">
       <description>Po rozstrzygnięciu ataków Ropuchonów wybierz wrogi oddział, który się z nimi styka. Wykonaj rzut k6 za każdą podstawkę w oddziale Ropuchonów. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2.</description>
