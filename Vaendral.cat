@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -275,16 +275,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="99ca-db11-bf3c-eae8" name="Białe Wiedźmy" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="7ed7-bbfb-6077-7cb6" value="3.0">
-          <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ed7-bbfb-6077-7cb6" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="3a02-bd80-e3c6-5e1c" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
       </categoryLinks>
@@ -419,7 +409,6 @@
         <profile id="4470-61de-c7ae-b30a" name="Czempion Krwi" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że przyjazne oddziały będące w promieniu 20 cm od Czempiona Krwi otrzymują do końca trwania cyklu +2 ataki do puli jeśli nie posiadają zasady Rozlew Krwi. Jeśli ją posiadają, otrzymują w zamian bonus +1 do S.</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -451,7 +440,6 @@
         <profile id="05e7-d077-53aa-0557" name="Czempion Ziemi" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wynik 4 lub mniej oznacza, że wybrany niezaangażowany w walkę wrogi oddział w promieniu 30 cm może być przemieszczony o 10 cm w dowolną stronę, bez rotowania</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -483,7 +471,6 @@
         <profile id="ad2c-3ba6-fbd7-a288" name="Czempion Ciemności" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Ciemności styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, może wykonać test za każdym razem, gdy wróg stracił podstawki w tym cyklu. Wynik 3 lub mniej powoduje, że wróg musi natychmiast wykonać Test Paniki za tyle podstawek, ile stracił w tym cyklu</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
