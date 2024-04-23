@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -408,7 +408,7 @@
       <profiles>
         <profile id="4470-61de-c7ae-b30a" name="Czempion Krwi" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
-            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że przyjazne oddziały będące w promieniu 20 cm od Czempiona Krwi otrzymują do końca trwania cyklu +2 ataki do puli jeśli nie posiadają zasady Rozlew Krwi. Jeśli ją posiadają, otrzymują w zamian bonus +1 do S.</characteristic>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6 w dowolnym momencie cyklu. Wynik 3 lub mniej oznacza, że przyjazne oddziały będące w promieniu 20 cm od Czempiona Krwi otrzymują do końca trwania cyklu +2 ataki do puli jeśli nie posiadają zasady Rozlew Krwi. Jeśli ją posiadają, otrzymują w zamian bonus +1 do S.</characteristic>
           </characteristics>
         </profile>
       </profiles>

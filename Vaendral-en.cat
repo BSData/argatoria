@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="c7c1-5acf-bb58-752e" name="Amazons" hidden="false" collective="false" import="true" type="unit">
@@ -162,7 +162,7 @@
       <profiles>
         <profile id="aec6-68fb-67a0-e4b6" name="Champion of Blood" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Take a d6 test. A score of 3 or less means that all friendly units within 20 cm of the Champion of Blood are granted +2 attacks to the pool if they do not have the Bloodshed rule. If they have it, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Take a d6 test at any point during the cycle. A score of 3 or less means that all friendly units within 20 cm of the Champion of Blood are granted +2 attacks to the pool if they do not have the Bloodshed rule. If they have it, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
