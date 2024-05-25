@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
+
+FAQ i errata available here – https://www.spellcrow.com/downloads-faqs-pm-49.html
 
 Gaeldor and Sheol-Morg armies are also in testing phase and their composition is subject to change.
 
@@ -98,11 +100,12 @@ Each Mage gives an army an additional prayer in the cycle</description>
     <categoryEntry id="6518-c7a0-7e65-5999" name="Elite units" hidden="false"/>
     <categoryEntry id="75b7-154c-09bb-c13b" name="Rare units" hidden="false"/>
     <categoryEntry id="25b5-9054-a7c2-90ed" name="Unique units" hidden="false"/>
+    <categoryEntry id="b096-ae60-509f-d93a" name="Legendary hero" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4d55-1cac-8967-5a22" name="Argatoria" hidden="false">
       <categoryLinks>
-        <categoryLink id="54cb-5165-5c1e-623e" name="Heroes" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false">
+        <categoryLink id="54cb-5165-5c1e-623e" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a218-9b34-1f6b-c7b6" type="min"/>
           </constraints>
@@ -245,6 +248,11 @@ Each Mage gives an army an additional prayer in the cycle</description>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd6d-1dce-fb6a-1321" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2970-41ae-e2e3-c613" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a154-f3cd-fe1c-c1b5" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

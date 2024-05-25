@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="23" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>Ostatnia aktualizacja – 27 października 2023
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="24" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
-Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
+FAQ i errata dostępne tutaj – https://www.spellcrow.com/downloads-faqs-pm-49.html
 
 Armie Gaeldor oraz Sheol-Morg również są armiami testowymi, ich skład może się zmienić.
 
@@ -99,6 +99,7 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     <categoryEntry id="e7dc-90ea-f6c0-25b8" name="Oddziały Unikalne" hidden="false"/>
     <categoryEntry id="982d-e25e-9a7a-d639" name="Bohater" hidden="false"/>
     <categoryEntry id="6da5-852d-f369-1d98" name="Marmydon" hidden="false"/>
+    <categoryEntry id="b1fc-1418-8299-2efb" name="Legendarny bohater" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ea3-2427-f146-78c9" name="Argatoria" hidden="false">
@@ -274,6 +275,11 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
           </modifierGroups>
           <constraints>
             <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3321-0f57-487e-6658" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="97c7-aa18-7fa0-9516" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa5-5a07-7558-299a" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

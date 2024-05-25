@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -437,7 +437,6 @@
         <profile id="cc69-f189-2218-20f7" name="Champion of Forest" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Forest is attached to a friendly unit engaged in combat, make a d6 test before the fight. A score of 3 or less means the unit gets a +1 to S bonus in this cycle. The Champion of Forest allows to make a re-roll when rolling for terrain</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -527,7 +526,6 @@
         <profile id="4d1d-0595-d9e6-6ed0" name="Champion of Beasts" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Roll a d6 if the General failed to issue an order to a unit of Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means the General may re-roll the failed score. The Champion of Beasts attached to the listed units adds 2 more attacks to the pool</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -559,7 +557,6 @@
         <profile id="b202-5d1b-5528-12ef" name="Champion of Hunt" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Hunt is attached to a friendly unit engaged in combat, he can make a test whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">2-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -569,6 +566,38 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f57-16d0-d8ff-336e" name="Mar&apos;hauk" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbe4-e4ec-9602-3577" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2035-9b64-86b2-9cb9" name="Eagle Talon" hidden="false">
+          <description>Forged by the blacksmiths of the Iron Oaks, this legendary sword draws energy from the forces of nature. A unit that Mar&apos;hauk is attached to can make 4 Wound Test re-rolls +1 re-roll for each terrain on the battlefield.</description>
+        </rule>
+        <rule id="1288-8f1a-cd34-d438" name="Ern&apos;s Helm" hidden="false">
+          <description>A Mar&apos;hauk attached to a unit allows the unit to benefit from the power of his helm. After being dealt Wounds by an enemy unit, a friendly unit can take up to 5 save rolls if it has no save. Each score of 2 or less means a cancelled Wound.</description>
+        </rule>
+        <rule id="35ed-e6f9-132f-f70b" name="Mar&apos;hauk" hidden="false">
+          <description>Mar&apos;hauk can be fielded in the Gaeldor army regardless of the number of other heroes.
+
+Mar&apos;hauk rides a powerful creature called Vitur. Thanks to it, Mar&apos;hauk supports the unit with 8 attacks. Mar&apos;hauk has the items from the following list.</description>
+        </rule>
+        <rule id="3116-77d2-1d74-7b25" name="Oaken Shield" hidden="false">
+          <description>This legendary shield is anointed with resin from the ancient oaks of the Forgotten Reach. If an enemy unit comes into contact with Mar&apos;hauk, it does not make a hero&apos;s death check and Mar&apos;hauk may immediately be moved up to 20 cm of the enemy unit. This shield can only be used once per battle.</description>
+        </rule>
+        <rule id="5864-065e-0f37-c265" name="Vitur" hidden="false">
+          <description>This creature&apos;s anger is unstoppable. The unit that Mar&apos;hauk on Vitur is attached to has the Fear rule.
+
+Fear – After a successful charge with this unit, the enemy must take a Panic Test for 1 base. If the unit is a horde, the enemy must take a Panic Test for 2 bases</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1b18-2ce5-c9f9-27ac" name="New CategoryLink" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="43.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -497,7 +497,6 @@
         <profile id="b30b-dc61-877a-03de" name="Czempion Kniei" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Kniei styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział otrzymuje +1 do S w tym cyklu. Czempion Kniei pozwala wykonać przerzut podczas rzutu za teren</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -529,7 +528,6 @@
         <profile id="12e2-476d-82b5-c523" name="Czempion Bestii" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj rzut k6, jeśli Generał miał nieudany rzut wydając rozkaz oddziałowi Amazonek na Pająkach, Leśnym Wijom lub Dzikiej Zwierzynie. Wynik 4 lub mniej oznacza, że Generał może przerzucić nieudany wynik. Czempion Bestii dołączony do wymienionych oddziałów dodaje 2 kolejne ataki do Puli</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -561,7 +559,6 @@
         <profile id="c72d-148e-8cbd-af53" name="Czempion Łowów" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Łowów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, może wykonać test za każdym razem, gdy przyjazny oddział wykonuje ataki. Wynik 2 lub mniej oznacza, że każda 6 uznawana jest za udane trafienie</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">2-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -586,6 +583,38 @@
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="753c-d9c8-9b68-7a7d" name="Mar&apos;hauk" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a91-092c-aca1-2ea5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="374c-007f-5306-c807" name="Mar&apos;hauk" hidden="false">
+          <description>Mar&apos;hauk może byćwystawiony w armii Gaeldor niezależnie od liczby innych bohaterów.
+
+Mar&apos;hauk jeździ na potężnym stworzeniu zwanym Viturem. Dzięki niemu Mar&apos;hauk wspiera oddział 8 atakami. Mar&apos;hauk posiada przedmioty z poniższej listy.</description>
+        </rule>
+        <rule id="f5a3-4328-e98d-53ed" name="Hełm Erna" hidden="false">
+          <description>Mar&apos;hauk dołączony do oddziału pozwala, by oddział skorzystał z mocy jego hełmu. Po zadaniu ran przez wrogi oddział, przyjazny oddział może wykonać do 5 rzutów za ochronę, jeżeli żadnej nie posiada. Każdy wynik 2 lub mniej oznacza anulowaną ranę.</description>
+        </rule>
+        <rule id="fcf5-bca3-8f79-8093" name="Orli Szpon" hidden="false">
+          <description>Ten legendarny miecz wykuty przez kowali Żelaznych Dębów czerpie energię z sił natury. Oddział, do którego jest dołączony Mar&apos;hauk, może wykonać 4 przerzuty podczas Testu Ranienia +1 za każdy teren na polu walki.</description>
+        </rule>
+        <rule id="bb9e-ae65-7164-788f" name="Dębowa tarcza" hidden="false">
+          <description>Ta legendarna tarcza jest namaszczona żywicą z prastarych dębów z Zapomnianego Zakątka. Jeśli wrogi oddział zetknie się z Mar&apos;haukiem, nie wykonuje testu za śmierćbohatera i Mar&apos;hauk może być natychmiast odstawiony do 20cm od wrogiego oddziału. Tarcza może być użyta tylko raz w bitwie.</description>
+        </rule>
+        <rule id="9d7c-8652-73c4-5a46" name="Vitur" hidden="false">
+          <description>Gniew tego stworzenia jest niepowstrzymany. Oddział, do którego jest dołączony Mar&apos;hauk na Viturze, posiada zasadę Strach.
+
+Strach – Po wykonaniu udanej szarży oddziałem wróg musi wykonać Test Paniki dla 1 podstawki. Jeśli oddział jest hordą, wróg musi wykonać Test Paniki dla 2 podstawek.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1561-d396-b1d3-2dcc" name="New CategoryLink" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="43.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
