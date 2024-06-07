@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="12" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f70e-145e-7381-77d9" name="Vaendral" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="c7c1-5acf-bb58-752e" name="Amazons" hidden="false" collective="false" import="true" type="unit">
@@ -508,6 +508,65 @@
       </selectionEntries>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a994-49ec-3bf2-3269" name="Knuroses" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="28f3-8bb3-ac02-2070" name="New CategoryLink" hidden="false" targetId="527d-f4d9-6b3c-20d3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c1be-e9c3-c6eb-89d2" name="Knuroses" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f4-e5f6-8d8d-71e1" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1499-d154-fdce-d7f8" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9467-bc5d-8051-cf3b" name="Knuroses" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2b0f-884c-0227-85b4" name="Envy" hidden="false" targetId="00dd-c9cb-4ac3-b5e4" type="rule"/>
+            <infoLink id="d68d-33c2-4176-c180" name="Sneaky" hidden="false" targetId="3361-eaaf-6d39-d8cc" type="rule"/>
+            <infoLink id="780c-bd02-7e46-491b" name="Reckless" hidden="false" targetId="b349-c085-b8b3-6041" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="4060-8478-8149-091d" name="Valeria" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="8e26-99c6-b3b0-2175" name="Valeria" hidden="false">
+          <description>Valeria is always accompanied by Andras and Iluar, who fight along her side in the Vaendral Army. Thanks to it, Valeria supports the unit with 8 attacks</description>
+        </rule>
+        <rule id="377f-bb43-feb4-7431" name="Chosen of the Bathed in Blood" hidden="false">
+          <description>If the Vaendral army&apos;s General has left the battlefield, Valeria immediately takes command. The army can still use the Born Warriors special rule and use Valeria&apos;s LD 2. Valeria cannot issue orders</description>
+        </rule>
+        <rule id="7116-7999-683a-edf2" name="Slayer&apos;s Axe" hidden="false">
+          <description>When the unit Valeria is attached to is to make a Wound Test, you may take up to 2 dice from the pool and roll them separately. Each score od 3 or less means the enemy is dealt 3 Wounds</description>
+        </rule>
+        <rule id="4cbc-1655-8177-f98e" name="Feisty Savage" hidden="false">
+          <description>If an enemy succesfully charges the unit with an Action Die that Valeria is attached to, the unit may immediately remove the Action Die, position itself facing the enemy, and make its attacks before the enemy does</description>
+        </rule>
+        <rule id="536c-7d47-cd6b-d0d8" name="Skull of the Priest Esn" hidden="false">
+          <description>Valeria and her Priestesses defeated the High Priest Esn Ar Unrazr in battle. She keeps his skull, ground to powder, in a pouch on her belt. The power of the skull powder allows her to attempt to dispel an enemy spell once per battle. A score of 3 or less means a successful dispel</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9584-ff91-5107-8b3b" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="41.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

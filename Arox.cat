@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="1846-02e4-d7ed-4645" name="Liagulianie" hidden="false" collective="false" import="true" type="unit">
@@ -395,7 +395,6 @@
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Słońca styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, możesz wykonać test. Wynik 2 lub mniej oznacza, że w tym cyklu wrogi oddział musi podczas Testu Walki Standardowej oraz Testu Ranienia wykonać przerzut wszystkich 1
 </characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">2-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -427,7 +426,6 @@
         <profile id="5d3e-ee17-2949-4340" name="Czempion Bogów" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział ma prawo przerzucić wszystkie nieudane rzuty podczas Testu WS lub Testu Ranienia</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -460,7 +458,6 @@
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Aktywując jeden dowolny oddział w promieniu 10 cm od Czempiona Natury, możesz wykonać test. Wynik 4 lub mniej oznacza, że oddział może się dowolnie obrócić, a do zasięgu ruchu lub szarży może dodać 3 cm
 </characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -501,6 +498,44 @@
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1bc-f70e-9730-c094" name="Knurosy" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e50a-e5db-91fc-be38" name="New CategoryLink" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="true"/>
+        <categoryLink id="e978-53fe-0add-a4ea" name="New CategoryLink" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8bc6-526a-a5f3-f765" name="Knurosy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b19b-1717-25e9-963a" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b6-d096-0e3f-a1e4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4517-733f-b826-4755" name="Knurosy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e141-b550-f998-eefc" name="Zawiść" hidden="false" targetId="14fd-1cdb-b6b8-a12a" type="rule"/>
+            <infoLink id="dcde-74d8-b988-d2f8" name="Podstępni" hidden="false" targetId="3322-7df0-fbc2-5676" type="rule"/>
+            <infoLink id="4784-97f2-82b1-ee6d" name="Samowola" hidden="false" targetId="0bfb-a78c-b78c-e167" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

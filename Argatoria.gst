@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="24" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="25" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 FAQ i errata dostępne tutaj – https://www.spellcrow.com/downloads-faqs-pm-49.html
@@ -100,6 +100,7 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
     <categoryEntry id="982d-e25e-9a7a-d639" name="Bohater" hidden="false"/>
     <categoryEntry id="6da5-852d-f369-1d98" name="Marmydon" hidden="false"/>
     <categoryEntry id="b1fc-1418-8299-2efb" name="Legendarny bohater" hidden="false"/>
+    <categoryEntry id="d0e7-2ce7-c81e-d0fc" name="Oddziały Najemne" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8ea3-2427-f146-78c9" name="Argatoria" hidden="false">
@@ -280,6 +281,11 @@ Jeśli Grupa Dowódcza znajduje się w odległości 5 cm od przyjaznego oddział
         <categoryLink id="97c7-aa18-7fa0-9516" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa5-5a07-7558-299a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5ec8-738c-62ca-e977" name="Oddziały Najemne" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bab-115c-b20e-3b6a" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1088,6 +1094,15 @@ w 30 cm</characteristic>
     </rule>
     <rule id="914b-0df3-b497-6049" name="Trujące Splunięcie" hidden="false">
       <description>Po rozstrzygnięciu ataków Ropuchonów wybierz wrogi oddział, który się z nimi styka. Wykonaj rzut k6 za każdą podstawkę w oddziale Ropuchonów. Przeciwnik musi wykonać Test Paniki za każdą uzyskaną przez ciebie 1 i 2.</description>
+    </rule>
+    <rule id="3322-7df0-fbc2-5676" name="Podstępni" hidden="false">
+      <description>Oddział otrzymuje dodatkowy bonus +2 za atakowanie wroga od boku lub od tyłu</description>
+    </rule>
+    <rule id="14fd-1cdb-b6b8-a12a" name="Zawiść" hidden="false">
+      <description>Wykonując Test Ranienia wroga, którego koszt za jedną podstawkę jest większy niż koszt podstawki Knurosa, oddział Knurosów otrzymuje 3 dodatkowe kości do Testu Ranienia</description>
+    </rule>
+    <rule id="0bfb-a78c-b78c-e167" name="Samowola" hidden="false">
+      <description>Oddział nigdy nie może mieć wydawanych rozkazów. W zamian w turze bohaterów musisz wytypowaćjeden niezaangażowany w walkę oddział Knurosów, który ma wrogi oddział w zasięgu do 15 cm. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że oddział Knurosów otrzymuje Kość Akcji i musi natychmiast przeprowadzić szarżę na wskazany wrogi oddział. Zasada może być użyta tylko raz na cykl i tylko przez jeden oddział Knurosów w armii</description>
     </rule>
   </sharedRules>
 </gameSystem>

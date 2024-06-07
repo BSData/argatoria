@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="772a-9393-0b30-b6a5" name="Arox" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="772a-9393-0b30-b6a5" name="Arox" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="d89f-e453-596e-040d" name="Liagulians" hidden="false" collective="false" import="true" type="unit">
@@ -366,7 +366,6 @@
         <profile id="59d6-0e92-8568-a235" name="Champion of Sun" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Sun is attached to a friendly unit engaged in combat, you can make a d6 test. A score of 2 or less means that the enemy unit must re-roll all scores of 1 both in its Weapon Skill Test and Wound Test in this cycle</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">2-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -398,7 +397,6 @@
         <profile id="69ec-4c69-87ff-dd12" name="Champion of Nature" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">When activating any unit within 10 cm of Champion of Nature, you can make a d6 test. A score of 4 or less means that unit may turn freely and may add 3 cm to its move or charge range</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -430,7 +428,6 @@
         <profile id="f449-be15-c08f-282b" name="Champion of Gods" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Gods is attached to a friendly unit engaged in combat, you can make a d6 test before the fight. A score of 3 or less means that the unit can re-roll all failed scores during the Weapon Skill Test or the Wound Test</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -499,6 +496,40 @@
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="84ac-b1f0-5605-bbb1" name="Knuroses" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c0d7-5ce3-eb8a-5efc" name="New CategoryLink" hidden="false" targetId="527d-f4d9-6b3c-20d3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e633-2083-30ce-2b4c" name="Knuroses" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a4-28ef-8fb5-9315" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fae-b1a0-8717-c387" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1a3f-689b-cb5f-20ce" name="Knuroses" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5159-49ae-6223-454d" name="Envy" hidden="false" targetId="00dd-c9cb-4ac3-b5e4" type="rule"/>
+            <infoLink id="34ea-0e35-983c-a37d" name="Sneaky" hidden="false" targetId="3361-eaaf-6d39-d8cc" type="rule"/>
+            <infoLink id="14ac-2ce6-ab99-78a3" name="Reckless" hidden="false" targetId="b349-c085-b8b3-6041" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>

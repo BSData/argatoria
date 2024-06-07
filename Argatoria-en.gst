@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="20" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 FAQ i errata available here – https://www.spellcrow.com/downloads-faqs-pm-49.html
@@ -101,6 +101,7 @@ Each Mage gives an army an additional prayer in the cycle</description>
     <categoryEntry id="75b7-154c-09bb-c13b" name="Rare units" hidden="false"/>
     <categoryEntry id="25b5-9054-a7c2-90ed" name="Unique units" hidden="false"/>
     <categoryEntry id="b096-ae60-509f-d93a" name="Legendary hero" hidden="false"/>
+    <categoryEntry id="527d-f4d9-6b3c-20d3" name="Mercenary Units" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="4d55-1cac-8967-5a22" name="Argatoria" hidden="false">
@@ -253,6 +254,11 @@ Each Mage gives an army an additional prayer in the cycle</description>
         <categoryLink id="2970-41ae-e2e3-c613" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a154-f3cd-fe1c-c1b5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="aae5-57d4-7a71-109e" name="Mercenary Units" hidden="false" targetId="527d-f4d9-6b3c-20d3" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d1-b62e-9801-c25b" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -932,6 +938,15 @@ Agility: The unit that will move or charge has the right to double the score on 
     </rule>
     <rule id="bab7-9e46-b1ec-21c4" name="Throwing stones" hidden="false">
       <description>If a friendly unit within 20 cm of the Giant is charged by an enemy unit, the Giant may immediately throw stones at the charging enemy. Roll a d6. A score of 4 or less means that the Giant managed to throw stones at the enemy. Now you need to roll another d6, and the obtained score is the number of attacks that the enemy unit must subtract from its pool. The Giant can use this ability once per cycle.</description>
+    </rule>
+    <rule id="00dd-c9cb-4ac3-b5e4" name="Envy" hidden="false">
+      <description>When making a Wound Test against an enemy whose single-base cost is greater than Knuros&apos; base cost, Knuroses gain 3 additional dice to the Wound Test</description>
+    </rule>
+    <rule id="3361-eaaf-6d39-d8cc" name="Sneaky" hidden="false">
+      <description>This unit gets an additional +2 bonus for attacking the enemy&apos;s flank or rear</description>
+    </rule>
+    <rule id="b349-c085-b8b3-6041" name="Reckless" hidden="false">
+      <description>This unit can never be issued orders. Instead, in the heroes actions, you must choose one unit of Knuroses that is not engaged in combat and has an enemy unit within 15cm. Roll a d6. A score of 2 or less means that Knuroses gain the Action Die and must immediately charge at the indicated enemy unit. This rule can be used only once per cycle and only by one unit of Knuroses in the army</description>
     </rule>
   </sharedRules>
 </gameSystem>

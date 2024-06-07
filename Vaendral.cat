@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -525,6 +525,68 @@
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2aa-22f5-687b-dae0" name="Knurosy" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b478-fa0e-3371-a405" name="Oddziały Najemne" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2c1f-9ff7-4cdf-f233" name="Knurosy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c094-716f-9230-28c9" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b4-ed8c-2dec-e7b7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9d3a-a340-873c-32eb" name="Knurosy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">4</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1ad4-78b5-41ea-9948" name="Zawiść" hidden="false" targetId="14fd-1cdb-b6b8-a12a" type="rule"/>
+            <infoLink id="b8b3-101d-a6b5-b2c1" name="Podstępni" hidden="false" targetId="3322-7df0-fbc2-5676" type="rule"/>
+            <infoLink id="b5f0-4ea2-48a2-b99b" name="Samowola" hidden="false" targetId="0bfb-a78c-b78c-e167" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="020c-b813-3b60-7060" name="Valeria" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="d831-ad13-19f1-fd71" name="Valeria" hidden="false">
+          <description>Valerii zawsze towarzyszą Andras i Iluar, którzy walczą zaciekle u jej boku w armii Vaendral. Dzięki temu Valeria wspiera oddział 8 atakami</description>
+        </rule>
+        <rule id="e4bc-debb-2f29-f35b" name="Wybranka Skąpanych we Krwi" hidden="false">
+          <description>Jeśli Generał armii Vaendral zszedł z pola bitwy, Valeria natychmiast przejmuje dowodzenie. Armia nadal może korzystać z zasady Urodzeni Wojownicy i korzystać z LD2 Valerii. Valeria nie może wydawać rozkazów.</description>
+        </rule>
+        <rule id="0a31-b6b6-82de-7736" name="Topór Pogromczyni" hidden="false">
+          <description>Podczas Testu Ranienia wykonywanego przez oddział, do którego dołączona jest Valeria, możesz zabrać z puli do 2 kości i wykonać nimi oddzielny rzut. Każdy wynik 3 lub mniej oznacza 3 zadane rany</description>
+        </rule>
+        <rule id="e326-50e0-0794-e625" name="Narwana Dzikuska" hidden="false">
+          <description>Jeśli wróg wykonał udaną szarżę na oddział posiadający Kość Akcji, do którego jest dołączona Valeria, oddział może natychmiast zdjąć Kość Akcji, ustawić się przodem do wroga i przeprowadzić swoje ataki przed wrogimi</description>
+        </rule>
+        <rule id="07a2-f6aa-e33b-8303" name="Czaszka Kapłana Esna" hidden="false">
+          <description>Valeria wraz ze swymi kapłankami pokonała w walce wielkiego kapłana Esna Ar Unrazra. Proch z jego czaszki trzyma w sakiewce przy pasie. Moc prochu pozwala raz na bitwę podjąć próbę rozproszenia wrogiego czaru. Wynik 3 lub mniej oznacza udane rozproszenie wrogiego czaru</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="477b-76cd-032f-edff" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="41.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
