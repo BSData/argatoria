@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="323d-337d-8b95-46f2" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -393,7 +393,6 @@
         <profile id="b4f3-1cbf-4257-0f94" name="Czempion Lodu" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Lodu styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed rozpatrzeniem ataku wroga. Wynik 3 lub mniej oznacza, że wrogi oddział otrzymuje modyfikator -1 do WS podczas Testu Walki Standardowej do końca trwania cyklu</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -425,7 +424,6 @@
         <profile id="ec8c-0c9c-ba3a-6e42" name="Czempion Ognia" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Ognia styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że oddział otrzymuje do końca cyklu 3 dodatkowe kości do Testu Ranienia</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -457,7 +455,6 @@
         <profile id="c764-1052-b97c-7997" name="Czempion Burzy" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Po aktywowaniu Czempiona Burzy, wybierz wrogi oddział w promieniu 30 cm i wykonaj rzut k6 za każdy posiadany przez niego szereg. Każdy wynik 4 lub mniej oznacza, że oddział otrzymuje 1 ranę. Oddziału nie chronią żadne pancerze ani inne rodzaje ochrony.</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -503,6 +500,43 @@
       </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c052-b97e-a813-6674" name="Skaalowie" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="bb37-9fce-d8ca-c293" name="New CategoryLink" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="378b-de0f-3ef7-90e6" name="Skaalowie" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e2f-20e3-5edf-b223" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d86-e6b9-17a1-fe3d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="41a2-e20b-0938-db00" name="Skaalowie" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e9dc-4ca7-a1e8-d457" name="Wnyki" hidden="false" targetId="eb8f-9383-963e-9ea3" type="rule"/>
+            <infoLink id="8368-8ca1-2002-1046" name="Tropienie" hidden="false" targetId="786a-b8b6-82a8-b79c" type="rule"/>
+            <infoLink id="1596-74a3-b843-c286" name="Czujni" hidden="false" targetId="630c-ba9e-74f9-42a0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
@@ -377,7 +377,6 @@
         <profile id="22b9-6529-47ce-c835" name="Champion of Night" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the enemy unit is engaged in combat with the unit that the Champion of Night is attached to, make a d6 test before the enemy attacks. A score of 3 or less means the enemy gets a -1 to WS modifier in combat</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -409,7 +408,6 @@
         <profile id="36a1-43b5-0dc9-d696" name="Champion of Death" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">If the Champion of Death is attached to a friendly unit engaged in combat, roll a d6 for each base that the enemy unit lost. A score of 2 or less means your opponent must remove another base</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -441,7 +439,6 @@
         <profile id="2db8-9956-9999-d406" name="Champion of Wrath" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
             <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Choose a friendly unit within 20 cm of the Champion of Wrath and make a d6 test before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging</characteristic>
-            <characteristic name="Test" typeId="3a4a-c8b6-95f1-24e0">4-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -509,6 +506,39 @@
       </entryLinks>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5e8-9c3c-b8fa-7fb0" name="Kor&apos;quixos" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="41a7-b015-13c0-a950" name="Kor&apos;quixos" hidden="false">
+          <description>Kor&apos;quixos is a Mage and counts tothe Mages limit in the army. May use magic items and spells.
+
+The hero is communicating with powerful magic, which not only affected his mind, but caused his body to become monstrous in size. Thanks to this, he supports the unit with 8 attacks.</description>
+        </rule>
+        <rule id="3203-4dbe-e18c-f1da" name="Staff of Doom" hidden="false">
+          <description>If an enemy comes into base contact with Kor&apos;quixos, it immediately takes d6 damage. Additionally, once per battle, the staff&apos;s power can be accumulated and used against enemies – roll a d6 for each enemy unit within 15 cm. A score of 3 or less means that the enemy unit loses an Action Die.</description>
+        </rule>
+        <rule id="2cca-6e47-7981-d64b" name="Thanox Crown" hidden="false">
+          <description>Once per battle, Kor&apos;quixos may choose any spell he does not have and cast it without taking the test. Additionally, that spell cannot be dispelled.</description>
+        </rule>
+        <rule id="2965-29e6-a789-45ab" name="Cyclopean Belt" hidden="false">
+          <description>If the unit Kor&apos;quixos is attached to was successfully issued an order on a score of 1, once in the cycle this rule is used, the unit may use Frenzy (When charging, this unit doubles its Attacks (A) stat).</description>
+        </rule>
+        <rule id="4bc8-d806-1449-b36b" name="Implacable" hidden="false">
+          <description>The unit Kor&apos;quixos is attached to may be forced to make a forceful move or charge. If the player chooses to do so, they may change the unit&apos;s M stat to M 15 and roll a d6. A score of 4 or more means that one base in the unit must be removed due to enfeeblement.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f36d-fe7a-3fe4-a29a" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
+        <categoryLink id="797f-3d1f-0983-feb8" name="New CategoryLink" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+        <categoryLink id="19ab-3878-0871-067f" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3a70-8381-11c0-4235" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
+        <entryLink id="a620-cca2-d492-6a49" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="49.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="20" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="21" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 FAQ i errata available here – https://www.spellcrow.com/downloads-faqs-pm-49.html
@@ -947,6 +947,15 @@ Agility: The unit that will move or charge has the right to double the score on 
     </rule>
     <rule id="b349-c085-b8b3-6041" name="Reckless" hidden="false">
       <description>This unit can never be issued orders. Instead, in the heroes actions, you must choose one unit of Knuroses that is not engaged in combat and has an enemy unit within 15cm. Roll a d6. A score of 2 or less means that Knuroses gain the Action Die and must immediately charge at the indicated enemy unit. This rule can be used only once per cycle and only by one unit of Knuroses in the army</description>
+    </rule>
+    <rule id="1e97-9ff4-306b-7b1a" name="Snares" hidden="false">
+      <description>If the enemy successfully charges the Skaals unit, take a d6 test for using snares. A score of 4 or less means the enemy takes d6 wounds with no chance to make a save or armour roll. If the Skaals unit is a horde, it can re-roll the d6 test for using the snares.</description>
+    </rule>
+    <rule id="823c-d871-645a-c116" name="Tracking" hidden="false">
+      <description>If an enemy has a Creature unit or a single model on the table after the entire army has been deployed, Skaals may be moved to be in 30 cm of that unit or single model and at least 30 cm of other enemy units (even in the enemy&apos;s deployment zone).</description>
+    </rule>
+    <rule id="28ea-2bb3-3925-0008" name="Vigilant" hidden="false">
+      <description>The enemy unit does not receive bonuses for attacking this unit&apos;s flank or rear.</description>
     </rule>
   </sharedRules>
 </gameSystem>

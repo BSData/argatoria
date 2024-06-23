@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -599,6 +599,36 @@ Fear – After a successful charge with this unit, the enemy must take a Panic T
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="43.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="7760-93fe-87a3-d0ba" name="Skaals" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e54b-4da6-0c12-f102" name="Mercenary Units" hidden="false" targetId="527d-f4d9-6b3c-20d3" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a666-15eb-823d-4ea5" name="Skaals" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="3515-a40a-ceba-d616" name="Skaals" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">7</characteristic>
+                <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+                <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">3</characteristic>
+                <characteristic name="S" typeId="0965-1c76-5e55-52f3">3</characteristic>
+                <characteristic name="T" typeId="6131-048c-0aa9-a832">3</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e55c-a339-09fb-17e0" name="Snares" hidden="false" targetId="1e97-9ff4-306b-7b1a" type="rule"/>
+            <infoLink id="b6a9-2069-6c5f-dd10" name="Tracking" hidden="false" targetId="823c-d871-645a-c116" type="rule"/>
+            <infoLink id="eea8-1105-1bd7-d39b" name="Vigilant" hidden="false" targetId="28ea-2bb3-3925-0008" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>

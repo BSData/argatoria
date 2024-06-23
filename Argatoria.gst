@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="25" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria (PL)" revision="27" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Wpisy oznaczone prefixem (PW2) są zasadami testowymi, które mogą być przez graczy stosowane, ale nie są wymagane. Pochodzą z magazynu wydanego przez Spellcrow – Purple Warlock nr 2, Luty 2023
 
 FAQ i errata dostępne tutaj – https://www.spellcrow.com/downloads-faqs-pm-49.html
@@ -1103,6 +1103,15 @@ w 30 cm</characteristic>
     </rule>
     <rule id="0bfb-a78c-b78c-e167" name="Samowola" hidden="false">
       <description>Oddział nigdy nie może mieć wydawanych rozkazów. W zamian w turze bohaterów musisz wytypowaćjeden niezaangażowany w walkę oddział Knurosów, który ma wrogi oddział w zasięgu do 15 cm. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że oddział Knurosów otrzymuje Kość Akcji i musi natychmiast przeprowadzić szarżę na wskazany wrogi oddział. Zasada może być użyta tylko raz na cykl i tylko przez jeden oddział Knurosów w armii</description>
+    </rule>
+    <rule id="eb8f-9383-963e-9ea3" name="Wnyki" hidden="false">
+      <description>Jeśli wróg wykonałudaną szarżę na Skaalów, wykonaj test k6 za użycie wnyków. Wynik 4 lub mniej oznacza, że wróg otrzymuje k6 ran bez możliwości wykonania testu na ochronę lub pancerz. Jeśli oddział jest hordą, może wykonać przerzut testu k6 za użycie wnyków.</description>
+    </rule>
+    <rule id="786a-b8b6-82a8-b79c" name="Tropienie" hidden="false">
+      <description>Jeśli wróg posiada na stole po rozstawieniu całej armii oddziałz zasadą Kreatura lub model pojedynczy, Skaalowie mogą zostać przestawieni tak, by być w odległości 30 cm od tego oddziału lub modelu pojedynczego oraz minimum 30 cm od innych oddziałów wroga (nawet w strefie rozstawienia wroga).</description>
+    </rule>
+    <rule id="630c-ba9e-74f9-42a0" name="Czujni" hidden="false">
+      <description>Przeciwnik nie otrzymuje bonusów za atak od boku lub tyłu.</description>
     </rule>
   </sharedRules>
 </gameSystem>
