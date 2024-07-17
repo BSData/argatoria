@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a96b-7131-b0d3-0715" name="Gaeldor" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="8d28-cb06-b03b-0814" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -189,7 +189,7 @@
                 <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
                 <characteristic name="S" typeId="0965-1c76-5e55-52f3">4</characteristic>
                 <characteristic name="T" typeId="6131-048c-0aa9-a832">4</characteristic>
-                <characteristic name="A" typeId="2741-62c1-8198-f19f">2</characteristic>
+                <characteristic name="A" typeId="2741-62c1-8198-f19f">3</characteristic>
                 <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">2</characteristic>
               </characteristics>
             </profile>
@@ -492,7 +492,7 @@
       </profiles>
       <rules>
         <rule id="42b5-ef3c-24cd-0cb8" name="The Wrath of the Forest" hidden="false">
-          <description>In the Gaeldor army, units (but not single models) may change any 1 scored when moving or charging to a score of 3</description>
+          <description>Basic and Elite Units in the Gaeldor army may change any 1 scored when moving or charging to a score of 3.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -629,6 +629,9 @@ Fear – After a successful charge with this unit, the enemy must take a Panic T
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
