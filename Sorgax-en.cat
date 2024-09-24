@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-39ca-f8ab-24fb" type="min"/>
+        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84f-39ca-f8ab-24fb" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="a139-7a39-1ea6-4a28" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
@@ -12,8 +12,8 @@
       <selectionEntries>
         <selectionEntry id="12ac-967d-0f5b-00e0" name="Reptilians" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326c-9bc5-7178-c1a8" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a858-cf8f-55e6-c1c2" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326c-9bc5-7178-c1a8" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a858-cf8f-55e6-c1c2" type="min"/>
           </constraints>
           <profiles>
             <profile id="493c-e625-ff0e-b08b" name="Reptilians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -37,12 +37,15 @@
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13"/>
           </costs>
+          <categoryLinks>
+            <categoryLink name="Starter Wars: Reptilians Base" hidden="false" id="6a34-d342-286a-de2d" targetId="962d-3c19-5f7b-c844" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4095-340c-b30c-8aea" name="Liagulians" hidden="false" collective="false" import="true" type="unit">
@@ -52,8 +55,8 @@
       <selectionEntries>
         <selectionEntry id="e01b-af98-8ff4-a9d8" name="Liagulians" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-cf92-1d4a-4333" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee9-d8b2-d7c6-4e13" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e8-cf92-1d4a-4333" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee9-d8b2-d7c6-4e13" type="min"/>
           </constraints>
           <profiles>
             <profile id="b99e-dcf7-84b9-dad4" name="Liagulians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -77,12 +80,15 @@
             <infoLink id="cfad-3218-af73-31fa" name="Spear Storm" hidden="false" targetId="9e96-c41e-aaa3-104b" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="9.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="9"/>
           </costs>
+          <categoryLinks>
+            <categoryLink name="Starter Wars: Liagulians Base" hidden="false" id="66f5-a1f4-dade-eded" targetId="4b4f-b104-b5a6-491f" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc75-cebe-752d-3abb" name="Repsolians" hidden="false" collective="false" import="true" type="unit">
@@ -92,8 +98,8 @@
       <selectionEntries>
         <selectionEntry id="193a-c60c-f467-0f75" name="Repsolians" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ca-1fa7-f158-cf66" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08aa-8c3f-d710-564e" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92ca-1fa7-f158-cf66" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08aa-8c3f-d710-564e" type="min"/>
           </constraints>
           <profiles>
             <profile id="aa16-45c5-b252-0b3f" name="Repsolians" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -117,12 +123,12 @@
             <infoLink id="f3fa-69d0-e74a-96d1" name="Battle Inspiration" hidden="false" targetId="1615-8259-2e4e-3e65" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9124-7b7c-71e0-ad59" name="Ropuchons" hidden="false" collective="false" import="true" type="unit">
@@ -132,8 +138,8 @@
       <selectionEntries>
         <selectionEntry id="db1f-0b77-aa8f-1aa4" name="Ropuchons" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7c-c69c-90a3-9fba" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8721-e867-37d0-a00f" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e7c-c69c-90a3-9fba" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8721-e867-37d0-a00f" type="min"/>
           </constraints>
           <profiles>
             <profile id="35d6-d69f-4738-3120" name="Ropuchons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -152,12 +158,15 @@
             <infoLink id="27b8-ed9c-b8fb-2038" name="Poisonous Spit" hidden="false" targetId="e720-02b2-8459-7370" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="16"/>
           </costs>
+          <categoryLinks>
+            <categoryLink name="Starter Wars: Ropuchons Base" hidden="false" id="cda5-bb2a-69cc-89df" targetId="3aca-d25a-862b-9337" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e6a-06e5-efd9-b6f6" name="Martyrs of Voro-dan" hidden="false" collective="false" import="true" type="unit">
@@ -167,8 +176,8 @@
       <selectionEntries>
         <selectionEntry id="3635-783f-c5aa-101f" name="Martyrs of Voro-dan" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c707-8ac3-67a2-64eb" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2088-1391-fadb-c340" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c707-8ac3-67a2-64eb" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2088-1391-fadb-c340" type="min"/>
           </constraints>
           <profiles>
             <profile id="a9e1-71fa-8f7e-c39f" name="Martyrs of Voro-dan" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -192,12 +201,12 @@
             <infoLink id="a19e-b464-5cc9-5efb" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="20.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="20"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46ce-94bb-ec30-d509" name="Slagors" hidden="false" collective="false" import="true" type="unit">
@@ -207,8 +216,8 @@
       <selectionEntries>
         <selectionEntry id="8bcd-e71d-9929-d1a9" name="Slagors" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a95-e087-3bed-8b67" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7aa-4f5c-4227-d352" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a95-e087-3bed-8b67" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7aa-4f5c-4227-d352" type="min"/>
           </constraints>
           <profiles>
             <profile id="2700-e8d2-d119-d739" name="Slagors" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -233,12 +242,15 @@
             <infoLink id="2994-b072-8a9d-d7c0" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
           </costs>
+          <categoryLinks>
+            <categoryLink name="Starter Wars: Slagors Base" hidden="false" id="bd79-33cc-fa10-37c2" targetId="97c-9b71-5a4e-f89e" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95d0-ec57-4d06-c741" name="Desauros with Tomb Altar" hidden="false" collective="false" import="true" type="model">
@@ -270,7 +282,7 @@
         <categoryLink id="8776-ccdb-a342-6e81" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="68.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="68"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c8a-e8ab-5941-4455" name="Crushers on Scalyvars" hidden="false" collective="false" import="true" type="unit">
@@ -280,8 +292,8 @@
       <selectionEntries>
         <selectionEntry id="47fe-e81d-4598-3511" name="Crushers on Scalyvars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b5-452b-3406-2549" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-f027-8c7a-96d3" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b5-452b-3406-2549" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf1-f027-8c7a-96d3" type="min"/>
           </constraints>
           <profiles>
             <profile id="94c7-1643-1d8a-060b" name="Crushers on Scalyvars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -305,12 +317,12 @@
             <infoLink id="637f-87c4-a437-b4ff" name="Battle Inspiration" hidden="false" targetId="1615-8259-2e4e-3e65" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="23.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="23"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f9e-6b09-c4ad-a75c" name="Forgon" hidden="false" collective="false" import="true" type="model">
@@ -339,12 +351,12 @@
         <categoryLink id="9da4-2951-799b-7c4f" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="35.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b33-0d68-9e1d-b775" name="Command Group" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5850-6292-ce0c-6fdb" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5850-6292-ce0c-6fdb" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="8ff7-c377-cede-ae56" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
@@ -354,24 +366,24 @@
         <entryLink id="e74d-6282-d3ad-1da3" name="Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="030a-bb9d-283f-ce3e" name="Champion of Night" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="1.0">
+        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="2.0">
+        <modifier type="set" field="f143-72b8-a8c9-e6d7" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f143-72b8-a8c9-e6d7" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f143-72b8-a8c9-e6d7" type="max"/>
       </constraints>
       <profiles>
         <profile id="22b9-6529-47ce-c835" name="Champion of Night" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -385,24 +397,24 @@
         <categoryLink id="ea23-2987-a8fe-02a2" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3725-5f2a-7721-ce19" name="Champion of Death" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="62d8-650a-9a05-f5a3" value="1.0">
+        <modifier type="set" field="62d8-650a-9a05-f5a3" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="62d8-650a-9a05-f5a3" value="2.0">
+        <modifier type="set" field="62d8-650a-9a05-f5a3" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d8-650a-9a05-f5a3" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d8-650a-9a05-f5a3" type="max"/>
       </constraints>
       <profiles>
         <profile id="36a1-43b5-0dc9-d696" name="Champion of Death" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -416,24 +428,24 @@
         <categoryLink id="5c95-bd4a-5bf6-62e9" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d83-2531-72b5-eda7" name="Champion of Wrath" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="2941-fd0b-3e44-fd86" value="1.0">
+        <modifier type="set" field="2941-fd0b-3e44-fd86" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="2941-fd0b-3e44-fd86" value="2.0">
+        <modifier type="set" field="2941-fd0b-3e44-fd86" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2941-fd0b-3e44-fd86" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2941-fd0b-3e44-fd86" type="max"/>
       </constraints>
       <profiles>
         <profile id="2db8-9956-9999-d406" name="Champion of Wrath" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -447,12 +459,12 @@
         <categoryLink id="90b4-b234-aab6-193d" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcea-81d2-842e-ba4e" name="Abazatragon" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a68-8b93-d171-94f1" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a68-8b93-d171-94f1" type="min"/>
       </constraints>
       <profiles>
         <profile id="1d7d-7849-b6d6-06e9" name="Abazatragon" hidden="false" typeId="de53-3da7-dbca-a7af" typeName="General">
@@ -474,7 +486,7 @@
         <entryLink id="f54e-922d-b27e-5d6b" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5efd-f60f-c34c-cb82" name="Tomb Priest" hidden="false" collective="false" import="true" type="model">
@@ -492,7 +504,7 @@
         <entryLink id="b846-3bb1-cf25-6469" name="Magic items (6 point mage)" hidden="false" collective="false" import="true" targetId="5402-f23e-d2da-b983" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5dac-fcdc-1ddf-2119" name="Guardian of the Underworld" hidden="false" collective="false" import="true" type="model">
@@ -505,7 +517,7 @@
         <entryLink id="8f40-869d-b2b6-704e" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5e8-9c3c-b8fa-7fb0" name="Kor&apos;quixos" hidden="false" collective="false" import="true" type="model">
@@ -537,8 +549,195 @@ The hero is communicating with powerful magic, which not only affected his mind,
         <entryLink id="a620-cca2-d492-6a49" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="49.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="49"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Starter Wars" id="ab54-a88f-ef46-53ac" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="8d09-e3d9-2d44-ac86" targetId="90cb-5b94-12bf-c937" primary="false">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="force" shared="true" id="761d-d0f5-80d3-9077" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="General" hidden="false" id="1f4-65d0-2d65-5f1d" targetId="fd54-99b9-43d4-55db" primary="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="3619-a4e2-bb48-ae00" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="96e8-e7bf-ab2a-74b1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Champion" hidden="false" id="baa9-2300-bf6b-29d" targetId="eaad-591f-8f20-91ea" primary="false">
+          <modifiers>
+            <modifier type="set" value="3" field="34da-64b8-b42f-1f18">
+              <conditions>
+                <condition type="atMost" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="34da-64b8-b42f-1f18">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="bcd0-42d3-e82b-34fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="34da-64b8-b42f-1f18" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Command group" hidden="false" id="7ea5-e908-991-6a4d" targetId="fb1d-3052-29f4-1b9f" primary="false">
+          <modifiers>
+            <modifier type="set" value="2" field="3de5-9dc9-9c1f-3635">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="8ba1-5646-200b-8946">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="3de5-9dc9-9c1f-3635" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="8ba1-5646-200b-8946" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Mage" hidden="false" id="1314-9d86-96ce-797b" targetId="8fe2-9c3d-fe6a-7ae9" primary="false">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="increment" value="1" field="cb6e-fdcf-b741-e2ea">
+                  <repeats>
+                    <repeat value="500" repeats="1" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition type="greaterThan" value="499" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="cb6e-fdcf-b741-e2ea" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Marmydon" hidden="false" id="9f6b-d14c-c498-9268" targetId="78dd-3520-453b-2d1e" primary="false">
+          <modifiers>
+            <modifier type="increment" value="1" field="84b7-86ce-6429-c8e9">
+              <repeats>
+                <repeat value="1000" repeats="1" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+              <conditions>
+                <condition type="greaterThan" value="999" field="selections" scope="parent" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="84b7-86ce-6429-c8e9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Basic units" hidden="false" id="5ca2-404-ded7-4f" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
+          <modifiers>
+            <modifier type="set" value="4" field="9daa-bb93-67c-5d42">
+              <conditions>
+                <condition type="greaterThan" value="1000" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="9daa-bb93-67c-5d42">
+              <conditions>
+                <condition type="atMost" value="1000" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="9daa-bb93-67c-5d42" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elite units" hidden="false" id="ef44-2fc1-2845-7ec9" targetId="6518-c7a0-7e65-5999" primary="false">
+          <modifiers>
+            <modifier type="increment" value="1" field="7ffc-39d2-24de-2e60">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="38a8-b0e1-a7b1-6f5a" shared="true" roundUp="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="3a5e-e21d-f2d3-f513" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="0" field="selections" scope="force" shared="true" id="7ffc-39d2-24de-2e60" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Rare units" hidden="false" id="c341-5a7b-aafe-3003" targetId="75b7-154c-09bb-c13b" primary="false">
+          <modifiers>
+            <modifier type="set" value="8" field="f853-9344-d6c6-1ef7">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="f853-9344-d6c6-1ef7">
+              <conditions>
+                <condition type="atMost" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="f853-9344-d6c6-1ef7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Unique units" hidden="false" id="9f96-8a63-9bb5-f360" targetId="25b5-9054-a7c2-90ed" primary="false">
+          <modifiers>
+            <modifier type="set" value="3" field="3c8-bdaf-2a4d-c3dd">
+              <conditions>
+                <condition type="atMost" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="3c8-bdaf-2a4d-c3dd">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::8c1c-2839-4120-668b" scope="roster" childId="model" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="3c8-bdaf-2a4d-c3dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Legendary hero" hidden="false" id="e694-16f3-610e-ca65" targetId="b096-ae60-509f-d93a" primary="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3559-cdc5-8ca0-cadf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Mercenary Units" hidden="false" id="703e-ebfa-d41c-1cc8" targetId="527d-f4d9-6b3c-20d3" primary="false">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="9121-981a-2fa0-be6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Starter Wars: Liagulians Base" hidden="false" id="48ed-7490-713d-fe26" targetId="4b4f-b104-b5a6-491f" type="category">
+          <constraints>
+            <constraint type="min" value="12" field="selections" scope="force" shared="true" id="3ac5-ba11-ae6c-2f41" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Starter Wars: Reptilians Base" hidden="false" id="2efc-5e0d-604-cd5d" targetId="962d-3c19-5f7b-c844" type="category">
+          <constraints>
+            <constraint type="min" value="12" field="selections" scope="force" shared="true" id="3a34-489-ed9a-3033" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Starter Wars: Ropuchons Base" hidden="false" id="f0d5-6a20-ebcb-c5e2" targetId="3aca-d25a-862b-9337" type="category">
+          <constraints>
+            <constraint type="min" value="8" field="selections" scope="force" shared="true" id="858b-6c48-fafd-5505" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Starter Wars: Slagors Base" hidden="false" id="6a30-e8ea-6ef9-7db7" targetId="97c-9b71-5a4e-f89e" type="category">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="force" shared="true" id="5781-10fd-8115-365a" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <categoryEntries>
+    <categoryEntry name="Starter Wars: Reptilians Base" id="962d-3c19-5f7b-c844" hidden="false"/>
+    <categoryEntry name="Starter Wars: Liagulians Base" id="4b4f-b104-b5a6-491f" hidden="false"/>
+    <categoryEntry name="Starter Wars: Ropuchons Base" id="3aca-d25a-862b-9337" hidden="false"/>
+    <categoryEntry name="Starter Wars: Slagors Base" id="97c-9b71-5a4e-f89e" hidden="false"/>
+  </categoryEntries>
 </catalogue>
