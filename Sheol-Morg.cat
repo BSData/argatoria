@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="19" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="21" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
@@ -160,7 +160,6 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <profile id="c5dd-6385-5f93-95a8" name="Czempion Gehenny" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Gehenny styka się z przyjaznym oddziałem zaangażowanym w walkę z wrogim oddziałem, wykonaj test przed walką. Wynik 3 lub mniej oznacza, że wybrana cecha oddziału (oprócz W) może być zwiększona o 1 do końca cyklu</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -192,7 +191,6 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <profile id="b197-6da3-6164-51de" name="Czempion Hord" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wykonaj test, jeśli oddział, do którego jest dołączony Czempion Hord, wykonał udaną szarżę lub został zaszarżowany. Wynik 3 lub mniej oznacza, że oddział, który posiada minimum 12 podstawek, może wykonać przerzut nieudanych rzutów podczas Testu WS, a jeśli oddział nie był hordą, zyskuje (odzyskuje) zasady hordy</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -224,7 +222,6 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <profile id="0122-a36e-a071-71d8" name="Czempion Bogów Mroku" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
           <characteristics>
             <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Jeśli Czempion Bogów Mroku styka się z przyjaznym oddziałem zaangażowanym w walkę, dodaje 5 ataków zamiast 4. Dodatkowo wykonaj test przed atakami wroga. Wynik 3 lub mniej oznacza, że wróg musi, zgodnie z twoim wyborem, wykonać przerzut wszystkich udanych rzutów podczas Testu WS lub Testu Ranienia.</characteristic>
-            <characteristic name="Test" typeId="d283-bd6e-44c3-e421">3-</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -961,6 +958,48 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
       </selectionEntries>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="045c-2455-0094-2e7c" name="Gnat" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7053-04b3-0f9b-0cfd" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d6a2-85b7-3521-60f5" name="Azargal – Topór Nieboszczyka" hidden="false">
+          <description>Gnat wspiera oddział 6 atakami. Dodatkowo jeśli wróg otrzymał obrażenia podczas walki z oddziałem, do którego jest dołączony Gnat, i posiada po niej zaznaczoną ranę, otrzymuje 2 dodatkowe obrażenia.</description>
+        </rule>
+        <rule id="8c18-8480-1f21-8db0" name="Gnat" hidden="false">
+          <description>Gnat może być wystawiony w armii Lorda Nekromanty niezależnie od liczby innych bohaterów. Gnat może dołączać do dowolnego oddziału, w tym oddziału truchlaków</description>
+        </rule>
+        <rule id="58ea-48c1-c40f-f484" name="Grobowa Tarcza" hidden="false">
+          <description>Jeśli oddział, do którego jest dołączony Gnat, nie posiada ochrony, zyskuje ochronę na 1 i 2. </description>
+        </rule>
+        <rule id="f3dd-4c91-ade8-a9d2" name="Rogaty Hełm" hidden="false">
+          <description>Jeśli oddział, do którego jest dołączony Gnat, posiada zasadę Strach, wróg musi zawsze wykonywać Testy Paniki dla 3 podstawek zamiast 1 lub 2. Dodatkowo raz w cyklu wybrany przyjazny oddział Truchlaków w promieniu 30 cm od Gnata otrzymuje możliwość wykonania rzutu po zdjęciu swojej Kości Aktywacji
+
+1	Oddział może zwiększyć cechę M o 5 i wykonać kolejny rzut na tabeli. Wyniki są kumulatywne.
+2-4	Oddział może zwiększyć cechę S o 2
+5	Oddział może wykonać dowolny obrót
+6	Brak efektu
+
+Uzyskane bonusy trwają do końca cyklu.</description>
+        </rule>
+        <rule id="5a72-3c30-808c-6709" name="Sługa" hidden="false">
+          <description>Jeśli Gnat zostanie zabity, zdejmij jego model i połóż w jego miejsce Znacznik Śmierci. Na początku każdego cyklu wykonaj rzut k6. Wynik 3 lub mniej oznacza, że możesz ustawić model Gnata wraz z Kością Akcji w promieniu do 10 cm od Znacznika Śmierci, a następnie usunąć znacznik</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="22e6-e7a5-ed62-d22e" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="57.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

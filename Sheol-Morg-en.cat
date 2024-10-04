@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="983e-330c-70fe-98a9" name="Lord of the Abyss" hidden="false" collective="false" import="true" type="model">
@@ -1006,6 +1006,48 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
       </selectionEntries>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33b9-bfb9-6861-8641" name="Gnat" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-7d73-0d89-486a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="11e9-4fee-6d6e-9599" name="Azargal – The Axe of the Dead" hidden="false">
+          <description>Gnat supports the unit with 6 attacks. Additionally, if an enemy is dealt damage during combat with a unit Gnat is attached to and has a Wound marked after it, it is dealt 2 additional Wounds.</description>
+        </rule>
+        <rule id="11be-d7f8-9944-ade1" name="Gnat" hidden="false">
+          <description>Gnat can be fielded in the Lord Necromancer&apos;s army regardless of the number of other heroes. Gnat can support any unit, including Truhlaks</description>
+        </rule>
+        <rule id="47a2-0d0d-5882-1638" name="Grave Shield" hidden="false">
+          <description>If the unit Gnat is attached to has no protection, it gains protection on 1s and 2s. </description>
+        </rule>
+        <rule id="693d-4acb-677a-9571" name="Horned Helm" hidden="false">
+          <description>If the unit Gnat is attached to has the Fear rule, the enemy must always take Panic Tests for 3 bases instead of 1 or 2. Additionally, once per cycle, a selected friendly Truhlaks unit within 30 cm of Gnat gets the opportunity to roll a d6 after removing its Action Die.
+
+1	The unit can increase its Mobility (M) by 5 and roll again for the table. Effects are cumulative.
+2-4	The unit can increase its Strength (S) by 2
+5	The unit can turn freely
+6	No effect
+
+Bonuses gained last until the end of the cycle.</description>
+        </rule>
+        <rule id="e342-4a1f-3740-3968" name="Servant" hidden="false">
+          <description>If Gnat is killed, remove his model and place a Death Counter in his place. At the start of each cycle, roll a d6. On a score of 3 or less, you may place the Gnat model, along with an Action Die, within 10 cm of the Death Counter, then remove the counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="81e4-ff50-2bc8-ac34" name="New CategoryLink" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="57.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
