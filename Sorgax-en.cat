@@ -1,6 +1,193 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="579f-31bc-3525-13cc" name="Sorgax" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
+  <categoryEntries>
+    <categoryEntry id="8a50-7683-0f0e-a066" name="Starter Wars: Reptilians base" hidden="false"/>
+    <categoryEntry id="36d5-9562-3b8c-e6d2" name="Starter Wars: Liagulians base" hidden="false"/>
+    <categoryEntry id="2589-ef41-c01c-8e67" name="Starter Wars: Ropuchons base" hidden="false"/>
+    <categoryEntry id="113b-4537-abec-9189" name="Starter Wars: Slagors base" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="717c-b7a1-f512-672f" name="Starter Wars" hidden="false">
+      <categoryLinks>
+        <categoryLink id="1539-71af-f49a-4e70" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea7-71cb-4b60-df70" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c8bf-a460-d16d-7626" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efcd-619c-4235-a018" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abba-abee-9385-9893" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7ab9-0ec1-18f6-7eef" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="false">
+          <modifiers>
+            <modifier type="set" field="9361-b125-bfb6-5bd8" value="3.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9361-b125-bfb6-5bd8" value="6.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f09-be31-7992-c4e2" type="min"/>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9361-b125-bfb6-5bd8" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6e33-910e-177d-a645" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false">
+          <modifiers>
+            <modifier type="set" field="7da9-55f7-5182-0e96" value="2.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="9260-ce9f-95ad-b01c" value="6.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da9-55f7-5182-0e96" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9260-ce9f-95ad-b01c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0675-c393-2f6e-a7fa" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="false">
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="increment" field="f6e7-b5ab-4957-444c" value="1.0">
+                  <repeats>
+                    <repeat field="limit::8c1c-2839-4120-668b" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e7-b5ab-4957-444c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="17fc-cc21-44cf-5794" name="Marmydon" hidden="false" targetId="78dd-3520-453b-2d1e" primary="false">
+          <modifiers>
+            <modifier type="increment" field="f700-8159-0aea-d506" value="1.0">
+              <repeats>
+                <repeat field="limit::8c1c-2839-4120-668b" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions>
+                <condition field="selections" scope="parent" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f700-8159-0aea-d506" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3e62-2702-e047-8951" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="false">
+          <modifiers>
+            <modifier type="set" field="813f-df4b-86da-2982" value="4.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="813f-df4b-86da-2982" value="2.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="813f-df4b-86da-2982" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="baf5-195e-9891-18a6" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="false">
+          <modifiers>
+            <modifier type="increment" field="75b6-2e58-e73c-c920" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38a8-b0e1-a7b1-6f5a" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae0-af9b-4457-9b6f" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b6-2e58-e73c-c920" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8218-8665-44c3-5918" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="false">
+          <modifiers>
+            <modifier type="set" field="b5f0-ffca-7eb7-8e8f" value="8.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b5f0-ffca-7eb7-8e8f" value="4.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f0-ffca-7eb7-8e8f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3be7-ead3-eddf-7682" name="Unique units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="false">
+          <modifiers>
+            <modifier type="set" field="0c13-9892-e458-911d" value="3.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="0c13-9892-e458-911d" value="6.0">
+              <conditions>
+                <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c13-9892-e458-911d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2f24-1be2-6809-de02" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4011-49c6-824b-43f2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4bbe-3746-b90b-ff18" name="Mercenary Units" hidden="false" targetId="527d-f4d9-6b3c-20d3" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ec-e45a-389c-575e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="11fa-e443-9f48-2dd0" name="Starter Wars: Reptilians base" hidden="false" targetId="8a50-7683-0f0e-a066" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc12-1798-0820-020e" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ab2a-6921-b163-3328" name="Starter Wars: Liagulians base" hidden="false" targetId="36d5-9562-3b8c-e6d2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c17c-b3fb-c798-3b5b" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fec1-1f84-55f2-4414" name="Starter Wars: Ropuchons base" hidden="false" targetId="2589-ef41-c01c-8e67" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="72b7-e269-1680-e281" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="117e-6fff-2503-a242" name="Starter Wars: Slagors base" hidden="false" targetId="113b-4537-abec-9189" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d15-c33b-5098-7ba1" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="af9d-d319-0e2a-3fba" name="Reptilians" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -36,6 +223,9 @@
               <description>This unit can be issued an order in 40 cm from the General</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink id="224f-6a3a-1c16-3293" name="Starter Wars: Reptilians base" hidden="false" targetId="8a50-7683-0f0e-a066" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
           </costs>
@@ -76,6 +266,9 @@
           <infoLinks>
             <infoLink id="cfad-3218-af73-31fa" name="Spear Storm" hidden="false" targetId="9e96-c41e-aaa3-104b" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="45c5-3640-9cf8-175d" name="Starter Wars: Liagulians base" hidden="false" targetId="36d5-9562-3b8c-e6d2" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Points" typeId="8c1c-2839-4120-668b" value="9.0"/>
           </costs>
@@ -151,6 +344,9 @@
           <infoLinks>
             <infoLink id="27b8-ed9c-b8fb-2038" name="Poisonous Spit" hidden="false" targetId="e720-02b2-8459-7370" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3ccd-e80a-2019-0282" name="Starter Wars: Ropuchons base" hidden="false" targetId="2589-ef41-c01c-8e67" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
           </costs>
@@ -232,6 +428,9 @@
             <infoLink id="d5b6-216e-f61a-bdbf" name="Creature" hidden="false" targetId="9b7f-2bac-83f4-ea51" type="rule"/>
             <infoLink id="2994-b072-8a9d-d7c0" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0a5a-7f39-da81-47f7" name="Starter Wars: Slagors base" hidden="false" targetId="113b-4537-abec-9189" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
           </costs>
