@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6a61-55f9-12a2-c40d" name="Dirandis" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="990e-9289-2e68-4c6d" name="Barbarians" hidden="false" collective="false" import="true" type="unit">
@@ -533,6 +533,31 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66b2-406a-54a4-65db" name="Pakun" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4941-df71-35c6-377e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b5f9-5e3a-f3b3-5758" name="The Crusher" hidden="false">
+          <description>This mysterious artifact hammer causes Pakun to support a unit with 6 attacks plus additional attacks equal to a d6 roll. Additionally, the unit Pakun supports changes its Strength (S) to 4 if it has less</description>
+        </rule>
+        <rule id="f235-5acb-e8d7-aed4" name="Dark Humour" hidden="false">
+          <description>If Pakun is attached to the Half-giants unit, the unit may add or substract 1 from its LD during any test.</description>
+        </rule>
+        <rule id="1d8a-9f36-ffa5-e5ca" name="Oklar" hidden="false">
+          <description>An enemy unit that attacks a unit that Pakun is attached to must substract 3 dice from the pool.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="da95-8c2f-d36a-dcbd" name="New CategoryLink" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="42.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>

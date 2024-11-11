@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4f19-b00c-17bc-3958" name="Vaendral" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a1-6f66-6ab3-54fc" name="Amazonki" hidden="false" collective="false" import="true" type="unit">
@@ -587,6 +587,28 @@
       </categoryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c18-866b-3603-4e10" name="Pakun" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67c1-e5cc-4340-f8b4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7904-e32d-0818-b7b5" name="Młot Rozgniatacz" hidden="false">
+          <description>Ten tajemniczy młot artefaktyczny powoduje, że Pakun wspiera oddział 6 atakami oraz dodatkowymi równymi rzutowi k6. Dodatkowo oddział, którego wspiera Pakun, zmienia swoją Siłę (S) na 4 jeżeli posiada mniejszą.</description>
+        </rule>
+        <rule id="f835-3371-e5a5-bb78" name="Oklar" hidden="false">
+          <description>Wrogi oddział, który przeprowadza ataki na oddział, do którego jest dołączony Pakun, musi odjąć 3 kości od puli.</description>
+        </rule>
+        <rule id="b995-e20f-b8e9-e6ec" name="Czarny Humor" hidden="false">
+          <description>Jeśli Pakun jest dołączony do oddziału Pół-Gigantów, to oddziałmoże dodać lub ująć 1 od swojej cechy LD podczas dowolnego testu.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c3bc-0f36-1fd5-617a" name="New CategoryLink" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="42.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

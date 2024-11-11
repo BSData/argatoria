@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="13" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
@@ -591,7 +591,7 @@
       </constraints>
       <rules>
         <rule id="374c-007f-5306-c807" name="Mar&apos;hauk" hidden="false">
-          <description>Mar&apos;hauk może byćwystawiony w armii Gaeldor niezależnie od liczby innych bohaterów.
+          <description>Mar&apos;hauk może być wystawiony w armii Gaeldor niezależnie od liczby innych bohaterów.
 
 Mar&apos;hauk jeździ na potężnym stworzeniu zwanym Viturem. Dzięki niemu Mar&apos;hauk wspiera oddział 8 atakami. Mar&apos;hauk posiada przedmioty z poniższej listy.</description>
         </rule>
@@ -652,6 +652,28 @@ Strach – Po wykonaniu udanej szarży oddziałem wróg musi wykonać Test Panik
       </selectionEntries>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba6f-ba27-b362-6dae" name="Pakun" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="624f-ba5c-9f02-0a20" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="014f-c324-50be-bd2e" name="Młot Rozgniatacz" hidden="false">
+          <description>Ten tajemniczy młot artefaktyczny powoduje, że Pakun wspiera oddział 6 atakami oraz dodatkowymi równymi rzutowi k6. Dodatkowo oddział, którego wspiera Pakun, zmienia swoją Siłę (S) na 4 jeżeli posiada mniejszą.</description>
+        </rule>
+        <rule id="b4a4-2efa-8c46-eda7" name="Oklar" hidden="false">
+          <description>Wrogi oddział, który przeprowadza ataki na oddział, do którego jest dołączony Pakun, musi odjąć 3 kości od puli.</description>
+        </rule>
+        <rule id="8143-b927-6bce-a3b3" name="Czarny Humor" hidden="false">
+          <description>Jeśli Pakun jest dołączony do oddziału Pół-Gigantów, to oddziałmoże dodać lub ująć 1 od swojej cechy LD podczas dowolnego testu.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2684-4731-46b2-6f04" name="New CategoryLink" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="42.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
