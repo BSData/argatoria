@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="10" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="11" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <selectionEntries>
     <selectionEntry id="983e-330c-70fe-98a9" name="Lord of the Abyss" hidden="false" collective="false" import="true" type="model">
@@ -20,10 +20,10 @@
         <categoryLink id="e111-a9e6-1d44-b455" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="93ec-5687-b7d5-0d26" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
+        <entryLink id="93ec-5687-b7d5-0d26" name="(PW2) Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4dd-aae6-39db-57ff" name="Lord Necromancer" hidden="false" collective="false" import="true" type="model">
@@ -44,14 +44,14 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="d05f-b227-ca54-0934" name="New CategoryLink" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
+        <categoryLink id="d05f-b227-ca54-0934" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
         <categoryLink id="9636-854b-eeb9-01ba" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ac38-d4c1-4ac6-17a5" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
+        <entryLink id="ac38-d4c1-4ac6-17a5" name="(PW2) Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23af-d13f-3c8f-1a8e" name="Lord of Sheol-Morg" hidden="false" collective="false" import="true" type="model">
@@ -68,32 +68,32 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="5a4e-ce0a-d2cc-d17e" name="New CategoryLink" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
+        <categoryLink id="5a4e-ce0a-d2cc-d17e" name="General" hidden="false" targetId="fd54-99b9-43d4-55db" primary="true"/>
         <categoryLink id="262e-5f3c-c1a8-6489" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="02a8-cf2d-e4a6-797d" name="Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
+        <entryLink id="02a8-cf2d-e4a6-797d" name="(PW2) Artefacts" hidden="false" collective="false" import="true" targetId="eec5-6224-0ede-304b" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b72-a2db-de02-d621" name="The Damned" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="2a20-ee55-43b7-b79a" value="0.0">
+        <modifier type="set" field="2a20-ee55-43b7-b79a" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a20-ee55-43b7-b79a" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a20-ee55-43b7-b79a" type="max"/>
       </constraints>
       <profiles>
         <profile id="1593-4a98-a298-0d04" name="The Damned" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -113,31 +113,31 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
         <infoLink id="fb68-2519-2e58-44f8" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8c8-3517-680a-7bd6" name="Ritual Master" hidden="true" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="e142-7d6c-2747-2a8f" value="0.0">
+        <modifier type="set" field="e142-7d6c-2747-2a8f" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="3899-7fc3-7a3a-5730" value="1.0">
+        <modifier type="set" field="3899-7fc3-7a3a-5730" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e142-7d6c-2747-2a8f" type="max"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3899-7fc3-7a3a-5730" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e142-7d6c-2747-2a8f" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3899-7fc3-7a3a-5730" type="min"/>
       </constraints>
       <rules>
         <rule id="fad0-dae1-8ca2-6833" name="Ab... huul! Daaqul, salib!!!" hidden="false">
@@ -149,14 +149,14 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
       </rules>
       <categoryLinks>
         <categoryLink id="0de2-7fc3-f1e7-b623" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
-        <categoryLink id="5064-85f4-88f7-7b04" name="New CategoryLink" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
+        <categoryLink id="5064-85f4-88f7-7b04" name="Mage" hidden="false" targetId="8fe2-9c3d-fe6a-7ae9" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d316-dd59-20df-4359" name="Spells" hidden="false" collective="false" import="true" targetId="9a23-d0ee-bfef-3b7c" type="selectionEntryGroup"/>
         <entryLink id="e5de-a8c0-467e-a169" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e29c-8dbd-8c27-6ebb" name="Horned Warriors" hidden="false" collective="false" import="true" type="unit">
@@ -165,34 +165,34 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="3eb0-bf53-3dbc-6999" value="0.0">
+        <modifier type="set" field="3eb0-bf53-3dbc-6999" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb0-bf53-3dbc-6999" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb0-bf53-3dbc-6999" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="d9f7-14c9-4ec7-3808" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
+        <categoryLink id="d9f7-14c9-4ec7-3808" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ae9d-872b-f8ca-6cfd" name="Horned Warriors" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5745-6b23-b28d-46d3" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f2d-d8f9-b0c9-2cac" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5745-6b23-b28d-46d3" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f2d-d8f9-b0c9-2cac" type="max"/>
           </constraints>
           <profiles>
             <profile id="3854-8482-4b46-544f" name="Horned Warriors" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -212,7 +212,7 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -224,38 +224,38 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
             <infoLink id="f50e-a232-b110-637d" name="Terrible Damage" hidden="false" targetId="56b0-e43e-6468-94c6" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83bc-3c6d-463b-3585" name="Horned Warriors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="d127-dd45-46ba-1afb" value="0.0">
+        <modifier type="set" field="d127-dd45-46ba-1afb" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-dd45-46ba-1afb" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d127-dd45-46ba-1afb" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="65c4-4924-e25b-b0a3" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+        <categoryLink id="65c4-4924-e25b-b0a3" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4435-43ce-7a7b-b685" name="Horned Warriors" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ec-f5a7-420b-06de" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22e8-c259-3aa5-57c0" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ec-f5a7-420b-06de" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22e8-c259-3aa5-57c0" type="max"/>
           </constraints>
           <profiles>
             <profile id="3ad6-99e9-ec36-0288" name="Horned Warriors" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -275,7 +275,7 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -287,12 +287,12 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
             <infoLink id="1991-90a8-9f50-5d3d" name="Terrible Damage" hidden="false" targetId="56b0-e43e-6468-94c6" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35dc-929a-5126-0978" name="Skeletons" hidden="false" collective="false" import="true" type="unit">
@@ -301,34 +301,34 @@ In the army of the Lord Necromancer, Truhlaks on Fallen Ogars are the Elite Unit
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="6397-1622-aa03-80a9" value="0.0">
+        <modifier type="set" field="6397-1622-aa03-80a9" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6397-1622-aa03-80a9" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6397-1622-aa03-80a9" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="4646-1ae3-6eb7-e63c" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
+        <categoryLink id="4646-1ae3-6eb7-e63c" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dfea-beb5-04e5-d44f" name="Skeletons" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353c-c994-a235-200b" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4344-33f5-cbf0-687f" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353c-c994-a235-200b" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4344-33f5-cbf0-687f" type="max"/>
           </constraints>
           <profiles>
             <profile id="2c97-2bcc-6d16-4c25" name="Skeletons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -356,38 +356,38 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="42bd-a9d4-61e0-9e21" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88e9-8522-3015-d54f" name="Skeletons" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="4802-bbe6-a6e9-42e3" value="0.0">
+        <modifier type="set" field="4802-bbe6-a6e9-42e3" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4802-bbe6-a6e9-42e3" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4802-bbe6-a6e9-42e3" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0d56-ef0a-d6e9-adff" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+        <categoryLink id="0d56-ef0a-d6e9-adff" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6571-d37d-1c0c-3055" name="Skeletons" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e1-a438-b54d-63fa" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbba-54c3-939a-134f" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e1-a438-b54d-63fa" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbba-54c3-939a-134f" type="max"/>
           </constraints>
           <profiles>
             <profile id="26b7-5fb4-b08c-08ba" name="Skeletons" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -415,12 +415,12 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="d4f4-60dc-03e3-bf90" name="Fettered" hidden="false" targetId="e1c4-eeee-7703-bba2" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="7"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4df5-1ae4-87d0-ed0c" name="Kozars" hidden="false" collective="false" import="true" type="unit">
@@ -429,34 +429,34 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="6693-7eb2-0984-3d41" value="0.0">
+        <modifier type="set" field="6693-7eb2-0984-3d41" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6693-7eb2-0984-3d41" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6693-7eb2-0984-3d41" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="f25b-0a61-f035-b9d6" name="New CategoryLink" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
+        <categoryLink id="f25b-0a61-f035-b9d6" name="Basic units" hidden="false" targetId="38a8-b0e1-a7b1-6f5a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6ce7-7f60-725e-6cff" name="Kozars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f0-44cc-62a6-2129" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd8-1ac2-977b-92c2" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f0-44cc-62a6-2129" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd8-1ac2-977b-92c2" type="max"/>
           </constraints>
           <profiles>
             <profile id="3d10-77cf-6da7-d59a" name="Kozars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -476,7 +476,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -490,38 +490,38 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e663-1feb-4769-8a49" name="Kozars" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="bae1-a207-55ea-ad23" value="0.0">
+        <modifier type="set" field="bae1-a207-55ea-ad23" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae1-a207-55ea-ad23" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bae1-a207-55ea-ad23" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="73a6-3eee-8c68-4d6e" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+        <categoryLink id="73a6-3eee-8c68-4d6e" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1ee5-582b-5dfc-3374" name="Kozars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e5-d5f7-4ea9-e87a" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc4-a1ad-140f-038a" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e5-d5f7-4ea9-e87a" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc4-a1ad-140f-038a" type="max"/>
           </constraints>
           <profiles>
             <profile id="8789-16f4-84fe-9867" name="Kozars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -541,7 +541,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -555,23 +555,23 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             </rule>
           </rules>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="13"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="952b-d6ac-6d7c-d5c2" name="Dark Fauns" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="a577-401b-caa2-eb10" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+        <categoryLink id="a577-401b-caa2-eb10" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="efd3-20e8-7203-43ce" name="Dark Fauns" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41cf-c950-68d9-05b8" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d4-bccf-1517-54e6" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41cf-c950-68d9-05b8" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d4-bccf-1517-54e6" type="min"/>
           </constraints>
           <profiles>
             <profile id="709d-7adf-4a43-7b99" name="Dark Fauns" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -591,38 +591,38 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="71ed-3fa5-335a-21ee" name="Immunity" hidden="false" targetId="81a9-106d-0594-e9b9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="23.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="23"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="643d-e846-dc2a-f858" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="2e32-7f0d-ca1d-8940" value="0.0">
+        <modifier type="set" field="2e32-7f0d-ca1d-8940" value="0">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e32-7f0d-ca1d-8940" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e32-7f0d-ca1d-8940" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3cf6-0810-f4f4-e2aa" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+        <categoryLink id="3cf6-0810-f4f4-e2aa" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8756-4c2a-131c-7ed9" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b7-8aa4-bd44-519d" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb9-17d0-45b6-4c79" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b7-8aa4-bd44-519d" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb9-17d0-45b6-4c79" type="min"/>
           </constraints>
           <profiles>
             <profile id="4c83-a17c-5cab-e0b4" name="Truhlaks on Fallen Ogars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -644,12 +644,12 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="f7fd-9194-9cea-719a" name="Fear" hidden="false" targetId="95aa-6686-0cf9-f679" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dc4-7619-52dd-bdf6" name="Minotaur" hidden="false" collective="false" import="true" type="upgrade">
@@ -675,31 +675,31 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <infoLink id="5a12-e8d4-f59d-e8fd" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="6cd1-1806-f242-75e8" name="New CategoryLink" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
+        <categoryLink id="6cd1-1806-f242-75e8" name="Rare units" hidden="false" targetId="75b7-154c-09bb-c13b" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="52.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="52"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7a2-eaa3-d38f-7775" name="Black Knights on Horgars" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="8efc-429c-5fee-3e09" value="5.0">
+        <modifier type="set" field="8efc-429c-5fee-3e09" value="5">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8efc-429c-5fee-3e09" type="max"/>
+        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8efc-429c-5fee-3e09" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="5225-805b-1d16-ebdb" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+        <categoryLink id="5225-805b-1d16-ebdb" name="Unique units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c3b-38b3-5b5a-049e" name="Black Knights on Horgars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc7-45d9-795b-beb0" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ecd-3ff2-4e70-ddf0" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc7-45d9-795b-beb0" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ecd-3ff2-4e70-ddf0" type="min"/>
           </constraints>
           <profiles>
             <profile id="c211-9cef-0f8f-5b73" name="Black Knights on Horgars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -722,23 +722,23 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="5497-cd24-98c0-e659" name="Immunity" hidden="false" targetId="81a9-106d-0594-e9b9" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="27.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="27"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27f4-d4bd-3290-b626" name="Hybrids" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="0788-1852-d778-c5b2" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+        <categoryLink id="0788-1852-d778-c5b2" name="Unique units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="163e-7aaa-8284-0979" name="Hybrids" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c2-66aa-0e0d-99c3" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d9-9310-e57b-c337" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c2-66aa-0e0d-99c3" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7d9-9310-e57b-c337" type="min"/>
           </constraints>
           <profiles>
             <profile id="dc37-dea2-ba91-af78" name="Hybrids" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -763,12 +763,12 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="fab7-0d2b-1587-7bd1" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="17.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="17"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4dbc-7673-b923-c775" name="Hydra" hidden="false" collective="false" import="true" type="model">
@@ -797,23 +797,23 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <infoLink id="4c94-1e6b-3b99-a95c" name="Fearless" hidden="false" targetId="01c3-8485-b179-7a4d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0e5a-88f1-eb29-2664" name="New CategoryLink" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
+        <categoryLink id="0e5a-88f1-eb29-2664" name="Unique units" hidden="false" targetId="25b5-9054-a7c2-90ed" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="83.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="83"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="80a6-5352-9d11-d6d3" name="Command Group" hidden="false" collective="false" import="true" type="model">
       <categoryLinks>
         <categoryLink id="b96f-fc8b-d0ef-3df6" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="true"/>
-        <categoryLink id="c0cb-1972-10a9-416f" name="New CategoryLink" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false"/>
+        <categoryLink id="c0cb-1972-10a9-416f" name="Command group" hidden="false" targetId="fb1d-3052-29f4-1b9f" primary="false"/>
         <categoryLink id="9717-5dee-38d1-c729" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6446-b02f-8be5-6c1a" name="Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
+        <entryLink id="6446-b02f-8be5-6c1a" name="(PW2) Magic Banners" hidden="false" collective="false" import="true" targetId="9963-2735-ea44-c037" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="15"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fff9-d7f2-cc73-ec56" name="Curser" hidden="false" collective="false" import="true" type="model">
@@ -831,7 +831,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <entryLink id="c267-5904-c6f5-74a7" name="Magic items (6 point mage)" hidden="false" collective="false" import="true" targetId="5402-f23e-d2da-b983" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62a9-cec4-4c2f-d011" name="Warlock" hidden="false" collective="false" import="true" type="model">
@@ -849,24 +849,24 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <entryLink id="b586-57b6-39c0-ec76" name="Magic items" hidden="false" collective="false" import="true" targetId="ef01-82ea-1df6-75c8" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d90d-f73c-35bd-74d4" name="Champion of Gehenna" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="dda9-b25c-8d40-fefe" value="1.0">
+        <modifier type="set" field="dda9-b25c-8d40-fefe" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="dda9-b25c-8d40-fefe" value="2.0">
+        <modifier type="set" field="dda9-b25c-8d40-fefe" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda9-b25c-8d40-fefe" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda9-b25c-8d40-fefe" type="max"/>
       </constraints>
       <profiles>
         <profile id="eae8-4414-fb1b-3938" name="Champion of Gehenna" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -880,24 +880,24 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <categoryLink id="a3d7-e2e1-217e-fcb9" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="14"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="776b-37e5-b837-7559" name="Champion of Hordes" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="47fb-a250-f270-53c2" value="1.0">
+        <modifier type="set" field="47fb-a250-f270-53c2" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="47fb-a250-f270-53c2" value="2.0">
+        <modifier type="set" field="47fb-a250-f270-53c2" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47fb-a250-f270-53c2" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47fb-a250-f270-53c2" type="max"/>
       </constraints>
       <profiles>
         <profile id="559c-aa23-35c1-9f24" name="Champion of Hordes" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -911,24 +911,24 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <categoryLink id="268c-a8cc-fd02-8eaa" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="13.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="13"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28f0-e356-ded1-0093" name="Champion of Dark Gods" hidden="false" collective="false" import="true" type="model">
       <modifiers>
-        <modifier type="set" field="52f1-a14a-1e7c-31cc" value="1.0">
+        <modifier type="set" field="52f1-a14a-1e7c-31cc" value="1">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
-        <modifier type="set" field="52f1-a14a-1e7c-31cc" value="2.0">
+        <modifier type="set" field="52f1-a14a-1e7c-31cc" value="2">
           <conditions>
-            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::8c1c-2839-4120-668b" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f1-a14a-1e7c-31cc" type="max"/>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f1-a14a-1e7c-31cc" type="max"/>
       </constraints>
       <profiles>
         <profile id="c602-a2f7-a3f1-b941" name="Champion of Dark Gods" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
@@ -942,7 +942,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
         <categoryLink id="aab3-ef93-c88d-04c3" name="Champion" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="16.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="16"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4716-d07b-ab78-26dc" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="unit">
@@ -951,34 +951,34 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="62f7-870c-843f-dcd8" value="0.0">
+        <modifier type="set" field="62f7-870c-843f-dcd8" value="0">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f7-870c-843f-dcd8" type="max"/>
+        <constraint field="selections" scope="roster" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f7-870c-843f-dcd8" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="074c-9eb1-7a9e-8499" name="New CategoryLink" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
+        <categoryLink id="074c-9eb1-7a9e-8499" name="Elite units" hidden="false" targetId="6518-c7a0-7e65-5999" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eefa-144d-f712-c1d2" name="Truhlaks on Fallen Ogars" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a808-86a9-cb41-c2d8" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0e3-0f04-9f5c-352b" type="min"/>
+            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a808-86a9-cb41-c2d8" type="max"/>
+            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0e3-0f04-9f5c-352b" type="min"/>
           </constraints>
           <profiles>
             <profile id="f417-1370-7754-3b15" name="Truhlaks on Fallen Ogars" hidden="false" typeId="4a2d-4730-d9ad-ca23" typeName="Profile">
@@ -1000,24 +1000,24 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
             <infoLink id="8576-a334-846b-2958" name="Fear" hidden="false" targetId="95aa-6686-0cf9-f679" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19.0"/>
+            <cost name="Points" typeId="8c1c-2839-4120-668b" value="19"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33b9-bfb9-6861-8641" name="Gnat" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-7d73-0d89-486a" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-7d73-0d89-486a" type="max"/>
       </constraints>
       <rules>
         <rule id="11e9-4fee-6d6e-9599" name="Azargal – The Axe of the Dead" hidden="false">
@@ -1027,7 +1027,7 @@ Only Lord Necromancer can be attached to the Truhlaks unit</description>
           <description>Gnat can be fielded in the Lord Necromancer&apos;s army regardless of the number of other heroes. Gnat can support any unit, including Truhlaks</description>
         </rule>
         <rule id="47a2-0d0d-5882-1638" name="Grave Shield" hidden="false">
-          <description>If the unit Gnat is attached to has no protection, it gains protection on 1s and 2s. </description>
+          <description>If the unit Gnat is attached to has no protection, it gains protection on 1s and 2s.</description>
         </rule>
         <rule id="693d-4acb-677a-9571" name="Horned Helm" hidden="false">
           <description>If the unit Gnat is attached to has the Fear rule, the enemy must always take Panic Tests for 3 bases instead of 1 or 2. Additionally, once per cycle, a selected friendly Truhlaks unit within 30 cm of Gnat gets the opportunity to roll a d6 after removing its Action Die.
@@ -1044,11 +1044,69 @@ Bonuses gained last until the end of the cycle.</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="81e4-ff50-2bc8-ac34" name="New CategoryLink" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+        <categoryLink id="81e4-ff50-2bc8-ac34" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="8c1c-2839-4120-668b" value="57.0"/>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="57"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rotgant" hidden="false" id="7db6-e205-62d4-bbe3">
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="47"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="75b7-154c-09bb-c13b" id="2e5a-1fce-3e4c-db94" primary="true" name="Rare units"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="e4ca-a101-fd25-fcf6" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="e4ca-a101-fd25-fcf6">
+          <repeats>
+            <repeat value="1000" repeats="1" field="limit::8c1c-2839-4120-668b" scope="roster" childId="any" shared="true" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="23af-d13f-3c8f-1a8e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="983e-330c-70fe-98a9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Rotgant" typeId="4a2d-4730-d9ad-ca23" typeName="Profile" hidden="false" id="81f2-4ffb-ed99-e06a">
+          <characteristics>
+            <characteristic name="LD" typeId="2d74-3840-75ce-fb6a">5</characteristic>
+            <characteristic name="M" typeId="bbba-6b29-970f-bb87">10</characteristic>
+            <characteristic name="WS" typeId="bd6b-76ed-c7b4-ed41">2</characteristic>
+            <characteristic name="S" typeId="0965-1c76-5e55-52f3">5</characteristic>
+            <characteristic name="T" typeId="6131-048c-0aa9-a832">6</characteristic>
+            <characteristic name="A" typeId="2741-62c1-8198-f19f">5</characteristic>
+            <characteristic name="W" typeId="a5bd-81d9-7061-d9fa">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fearless" id="5464-0716-51ab-20cf" hidden="false" type="rule" targetId="01c3-8485-b179-7a4d"/>
+      </infoLinks>
+      <rules>
+        <rule name="Sower of Graves" id="5a61-99cd-8175-2bc5" hidden="false">
+          <description>After charging, Rotgant can roll a d6. The result is the number of additional attacks he receives. On a score of 6, Rotgant does not attack, but instead he stumbles and falls directly into the enemy. Roll 2d6. The obtained score is the number of Wounds dealt to the enemy and Rotgant himself. The enemy cannot use any protection or armour if Rotgant falls</description>
+        </rule>
+        <rule name="Captured Artefacts" id="c246-080b-d732-d352" hidden="false">
+          <description>Once per battle, Rotgant can use a magic item following the same rules as Mages, but must roll a d6 to see which item he has grabbed. Roll a d6.
+1-2 Staff. See the main rulebook
+3-5 Diadem of Despair. See the main rulebook
+6 Bag of Stuff. Unfortunately, after looking through the contents, Rotgant lost interest in the artefacts he has acquired. If Rotgant has an Action Die, he must remove it.</description>
+        </rule>
+        <rule name="Mage Hunter" id="75ee-dd6b-cda5-6cbf" hidden="false">
+          <description>Rotgant, upon base contact with an enemy Mage, eliminates them from play on a score of 4 or less instead of 2 or less.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
