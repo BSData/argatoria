@@ -1,6 +1,227 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9048-dbed-3705-7a59" name="Gaeldor" revision="17" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+  <categoryEntries>
+    <categoryEntry id="3f57-7834-c895-befc" name="Starter Wars: Podstawka Barbarzyńców" hidden="false"/>
+    <categoryEntry id="dd1f-8d7a-8164-f497" name="Starter Wars: Podstawka Odunów" hidden="false"/>
+    <categoryEntry id="146d-b6b8-e43d-fcf4" name="Starter Wars: Podstawka Voraków" hidden="false"/>
+    <categoryEntry id="6c38-e430-efb4-9437" name="Starter Wars: Podstawka Pół-gigantów" hidden="false"/>
+    <categoryEntry id="cc8a-c8a1-c872-4089" name="Starter Wars: Podstawka Slagorów" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="80fe-96c0-bf3a-f3ce" name="Starter Wars" hidden="false">
+      <categoryLinks>
+        <categoryLink id="cc33-f7d7-50b1-45cb" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6581-4c8f-0662-6d11" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="95af-906e-0684-fb92" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ea2-2e18-44ea-d933" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc13-121a-39f6-05f7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d572-6e5b-5e16-c00c" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
+          <modifiers>
+            <modifier type="set" field="72d0-5d42-7ba5-6afc" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="72d0-5d42-7ba5-6afc" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6556-a37a-6957-aff3" type="min"/>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d0-5d42-7ba5-6afc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="67dc-17d5-fc3f-1e08" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">
+          <modifiers>
+            <modifier type="set" field="6f13-3bcc-0911-626f" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1ee8-cd56-084d-5b3a" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f13-3bcc-0911-626f" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee8-cd56-084d-5b3a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="53a6-54c0-5af0-23ca" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false">
+          <modifiers>
+            <modifier type="set" field="b806-7ae5-4511-18ef" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="b806-7ae5-4511-18ef" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="b806-7ae5-4511-18ef" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b806-7ae5-4511-18ef" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="67d6-a12f-0c77-844f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false">
+          <modifiers>
+            <modifier type="set" field="7e56-181e-adc5-fe7a" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7e56-181e-adc5-fe7a" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e56-181e-adc5-fe7a" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1382-1864-b038-67ef" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="false">
+          <modifiers>
+            <modifier type="increment" field="7b7e-6b08-2c8f-ad21" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf53-8f98-e5aa-f320" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdf0-2608-d693-7b56" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7e-6b08-2c8f-ad21" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="26e7-038d-2a72-ad55" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="false">
+          <modifiers>
+            <modifier type="set" field="7cbc-5195-ff63-7126" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7cbc-5195-ff63-7126" value="8.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cbc-5195-ff63-7126" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7c99-a4db-1de7-123b" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="false">
+          <modifiers>
+            <modifier type="set" field="f4a7-c660-b02a-1a4e" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f4a7-c660-b02a-1a4e" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4a7-c660-b02a-1a4e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fb53-f920-e230-6a92" name="Marmydon" hidden="false" targetId="6da5-852d-f369-1d98" primary="false">
+          <modifiers>
+            <modifier type="set" field="f636-7bd9-ea53-e83b" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="f636-7bd9-ea53-e83b" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f636-7bd9-ea53-e83b" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f636-7bd9-ea53-e83b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="036f-865c-4bae-69b6" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a1-9fc9-1586-2424" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0681-4732-6d85-8d53" name="Oddziały Najemne" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc4-84a1-c461-6d93" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1e42-bd2e-f7de-d3a0" name="Starter Wars: Podstawka Barbarzyńców" hidden="false" targetId="3f57-7834-c895-befc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84f2-75f9-83a0-76d4" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="19b2-723e-478e-4ae2" name="Starter Wars: Podstawka Odunów" hidden="false" targetId="dd1f-8d7a-8164-f497" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a62b-0ab6-90cd-c53f" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ea77-b376-3fe8-42d6" name="Starter Wars: Podstawka Voraków" hidden="false" targetId="146d-b6b8-e43d-fcf4" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce86-29e2-0b58-5692" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a331-23d7-f669-134d" name="Starter Wars: Podstawka Pół-gigantów" hidden="false" targetId="6c38-e430-efb4-9437" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="31f7-e48f-ccfa-bd49" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ea71-40cc-6503-924f" name="Starter Wars: Podstawka Slagorów" hidden="false" targetId="cc8a-c8a1-c872-4089" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="214e-966d-9f25-7325" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Barbarzyńcy" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -36,6 +257,9 @@
               <description>Podczas walki z modelami pojedynczymi lub oddziałami z zasadą Kreatura nie odejmują kostek wynikających z różnicy między Siłą a Twardością</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink id="12f5-0021-b6e7-33b1" name="Starter Wars: Podstawka Barbarzyńców" hidden="false" targetId="3f57-7834-c895-befc" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
           </costs>
@@ -72,6 +296,9 @@
             <infoLink id="b9e5-445b-43c2-c06d" name="Grom Włóczni" hidden="false" targetId="c4e7-b255-b1c7-3642" type="rule"/>
             <infoLink id="563d-bf6d-fc82-5af1" name="Zdrewnienie" hidden="false" targetId="2260-b0ac-2aa6-bbbc" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="52a8-e39f-5072-caa5" name="Starter Wars: Podstawka Odunów" hidden="false" targetId="dd1f-8d7a-8164-f497" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
           </costs>
@@ -162,6 +389,9 @@
           <infoLinks>
             <infoLink id="5949-ee02-596f-546e" name="Brutalna Pułapka" hidden="false" targetId="ae08-76ed-ff77-59e4" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="c700-0065-a044-0d87" name="Starter Wars: Podstawka Voraków" hidden="false" targetId="146d-b6b8-e43d-fcf4" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
           </costs>
@@ -198,6 +428,9 @@
             <infoLink id="a01d-8827-7259-f021" name="Miażdżący Cios " hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
             <infoLink id="93d5-1528-0738-89fd" name="Rozpłatanie" hidden="false" targetId="32f7-0a99-bfc7-33c7" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3b90-708b-c3df-2884" name="Starter Wars: Podstawka Pół-gigantów" hidden="false" targetId="6c38-e430-efb4-9437" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
           </costs>
@@ -239,6 +472,9 @@
             <infoLink id="3214-64ce-e467-534c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
             <infoLink id="c742-bf03-9767-4c5c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="3826-bcfa-4b0e-985a" name="Starter Wars: Podstawka Slagorów" hidden="false" targetId="cc8a-c8a1-c872-4089" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
           </costs>

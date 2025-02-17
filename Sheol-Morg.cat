@@ -1,9 +1,438 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="23" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="26" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
   </publications>
+  <categoryEntries>
+    <categoryEntry id="fd5e-78dd-567c-26ae" name="Starter Wars: Podstawka Rogatych Wojowników" hidden="false"/>
+    <categoryEntry id="4cf5-1fe8-6da1-713b" name="Starter Wars: Podstawka Szkieletów" hidden="false"/>
+    <categoryEntry id="f980-af8a-2027-9709" name="Starter Wars: Podstawka Truhlaków na Upadłych Ogarach" hidden="false"/>
+    <categoryEntry id="ff15-762c-2338-0d21" name="Starter Wars: Podstawka Kozarów" hidden="false"/>
+    <categoryEntry id="8a53-6142-f83b-e9dc" name="Starter Wars: Podstawka Hybryd" hidden="false"/>
+    <categoryEntry id="5cfd-42e5-7c52-b786" name="Starter Wars: Podstawka Mrocznych Faunów" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="c79b-1a30-fd9f-0a31" name="Starter Wars" hidden="false">
+      <categoryLinks>
+        <categoryLink id="41d1-6c2c-e4dd-1feb" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e560-3755-36cc-9191" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ce2-2ee3-f961-efec" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122d-966f-d2f9-c802" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5fb-baac-aa73-e961" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="803d-0eb1-1b17-fdec" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
+          <modifiers>
+            <modifier type="set" field="6527-04a1-f0d9-d33e" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="6527-04a1-f0d9-d33e" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced8-c28d-8bd7-6538" type="min"/>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6527-04a1-f0d9-d33e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3383-9fb4-c7f3-1290" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">
+          <modifiers>
+            <modifier type="set" field="2ca2-4455-f05f-d0dd" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3bd5-c0cb-ba58-bec1" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ca2-4455-f05f-d0dd" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bd5-c0cb-ba58-bec1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e4c1-7841-4ff5-e433" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false">
+          <modifiers>
+            <modifier type="set" field="5fc3-13e1-34ce-97ea" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="5fc3-13e1-34ce-97ea" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="5fc3-13e1-34ce-97ea" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc3-13e1-34ce-97ea" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="47a4-37a8-90a8-6b3b" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false">
+          <modifiers>
+            <modifier type="set" field="6a3c-c51e-c24b-dc8b" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="6a3c-c51e-c24b-dc8b" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3c-c51e-c24b-dc8b" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7018-3805-fd95-29ba" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="false">
+          <modifiers>
+            <modifier type="increment" field="d7a9-84f6-0b14-3271" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf53-8f98-e5aa-f320" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9384-00a0-9a41-f8e9" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a9-84f6-0b14-3271" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4154-024a-fe21-a943" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="false">
+          <modifiers>
+            <modifier type="set" field="b602-c283-e231-8983" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="b602-c283-e231-8983" value="8.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b602-c283-e231-8983" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e82e-a269-6a15-d616" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="false">
+          <modifiers>
+            <modifier type="set" field="3aca-65d3-c81a-075e" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="3aca-65d3-c81a-075e" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aca-65d3-c81a-075e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bea4-ba69-5941-85f9" name="Marmydon" hidden="false" targetId="6da5-852d-f369-1d98" primary="false">
+          <modifiers>
+            <modifier type="set" field="6433-8095-9c73-cdcc" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="6433-8095-9c73-cdcc" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="6433-8095-9c73-cdcc" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6433-8095-9c73-cdcc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="908e-3100-5d0a-6ec1" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6601-33c6-5ca9-731c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0561-3995-ee3a-660a" name="Oddziały Najemne" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb9-1e87-75c0-e170" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2f47-5739-b1a7-a203" name="Starter Wars: Podstawka Szkieletów" hidden="false" targetId="4cf5-1fe8-6da1-713b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ccc-d440-ff13-b349" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fb14-6e7b-8d6f-7943" name="Starter Wars: Podstawka Rogatych Wojowników" hidden="false" targetId="fd5e-78dd-567c-26ae" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d66-478d-2e6d-ea60" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d89e-4a9d-ce94-aef7" name="Starter Wars: Podstawka Kozarów" hidden="false" targetId="ff15-762c-2338-0d21" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9c2-bc62-7734-1579" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="25e1-1f92-5fa9-246a" name="Starter Wars: Podstawka Mrocznych Faunów" hidden="false" targetId="5cfd-42e5-7c52-b786" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5746-3fd7-3238-47f3" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="ab7d-82ec-b35b-f7c5" name="Starter Wars (Old Starter)" hidden="false">
+      <categoryLinks>
+        <categoryLink id="b3d2-fa97-84a7-fc10" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1e-9105-3376-93dc" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4f9a-5b97-c899-0fa7" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c7-7138-281c-1d57" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b3a-126a-4c71-41fd" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6d54-c977-3423-9726" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="false">
+          <modifiers>
+            <modifier type="set" field="ca46-cb47-6ff3-3519" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="ca46-cb47-6ff3-3519" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcac-4e66-227f-2d14" type="min"/>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca46-cb47-6ff3-3519" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="68f0-2c84-5e49-0ae4" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="false">
+          <modifiers>
+            <modifier type="set" field="877a-96a0-7262-1354" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="16ef-cb47-682b-51a7" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="877a-96a0-7262-1354" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ef-cb47-682b-51a7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bf57-22fc-5112-4aa1" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false">
+          <modifiers>
+            <modifier type="set" field="c26c-f374-2914-f6f9" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="c26c-f374-2914-f6f9" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="c26c-f374-2914-f6f9" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="499.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c26c-f374-2914-f6f9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ebd5-74fa-b540-ed3d" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="false">
+          <modifiers>
+            <modifier type="set" field="4eea-ef1e-cfd4-bda3" value="2.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="4eea-ef1e-cfd4-bda3" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eea-ef1e-cfd4-bda3" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="03f5-9f1f-1532-8a00" name="Oddziały Elitarne" hidden="false" targetId="61c5-519d-b7db-d153" primary="false">
+          <modifiers>
+            <modifier type="increment" field="d983-8c88-3d9c-ee07" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cf53-8f98-e5aa-f320" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fcc-24af-d8d6-e811" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d983-8c88-3d9c-ee07" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a824-4fea-904e-27a6" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="false">
+          <modifiers>
+            <modifier type="set" field="1745-dc9c-99c2-ff3d" value="4.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="1745-dc9c-99c2-ff3d" value="8.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1745-dc9c-99c2-ff3d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f9ea-bf04-7e1b-a782" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="false">
+          <modifiers>
+            <modifier type="set" field="68db-2719-1428-b46b" value="3.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="68db-2719-1428-b46b" value="6.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68db-2719-1428-b46b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d99f-ce61-09f2-9f73" name="Marmydon" hidden="false" targetId="6da5-852d-f369-1d98" primary="false">
+          <modifiers>
+            <modifier type="set" field="6707-d801-fd03-61ad" value="0.0">
+              <conditions>
+                <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8ea3-2427-f146-78c9" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <modifiers>
+                <modifier type="set" field="6707-d801-fd03-61ad" value="0.0">
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="6707-d801-fd03-61ad" value="1.0">
+                  <repeats>
+                    <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="999.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6707-d801-fd03-61ad" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="c082-f993-2d9a-f215" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1f-7347-1ee0-ca68" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="84ea-3c8d-3a3b-f761" name="Oddziały Najemne" hidden="false" targetId="d0e7-2ce7-c81e-d0fc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d0-7842-0d14-ac35" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="280b-6da1-18a6-bf71" name="Starter Wars: Podstawka Rogatych Wojowników" hidden="false" targetId="fd5e-78dd-567c-26ae" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d402-a2e0-d394-5540" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="dfb0-0437-35a2-e0ea" name="Starter Wars: Podstawka Szkieletów" hidden="false" targetId="4cf5-1fe8-6da1-713b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4719-c74b-68fb-7c9b" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3575-c413-6bc5-b667" name="Starter Wars: Podstawka Truhlaków na Upadłych Ogarach" hidden="false" targetId="f980-af8a-2027-9709" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="943d-a419-acb4-abfe" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="bf53-6741-5e89-fd57" name="Starter Wars: Podstawka Kozarów" hidden="false" targetId="ff15-762c-2338-0d21" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cda8-bb02-d010-d6fc" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3b5d-db4d-55a9-8fbb" name="Starter Wars: Podstawka Hybryd" hidden="false" targetId="8a53-6142-f83b-e9dc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db39-9c8b-666b-e21e" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="8299-ebaa-0826-084d" name="Lord Otchłani " hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -26,7 +455,7 @@
         <entryLink id="3e55-7a71-4e59-ef77" name="(PW2) Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2af-f155-9651-42fe" name="Lord Nekromanta" hidden="false" collective="false" import="true" type="model">
@@ -51,7 +480,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <entryLink id="2282-8b13-9296-f7dc" name="(PW2) Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f92-1758-274e-a689" name="Lord Sheol-Morg" hidden="false" collective="false" import="true" type="model">
@@ -75,7 +504,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <entryLink id="2db2-de57-74ee-3b9c" name="(PW2) Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50c4-e4a5-c655-773f" name="Grupa Dowódcza" hidden="false" collective="false" import="true" type="model">
@@ -87,7 +516,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <entryLink id="bc82-5573-1b22-63bd" name="(PW2) Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3a8-84cc-6c74-92f3" name="Czarnoksiężnik" hidden="false" collective="false" import="true" type="model">
@@ -105,7 +534,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <entryLink id="f9e9-19c6-cfff-cfa3" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17eb-afcc-1100-be7b" name="Przeklinacz" hidden="false" collective="false" import="true" type="model">
@@ -121,14 +550,14 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="147a-dc20-eccb-3897" name="Magia" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="f85b-9abe-e3c6-3699" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf1-aec6-bfb1-01d2" type="max"/>
+            <constraint field="f85b-9abe-e3c6-3699" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf1-aec6-bfb1-01d2" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="2fea-6bfe-dd9e-0999" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
             <entryLink id="f3b6-f572-c05f-e849" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -137,24 +566,24 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <entryLink id="c981-cede-f2ce-ef2d" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="753b-a986-bfb9-ff39" name="Czempion Gehenny" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="38c9-b909-d2d8-c840" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="38c9-b909-d2d8-c840" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c9-b909-d2d8-c840" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c9-b909-d2d8-c840" type="max"/>
       </constraints>
       <profiles>
         <profile id="c5dd-6385-5f93-95a8" name="Czempion Gehenny" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
@@ -168,24 +597,24 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <categoryLink id="7b33-5b32-5933-75df" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8cf-4460-1e49-c087" name="Czempion Hord" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="d7d3-faba-8e43-7c3e" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="d7d3-faba-8e43-7c3e" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d3-faba-8e43-7c3e" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d3-faba-8e43-7c3e" type="max"/>
       </constraints>
       <profiles>
         <profile id="b197-6da3-6164-51de" name="Czempion Hord" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
@@ -199,24 +628,24 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <categoryLink id="d4b7-65d5-d99e-c5dd" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cc2-5a53-c0de-b7b0" name="Czempion Bogów Mroku" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="d429-1981-b6e2-9078" value="2">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="d429-1981-b6e2-9078" value="1">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d429-1981-b6e2-9078" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d429-1981-b6e2-9078" type="max"/>
       </constraints>
       <profiles>
         <profile id="0122-a36e-a071-71d8" name="Czempion Bogów Mroku" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
@@ -230,7 +659,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <categoryLink id="a47a-8197-0046-e9d4" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="029b-8f78-1a94-fe6c" name="Hydra" hidden="false" collective="false" import="true" type="model">
@@ -262,7 +691,7 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <categoryLink id="274c-8586-6e50-347a" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="83"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="83.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87df-3f97-ec30-881f" name="Hybrydy" hidden="false" collective="false" import="true" type="unit">
@@ -272,8 +701,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="a76b-b7e0-02a9-4979" name="Hybrydy" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcfd-e738-d850-3d1d" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f3-7fad-05c3-66c3" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcfd-e738-d850-3d1d" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f3-7fad-05c3-66c3" type="min"/>
           </constraints>
           <profiles>
             <profile id="52f1-6a95-af16-fd78" name="Hybrydy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -297,25 +726,28 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
             <infoLink id="99db-b9cf-2e17-e590" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
             <infoLink id="b125-7c31-9c7a-186e" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="8c61-b6b7-6c54-d64a" name="Starter Wars: Podstawka Hybryd" hidden="false" targetId="8a53-6142-f83b-e9dc" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="17"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="17.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90c9-c990-4396-8c48" name="Czarni Rycerze na Horgarach" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="4445-3a03-48c9-cc5b" value="5">
           <conditions>
-            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4445-3a03-48c9-cc5b" type="max"/>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4445-3a03-48c9-cc5b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="c4a0-c78d-69bc-6cbd" name="Oddziały Unikalne" hidden="false" targetId="e7dc-90ea-f6c0-25b8" primary="true"/>
@@ -323,8 +755,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="d3e4-de91-8a92-a60d" name="Czarni Rycerze na Horgarach" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fe-7c72-8613-709b" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138f-b587-93c9-7c05" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fe-7c72-8613-709b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138f-b587-93c9-7c05" type="min"/>
           </constraints>
           <profiles>
             <profile id="54f8-ea16-6eed-04f4" name="Czarni Rycerze na Horgarach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -347,12 +779,12 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
             <infoLink id="3e76-bb11-4b32-4b8a" name="Nieczułość" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="27"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="27.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="427d-4f9c-5b8a-b381" name="Minotaur" hidden="false" collective="false" import="true" type="model">
@@ -381,14 +813,14 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
         <categoryLink id="a7fc-e165-532e-ce9f" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="52"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="10bc-ab86-1c2c-d78c" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -398,8 +830,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="3ee6-74eb-fe9a-3345" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="383b-cdcd-d664-218c" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ea-3f43-d247-932d" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="383b-cdcd-d664-218c" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ea-3f43-d247-932d" type="min"/>
           </constraints>
           <profiles>
             <profile id="862b-00b9-34f5-1544" name="Truhlaki na Upadłych Ogarach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -420,25 +852,28 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
             <infoLink id="35f7-8717-3f13-6fff" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
             <infoLink id="40ce-971a-5e25-988c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="124c-8947-6d2a-04f0" name="Starter Wars: Podstawka Truhlaków na Upadłych Ogarach" hidden="false" targetId="f980-af8a-2027-9709" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e005-88f7-22c3-930f" name="Kozary" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -448,8 +883,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="045e-4bef-02df-ed73" name="Kozary" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a9-a6b7-19db-b28b" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fedf-25dd-dd47-632d" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a9-a6b7-19db-b28b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fedf-25dd-dd47-632d" type="min"/>
           </constraints>
           <profiles>
             <profile id="2eb3-e6fd-cb96-2418" name="Kozary" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -475,27 +910,30 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <description>Oddział w armii Lorda Sheol-morg będący Hordą może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu.</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink id="608a-8b8d-4bb1-40af" name="Starter Wars: Podstawka Kozarów" hidden="false" targetId="ff15-762c-2338-0d21" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92f7-4e2d-1e9d-ad63" name="Kozary" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -505,8 +943,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="d0da-8191-ecbd-8683" name="Kozary" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fefd-4b5d-78a9-9875" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a26-a733-acb9-8785" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fefd-4b5d-78a9-9875" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a26-a733-acb9-8785" type="min"/>
           </constraints>
           <profiles>
             <profile id="0f14-c6b6-904a-59c2" name="Kozary" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -532,27 +970,30 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <description>Oddział w armii Lorda Sheol-morg będący Hordą może poświęcić jedną podstawkę, aby wykonać przerzut wydanego mu rozkazu.</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink id="8d89-463f-582c-8039" name="Starter Wars: Podstawka Kozarów" hidden="false" targetId="ff15-762c-2338-0d21" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30f1-be2e-64ad-40c6" name="Szkielety" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -562,8 +1003,8 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
       <selectionEntries>
         <selectionEntry id="7899-f11f-9702-2e93" name="Szkielety" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e24-64f2-ed87-e099" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2356-efa3-e240-6ab0" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e24-64f2-ed87-e099" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2356-efa3-e240-6ab0" type="min"/>
           </constraints>
           <profiles>
             <profile id="7823-330a-550f-e156" name="Szkielety" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -591,25 +1032,28 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
             <infoLink id="3172-799d-f6fe-901c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
             <infoLink id="f675-bb2b-12bd-4b18" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="bfaa-e232-33cb-020c" name="Starter Wars: Podstawka Szkieletów" hidden="false" targetId="4cf5-1fe8-6da1-713b" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ded-a841-c11e-6bcd" name="Szkielety" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -619,8 +1063,8 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
       <selectionEntries>
         <selectionEntry id="dc0d-b1cf-2d37-3732" name="Szkielety" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbc-182f-5268-edb8" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc8-ead9-d866-dd26" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbc-182f-5268-edb8" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc8-ead9-d866-dd26" type="min"/>
           </constraints>
           <profiles>
             <profile id="d980-55f4-cd5d-d41e" name="Szkielety" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -648,20 +1092,23 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
             <infoLink id="2397-5073-297b-b6d7" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
             <infoLink id="2e11-0db3-2979-90fc" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="772e-2b0e-ab79-6071" name="Starter Wars: Podstawka Szkieletów" hidden="false" targetId="4cf5-1fe8-6da1-713b" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b96a-c514-f695-c157" name="Rogaci Wojownicy" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -671,8 +1118,8 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
       <selectionEntries>
         <selectionEntry id="1f4f-0214-af05-3b3e" name="Rogaci Wojownicy" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a5-1358-336f-dfed" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10fb-0097-9b3f-dba3" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a5-1358-336f-dfed" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10fb-0097-9b3f-dba3" type="min"/>
           </constraints>
           <profiles>
             <profile id="9b46-aceb-24d0-e471" name="Rogaci Wojownicy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -692,7 +1139,7 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -704,25 +1151,28 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
             <infoLink id="d3cd-0c0e-f990-d22a" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
             <infoLink id="3fb2-293d-53a4-fecb" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="9450-e9aa-52df-344b" name="Starter Wars: Podstawka Rogatych Wojowników" hidden="false" targetId="fd5e-78dd-567c-26ae" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a1e-11ba-3a35-c908" name="Rogaci Wojownicy" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -732,8 +1182,8 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
       <selectionEntries>
         <selectionEntry id="668e-ff9a-97cd-8a0e" name="Rogaci Wojownicy" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c7-b657-d3b2-5532" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-7ab1-4a09-f4d0" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c7-b657-d3b2-5532" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-7ab1-4a09-f4d0" type="min"/>
           </constraints>
           <profiles>
             <profile id="b206-c0fd-0642-a93e" name="Rogaci Wojownicy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -753,7 +1203,7 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -765,13 +1215,16 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
             <infoLink id="6648-b44d-8186-7f4f" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
             <infoLink id="4fb8-2c21-084f-e6b3" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a268-2f6e-9631-84dc" name="Starter Wars: Podstawka Rogatych Wojowników" hidden="false" targetId="fd5e-78dd-567c-26ae" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a567-2fdb-b29e-39c0" name="Mroczne Fauny" hidden="false" collective="false" import="true" type="unit">
@@ -781,8 +1234,8 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
       <selectionEntries>
         <selectionEntry id="10d9-e2e2-d430-00a8" name="Mroczne Fauny" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5a-ac98-517c-4c15" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-1229-3386-2f4d" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5a-ac98-517c-4c15" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-1229-3386-2f4d" type="min"/>
           </constraints>
           <profiles>
             <profile id="be98-58e5-961b-4df4" name="Mroczne Fauny" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -801,41 +1254,44 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
             <infoLink id="d91f-ccae-80c2-612f" name="Zaciekłość" hidden="false" targetId="f593-c25f-aa8a-bbc8" type="rule"/>
             <infoLink id="78f1-ef37-4f2e-9414" name="Nieczułość" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="0f26-3b4a-c34a-e580" name="Starter Wars: Podstawka Mrocznych Faunów" hidden="false" targetId="5cfd-42e5-7c52-b786" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="23"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="23.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a9b-0250-04bd-3e83" name="Potępieńcy" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="819b-f945-9246-78ed" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="98f3-ac5c-fd09-a625" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="819b-f945-9246-78ed" type="max"/>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f3-ac5c-fd09-a625" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="819b-f945-9246-78ed" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f3-ac5c-fd09-a625" type="min"/>
       </constraints>
       <profiles>
         <profile id="81da-fe65-aea6-cf84" name="Potępieńcy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -860,35 +1316,35 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
         <infoLink id="0f0b-0cdb-30b0-14a2" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24a1-c47d-fbb6-e3a2" name="Mistrz Rytuału" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="958d-1fe7-36cd-6873" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="4121-3cb5-d3f5-43d3" value="1">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="958d-1fe7-36cd-6873" type="max"/>
-        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4121-3cb5-d3f5-43d3" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="958d-1fe7-36cd-6873" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4121-3cb5-d3f5-43d3" type="min"/>
       </constraints>
       <rules>
         <rule id="5e38-5781-51d2-84ee" name="Ab... huul! Daaqul, salib!!!" hidden="false">
@@ -907,19 +1363,19 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
         <entryLink id="c739-21ec-d969-3fbb" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edc7-4f59-d178-9752" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -929,8 +1385,8 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
       <selectionEntries>
         <selectionEntry id="540e-c0bd-6cad-3242" name="Truhlaki na Upadłych Ogarach" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47d-7972-3da8-dd25" type="max"/>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a7-e3ad-d282-ac8b" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b47d-7972-3da8-dd25" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a7-e3ad-d282-ac8b" type="min"/>
           </constraints>
           <profiles>
             <profile id="cd32-3f74-45c2-ac5b" name="Truhlaki na Upadłych Ogarach" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
@@ -951,25 +1407,28 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
             <infoLink id="8e56-341c-5dad-4775" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
             <infoLink id="6180-9e73-4611-4283" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink id="2677-2858-7879-9b36" name="Starter Wars: Podstawka Truhlaków na Upadłych Ogarach" hidden="false" targetId="f980-af8a-2027-9709" primary="false"/>
+          </categoryLinks>
           <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19"/>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="045c-2455-0094-2e7c" name="Gnat" hidden="true" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7053-04b3-0f9b-0cfd" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7053-04b3-0f9b-0cfd" type="max"/>
       </constraints>
       <rules>
         <rule id="d6a2-85b7-3521-60f5" name="Azargal – Topór Nieboszczyka" hidden="false">
@@ -999,21 +1458,32 @@ Uzyskane bonusy trwają do końca cyklu.</description>
         <categoryLink id="22e6-e7a5-ed62-d22e" name="Legendarny bohater" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="57"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="57.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Zgniłgant" hidden="false" id="2fd6-bff2-c49a-2567">
-      <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="47"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="70ac-247a-953d-1088" id="23d8-9777-0052-04bd" primary="true" name="Oddziały Rzadkie"/>
-      </categoryLinks>
-      <infoLinks>
-        <infoLink name="Nieustraszony" id="aff9-5750-0d16-98c4" hidden="false" type="rule" targetId="907e-ec8a-ba87-c704"/>
-      </infoLinks>
+    <selectionEntry id="2fd6-bff2-c49a-2567" name="Zgniłgant" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="1ee0-3e46-ff88-5cbb" value="1">
+          <repeats>
+            <repeat field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee0-3e46-ff88-5cbb" type="max"/>
+      </constraints>
       <profiles>
-        <profile name="Rotgant" typeId="218f-0655-0268-95ef" typeName="Profile" hidden="false" id="ef85-1a87-10c1-07ae">
+        <profile id="ef85-1a87-10c1-07ae" name="Rotgant" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
           <characteristics>
             <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">5</characteristic>
             <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
@@ -1025,45 +1495,424 @@ Uzyskane bonusy trwają do końca cyklu.</description>
           </characteristics>
         </profile>
       </profiles>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="8299-ebaa-0826-084d" shared="true"/>
-                <condition type="equalTo" value="1" field="selections" scope="force" childId="8f92-1758-274e-a689" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="increment" value="1" field="1ee0-3e46-ff88-5cbb">
-          <repeats>
-            <repeat value="1000" repeats="1" field="limit::f85b-9abe-e3c6-3699" scope="roster" childId="any" shared="true" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1ee0-3e46-ff88-5cbb" includeChildSelections="false"/>
-      </constraints>
       <rules>
-        <rule name="Siewca Mogił" id="f3ed-debd-da12-649d" hidden="false">
+        <rule id="f3ed-debd-da12-649d" name="Siewca Mogił" hidden="false">
           <description>Zgniłgant po wykonaniu szarży może wykonać rzut k6. Wynik oznacza ilość dodatkowych ataków, jakie otrzymuje. Jeśli wynik wynosi 6, Zgniłgant nie wykonuje ataków, ale potyka się i upada wprost na wroga. Wykonaj rzut 2k6. Dokładnie tyle ran otrzymuje wróg oraz Zgniłgant. Wróg nie może korzystać z ochrony lub pancerzy w przypadku upadku Zgniłganta.</description>
         </rule>
-        <rule name="Zdobyczne Artefakty" id="d314-6d03-7e1a-317e" hidden="false">
+        <rule id="d314-6d03-7e1a-317e" name="Zdobyczne Artefakty" hidden="false">
           <description>Raz na bitwę Zgniłgant może użyć magicznego przedmiotu na tych samych zasadach co Magowie, jednak musi wykonać rzut k6, by dowiedzieć się, jaki przedmiot chwycił. Wykonaj rzut k6.
 1-2 Kostur. Patrz podręcznik główny
 3-5 Diadem Rozpaczy. Patrz podręcznik główny
 6 Wór z klamotami. Niestety Zgniłgant po przejżeniu zawartości stracił zainteresowanie zdobytymi artefaktami. Jeśli Zgniłgant posiada Kość Akcji, musi ją usunąć.</description>
         </rule>
-        <rule name="Łowca Magów" id="84f3-af8a-d877-793a" hidden="false">
+        <rule id="84f3-af8a-d877-793a" name="Łowca Magów" hidden="false">
           <description>Zgniłgant po zetknięciu z wrogim Magiem eliminuje go z gry uzyskując wynik 4 lub mniej zamiast 2 lub mniej.</description>
         </rule>
       </rules>
+      <infoLinks>
+        <infoLink id="aff9-5750-0d16-98c4" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="23d8-9777-0052-04bd" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="47.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="11d7-f871-41b3-0e1f" name="Szkielecia Grupa Dowódcza" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="4b7b-b9c6-7e92-9e29" name="Szkielecia Grupa Dowódcza" hidden="false">
+          <description>Specyficzna magiczna aura Szkielecich Grup Dowódczych powoduje, że aby skutecznie wspierać armie nie moga dołączać się do żadnych jednostek. Jeśli wrogi oddział zetknie się z taką Grupą Dowódczą i nie zostanie ona wyeliminowana, musi być odstawiona do
+15 cm w dowolne miejsce pola bitwy.
+
+Jeśli Szkielecia Grupa Dowódcza znajduje się w odległości do 5 cm od przyjaznego oddziału, oddział ten może korzystać z poniższych zasad:
+• Po deklaracji szarży może wykonać (nawet pomimo trudnosci i przeszkód na drodze) dorzut 3k6 zamiast tego jaki mu przysługuje i wybrać dwa najlepsze wyniki.
+• Oddział ma prawo wykonać specjalny ruch w bok lub do tyłu do 5 cm + k6 zamiast swojego normalnego ruchu lub szarży.
+• Po każdej przegranej walce oddział Truhlaków nie musi wykonywać rzutu za liczbę ran, jakie mógł dodatkowo otrzymać.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="78aa-4292-c248-9858" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+        <categoryLink id="c33f-081d-46b3-3042" name="Grupa Dowódcza" hidden="false" targetId="970f-1486-f74e-91e9" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b70f-4d24-f987-b094" name="(PW2) Sztandary" hidden="false" collective="false" import="true" targetId="75d2-7540-394c-3480" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3056-3d2e-6f2b-a2ab" name="Czempion Katakumb" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="51fc-3290-9c51-33ba" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="51fc-3290-9c51-33ba" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51fc-3290-9c51-33ba" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="305c-416f-8407-6b86" name="Czempion Katakumb" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wyznacz jeden dowolny oddział wroga w promieniu 30 cm od Czempiona Katakumb i wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wybrany oddział musi wykonać przerzut najwyższego wyniku podczas rzutu za zasięg szarży. Dodatkowo jeśli dowolny wrogi oddział w 15 cm wykonuje Test Modlitwy, musi uzyć 3 kości i wybrać 2 najwyższe wyniki.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8c75-d336-de48-944c" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="1eb6-448e-8485-e96f" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c03-cd59-fff4-5217" name="Czempion Duchów" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="807c-065b-86ab-9702" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="807c-065b-86ab-9702" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="807c-065b-86ab-9702" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e1eb-859a-ca23-c491" name="Czempion Duchów" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wyznacz jeden dowolny oddział Truhlaków lub Duchów w promieniu 20 cm od Czempiona Duchów i wykonaj rzut k6. Wynik 4 lub 3 oznacza, że oddział otrzymuje +1 do A. Wynik 2 lub mniej oznacza, że oddział otrzymuje +1 do A oraz + 1 do WS.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8568-5b7a-20b3-17d5" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="4cc7-df46-a534-2eb8" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="660c-b4d3-f3d9-da52" name="Czempion Mogił" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="bac9-467a-8b6f-b2b8" value="1.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="atMost"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="bac9-467a-8b6f-b2b8" value="2.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bac9-467a-8b6f-b2b8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="02b0-896c-af7f-2541" name="Czempion Mogił" hidden="false" typeId="7637-0d34-a79d-477b" typeName="Zdolność">
+          <characteristics>
+            <characteristic name="Opis" typeId="d023-e767-bbca-ad83">Wyznacz jeden dowolny oddział Truhlaków lub Gnilców w promieniu 20 cm od Czempiona Mogił i wykonaj rzut k6. Wynik 4 lub mniej oznacza, że wybrany oddział może podczas szarży wykonać przerzut jednej kości za jej zasięg.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e690-2a79-711e-53c6" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+        <categoryLink id="6a3d-11a3-685f-03f1" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d5d-ab0a-af3e-7502" name="Mementorzy" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3056-3d2e-6f2b-a2ab" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3056-3d2e-6f2b-a2ab" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f6a2-0459-525b-eaab" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5463-de0d-0866-6632" name="Mementorzy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a90-2bcc-1ac1-07d4" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb3-be95-4864-6825" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="da13-b3b8-f890-ee00" name="Mementorzy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">4</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">3</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a341-a428-b203-2da0" name="Przedwieczni Generałowie" hidden="false">
+              <description>Jeśli w armii został wystawiony przynajmniej jeden oddział Mementorów, pula rozkazów Lorda Nekromanty w tej armii jest powiększona o 1.</description>
+            </rule>
+            <rule id="2160-06ac-95ae-545b" name="Memento Ultionis" hidden="false">
+              <description>Mementorzy otrzymują dodatkowe k6 ataków podczas walki z wrogim oddziałem, do którego jest dołączony Czempion lub dodatkowe 2k6 ataków, jeśli jest to Generał lub Legendarny Bohater.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="3898-b538-2dd0-d3f2" name="Strach" hidden="false" targetId="b756-0f19-9c03-7378" type="rule"/>
+            <infoLink id="084d-3e0f-8f94-3162" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="108f-4f4e-6825-12fc" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf1d-fd4a-a352-0aea" name="Gnilce" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="660c-b4d3-f3d9-da52" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="660c-b4d3-f3d9-da52" type="atMost"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="04ab-6186-c3a4-8248" name="New CategoryLink" hidden="false" targetId="61c5-519d-b7db-d153" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8d1b-8e56-9266-f7e3" name="Gnilce" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4073-403a-8a0d-34a1" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3081-78f2-8b5c-62ec" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="af6d-1cce-21ba-9666" name="Gnilce" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">4</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a261-3e5b-cfb6-e083" name="Zgnilizna" hidden="false">
+              <description>Wrogi oddział (ale nie model pojedynczy) posiadający WS większy niż 2 otrzymuje -1 do WS podczas walki z oddziałem Gnilców.</description>
+            </rule>
+            <rule id="d093-680b-bb5a-bb0e" name="Pragnienie Krwi" hidden="false">
+              <description>Oddział posiada +1 do A podczas szarży na wrogi oddział lub +2 do A podczas szarży na wrogi oddział posiadający zasadę Hordy.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2486-eebb-0609-6b45" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="d8a5-5cd5-cc4d-0ddc" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f2c-9d92-9774-3f56" name="Duchy" hidden="true" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c03-cd59-fff4-5217" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c03-cd59-fff4-5217" type="atMost"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db22-65d3-243c-ac4e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9e7b-976e-8f7f-58c1" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="713d-86cf-6449-9f73" name="Duchy" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba0-ad4f-07b7-1949" type="max"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a9-15b7-7c9d-2609" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1a49-b192-2872-d965" name="Duchy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">0</characteristic>
+                <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
+                <characteristic name="T" typeId="b6c9-4b7e-33e0-6aca">0</characteristic>
+                <characteristic name="A" typeId="395a-f9df-359b-774c">2</characteristic>
+                <characteristic name="W" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="d42c-13c9-fdcb-7151" name="Duchy" hidden="false">
+              <description>Nie podlega zasadzie Maruderzy.</description>
+            </rule>
+            <rule id="bb75-4cf2-7e97-2714" name="Aura Zniszczenia" hidden="false">
+              <description>Aura Duchów powoduje, że ich broń zyskuje niezwykłe właściwości. Duchy nie wykonują Testu Ranienia. Zamiast tego, każde udane trafienie w Teście WS oznacza automatycznie zadaną ranę, a każdy wynik 1 oznacza automatycznie zadane 2 rany. Wróg nie ma możliwości rzutu za ochronę/pancerz przed atakami Duchów.</description>
+            </rule>
+            <rule id="8a06-8e0c-5fd7-52ce" name="Eteryczność" hidden="false">
+              <description>Wrogi oddział może wykonać Test Ranienia Duchów tylko jeśli posiada dołączonego Maga lub wykonał udaną dowolną modlitwę przed wykonaniem swoich ataków.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d1fc-4c62-304e-74fe" name="Wyostrzone Zmysły" hidden="false" targetId="b8ea-004d-8202-77a6" type="rule"/>
+            <infoLink id="332c-1e0c-4ba8-7938" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="bc7c-3d3d-2dd7-5810" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule id="afaa-9834-193d-24c6" name="Ciężki Pancerz" hidden="false">
       <description>Każde obrażenie, które zostało zadane temu oddziałowi, może być zniwelowane przez masywny pancerz. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że obrażenie zostało zniwelowane</description>
+    </rule>
+    <rule id="3c1a-a7d7-95ca-a81e" name="Szkieleci Czempioni" hidden="false">
+      <description>Specyficzna magiczna aura Szkielecich Czempionów powoduje, że aby skutecznie wspierać armię nie mogą dołączać się do żadnych jednostek. Jeśli wrogi oddział zetknie się z takim Czempionem i nie zostanie on wyeliminowany, musi być odstawiony do 15 cm w dowolne miejsce pola bitwy.</description>
     </rule>
   </sharedRules>
 </catalogue>
