@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="18" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="20" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <categoryEntries>
     <categoryEntry id="cc45-1079-3876-ad77" name="Starter Wars: Podstawka Liagulian" hidden="false"/>
@@ -763,6 +763,36 @@
       </selectionEntries>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc2a-10b2-b193-6cb1" name="Xan&apos;toag" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d0-50fa-42ec-4675" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="635b-c5d2-d274-e15b" name="Pancerz Słonecznych Miast" hidden="false">
+          <description>Xan jest eliminowany z gry tylko po uzyskaniu przez wroga wyniku 1. Ponadto oddział, który nie posiada pancerza lub ochrony i do którego jest dołączony Xan, może wykonać test pancerza dla 3 ran. Każdy wynik 3 lub mniej oznacza anulowaną ranę.</description>
+        </rule>
+        <rule id="071a-7077-9ba5-e5e7" name="Smocza Włócznia" hidden="false">
+          <description>Xan wspiera oddział 8 atakami. Jeśli wrogi model pojedynczy zetknie się z Xanem, natychmiast otrzymuje k6 ran. Jeśli wrogi model przetrwał, może wykonać test za wyeliminowanie Xana.</description>
+        </rule>
+        <rule id="128b-6681-304a-e6aa" name="Powiernicy Maczugi" hidden="false">
+          <description>Zamień w armii jedną podstawkę z oddziału Liagulian na Powierników Maczugi. Oddział ten do końca trwania bitwy posiada zasadę Nieustraszony oraz Wola Walki. Jeśli dołączy się do niego Xan, dodatkowo posiada cechę S 4 zamiast 3.
+
+Nieustraszony - Zawsze zdaje Test Zimnej Krwi oraz Test Paniki
+Wola Walki - Jeśli oddział Liagulian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm</description>
+        </rule>
+        <rule id="d2cd-6d48-84c8-ce40" name="Bohater Ropuchonów" hidden="false">
+          <description>Xan dołączony do oddziału Ropuchonów lub Złotej Straży daje mu zasadę Szał.
+
+Szał - Podczas szarży oddział podwaja wartość swojej cechy Atak (A)</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3ec3-1b9c-ce49-02aa" name="New CategoryLink" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="44.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
