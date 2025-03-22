@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="23" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0744-20b6-d715-c575" name="Argatoria (EN)" revision="24" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Entries prefixed with (PW2) are test rules that may be used by players, but are not required. They come from Spellcrow magazine – Purple Warlock 2, Feb 2023
 
 FAQ i errata available here – https://www.spellcrow.com/downloads-faqs-pm-49.html
