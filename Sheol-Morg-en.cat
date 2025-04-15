@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="14" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <categoryEntries>
     <categoryEntry id="7090-675d-810d-e699" name="Starter Wars: Horned Warriors base" hidden="false"/>
@@ -1893,6 +1893,48 @@ If the Skeletons Command Group is within 5 cm of a friendly unit, that unit may 
       </selectionEntries>
       <costs>
         <cost name="Points" typeId="8c1c-2839-4120-668b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1012-7118-5ed7-42ab" name="Myrnos" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="23af-d13f-3c8f-1a8e" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="983e-330c-70fe-98a9" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e4dd-aae6-39db-57ff" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8080-4ec9-0fc6-ade1" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="130c-3ec9-fdd6-4c14" name="Myrnos" hidden="false">
+          <description>Obsessed with madness, Myrnos always has 5 attacks + 1 attack for each rank of the unit he is attached to.</description>
+        </rule>
+        <rule id="a3a9-3723-4958-6183" name="Axe of Malice" hidden="false">
+          <description>This axe, endowed with a foul soul, confuses Myrnos&apos;s mind and causes him to go mad. If an enemy unit (but not a single model) loses combat to a unit Myrnos is attached to, roll four d6s before the enemy takes a Cold Blood Test. Any score of 4 or less means that Myrnos inflicts additional Wounds on the enemy. Any double of 6 means that the unit Myrnos is attached to loses 1 base.</description>
+        </rule>
+        <rule id="6a4c-657d-fd84-0f56" name="Hunger for Murder" hidden="false">
+          <description>The regrouping range of the unit Myrnos is attached to is 3d6 cm instead of 5 cm.</description>
+        </rule>
+        <rule id="a6ad-458f-6ac2-c106" name="Belt of Servant" hidden="false">
+          <description>If Myrnos is eliminated from battle, he is not counted as a Blood Point for the enemy.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8753-1a2f-59a9-aa1f" name="Legendary hero" hidden="false" targetId="b096-ae60-509f-d93a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="8c1c-2839-4120-668b" value="40.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
