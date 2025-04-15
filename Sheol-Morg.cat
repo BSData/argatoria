@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="26" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="27" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
@@ -1904,6 +1904,48 @@ Jeśli Szkielecia Grupa Dowódcza znajduje się w odległości do 5 cm od przyja
       </selectionEntries>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="776f-37ce-4dfb-a992" name="Myrnos" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2af-f155-9651-42fe" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e939-7421-bdb5-7c41" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8e92-2310-c64b-27b1" name="Myrnos" hidden="false">
+          <description>Opętany wirem szaleństwa Myrnos zawsze dysponuje 5 atakami + 1 atak za każdy szereg oddziału, do którego jest dołączony.</description>
+        </rule>
+        <rule id="bd5f-fc24-aa6c-9827" name="Topór Podłości" hidden="false">
+          <description>Ten obdarzony ohydną duszą topór mąci w umyśle Myrnosa i powoduje, że wpada w szaleństwo. Jeśli wrogi oddział (ale nie model pojedynczy) przegrał walkę z oddziałem, do którego jest dołączony Myrnos, wykonaj cztery rzuty k6 zanim przeciwnik wykona Test Zimnej Krwi. Każdy wynik 4 lub mniej oznacza, że Myrnos zadaje wrogowi kolejne rany. Każdy dublet 6 oznacza, że oddział, do którego jest dołączony Myrnos, traci 1 podstawkę.</description>
+        </rule>
+        <rule id="1142-2aa4-d67d-2eba" name="Glód Mordu" hidden="false">
+          <description>Zasięg przegrupowania oddziału, do którego jest dołączony Myrnos, wynosi 3k6 cm zamiast 5 cm.</description>
+        </rule>
+        <rule id="500d-d848-f0ae-0344" name="Pas Sługi" hidden="false">
+          <description>Jeśli Myrnos został wyeliminowany z bitwy, nie jest liczony jako Punkt Krwi dla wroga.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8ce3-ef10-85db-8e83" name="New CategoryLink" hidden="false" targetId="b1fc-1418-8299-2efb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="40.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
