@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="27" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="28" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="30" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
     <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
@@ -1597,6 +1597,9 @@ Jeśli Szkielecia Grupa Dowódcza znajduje się w odległości do 5 cm od przyja
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="17af-dbaa-545f-adbf" name="Szkieleci Czempioni" hidden="false" targetId="3c1a-a7d7-95ca-a81e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8c75-d336-de48-944c" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
         <categoryLink id="1eb6-448e-8485-e96f" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -1643,6 +1646,9 @@ Jeśli Szkielecia Grupa Dowódcza znajduje się w odległości do 5 cm od przyja
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="3b45-ac12-775a-7a69" name="Szkieleci Czempioni" hidden="false" targetId="3c1a-a7d7-95ca-a81e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="8568-5b7a-20b3-17d5" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
         <categoryLink id="4cc7-df46-a534-2eb8" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
@@ -1689,6 +1695,9 @@ Jeśli Szkielecia Grupa Dowódcza znajduje się w odległości do 5 cm od przyja
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="279f-1832-89e7-94a9" name="Szkieleci Czempioni" hidden="false" targetId="3c1a-a7d7-95ca-a81e" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e690-2a79-711e-53c6" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
         <categoryLink id="6a3d-11a3-685f-03f1" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
