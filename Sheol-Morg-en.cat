@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="15" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca63-292a-1dd5-85ca" name="Sheol-Morg" revision="16" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="0744-20b6-d715-c575" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>©2021 Spellcrow Ltd., All rights reserved. All illustrations, images, logos, names and places from the Umbra Turris Universe are property of Spellcrow Ltd.</readme>
   <categoryEntries>
     <categoryEntry id="7090-675d-810d-e699" name="Starter Wars: Horned Warriors base" hidden="false"/>
@@ -1586,6 +1586,9 @@ If the Skeletons Command Group is within 5 cm of a friendly unit, that unit may 
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="5b6f-5b87-4c90-d501" name="Skeletons Champions" hidden="false" targetId="a969-f242-1f88-29d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="5d8d-c119-c698-529e" name="New CategoryLink" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
         <categoryLink id="ab8d-98a0-c369-290b" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
@@ -1632,6 +1635,9 @@ If the Skeletons Command Group is within 5 cm of a friendly unit, that unit may 
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8963-174b-85c4-73b3" name="Skeletons Champions" hidden="false" targetId="a969-f242-1f88-29d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9ee9-3fd1-36d5-6d75" name="New CategoryLink" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
         <categoryLink id="04fa-0233-78c7-56da" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
@@ -1674,10 +1680,13 @@ If the Skeletons Command Group is within 5 cm of a friendly unit, that unit may 
       <profiles>
         <profile id="c191-ad80-fc80-bbae" name="Champion of Graves" hidden="false" typeId="0b4b-1b33-d5fd-5d82" typeName="Ability">
           <characteristics>
-            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Choose one unit of Truhlaks or Gnils within 20 cm of the Champion of Graves and roll a d6. A score of 4 or less means that the chosen unit may re-roll one do when rolling for the charge distance.</characteristic>
+            <characteristic name="Description" typeId="80c5-70a3-dda4-71fe">Choose one unit of Truhlaks or Gnils within 20 cm of the Champion of Graves and roll a d6. A score of 4 or less means that the chosen unit may re-roll one d6 when rolling for the charge distance.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="8532-28ae-3a28-d6bc" name="Skeletons Champions" hidden="false" targetId="a969-f242-1f88-29d7" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="a627-1d25-f3ad-f944" name="New CategoryLink" hidden="false" targetId="eaad-591f-8f20-91ea" primary="true"/>
         <categoryLink id="326d-bb26-26e9-b93f" name="Hero" hidden="false" targetId="90cb-5b94-12bf-c937" primary="false"/>
@@ -1737,7 +1746,7 @@ If the Skeletons Command Group is within 5 cm of a friendly unit, that unit may 
               <description>If there is at least one unit of Mementors fielded in the army, the pool of Lord Necromancer&apos;s orders in that army is increased by 1.</description>
             </rule>
             <rule id="6fe1-b088-0feb-d419" name="Memento Ultionis" hidden="false">
-              <description>Mementors add do attacks to the pool when fighting an enemy unit that has a Champion attached to it, or 2d6 attacks if it&apos;s a General or a Legendary Hero.</description>
+              <description>Mementors add d6 attacks to the pool when fighting an enemy unit that has a Champion attached to it, or 2d6 attacks if it&apos;s a General or a Legendary Hero.</description>
             </rule>
           </rules>
           <infoLinks>
