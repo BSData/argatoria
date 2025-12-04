@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="97e8-608f-9a83-af5b" name="Arox" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="de7a-5d0b-c006-6cc6">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="2601-4982-9089-ebff" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+        <categoryLink name="Command Group" hidden="false" id="d4a2-89f0-16cd-3a0f" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="4192-a88e-d819-afca" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="0d4b-e9ae-5653-246f" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="cea9-328b-d348-c575" targetId="e6d3-3757-73e4-6ec4"/>
+    <catalogueLink type="catalogue" name="Items" id="18ee-f445-b8c3-e2e6" targetId="9fd1-abc6-119d-b5a5"/>
+    <catalogueLink type="catalogue" name="Spells" id="9673-1bda-f0ab-7e56" targetId="9324-73b3-9935-4102"/>
+  </catalogueLinks>
+  <sharedRules>
+    <rule name="Hot Blood" id="b4f4-ea31-1618-e12e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+      <description>The Arox army may re-roll an Initiative Test.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

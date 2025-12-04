@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="e6d3-3757-73e4-6ec4" name="Banners" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType name="Magic Banner" id="528b-7cf3-4106-313f" hidden="false" kind="weapon">
+      <characteristicTypes>
+        <characteristicType name="Description" id="469d-bf8e-c6f6-3d7e" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Banner of Glory" hidden="false" id="b270-d42c-3720-ad3f" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <profiles>
+        <profile name="Banner of Glory" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="c4be-7476-1c7e-1d06" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army with this banner always wins draws during Initiative Tests. If the opponent also has this rule, draws must be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e2e-6873-3728-6239" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Battle Banner" hidden="false" id="3aa8-23d4-62b5-3807" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Battle Banner" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="4d45-15e2-3441-683f" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The range of abilities of the Command Group with this banner is 10 cm.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d2d0-862e-d609-3f2c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blessed Banner" hidden="false" id="7afc-f537-6252-f2a2" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Blessed Banner" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="5e29-e2bc-a0f2-b074" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army has one more prayer per cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="30f8-dcb5-f4ab-5ccd" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Courage" hidden="false" id="7499-cceb-1f5f-665f" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Courage" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="0195-5e8c-7049-b02b" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Fearless.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="94ab-aede-6238-0ad9" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Persistence" hidden="false" id="b8fa-760e-073c-f1d7" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Persistence" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="687d-3a22-c104-d22e">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached can never lose charge or fight bonuses when it charges at a Horde or a unit that cancels these bonuses.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f5f0-d7cf-383d-8242" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Prudence" hidden="false" id="e592-31fb-80e5-d686" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Prudence" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="96eb-83f5-1c1d-39f2">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">After a failed charge, the unit with this Command Group attached does not move towards the foe and cannot be turned by the opponent.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="455d-5928-43d1-91db" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Destruction" hidden="false" id="978c-8402-1233-355f" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Destruction" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="af42-dbeb-b4cc-a15b" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">During combat, the unit with this Command Group attached does not allow the enemy unit to take any armour tests or other protection tests. In addition, the unit gets +4 attacks for attacking the foe from the side or the rear to the bonuses it already has.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b3c0-a54e-c1b3-68d6" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Command" hidden="false" id="27d3-73e4-9d39-b6ac" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Command" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="765e-acd7-0578-27b3" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">After deploying the armies and terrain, it allows you to change the deployment of up to three units in your army, within your deployment zone.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="13ae-3b77-616e-741e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Power" hidden="false" id="fe35-781f-685f-cc97" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of Power" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="733d-0755-2633-f0c4" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">It allows target friendly Mage within 10 cm to re-roll a failed Magic Test. If the result of the re-roll is 6, the banner loses its power for the rest of the battle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7b9e-a625-22e5-a18a" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Bathed in Blood" hidden="false" id="fcc3-ca02-d201-76fd" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Banner of the Bathed in Blood" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="cef3-cc4d-0775-daa2" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Bloodshed (This unit may re-roll all failed scores in the Wound Test). If the unit with this Command Group attached has Bloodshed by default, it gets +2 to S.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="d0b2-d0e4-7d37-8e92" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="d0b2-d0e4-7d37-8e92">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a9ce-3085-5e84-d8c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Lords of Beasts" hidden="false" id="52ea-a8af-bfa2-2b89" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="fd3f-1abd-3194-646d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Banner of the Lords of Beasts" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="fa3c-7a76-aee5-e297" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Momentum (When charging, this unit has an A stat increased by 1). If the unit with this Command Group attached has Momentum by default, it gets +1 to WS.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="1" field="fd3f-1abd-3194-646d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="8e47-50e0-8500-9a3e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Avantur" hidden="false" id="d7cd-945c-8173-b79d" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3af3-00c0-1bce-6d6b" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Banner of Avantur" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="3bd3-23d4-144c-f0a2" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Buying this banner, the army gets access to Half-Giant heroes described elsewhere in this book.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="1" field="3af3-00c0-1bce-6d6b">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a9ce-3085-5e84-d8c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7759-6de2-d314-078c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="8e47-50e0-8500-9a3e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <comment>TODO: Avantur</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Heralds of Torment" hidden="false" id="9715-9083-9b34-2bb2" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="37a3-16e7-5b61-484d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="37a3-16e7-5b61-484d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="689d-c183-c62d-b3b6" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Heralds of Torment" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="b3fb-3bbf-2190-9930" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Iron Discipline (Orders issued to this unit can be re-rolled, and each score of 1 means a free order). If the unit with this Command Group attached has Iron Discipline by default, it gets Sneaky (This unit gets +2 attacks for attacking the enemy’s flank or rear).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Wolf Brotherhood" hidden="false" id="2a7f-ca0b-8ef1-b2b5" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="5663-6b17-781b-b665" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="5663-6b17-781b-b665">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7759-6de2-d314-078c" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Wolf Brotherhood" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="0350-192b-413f-a45e">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army with this banner fields Wolf Brothers as Basic Units instead of the Elite. Wilhars are fielded as Elite Units instead of the Unique and they have Frenzy (When charging, this unit doubles its Attacks (A) stat).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Gods’ Slayers" hidden="false" id="f241-2cb9-5ce1-8f48" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="7616-916b-01ba-7743" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="7616-916b-01ba-7743" affects="recursive">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a9ce-3085-5e84-d8c0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Gods’ Slayers" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="cbb0-cdee-9b73-0dad" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Terrible Damage (Each score of 1 in the Wound Test deals an additional Wound). If the unit with this Command Group attached has Terrible Damage by default, it gets +3 to M.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Great Menagerie" hidden="false" id="dad0-0ed7-b2ec-d3e8" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="e8bb-502d-cd9e-8138" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="e8bb-502d-cd9e-8138">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2139-b90b-706b-1410" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Great Menagerie" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="a587-d75f-18be-33dc" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">If a Command Group with this banner is attached to a friendly unit, it supports the unit with +5 attacks instead of +1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Unbending" hidden="false" id="ad5c-3e90-6c86-ac22" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="0f15-4149-9b32-9e63" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="0f15-4149-9b32-9e63">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7759-6de2-d314-078c" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Unbending" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="b292-20ea-1749-3b3f" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Fearless. In addition, if the unit with this Command Group attached has Focused Attack (When charging, this unit gets +1 to WS), it works at all times, not only when charging.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baner of the Hotbloods" hidden="false" id="e0b5-03ef-b8cf-6a61" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="7276-d7d9-e983-622c" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="7276-d7d9-e983-622c">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e36e-5a5d-a1e6-02ba" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Baner of the Hotbloods" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="8294-8a49-c2d6-a128" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The unit with this Command Group attached has Agile (This unit can always re-roll one D6 when moving or charging). If the unit with this Command Group attached has Agile by default, it can always re-roll one D6 when moving and up to two D6 when charging.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Goddess Ehidne" hidden="false" id="bd56-8114-c730-8363" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1eec-ff0e-14a9-42ba" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="1eec-ff0e-14a9-42ba">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of Goddess Ehidne" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="dd53-e959-b506-2f6f" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army has one more prayer per cycle. In addition, the army is allowed to field 1 unit of Priestesses of Enslavement (Basic Unit).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>TODO: Priestesses of Enslavement</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of God Nathel" hidden="false" id="8d0d-5b53-b71e-440d" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="e38c-afb1-cbde-c737" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="e38c-afb1-cbde-c737">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2139-b90b-706b-1410" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of God Nathel" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="18e8-e859-ba56-ab20" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Before the battle, place three D6 dice (in a different colour than the ones you normally use) in your deployment zone. Once per cycle, you can use one of the dice to re-roll one D6 result – obtained by your opponent or yourself. You and your opponent must accept the result of the re-roll (the Nathel’s will). In addition, the army is allowed to field 1 unit of the Deceived.
+
+
+The Deceived.
+You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of God Seth" hidden="false" id="a044-2b2c-b08a-1e2f" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="25"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1d70-6bf8-d839-52ae" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="1d70-6bf8-d839-52ae">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2139-b90b-706b-1410" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <comment>TODO Ahsids</comment>
+      <profiles>
+        <profile name="Banner of God Seth" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="8f71-6266-7602-581a" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Enemy units within 30 cm of a Command Group with this banner must re-roll a successful Cold Blood Test. If a Command Group with this banner is attached to a friendly unit, it supports the unit with +3 attacks instead of +1. In addition, your army is allowed to field 1 unit of Ahsids (Basic Unit).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of God Duur" hidden="false" id="b963-4ac5-58c1-3698" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="fa27-983c-032e-e95a" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="fa27-983c-032e-e95a">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2139-b90b-706b-1410" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of God Duur" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="c8fc-126f-d786-3981" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Target enemy unit is dealt 1 Wound for each 6 (obtained as a final result, after all re-rolls) it obtains in the Wound Test against the unit with this Command Group attached. In addition, if the enemy unit has any save, it must re-roll successful saving throws.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Death" hidden="false" id="6bcc-4a1e-0e84-2db7" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="de69-df86-dc2c-62f7" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="de69-df86-dc2c-62f7">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of Death" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="1f0f-d26a-8b84-6537" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The range of abilities of the Command Group with this banner is 10 cm. In addition, all enemy units within 10 cm of this Command Group must re-roll successful Panic Tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Magic Banners" id="a82d-5866-f907-b48a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <entryLinks>
+        <entryLink import="true" name="Banner of Glory" hidden="false" id="562b-2ff8-e864-6800" type="selectionEntry" targetId="b270-d42c-3720-ad3f"/>
+        <entryLink import="true" name="Battle Banner" hidden="false" id="9ed2-d8db-37da-b210" type="selectionEntry" targetId="3aa8-23d4-62b5-3807"/>
+        <entryLink import="true" name="Blessed Banner" hidden="false" id="a1a5-cbaa-4d01-a81e" type="selectionEntry" targetId="7afc-f537-6252-f2a2"/>
+        <entryLink import="true" name="Banner of Courage" hidden="false" id="b5d2-3fc7-88a0-b277" type="selectionEntry" targetId="7499-cceb-1f5f-665f"/>
+        <entryLink import="true" name="Banner of Persistence" hidden="false" id="cab0-d9da-df37-6e28" type="selectionEntry" targetId="b8fa-760e-073c-f1d7"/>
+        <entryLink import="true" name="Banner of Prudence" hidden="false" id="136c-fe3e-d844-062f" type="selectionEntry" targetId="e592-31fb-80e5-d686"/>
+        <entryLink import="true" name="Banner of Destruction" hidden="false" id="1f50-2a9c-a4cf-15a4" type="selectionEntry" targetId="978c-8402-1233-355f"/>
+        <entryLink import="true" name="Banner of Command" hidden="false" id="2915-61f6-5b76-1d46" type="selectionEntry" targetId="27d3-73e4-9d39-b6ac"/>
+        <entryLink import="true" name="Banner of Power" hidden="false" id="77dd-259c-c0ec-e10b" type="selectionEntry" targetId="fe35-781f-685f-cc97"/>
+        <entryLink import="true" name="Banner of the Bathed in Blood" hidden="false" id="30b9-4fb9-f293-3184" type="selectionEntry" targetId="fcc3-ca02-d201-76fd"/>
+        <entryLink import="true" name="Banner of the Lords of Beasts" hidden="false" id="7963-737a-d490-b9b9" type="selectionEntry" targetId="52ea-a8af-bfa2-2b89"/>
+        <entryLink import="true" name="Banner of Avantur" hidden="false" id="aad5-3c9e-0e94-9af6" type="selectionEntry" targetId="d7cd-945c-8173-b79d"/>
+        <entryLink import="true" name="Banner of the Heralds of Torment" hidden="false" id="2b4f-7eb5-764f-9276" type="selectionEntry" targetId="9715-9083-9b34-2bb2"/>
+        <entryLink import="true" name="Banner of the Wolf Brotherhood" hidden="false" id="a566-778f-587d-98d8" type="selectionEntry" targetId="2a7f-ca0b-8ef1-b2b5"/>
+        <entryLink import="true" name="Banner of the Gods’ Slayers" hidden="false" id="aba6-55c3-707d-1894" type="selectionEntry" targetId="f241-2cb9-5ce1-8f48"/>
+        <entryLink import="true" name="Banner of the Great Menagerie" hidden="false" id="0a46-d5f5-44e1-1c40" type="selectionEntry" targetId="dad0-0ed7-b2ec-d3e8"/>
+        <entryLink import="true" name="Banner of the Unbending" hidden="false" id="468a-c72e-8bda-5a70" type="selectionEntry" targetId="ad5c-3e90-6c86-ac22"/>
+        <entryLink import="true" name="Baner of the Hotbloods" hidden="false" id="89f3-ce84-1a24-27e6" type="selectionEntry" targetId="e0b5-03ef-b8cf-6a61"/>
+        <entryLink import="true" name="Banner of Goddess Ehidne" hidden="false" id="50bf-fb92-95ed-e075" type="selectionEntry" targetId="bd56-8114-c730-8363"/>
+        <entryLink import="true" name="Banner of God Nathel" hidden="false" id="b69c-3e6a-2e4b-6711" type="selectionEntry" targetId="8d0d-5b53-b71e-440d"/>
+        <entryLink import="true" name="Banner of God Seth" hidden="false" id="9786-2cb2-1f43-faeb" type="selectionEntry" targetId="a044-2b2c-b08a-1e2f"/>
+        <entryLink import="true" name="Banner of God Duur" hidden="false" id="d780-3e6b-284e-8be4" type="selectionEntry" targetId="b963-4ac5-58c1-3698"/>
+        <entryLink import="true" name="Banner of Death" hidden="false" id="3354-37ca-6ff8-ee40" type="selectionEntry" targetId="6bcc-4a1e-0e84-2db7"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="fe74-3ecd-a6c0-c03d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="fe74-3ecd-a6c0-c03d" affects="recursive">
+          <conditions>
+            <condition type="atLeast" value="1000" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
