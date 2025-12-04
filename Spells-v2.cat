@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="9324-73b3-9935-4102" name="Spells" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Fireball" hidden="false" id="1fc5-d2a0-ce06-854c" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Fireball" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="c41d-ba6d-0640-c056" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit (but not single model) within 20 cm. Roll a D6 – a score of 3 or less means a successful spell. The opponent must take a Toughness test (D6 roll) for 2 bases from that unit. Each D6 roll equal to or lesser than the unit’s Toughness means that nothing happens. Each roll higher than Toughness means that the unit loses 1 base.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Test" typeId="107e-2ce3-33aa-618e">3-</attribute>
+          </attributes>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="679b-7011-3177-b9d1" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blizzard" hidden="false" id="63bf-58ae-75f0-e27b" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Blizzard" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="7ad4-4d45-c81e-dad3">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm that is not engaged in combat. Roll a D6 – a score of 4 or less means a successful spell. Move the unit 5 cm forwards or backwards in a straight line.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc68-436b-1f08-72c9" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Terror" hidden="false" id="d968-8c20-e744-0214" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Terror" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="6987-0d2c-4082-a4d9" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm. Roll a D6 – a score of 4 or less means a successful spell. The enemy unit must take a Cold Blood Test at the beginning of the next cycle. If the test it failed, the unit loses an Action Die.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ebb-dbf3-cde0-a4a3" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Will to Fight" hidden="false" id="5b7a-34bc-dbf2-7f95" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Will to Fight" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="2ea1-b61d-a161-3bc2" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 20 cm that is not engaged in combat. Roll a D6 – a score of 3 or less means a successful spell. The unit can turn in any direction, with no limits, and move up to 15 cm + D6.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bea6-d688-193e-3473" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Whispers of the Gods" hidden="false" id="d617-afa5-f9aa-ec60" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Whispers of the Gods" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="9bb4-2b48-94bc-646f" page="70" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target General within 30 cm. Roll a D6 – a score of 4 or less means a successful spell. Choose a +2 or -2 modifier. The selected General will receive it in the next Initiative Test.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c86-177b-96d9-dd40" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderbolt" hidden="false" id="add1-4600-40d1-283f" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Thunderbolt" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="1405-4131-7e74-7bdc" page="71" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit on the battlefield that is not engaged in combat. Roll a D6 – a score of 2 or less means a successful spell. The chosen unit is dealt 3 Wounds. If the unit has any save, or it is on a base bigger than 20 mm, it is dealt 4 Wounds instead. No saves are permitted against Thunderbolt.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">2-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8702-81e7-60fd-2f6f" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Death Blast" hidden="false" id="61b4-1a3b-f6cf-f552" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Death Blast" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="dedd-c130-6c3e-e250" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose up to three target enemy units (but not single models) within 40 cm with wounded bases. Roll a D6. On a score of 4 or less, the chosen units must remove the wounded bases.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df4f-5070-286d-c33c" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scream" hidden="false" id="52b0-1026-1d97-e467" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="5"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Scream" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="90b4-c450-e9d6-7cc6" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 20 cm that is not engaged in combat. Roll a D6 – a score of 3 or less means a successful spell. You can move that unit backwards up to 10 cm in a straight line.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80ff-2deb-cf01-5571" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blackout" hidden="false" id="0d0a-f69a-ecac-2b9b" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Blackout" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="226f-6f18-10a6-33f3" page="71" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target unit within 30 cm. Roll a D6 – a score of 2 or less means a successful spell. In the subsequent cycle, the chosen unit can move or charge only up to D6 cm (move) or 2D6 cm (charge), without adding the M stat. If the unit fails to charge, it remains stationary, but can still be turned up to 90 degrees by the opponent.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">2-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a375-6824-f37d-a0e0" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lament" hidden="false" id="1385-810b-acc9-672e" page="71" publicationId="30f0-6ecb-d1bf-eb3e">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lament" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="f1df-7b9c-88cd-1818" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 20 cm that is engaged in combat. Roll a D6 – a score of 2 or less means a successful spell. Move the unit 10 cm backwards in a straight line. If the unit cannot be moved exactly 10 cm backwards, it remains in combat and is dealt 3 Wounds with no saves permitted.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">2-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40aa-0928-4018-d919" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vengeance" hidden="false" id="898f-29ab-7dc7-9e20" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Vengeance" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="369e-bbd1-a51c-68b8" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 30 cm that is engaged in combat. Roll a D6 – a score of 4 or less means a successful spell. The chosen unit can immediately perform 1 attack for each 1 Wound lost in this cycle. These attacks are not affected by prayers or magic in any form.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eab-da79-c3c4-d0d7" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shackles of Pain" hidden="false" id="3fb4-0283-5874-e13f" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="9"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Shackles of Pain" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="6992-a45c-43ab-a9e1" publicationId="30f0-6ecb-d1bf-eb3e" page="71">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy single model within 30 cm. Roll a D6 – a score of 3 or less means a successful spell. The model must immediately roll a D6 for each W point it currently has. Each score of 5 or 6 means that the model loses 1 Wound with no saves permitted.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8f2-24c1-76dd-ad99" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Confusion" hidden="false" id="7666-5e44-5f92-5b68" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Confusion" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="3e57-01ca-3317-fc3a" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 40 cm that is not engaged in combat. Roll a D6 – a score of 3 or less means a successful spell. Turn the chosen unit exactly 90 degrees and move it 2D6 cm forwards. If the unit encounters another unit, hero or terrain on its path, it must stop 2 cm before the obstacle.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec64-afe0-c39a-abe7" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="War Cry" hidden="false" id="f1fc-96bd-32b6-9b2a" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="War Cry" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="106b-e92d-079c-2de1" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Roll a D6 – a score of 3 or less means a successful spell. All friendly units within 10 cm have Fearless.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1a7-5b94-2175-a8e7" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blind Panic" hidden="false" id="1335-8a1a-bba3-7bed" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Blind Panic" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="80be-4b71-b8e5-cfb1" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit (but not single model) with Fearless within 40 cm. Roll a D6 – a score of 4 or less means a successful spell. The chosen unit loses Fearless, even if it gained it as a result of magic. In addition, in the subsequent cycle, the unit must take a 2D6 test. A result higher than the unit’s LD means that the unit loses its Action Die.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f829-0e12-c7ff-c560" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="False Whispers" hidden="false" id="8275-003f-b6fa-91ff" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="False Whispers" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="00c7-9b0e-db27-44ea" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Roll a D6 – a score of 3 or less means a successful spell. In the subsequent cycle, during the opponent’s first Activation Roll, you can choose which units the opponent will activate and in what order.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e17-2b6b-502c-d1b9" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rise of the Earth" hidden="false" id="bbac-cf37-e306-bc11" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Rise of the Earth" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="d197-ac19-fdb7-7631" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose any point on the battlefield. Roll a D6 – a score of 4 or less means a successful spell. Place two pieces from the Small Stone Terrains set (or other rocky terrain pieces with a max. size of 5 cm x 5 cm each) on the battlefield in any way, as long as the terrains are touching each other, but min. 10 cm from any unit or terrain, and min. 2 cm from any hero. If the Rise of the Earth spell is cast again, and there is already a terrain piece on the battlefield placed as a result of this spell, it must be removed before another one is placed.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7806-9d7b-6a8c-49e0" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rockburst" hidden="false" id="4a2a-d34f-6c3e-74c1" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Rockburst" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="28ae-e647-76c9-e050" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose one piece from the Small Stone Terrains set (or other rocky terrain piece with a max. size of 5 cm x 5 cm) that is present on the battlefield. Roll a D6 – a score of 4 or less means a successful spell and rockburst. Each unit within 10 + D6 cm of the terrain is dealt D6 Wounds with no saves permitted. Remove the destroyed terrain piece from the battlefield. Note that the piece destroyed this way cannot be larger than 5 cm x 5 cm.
+
+
+If there is no rocky terrain piece in a required size on the battlefield, a Mage possessing the Rockburst spell is allowed to cast the Rise of the Earth spell during the game without buying it.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bfa-25ac-6454-ce6d" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Relentless Rain" hidden="false" id="210a-1ead-cd2a-16bc" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Relentless Rain" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="5afa-a77c-543e-02f6" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Roll a D6 – a score of 3 or less means a successful spell. A heavy, relentless rain begins to fall across the entire battlefield, with the storm focusing its full fury on two enemy units of your choice. Choose two target enemy units (but not single models) on the battlefield. Roll a D6 for each chosen unit. If the result is equal to or lesser than the unit’s Strength (S), place a RAIN marker next to that unit. A unit with a RAIN marker cannot benefit from charge bonuses. At the end of the subsequent cycle, before the Heroes actions, the rain ends. Remove all RAIN markers from the battlefield.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e60f-e054-5f49-9bcb" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Treacherous Thoughts" hidden="false" id="9006-6185-8cd6-6574" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Treacherous Thoughts" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="fb1e-72f2-1c7f-ad9c" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy hero on the battlefield that is attached to a unit. Roll a D6 – a score of 3 or less means a successful spell. Roll another D6 and compare the score with the following table:
+1-2 Driven mad by treacherous thoughts, the hero lashes out at his own comrades. The opponent must remove 1 base from the unit which the hero is attached to.
+3-4 The hero mocks and belittles his own comrades and is driven away by them in response. The opponent must move the hero exactly 30 cm in any direction without attaching him to another unit.
+5-6 The hero sows discord among the troops, spreading confusion throughout the army. In the subsequent cycle, instead of the Initiative Test, you can decide who will begin the cycle.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b811-fa16-2e48-0b3b" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Binding" hidden="false" id="9e26-450e-2158-5edb" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Binding" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="5dae-65ad-bc82-93ed" publicationId="30f0-6ecb-d1bf-eb3e" page="72">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm. Roll a D6 – a score of 2 or less means a successful spell. Place a BINDING marker next to the chosen unit. In the subsequent cycle, if the unit with the BINDING marker is charged and still has an Action Die, it loses the Action Die. If it is charged and it does not have an Action Die, the charging unit is treated as having WS 4.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">2-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13b4-be4e-a636-172b" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodletting" hidden="false" id="4211-3d11-dae1-3abe" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="9"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Bloodletting" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="7c1e-c9f6-9a03-dca8" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm. Roll a D6 – a score of 3 or less means a successful spell. If the chosen unit has a wounded base, the unit loses further 2 Wounds with no saves permitted. If the chosen unit does not have a wounded base, the opponent must take a D6 test. A score higher than the unit’s W stat means that the unit is dealt 3 Wounds with no saves permitted.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a617-bce9-57ec-6af8" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Portal" hidden="false" id="fb83-b2f2-d9e0-40d7" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Portal" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="738e-028f-256b-b557" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly hero within 50 cm. Roll a D6 – a score of 3 or less means a successful spell. The chosen hero can be placed anywhere on the battlefield, but not attached to a unit.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ea-0836-01d9-2794" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Language of Beasts" hidden="false" id="31d5-7cd0-f366-b2e7" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="11"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Language of Beasts" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="3e7f-7134-ae19-651d" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly or enemy single model within 30 cm. Roll a D6 – a score of 3 or less means a successful spell. Turn the chosen model up to 90 degrees and move it 2D6 + 3 cm forwards. If, as a result of this move, the model gets in base contact with an enemy unit, it is treated as a charge. In such a case, the attacks follow as per basic rules.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="493f-7ad2-68ef-1fb5" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Battle Boost" hidden="false" id="a226-81f3-550c-05f3" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Battle Boost" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="9597-00e9-3d73-9ac0" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 30 cm. Roll a D6 – a score of 3 or less means a successful spell. Place any marker next to the chosen unit. In the subsequent cycle, when charging at an enemy unit with a Horde rule, the unit does not lose charge bonuses.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c390-9ca6-7168-58d6" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fighting Instinct" hidden="false" id="ebb2-faad-206e-2eb8" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Fighting Instinct" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="6cfd-da32-6152-5e32" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 50 cm. Roll a D6 – a score of 4 or less means a successful spell. You can turn the chosen unit in any direction, with no limits.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40df-59f3-9f54-8c17" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Humility" hidden="false" id="d058-1303-7f9a-3856" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="5"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Humility" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="753a-b7e8-0e3a-d7d5" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 40 cm. Roll a D6 – a score of 3 or less means a successful spell. In the subsequent cycle, if the chosen unit will take a Prayer Test, it can use Power of Faith (When praying, the unit’s LD is increased by 2).</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d193-6af3-8895-e94c" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power of Discipline" hidden="false" id="cb78-84e4-b031-684e" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Power of Discipline" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="aa86-2c32-8a22-64df" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit within 20 cm. Roll a D6 – a score of 4 or less means a successful spell. If the General attempts to issue an order to the chosen unit and the roll is failed, it can be re-rolled. If the unit fails any Panic Tests, they can be re-rolled.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b807-86e3-d11e-310e" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Forward!" hidden="false" id="187f-5719-88e3-d47c" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Forward!" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="2f54-59d3-3e97-30a8" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target friendly unit on the battlefield. Roll a D6 – a score of 3 or less means a successful spell. You can move the chosen unit up to 2D6 cm forwards, without turning. If the unit encounters another unit, hero or terrain on its path, it must stop 2 cm before the obstacle.</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fc2-e5b8-064b-e8c1" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flame Strike" hidden="false" id="b279-3744-d86e-97cf" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Flame Strike" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="0d48-6f3c-fe8d-364b" publicationId="30f0-6ecb-d1bf-eb3e" page="73">
+          <characteristics>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose other friendly Mage within 40 cm or the one casting this spell. Roll a D6 – a score of 3 or less means a successful spell. In the subsequent cycle, the chosen Mage grants the unit he is attached to +D6 attacks to the pool (in addition to his standard +1 attack).</characteristic>
+            <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b81-2042-d29a-4ec2" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Spells" id="ff1a-1e2a-e88c-753c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="70">
+      <entryLinks>
+        <entryLink import="true" name="Fireball" hidden="false" id="38cb-9cd7-cf7d-4d27" type="selectionEntry" targetId="1fc5-d2a0-ce06-854c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a046-0268-d2ff-9bf4" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Will to Fight" hidden="false" id="6769-5b64-5325-4c12" type="selectionEntry" targetId="5b7a-34bc-dbf2-7f95"/>
+        <entryLink import="true" name="Thunderbolt" hidden="false" id="0c6a-b22a-1084-d305" type="selectionEntry" targetId="add1-4600-40d1-283f"/>
+        <entryLink import="true" name="Vengeance" hidden="false" id="6f1a-5b66-e630-2620" type="selectionEntry" targetId="898f-29ab-7dc7-9e20"/>
+        <entryLink import="true" name="Shackles of Pain" hidden="false" id="aaae-ce52-1ff9-29ce" type="selectionEntry" targetId="3fb4-0283-5874-e13f"/>
+        <entryLink import="true" name="Confusion" hidden="false" id="fcc8-fca3-0e1d-ddae" type="selectionEntry" targetId="7666-5e44-5f92-5b68"/>
+        <entryLink import="true" name="False Whispers" hidden="false" id="b393-303e-5adb-efc8" type="selectionEntry" targetId="8275-003f-b6fa-91ff"/>
+        <entryLink import="true" name="Binding" hidden="false" id="fcea-26c7-5e0d-4f35" type="selectionEntry" targetId="9e26-450e-2158-5edb"/>
+        <entryLink import="true" name="Bloodletting" hidden="false" id="47c2-c6e7-1289-d135" type="selectionEntry" targetId="4211-3d11-dae1-3abe"/>
+        <entryLink import="true" name="Language of Beasts" hidden="false" id="aa46-c17b-16d6-3cad" type="selectionEntry" targetId="31d5-7cd0-f366-b2e7"/>
+        <entryLink import="true" name="Power of Discipline" hidden="false" id="d768-28d9-1b7b-3634" type="selectionEntry" targetId="cb78-84e4-b031-684e"/>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="22b0-8b47-5b83-88fc" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" flatten="true"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="26c6-9df3-b1d1-9f6a" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="3" field="26c6-9df3-b1d1-9f6a">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="parent" childId="0b60-bf63-2ae4-b1e9" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Spells &lt;= 6pts" id="626f-4e1b-4c07-bb02" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
+      <entryLinks>
+        <entryLink import="true" name="Blizzard" hidden="false" id="c30e-b063-6512-f6f6" type="selectionEntry" targetId="63bf-58ae-75f0-e27b"/>
+        <entryLink import="true" name="Terror" hidden="false" id="1c4f-2bfb-7408-345d" type="selectionEntry" targetId="d968-8c20-e744-0214"/>
+        <entryLink import="true" name="Whispers of the Gods" hidden="false" id="02c3-825e-51a7-0920" type="selectionEntry" targetId="d617-afa5-f9aa-ec60"/>
+        <entryLink import="true" name="Death Blast" hidden="false" id="bfa3-e6d7-dab3-d9cc" type="selectionEntry" targetId="61b4-1a3b-f6cf-f552"/>
+        <entryLink import="true" name="Scream" hidden="false" id="a60e-67f4-220c-5014" type="selectionEntry" targetId="52b0-1026-1d97-e467"/>
+        <entryLink import="true" name="Blackout" hidden="false" id="4bb5-634e-f317-0eb7" type="selectionEntry" targetId="0d0a-f69a-ecac-2b9b"/>
+        <entryLink import="true" name="Lament" hidden="false" id="3703-21c1-e1ec-a433" type="selectionEntry" targetId="1385-810b-acc9-672e"/>
+        <entryLink import="true" name="War Cry" hidden="false" id="e9cd-5c39-144d-98bb" type="selectionEntry" targetId="f1fc-96bd-32b6-9b2a"/>
+        <entryLink import="true" name="Blind Panic" hidden="false" id="1fc6-b284-312f-a318" type="selectionEntry" targetId="1335-8a1a-bba3-7bed"/>
+        <entryLink import="true" name="Rise of the Earth" hidden="false" id="e9d2-1fef-ee02-4657" type="selectionEntry" targetId="bbac-cf37-e306-bc11"/>
+        <entryLink import="true" name="Rockburst" hidden="false" id="4409-c7fa-4ffb-1ed3" type="selectionEntry" targetId="4a2a-d34f-6c3e-74c1"/>
+        <entryLink import="true" name="Relentless Rain" hidden="false" id="fddd-bcf7-4a67-3665" type="selectionEntry" targetId="210a-1ead-cd2a-16bc"/>
+        <entryLink import="true" name="Treacherous Thoughts" hidden="false" id="a527-1f8f-ec9d-4bc6" type="selectionEntry" targetId="9006-6185-8cd6-6574"/>
+        <entryLink import="true" name="Portal" hidden="false" id="bd8e-95fd-9844-0164" type="selectionEntry" targetId="fb83-b2f2-d9e0-40d7"/>
+        <entryLink import="true" name="Battle Boost" hidden="false" id="09ae-23ff-818a-44c1" type="selectionEntry" targetId="a226-81f3-550c-05f3"/>
+        <entryLink import="true" name="Fighting Instinct" hidden="false" id="8855-180e-b935-313a" type="selectionEntry" targetId="ebb2-faad-206e-2eb8"/>
+        <entryLink import="true" name="Humility" hidden="false" id="2f8e-6d2d-59e4-089b" type="selectionEntry" targetId="d058-1303-7f9a-3856"/>
+        <entryLink import="true" name="Forward!" hidden="false" id="b585-753e-e1e9-2998" type="selectionEntry" targetId="187f-5719-88e3-d47c"/>
+        <entryLink import="true" name="Flame Strike" hidden="false" id="0435-cd07-b17e-b8d8" type="selectionEntry" targetId="b279-3744-d86e-97cf"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="edce-590a-d222-300b"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="3" field="edce-590a-d222-300b">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="0b60-bf63-2ae4-b1e9" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Items" id="3ef3-8aa4-c172-31a7" targetId="9fd1-abc6-119d-b5a5"/>
+  </catalogueLinks>
+</catalogue>

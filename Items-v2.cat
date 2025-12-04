@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="9fd1-abc6-119d-b5a5" name="Items" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Battle Staff" hidden="false" id="4ae1-1384-f031-6034" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Battle Staff" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="f3aa-3c0a-eb4a-d51d" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Once per battle, during an Activation Roll, it allows a player to re-roll one die result. Additionally, a Mage with the Battle Staff attached to a unit always grants +3 attacks instead of +1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b791-8af0-68a1-307d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Enchanted Shoes" hidden="false" id="94a1-56e3-5d5c-7c49" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Enchanted Shoes" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7954-7c3e-c2c0-03d6" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Move range of the Mage wearing the Enchanted Shoes equals 30 cm instead of 20 cm. Reusable item.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8d0b-2bf5-c44c-a284" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Breastplate from Al-dukbar" hidden="false" id="811e-2a82-59be-ac60" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Breastplate from Al-dukbar" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1fa4-ea65-f88c-adc4" page="66" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the Mage is to be eliminated from the battle by a foe, he may roll a D6. A score of 5 or less means that the breastplate saved the Mage from death. The Mage must then attach to a friendly unit within 30 cm.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="995b-9615-20e4-a107" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ring of Spells" hidden="false" id="92d2-b58a-b353-d545" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Ring of Spells" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7e34-7e07-2f3f-c0b1" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The Mage can use the Ring of Spells to cast any one spell from the ones he did not buy.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="544d-e415-37b9-cd4e" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Snow Amulet" hidden="false" id="0d1d-2ef2-b1cc-4edd" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Snow Amulet" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="a6e5-d9f9-dfff-f4e0" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Roll a D6. Move and charge ranges of the enemy units are decreased by the obtained number.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0975-53b1-3209-f296" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Corpse Brew" hidden="false" id="3a61-35fe-ca94-f468" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="5"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Corpse Brew" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="ce81-116f-4edc-9652" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The Mage who got touched by the enemy unit may immediately roll 6D6. Each score of 4 or less means that the enemy unit is dealt 1 Wound with no saves permitted. The Mage is allowed to touch the enemy unit on purpose during his move, however, if the unit survives, it can still take a test for the Mage’s death.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8c08-b69f-9d69-27d8" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scroll of Dice Shattering" hidden="false" id="bfaa-fce6-7f89-8fed" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Scroll of Dice Shattering" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="3af3-54d3-86d4-21ee" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">During an enemy Champion’s ability test, the Mage can shatter the result obtained by the Champion. The shattered die counts as a failed test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ea6a-6268-8f9f-b1a8" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spellbook" hidden="false" id="0b60-bf63-2ae4-b1e9" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Spellbook" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7752-2c1f-d45f-7a06" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Before the battle, it allows the Mage to buy a third spell.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6845-08f7-e8b2-ba43" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Claw from Valhelia" hidden="false" id="94af-b734-da84-d523" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Claw from Valhelia" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="6c00-0406-917d-6c73" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Target unit (but not single model) with Creature can be assigned one prayer until the end of the cycle, after taking the successful Prayer Test (LD=8). Item cannot be used by the Sheol-morg army.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="22b8-e0dd-059e-d24f" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="0" field="22b8-e0dd-059e-d24f">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="4f13-69c6-c113-95b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2139-b90b-706b-1410" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Long Staff" hidden="false" id="3ecf-4bbd-5616-783d" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="5"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Long Staff" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="3adf-8dd7-3363-5722" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The ranges of all spells cast by the Mage are 10 cm greater. Reusable item.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="91d9-a5bc-1b88-525a" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chalice of Woe" hidden="false" id="a6ed-08ef-e067-b577" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Chalice of Woe" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="fc69-864f-9a57-a974" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the opponent won the Initiative Test, you may use this item. Remove an Action Die from target enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="02af-ac90-3559-b1bd" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magical Familiar" hidden="false" id="3d4f-ee66-ca9d-c04b" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Magical Familiar" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1da4-82c2-547a-b70c" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Before the battle, the Mage can buy up to three magic items instead of two thanks to the Magical Familiar. The Magical Familiar does not count to the limit of magic items.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5426-f615-d95c-8257" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vengeful Crystal" hidden="false" id="c652-4110-64a3-09aa" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Vengeful Crystal" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="2d5c-53fc-d8a0-b3f4" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Roll a D6 before target enemy unit’s attacks. The enemy unit will have to remove all results obtained in the WS Test and the Wound Test that show the same number as your result. If your result is 5 or 6, the item is treated as not used and can be used (even in this cycle) during another fight of any unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="11ce-dba3-5de1-897f" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scroll of Daze" hidden="false" id="d976-1edb-c293-b4a0" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2fbd-0970-5d8f-0c91" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Scroll of Daze" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="e77a-1535-1282-6a74" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Target enemy unit with WS 3 or greater gets -1 to WS.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ring of Destruction" hidden="false" id="ba71-d0b5-fb71-f5ab" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6246-a841-5287-5acb" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Ring of Destruction" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="584d-9b97-4ebb-fcfe" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Target unit gets +1 to S.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pouchling (Zapazooh)" hidden="false" id="d241-a294-ac86-3651" publicationId="30f0-6ecb-d1bf-eb3e" page="67">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5ccf-e30d-2219-bc39" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Pouchling (Zapazooh)" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7d0d-80a6-4fc0-eace" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Modify the result in the Magic Test performed by the owner by 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Crown of Damnation" hidden="false" id="8db1-a8fe-9655-b3b6" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5745-68ca-6ac2-4c9c" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Crown of Damnation" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="046a-eadf-3fea-f6ad" page="67" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the Mage is attached to a charging unit, he may use the Crown of Damnation before the unit attacks. The charged enemy unit (but not single model) must immediately take Panic Tests for 4 bases. If the enemy unit (but not single model) has Fearless or Immunity, it cannot use these abilities until the end of the cycle, and its Cold Blood Tests are treated as failed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Talisman from Ragloq" hidden="false" id="d4e6-8e8d-0196-d981" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f989-a800-7f11-f918" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Talisman from Ragloq" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="6542-c165-37b9-feb4" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">During one of your Activation Rolls, you can re-roll one die.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Elixir" hidden="false" id="a850-cc94-487e-c821" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="521b-4e64-3b04-5e2b" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Elixir" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7fea-4804-e8e7-fce2" page="68" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The player can re-roll one Initiative Test with a +2 modifier.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Old Scroll" hidden="false" id="6704-98d8-b3c8-5550" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="685e-569a-938d-a2bb" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Old Scroll" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1813-7603-c259-8bb7" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The Mage may cast another spell in the cycle, but it cannot be the same as the first spell.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Book of the Dead" hidden="false" id="cb04-30fe-a76f-4756" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5433-8797-c8e3-38dd" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Book of the Dead" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="a0f4-7e28-5d8b-d15e" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Every enemy unit within 20 cm of the Mage must take a D6 test. A score of 2 or less means the enemy unit is dealt 2 Wounds with no saves permitted.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dispel" hidden="false" id="99a5-13fa-e6fd-b82f" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6835-eaa2-9314-8164" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Dispel" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="9f5f-0f4e-10ad-a79b" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If an enemy Mage used a spell or an item other than Dispel, you may roll a D6. A score of 5 or less means that the spell or item was dispelled and did not work. A score of 1 means that the Dispel did not lose its power and the Mage will be able to use it again.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ring of Power" hidden="false" id="ac23-4a31-5141-7f48" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="64d7-0d7e-677c-e182" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Ring of Power" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="a9b3-32ea-5d1a-887f" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The Mage can teleport up to 40 cm during its activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Staff" hidden="false" id="ca84-33cb-484b-254e" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2623-9bc0-8386-98c7" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Staff" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="9718-d480-752c-55ad" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Target unit within 20 cm of the Mage must re-roll all failed or successful hits in the Weapon Skill Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Diadem of Despair" hidden="false" id="11b2-60c6-6930-5f15" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4c66-12bf-2f76-6c55" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Diadem of Despair" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1491-4451-684e-26e1" publicationId="30f0-6ecb-d1bf-eb3e" page="68">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Use this item to support target unit within 20 cm of the Mage. Each score of 1 in the Wound Test performed by the chosen unit deals additional 1 Wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blade of Contempt" hidden="false" id="a113-1cfd-3711-1b12" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="29e8-c047-e3fc-b49a" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Blade of Contempt" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="79aa-c5d5-e45a-94b3" page="69" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a unit, the General supports it with 7 attacks instead of 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Black Signet from Ugruk-hor" hidden="false" id="e299-3ea9-03de-87fe" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc96-d931-fa9e-d890" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Black Signet from Ugruk-hor" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="ca9e-57c1-1f55-ab9c" page="69" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The General’s pool of orders is increased by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mythical Helm of Destiny" hidden="false" id="215e-d740-90e0-4771" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5803-51a8-bd93-adb1" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Mythical Helm of Destiny" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="2aa7-a377-0d3b-b2cd" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When touched by an enemy unit, the General dies only on a roll of 1. If the General survives, he must attach to a friendly unit within 30 cm.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Horn of Haburis" hidden="false" id="ca99-bbb3-1be7-31a1" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="5"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a6eb-0fa4-fd6f-d61a" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Horn of Haburis" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="d5d6-50f1-a8e0-1a93" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The General’s range of issuing orders is increased by 10 cm.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Axe of Doom" hidden="false" id="ba56-988b-af7a-11df" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e93-dbcb-9efe-7312" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Axe of Doom" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="34cc-3968-1a66-a2fa" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a unit, the General allows it to re-roll 3 failed results in the Weapon Skill Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Poisoned Blade of Katakhanes " hidden="false" id="4130-3de1-06c3-dbcb" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="4"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba83-95d8-7209-ed47" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Poisoned Blade of Katakhanes " typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="82fd-cd78-18e1-124f" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If an enemy unit (but not a single model) was dealt a Wound by a unit to which the General with this artefact is attached, the wounded enemy base is removed. When attacking a single model, the unit supported by the General with this artefact may re-roll up to 6 results in the Wound Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bracer of Torment" hidden="false" id="d90b-6588-ef75-5c65" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0164-ff9e-368b-b8c9" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bracer of Torment" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="f540-e562-a0b4-8d06" page="69" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">An enemy unit attacking a unit to which the General with this artefact is attached loses 2 dice from the pool of attacks, or 4 dice if it has Fearless.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hammer of Thalion" hidden="false" id="7bdb-5140-f442-6252" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="3"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41af-59c3-9701-3caf" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Hammer of Thalion" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="0a64-5fc7-d6e4-ef2e" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a unit, the General allows it to re-roll 4 failed results in the Wound Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bastard Blade of Saint Gardon" hidden="false" id="c766-5ce2-a594-431f" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="2"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7608-a2f5-5aa0-c661" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bastard Blade of Saint Gardon" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="126e-eb67-178e-470c" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a unit, the General allows it to re-roll all 6s in the Weapon Skill Test made against the enemy unit that has Fearless or has a General or a Champion attached.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Magic items" id="6af6-0fae-4634-bdf6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="66">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3d1f-d305-6241-b1ed"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Chalice of Woe" hidden="false" id="e76e-8f6e-3622-f85d" type="selectionEntry" targetId="a6ed-08ef-e067-b577"/>
+        <entryLink import="true" name="Magical Familiar" hidden="false" id="3173-5088-ad33-f45a" type="selectionEntry" targetId="3d4f-ee66-ca9d-c04b"/>
+        <entryLink import="true" name="Book of the Dead" hidden="false" id="bf42-a037-7e8e-59a8" type="selectionEntry" targetId="cb04-30fe-a76f-4756"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="d281-48a5-e9f1-21d2" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" flatten="true"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="4" field="3d1f-d305-6241-b1ed">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="3173-5088-ad33-f45a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Items &lt;= 6pts" id="e75a-cbeb-298b-78ea" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="38c8-6f54-98b9-f2fe" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="4" field="38c8-6f54-98b9-f2fe">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="3173-5088-ad33-f45a" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Battle Staff" hidden="false" id="e86a-15c6-8056-b1b6" type="selectionEntry" targetId="4ae1-1384-f031-6034"/>
+        <entryLink import="true" name="Enchanted Shoes" hidden="false" id="ee6a-ccbd-354f-dea7" type="selectionEntry" targetId="94a1-56e3-5d5c-7c49"/>
+        <entryLink import="true" name="Breastplate from Al-dukbar" hidden="false" id="4437-d90c-811e-7740" type="selectionEntry" targetId="811e-2a82-59be-ac60"/>
+        <entryLink import="true" name="Ring of Spells" hidden="false" id="fe3d-5235-c8ef-9b57" type="selectionEntry" targetId="92d2-b58a-b353-d545"/>
+        <entryLink import="true" name="Snow Amulet" hidden="false" id="cfe5-087b-838b-abf9" type="selectionEntry" targetId="0d1d-2ef2-b1cc-4edd"/>
+        <entryLink import="true" name="Corpse Brew" hidden="false" id="f291-b128-2554-6637" type="selectionEntry" targetId="3a61-35fe-ca94-f468"/>
+        <entryLink import="true" name="Scroll of Dice Shattering" hidden="false" id="d230-1d58-3f58-fecc" type="selectionEntry" targetId="bfaa-fce6-7f89-8fed"/>
+        <entryLink import="true" name="Spellbook" hidden="false" id="cc2d-e893-6008-2226" type="selectionEntry" targetId="0b60-bf63-2ae4-b1e9"/>
+        <entryLink import="true" name="Claw from Valhelia" hidden="false" id="55cf-e99d-9cc9-3b67" type="selectionEntry" targetId="94af-b734-da84-d523"/>
+        <entryLink import="true" name="Long Staff" hidden="false" id="d06f-7d6b-edc3-e0d0" type="selectionEntry" targetId="3ecf-4bbd-5616-783d"/>
+        <entryLink import="true" name="Vengeful Crystal" hidden="false" id="8c56-8eb6-7005-5c51" type="selectionEntry" targetId="c652-4110-64a3-09aa"/>
+        <entryLink import="true" name="Scroll of Daze" hidden="false" id="20c0-a959-4883-36dc" type="selectionEntry" targetId="d976-1edb-c293-b4a0"/>
+        <entryLink import="true" name="Ring of Destruction" hidden="false" id="8be4-1827-cfaa-7098" type="selectionEntry" targetId="ba71-d0b5-fb71-f5ab"/>
+        <entryLink import="true" name="Pouchling (Zapazooh)" hidden="false" id="8e73-79bc-3979-7927" type="selectionEntry" targetId="d241-a294-ac86-3651"/>
+        <entryLink import="true" name="Crown of Damnation" hidden="false" id="34a1-a84a-d198-22e4" type="selectionEntry" targetId="8db1-a8fe-9655-b3b6"/>
+        <entryLink import="true" name="Talisman from Ragloq" hidden="false" id="8cf0-d167-afe1-473b" type="selectionEntry" targetId="d4e6-8e8d-0196-d981"/>
+        <entryLink import="true" name="Elixir" hidden="false" id="e64f-c1b8-c6c1-d7a1" type="selectionEntry" targetId="a850-cc94-487e-c821"/>
+        <entryLink import="true" name="Old Scroll" hidden="false" id="4d5b-3318-e212-a017" type="selectionEntry" targetId="6704-98d8-b3c8-5550"/>
+        <entryLink import="true" name="Dispel" hidden="false" id="7947-d5e7-5b67-56eb" type="selectionEntry" targetId="99a5-13fa-e6fd-b82f"/>
+        <entryLink import="true" name="Ring of Power" hidden="false" id="01b1-1a0a-ba61-c607" type="selectionEntry" targetId="ac23-4a31-5141-7f48"/>
+        <entryLink import="true" name="Staff" hidden="false" id="8b74-3059-9ea8-f114" type="selectionEntry" targetId="ca84-33cb-484b-254e"/>
+        <entryLink import="true" name="Diadem of Despair" hidden="false" id="7ef7-67e7-4172-1da7" type="selectionEntry" targetId="11b2-60c6-6930-5f15"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Artefacts" id="6502-887c-b695-528f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="69">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5c67-bcd4-cbb5-7128" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Blade of Contempt" hidden="false" id="1217-4d23-25cf-8375" type="selectionEntry" targetId="a113-1cfd-3711-1b12"/>
+        <entryLink import="true" name="Black Signet from Ugruk-hor" hidden="false" id="49a4-d2d5-7916-7f22" type="selectionEntry" targetId="e299-3ea9-03de-87fe"/>
+        <entryLink import="true" name="Mythical Helm of Destiny" hidden="false" id="12c4-53e9-90e3-f63e" type="selectionEntry" targetId="215e-d740-90e0-4771"/>
+        <entryLink import="true" name="Horn of Haburis" hidden="false" id="5b52-e1eb-b571-bddc" type="selectionEntry" targetId="ca99-bbb3-1be7-31a1"/>
+        <entryLink import="true" name="Axe of Doom" hidden="false" id="7528-ea71-00a9-02db" type="selectionEntry" targetId="ba56-988b-af7a-11df"/>
+        <entryLink import="true" name="Poisoned Blade of Katakhanes " hidden="false" id="dc8e-640c-5931-532c" type="selectionEntry" targetId="4130-3de1-06c3-dbcb"/>
+        <entryLink import="true" name="Bracer of Torment" hidden="false" id="ed4f-4ce7-cebc-0c75" type="selectionEntry" targetId="d90b-6588-ef75-5c65"/>
+        <entryLink import="true" name="Hammer of Thalion" hidden="false" id="afec-c714-97ff-6dcb" type="selectionEntry" targetId="7bdb-5140-f442-6252"/>
+        <entryLink import="true" name="Bastard Blade of Saint Gardon" hidden="false" id="42fc-f363-94ef-fba1" type="selectionEntry" targetId="c766-5ce2-a594-431f"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <profileTypes>
+    <profileType name="Item" id="88d9-934a-85e6-e7a3" hidden="false" kind="weapon">
+      <characteristicTypes>
+        <characteristicType name="Description" id="d8cb-c37d-4eab-001d" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+</catalogue>

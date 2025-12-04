@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="f574-bbfd-2add-c0a3" name="Sheol-morg: Lord of Sheol-morg" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="e40a-9249-78d1-3c22" targetId="e6d3-3757-73e4-6ec4"/>
+    <catalogueLink type="catalogue" name="Items" id="01ea-8632-0621-ca25" targetId="9fd1-abc6-119d-b5a5"/>
+    <catalogueLink type="catalogue" name="Spells" id="ebbd-ba22-632a-6414" targetId="9324-73b3-9935-4102"/>
+  </catalogueLinks>
+</catalogue>

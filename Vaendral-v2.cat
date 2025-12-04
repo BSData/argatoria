@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="f59a-6830-9b04-b553" targetId="e6d3-3757-73e4-6ec4"/>
+    <catalogueLink type="catalogue" name="Spells" id="e80f-b52b-29b0-7920" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Half-Giants" id="6d17-a863-21bd-c820" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Items" id="3d71-f283-b41f-100f" targetId="9fd1-abc6-119d-b5a5"/>
+  </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="79b4-20d9-8e4c-5c6b">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="7bd6-b28d-131d-fe52" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="a28c-dd18-3121-4423" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+        <categoryLink name="Command Group" hidden="false" id="a989-7d5a-12ef-0fa8" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="efb3-ab33-6ef6-9e98" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bloody Chieftain" hidden="false" id="2151-2914-3e2a-1dca" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="850b-f37a-d664-2a68" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="bc49-a7c1-db07-00d5" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="5315-433c-ccd7-7391" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Bloody Chieftain" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="f0ac-b1a6-c162-4c5b" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Born Warriors" id="4b4a-984b-c318-744c" hidden="false" type="rule" targetId="0b70-851d-a958-a4de"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Priestess of Lust" hidden="false" id="d95e-dc92-e868-7c5e" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="8124-7545-6ceb-c1e6" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="d189-af40-9e35-0846" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Priestess of Lust" id="643e-3f24-c112-1adf" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <description>All friendly units within 10 cm of Priestess of Lust may re-roll a move range, or a failed Cold Blood Test.
+
+
+
+May buy magic spells and items worth max. 6 points each.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells &lt; 6pt" hidden="false" id="1fd4-120b-70a7-397d" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Old Hag" hidden="false" id="8cc9-fa9c-2df8-561a" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="32a2-1c27-76f1-86fb" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="78f3-81b5-f06b-1522" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="4094-cb0a-6135-ef88" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="561f-688e-c169-8d2e" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule name="Born Warriors" id="0b70-851d-a958-a4de" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <description>The Vaendral army may re-roll any score of 1 or 6 obtained during Activation Roll.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

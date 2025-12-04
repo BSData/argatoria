@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="cc42-fe10-8d98-3386" targetId="e6d3-3757-73e4-6ec4"/>
+    <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
+    <catalogueLink type="catalogue" name="Spells" id="eddd-4144-e860-b34f" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Half-Giants" id="9a52-14cc-d8de-5fe7" targetId="001e-221b-d752-9e75"/>
+  </catalogueLinks>
+</catalogue>
