@@ -4,7 +4,7 @@
     <catalogueLink type="catalogue" name="Banners" id="cc42-fe10-8d98-3386" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="eddd-4144-e860-b34f" targetId="9324-73b3-9935-4102"/>
-    <catalogueLink type="catalogue" name="Half-Giants" id="9a52-14cc-d8de-5fe7" targetId="001e-221b-d752-9e75"/>
+    <catalogueLink type="catalogue" name="Half-Giants" id="9a52-14cc-d8de-5fe7" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Great Hunter" hidden="false" id="aba1-a89b-9784-2df5" publicationId="30f0-6ecb-d1bf-eb3e" page="91" defaultAmount="1">
@@ -166,4 +166,5 @@
       </rules>
     </selectionEntry>
   </selectionEntries>
+  <comment>TODO Banner of Wolf Brotherhood</comment>
 </catalogue>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9874-f2e6-7b34-f70a" name="Gaeldor" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9874-f2e6-7b34-f70a" name="Gaeldor" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="3414-27e1-c3e9-da68" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="4127-2843-2dfe-bf56" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="c70f-b750-90b9-8667" targetId="9324-73b3-9935-4102"/>
-    <catalogueLink type="catalogue" name="Half-Giants" id="b21e-98b0-4f80-1a65" targetId="001e-221b-d752-9e75"/>
+    <catalogueLink type="catalogue" name="Half-Giants" id="b21e-98b0-4f80-1a65" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Gaeldaukar" hidden="false" id="9b38-dd20-21ab-eeef" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
