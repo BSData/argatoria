@@ -4,5 +4,66 @@
     <catalogueLink type="catalogue" name="Banners" id="f17c-2135-ee5e-e021" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="1589-3a05-f880-89a7" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="39f6-a61a-c06c-270c" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Sheol-morg: common" id="ab64-bab2-37de-beae" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Lord of the Abyss" hidden="false" id="dae9-71f4-da0c-8584" publicationId="30f0-6ecb-d1bf-eb3e" page="97" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="89d9-8b40-d24e-4bb8" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="b75d-3663-8796-f6c3" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="9dc8-39d5-33bd-096a" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Lord of the Abyss" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="a282-9ea2-95b0-2201" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Darkness is coming..." id="10be-d1aa-45e0-4433" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
+          <description>The player is allowed to activate one unit more or less than shown in the Activation Roll. At least one unit must always be activated.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="692a-3ffa-5e2f-6151" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Command Group" hidden="false" id="ab6d-06d5-266a-8e91" type="selectionEntry" targetId="8628-e889-806c-329b">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="715d-8974-d4de-012a" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Gehenna" hidden="false" id="3537-a06b-0975-67c8" type="selectionEntry" targetId="76d6-c179-393e-0aa4">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="23b4-2c52-4a48-daf9" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Hordes" hidden="false" id="372d-3ce2-b235-9721" type="selectionEntry" targetId="7c9f-c971-5469-4b74">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="24c1-a80e-6762-b77d" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of the Dark Gods" hidden="false" id="0b3c-7818-336c-34c4" type="selectionEntry" targetId="bd52-5ff4-5096-b19d">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="6967-0077-d1ec-f94f" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Curser" hidden="false" id="df8b-b0b3-a236-d65e" type="selectionEntry" targetId="f4f8-e737-12f1-f494">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="e6c7-b0f3-4635-87db" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warlock" hidden="false" id="2df1-ec52-0e01-ab77" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="ab36-53dc-e6bc-17e3" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

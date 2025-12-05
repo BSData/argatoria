@@ -4,5 +4,67 @@
     <catalogueLink type="catalogue" name="Banners" id="c6f1-1c4c-42a6-dfea" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="e785-3dbe-5a7a-9402" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="4e2d-edad-0c59-32ba" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Sheol-morg: common" id="cd87-4959-c30c-afdc" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Command Group" hidden="false" id="fc27-d30e-59a2-17f1" type="selectionEntry" targetId="8628-e889-806c-329b">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="e624-9f08-dabf-d303" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Gehenna" hidden="false" id="8acb-c46f-3eb7-88cb" type="selectionEntry" targetId="76d6-c179-393e-0aa4">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="5036-0148-d732-8913" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Hordes" hidden="false" id="c3ef-e259-18a4-e3ae" type="selectionEntry" targetId="7c9f-c971-5469-4b74">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="6bfa-019b-a30f-2542" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of the Dark Gods" hidden="false" id="d16c-bccd-cc0b-0d1a" type="selectionEntry" targetId="bd52-5ff4-5096-b19d">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="bcb5-f5f1-c07b-e1db" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Curser" hidden="false" id="efe8-3e4e-9f09-b1cb" type="selectionEntry" targetId="f4f8-e737-12f1-f494">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="de27-6152-bc3c-5020" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warlock" hidden="false" id="924e-d22c-2162-25d1" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="d017-9630-3ab7-02dc" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Lord Necromancer" hidden="false" id="a570-9cca-f7a8-6152" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="5772-5669-b79a-292c" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="452e-43ac-c3cf-1955" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="6aa7-381f-f91f-ff99" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Lord Necromancer" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="ff5e-7380-bc66-44e3" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="a69a-3cc0-64ce-c6ce" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
+      </entryLinks>
+      <rules>
+        <rule name="Your Souls Belong To Us!" id="22fd-fffc-3a65-7f97" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
+          <description>The army fields Truhlaks on Fallen Ogars as Elite Units, not Rare. If Lord Necromancer’s opponent rolls a 1 or 2 in an Initiative Test, he loses the test regardless of other rules, magic in any form, modifiers, or re-roll opportunities. In addition, if the opponent’s army has lost 5 Blood Points or more, you may roll a D6 once per cycle when activating Lord Necromancer. On a score of 2 or less, you may place a unit of The Damned* (4 bases) within 20 cm of Lord Necromancer, without an Action Die and facing any direction. In the subsequent cycles, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed.</description>
+        </rule>
+      </rules>
+      <comment>TODO: The damned</comment>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

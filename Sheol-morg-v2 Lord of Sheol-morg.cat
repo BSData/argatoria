@@ -4,5 +4,73 @@
     <catalogueLink type="catalogue" name="Banners" id="e40a-9249-78d1-3c22" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="01ea-8632-0621-ca25" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="ebbd-ba22-632a-6414" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Sheol-morg: common" id="3758-fd10-755d-66e2" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Lord of Sheol-morg" hidden="false" id="434c-2468-be5d-26f4" publicationId="30f0-6ecb-d1bf-eb3e" page="97" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="6078-4bf5-1a2c-cc60" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="db84-ca45-bded-affc" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="38da-8bfc-31ce-2279" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lord of Sheol-morg" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="dc22-1da8-e80c-339b" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="17c7-90a1-7361-4e9b" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
+      </entryLinks>
+      <rules>
+        <rule name="Ab... huul! Daaqul, salib!!!" id="ac93-0227-2728-0779" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
+          <description>The army always fields Ritual Master (Mage). Ritual Master is fielded for free, counts to the Mages limit, and may buy magic spells and items of any value. Before the battle, he performs a special ritual. Roll a D6 to check which bonuses the units will have during the battle.
+1–2 Ritual of Beast
+Basic and Elite Units in the army have their move and charge ranges increased by 2 cm.
+3–4 Ritual of Pain
+Basic and Elite Units in the army that have no save receive save. Each such unit may always roll a D6 for each Wound it is dealt. Each score of 1 means a cancelled Wound.
+5–6 Ritual of Fear
+Basic and Elite Units in the army have Fear. Fear. After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead.</description>
+        </rule>
+      </rules>
+      <comment>TODO Should Feear be part of General&apos;s rule?</comment>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Command Group" hidden="false" id="b779-396b-8c9d-2372" type="selectionEntry" targetId="8628-e889-806c-329b">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="0642-8082-f49e-0981" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Gehenna" hidden="false" id="413f-d255-a803-d7e9" type="selectionEntry" targetId="76d6-c179-393e-0aa4">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="3bed-8255-f603-32b4" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of Hordes" hidden="false" id="302d-4f8b-af6d-107f" type="selectionEntry" targetId="7c9f-c971-5469-4b74">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="8f4d-0d01-78c6-2cf6" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Champion of the Dark Gods" hidden="false" id="c2e5-67cc-5536-7f30" type="selectionEntry" targetId="bd52-5ff4-5096-b19d">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="a350-d9d6-10bb-5a1b" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Curser" hidden="false" id="ec05-35fe-d4bf-690d" type="selectionEntry" targetId="f4f8-e737-12f1-f494">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="3908-997d-0f44-0578" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warlock" hidden="false" id="35b9-826e-cf06-475c" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="5383-dea9-bab5-f140" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

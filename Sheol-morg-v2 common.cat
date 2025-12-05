@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="3c37-26cb-3246-fc2d" name="Sheol-morg: common" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="f342-dd7c-be6b-5a3b" targetId="e6d3-3757-73e4-6ec4"/>
+    <catalogueLink type="catalogue" name="Items" id="0eb2-1f28-3495-8b6c" targetId="9fd1-abc6-119d-b5a5"/>
+    <catalogueLink type="catalogue" name="Spells" id="66e5-9a4d-f6b9-54d5" targetId="9324-73b3-9935-4102"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="8628-e889-806c-329b" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command Group" hidden="false" id="35e5-473b-6184-bd78" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="fdfb-7ca7-0994-7013" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="80c8-67d9-4f79-04d5" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Gehenna" hidden="false" id="76d6-c179-393e-0aa4" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="7f51-b311-ef60-49ac" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="9ac1-f3c1-e8b9-0cf5" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4519-fdb6-75a8-1a53" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="4519-fdb6-75a8-1a53">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Gehenna" id="054c-afac-f9ab-555a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <description>When Champion of Gehenna is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means that one stat (except W) of the unit can be increased by 1 until the end of the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Hordes" hidden="false" id="7c9f-c971-5469-4b74" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="fd24-f6a5-4a06-713e" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="8baf-d8a0-14f6-1ca6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="19b9-29de-c771-1419" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="19b9-29de-c771-1419">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Hordes" id="687d-7ba6-6be6-4f00" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <description>Roll a D6 if the unit with Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test, and if the unit was not a Horde or it lost the Horde rule, it gains (regains) the Horde rule.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of the Dark Gods" hidden="false" id="bd52-5ff4-5096-b19d" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="f3cc-5427-a848-8846" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="f9fb-3004-4291-9870" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="afb1-57c2-0fac-3aef" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="afb1-57c2-0fac-3aef">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of the Dark Gods" id="a68f-5072-8487-2a90" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <description>If Champion of the Dark Gods is attached to a friendly unit engaged in combat, he always adds +5 attacks instead of +4. In addition, you may roll a D6 before the enemy unit’s attacks. A score of 3 or less means the enemy must, according to your choice, re-roll all successful scores in the Weapon Skill Test or the Wound Test.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Curser" hidden="false" id="f4f8-e737-12f1-f494" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="428a-6037-5150-6f68" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="272e-4fb0-3cc2-0c49" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Curser" id="410a-6839-623b-b802" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <description>All enemy units within 30 cm of Curser get -2 cm to the charge range.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="4e7c-eea7-0299-6325" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="3b20-c03d-1fa5-a0b1" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="8eea-e7f4-fc9c-e914" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="1724-c974-40f4-8ad3" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="8e8f-c3be-1414-a2d6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Warlock" id="ef92-a537-1de8-c895" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <description>All friendly units within 20 cm of Warlock may re-roll a failed Prayer Test when praying for Fury.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="82b6-16d3-7d26-6ebe" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="db68-da80-358d-69d3" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
