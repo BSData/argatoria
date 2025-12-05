@@ -6,4 +6,164 @@
     <catalogueLink type="catalogue" name="Spells" id="eddd-4144-e860-b34f" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="9a52-14cc-d8de-5fe7" targetId="001e-221b-d752-9e75"/>
   </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Great Hunter" hidden="false" id="aba1-a89b-9784-2df5" publicationId="30f0-6ecb-d1bf-eb3e" page="91" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="b69c-a93a-5bfd-bc31" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="8846-ef7d-390f-4fad" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="5a3e-d0b5-55eb-5843" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Devoted to Gods" id="ba17-1da5-d4ff-c3f4" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <description>Basic and Elite Units in the Dirandis army may re-roll failed Prayer Tests.</description>
+        </rule>
+      </rules>
+      <profiles>
+        <profile name="Great Hunter" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="8c12-e26d-0203-6aab" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="e47a-eee4-f8b4-5649" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="0efd-3259-c6b7-db17" publicationId="30f0-6ecb-d1bf-eb3e" page="91" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command Group" hidden="false" id="ffcb-bc9c-1c1a-2ce6" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="6258-3e87-bdba-d19c" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="f574-51dc-0f39-bb46" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="93d7-d3db-aa49-1f71" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Ice" hidden="false" id="3081-8070-0dd7-9e02" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="0b04-7bc9-d411-cd41" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="d234-92fa-d082-bacf" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="bb10-cb20-4a20-85b5" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ccf5-43fb-2824-6c34" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="ccf5-43fb-2824-6c34">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Ice" id="4554-0517-0cf5-3a6b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <description>When Champion of Ice is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to WS until the end of the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Fire" hidden="false" id="3941-1f25-eca7-71f4" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="d92a-5cce-6f81-1489" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="a31e-3b4e-9241-3cf1" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="b22b-5f4b-b399-ce1f" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0c35-e4d9-4b82-a58b" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="0c35-e4d9-4b82-a58b">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Fire" id="ba56-7fe8-43b2-7631" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <description>When Champion of Fire is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets 3 additional dice in the Wound Test until the end of the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Storm" hidden="false" id="d39f-4ba0-d8a3-110a" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="77db-958b-92fa-0d14" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="e2b3-8af2-9e2d-a60d" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="4a8b-ba77-90e9-04db" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1120-b5b5-89f8-4f34" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="1120-b5b5-89f8-4f34">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Storm" id="53ff-fb78-e908-8a71" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <description>After activating Champion of Storm, choose target enemy unit within 30 cm and roll a D6 for each full rank in that unit. Each score of 4 or less means that the chosen unit is dealt 1 Wound with no saves permitted.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fortune-teller" hidden="false" id="ba85-6b38-33e0-4758" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="806f-886e-abc3-d50e" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="2290-5a50-642a-a735" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="6329-7853-3098-68b7" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="8e93-6463-894d-7783" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="0a2a-fc1f-e3f4-4577" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
+      </entryLinks>
+      <rules>
+        <rule name="Fortune-teller" id="85ca-6395-dd17-ff50" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <description>If Fortune-teller is within 10 cm of Great Hunter during the Activation Roll, the player can roll a D6 once per cycle. A score of 3 or less means that the result obtained in the Activation Roll may be modified by +1 or -2. At least one unit must be activated.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Priest of the Old Gods" hidden="false" id="a94a-0341-5aa3-0e22" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="a9b2-3864-25fd-3ed2" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="e189-406a-afcb-4a89" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="7dc7-c975-74d0-8e6a" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="d4d2-e081-4d3b-e90b" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="09b0-070d-55c1-7bc9" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+      </entryLinks>
+      <rules>
+        <rule name="Priest of the Old Gods" id="9b1b-a5b9-a252-19e2" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <description>May buy magic spells and items of any value. As long as Priest of the Old Gods is on the battlefield, one more friendly unit can pray during the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

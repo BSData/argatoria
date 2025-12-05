@@ -6,4 +6,159 @@
     <catalogueLink type="catalogue" name="Spells" id="c70f-b750-90b9-8667" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="b21e-98b0-4f80-1a65" targetId="001e-221b-d752-9e75"/>
   </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Gaeldaukar" hidden="false" id="9b38-dd20-21ab-eeef" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="7eb5-9f67-4b55-d0aa" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="d6db-dc2c-74dc-9b9c" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="c5c9-a510-9ccb-c2c7" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Gaeldaukar" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="1486-439a-0d27-da44" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="f4a5-6d65-839c-168d" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
+      </entryLinks>
+      <rules>
+        <rule name="Wrath of the Forest" id="9140-3ac6-3b81-07ff" hidden="false" page="92" publicationId="30f0-6ecb-d1bf-eb3e">
+          <description>Basic and Elite Units in the Gaeldor army may change any 1 rolled when moving or charging to a score of 3.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Command Group" hidden="false" id="9c21-c5b9-8673-b5b6" page="93" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command Group" hidden="false" id="35f4-d270-365a-e3f7" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="d125-37f5-33c5-d53b" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="462d-9c46-e697-eaab" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="b173-69bd-a159-d0af" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Forest" hidden="false" id="5536-b035-4216-99cd" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6482-6fa5-c6da-e853" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="6482-6fa5-c6da-e853">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="c750-fc21-3ab1-0889" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="5a47-acdc-f0cc-f1b7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="3da8-f837-ad78-dfe4" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Champion of Forest " id="23e9-c82e-f9f9-3fd5" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <description>Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Beasts" hidden="false" id="f417-aad9-1678-b4a9" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="26a5-e057-9de7-44a8" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="26a5-e057-9de7-44a8">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="eed9-9848-1423-376c" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="e768-4c43-4906-dd76" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="03d7-206b-541b-b66d" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Champion of Beasts" id="fe80-27b7-4e93-a1a9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <description>Roll a D6 if General failed to issue an order to Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means that General may re-roll the failed score. Champion of Beasts attached to the listed units grants them further +2 attacks to the pool.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Hunt" hidden="false" id="b344-a04b-8da7-2953" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6541-0d6b-c8d5-fd0e" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="6541-0d6b-c8d5-fd0e">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="29b8-33a0-a0e2-0d1e" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="fbce-abef-767c-bb42" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="8977-2695-758c-ec03" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Champion of Hunt" id="a369-7fbe-29e2-7794" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <description>When Champion of Hunt is attached to a friendly unit engaged in combat, he may roll a D6 whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Druid" hidden="false" id="e79e-9ec1-fa62-6983" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="2c94-37cf-09ed-2069" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="ead3-af11-ac66-50ea" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="142d-487b-bb24-81ca" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Druid" id="a366-6ac0-2094-bd54" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <description>Each friendly unit of Oduns and each Trefloq within 10 cm of Druid can re-roll failed scores during the saving throws (Woodiness).</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="9403-b279-af2a-d964" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="7d5b-4d0b-3c0d-e156" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="2fa9-57b9-246a-8796" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="ab74-3ff5-7c27-1807" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="596b-4753-36be-205f" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="9082-9f6f-ab1d-e4f2" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="c7a1-cee5-0847-4269" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="21f0-b36b-136a-9a51" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
