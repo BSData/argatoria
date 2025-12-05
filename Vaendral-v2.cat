@@ -7,75 +7,157 @@
     <catalogueLink type="catalogue" name="Items" id="3d71-f283-b41f-100f" targetId="9fd1-abc6-119d-b5a5"/>
   </catalogueLinks>
   <selectionEntries>
-    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="79b4-20d9-8e4c-5c6b">
+    <selectionEntry type="model" import="true" name="Bloody Chieftain" hidden="false" id="3f3f-ecf9-b4c5-0a8e" publicationId="30f0-6ecb-d1bf-eb3e" page="89" defaultAmount="1">
+      <rules>
+        <rule name="Born Warriors" id="2754-90b9-bcab-0715" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+          <description>The Vaendral army may re-roll any score of 1 or 6 obtained during Activation Roll.</description>
+        </rule>
+      </rules>
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
-      <entryLinks>
-        <entryLink import="true" name="Magic Banners" hidden="false" id="7bd6-b28d-131d-fe52" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
-      </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Vaendral" hidden="false" id="a28c-dd18-3121-4423" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
-        <categoryLink name="Command Group" hidden="false" id="a989-7d5a-12ef-0fa8" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
-        <categoryLink name="Hero" hidden="false" id="efb3-ab33-6ef6-9e98" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="model" import="true" name="Bloody Chieftain" hidden="false" id="2151-2914-3e2a-1dca" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-      <categoryLinks>
-        <categoryLink name="General" hidden="false" id="850b-f37a-d664-2a68" targetId="e196-2339-4bc0-2d4f" primary="true"/>
-        <categoryLink name="Hero" hidden="false" id="bc49-a7c1-db07-00d5" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
-        <categoryLink name="Vaendral" hidden="false" id="5315-433c-ccd7-7391" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
-      </categoryLinks>
       <profiles>
-        <profile name="Bloody Chieftain" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="f0ac-b1a6-c162-4c5b" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+        <profile name="Bloody Chieftain" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="4701-e2e8-08c1-b85b" page="89" publicationId="30f0-6ecb-d1bf-eb3e">
           <characteristics>
             <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">2</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Born Warriors" id="4b4a-984b-c318-744c" hidden="false" type="rule" targetId="0b70-851d-a958-a4de"/>
-      </infoLinks>
-      <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
-        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="model" import="true" name="Priestess of Lust" hidden="false" id="d95e-dc92-e868-7c5e" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-      <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
-        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
-      </costs>
       <categoryLinks>
-        <categoryLink name="Mage" hidden="false" id="8124-7545-6ceb-c1e6" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
-        <categoryLink name="Hero" hidden="false" id="d189-af40-9e35-0846" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="General" hidden="false" id="02da-e630-1a72-8f08" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="7924-0034-803e-e38a" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="cd25-bf1b-f4d9-7975" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Priestess of Lust" id="643e-3f24-c112-1adf" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-          <description>All friendly units within 10 cm of Priestess of Lust may re-roll a move range, or a failed Cold Blood Test.
-
-
-
-May buy magic spells and items worth max. 6 points each.</description>
-        </rule>
-      </rules>
       <entryLinks>
-        <entryLink import="true" name="Spells &lt; 6pt" hidden="false" id="1fd4-120b-70a7-397d" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02"/>
+        <entryLink import="true" name="Artefacts" hidden="false" id="3195-5a1c-3520-2db5" type="selectionEntryGroup" targetId="6502-887c-b695-528f" page="69" publicationId="30f0-6ecb-d1bf-eb3e"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Old Hag" hidden="false" id="8cc9-fa9c-2df8-561a" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="237a-e7d5-c5a0-4ce4" publicationId="30f0-6ecb-d1bf-eb3e" page="89" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
       <categoryLinks>
-        <categoryLink name="Mage" hidden="false" id="32a2-1c27-76f1-86fb" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
-        <categoryLink name="Hero" hidden="false" id="78f3-81b5-f06b-1522" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Command Group" hidden="false" id="16f9-8c3a-e1e4-19b7" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="eb2e-9439-521a-725d" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="9db4-3838-cb90-5961" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="b02c-6708-04a0-699b" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Blood" hidden="false" id="e0b8-7353-6d9e-521f" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <costs>
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="0cbc-2988-f6e6-1136" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="33c6-f8fd-9100-490d" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="8066-7bca-de78-b3fe" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="287a-5906-d8cb-5397" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="287a-5906-d8cb-5397">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Blood" id="4a41-50cf-ec26-0366" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <description>At any point during the cycle, Champion of Blood may take a D6 test. A score of 3 or less means that all friendly units within 20 cm of Champion of Blood are granted +2 attacks to the pool if they do not have Bloodshed (This unit may re-roll all failed scores in the Wound Test). If they have Bloodshed, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Earth" hidden="false" id="1a97-ec3d-1d43-3e5b" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="8a4a-f694-64dd-90a9" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="326a-928f-16ca-7c17" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="df51-5ba9-b73a-1bb9" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a842-be3f-3df3-70b3" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="a842-be3f-3df3-70b3">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Earth" id="f990-ca00-ba27-dc2f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <description>Choose target enemy unit within 30 cm that is not engaged in combat and roll a D6. A score of 3 or less means the chosen unit can be moved by 10 cm in any direction, without turning.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Darkness" hidden="false" id="b459-abdd-ed04-00cb" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="e479-adc7-1e0a-e314" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="42cd-89bb-c7f1-f3b0" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="8fee-69ff-e27d-8f0c" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cd05-4bca-e679-ab6e" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="cd05-4bca-e679-ab6e">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Darkness" id="f940-1695-2962-69ad" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <description>When Champion of Darkness is attached to a friendly unit engaged in combat, he can roll a D6 each time the enemy unit loses its bases in this cycle. A score of 3 or less means the enemy unit must immediately take a Panic Test for as many bases as it lost in this cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Priestess of Lust" hidden="false" id="766e-c25e-c5ae-1485" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="28e0-5537-d3fb-4855" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="b8e5-5a54-83c0-8c30" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="1da6-d765-0dc4-dfd5" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Spells" hidden="false" id="4094-cb0a-6135-ef88" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
-        <entryLink import="true" name="Magic items" hidden="false" id="561f-688e-c169-8d2e" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6"/>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="646f-480c-73da-df88" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="0e79-4282-80e5-e2f8" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
+      </entryLinks>
+      <rules>
+        <rule name="Priestess of Lust" id="6f62-147e-730f-52f0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <description>All friendly units within 10 cm of Priestess of Lust may re-roll a move range, or a failed Cold Blood Test.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Old Hag" hidden="false" id="a237-c50c-0a4f-bef9" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="a290-ff2d-9b63-a33d" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="d530-49cd-1da8-1e08" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="9cdf-669b-f012-4f87" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="c298-c9a1-abd6-8ba5" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="307a-55c1-61ef-de84" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>

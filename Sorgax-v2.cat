@@ -1,8 +1,166 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="150d-8bcd-f804-cb0a" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="668c-7041-d41f-52d6" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="4d8b-00ad-6660-8c11" targetId="9324-73b3-9935-4102"/>
   </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Abazatragon" hidden="false" id="6b89-170a-e169-b0a7" publicationId="30f0-6ecb-d1bf-eb3e" page="87" defaultAmount="1">
+      <rules>
+        <rule name="Heralds of Torment" id="026e-2cf2-ae2e-bffe" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <description>The Sorgax General may issue one additional free order per cycle if the opponent has suffered certain losses during the battle. Check how many Blood Points (BP) your opponent has lost so far and compare it with the table below to find out what score you need to get to successfully issue the free order.
+* from 6 BP – order on a score of 1
+* from 12 BP – order on a score of 2 or less
+* from 24 BP – order on a score of 3 or less</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="7da0-95e0-74f1-fc83" targetId="e196-2339-4bc0-2d4f" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="5f35-af91-c66f-c718" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="4b62-a565-6cd4-9654" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Abazatragon" typeId="a4ee-546b-71a6-4250" typeName="General" hidden="false" id="fe3c-eb23-a79e-96da" page="87" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="LD" typeId="3e75-c7bc-9bab-8c5e">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts" hidden="false" id="7979-040d-6390-a454" type="selectionEntryGroup" targetId="6502-887c-b695-528f" publicationId="30f0-6ecb-d1bf-eb3e" page="69"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="c884-9147-5a32-e8c0" publicationId="30f0-6ecb-d1bf-eb3e" page="87" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command Group" hidden="false" id="8ae7-0de7-db6f-9766" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="1bb3-fa38-dac8-f490" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="894e-6ca4-24eb-10f5" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="d711-3c07-4f49-0bc6" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a" publicationId="30f0-6ecb-d1bf-eb3e" page="74"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Night" hidden="false" id="2819-68ec-90c0-2a0e" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="11"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="c6fd-d3c3-9dc8-3862" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="78ed-f454-3dd1-afba" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="d490-0ba9-f10e-4563" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6654-f34b-78b9-f7ce" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="6654-f34b-78b9-f7ce">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Night" id="f466-ac0e-642d-b67b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+          <description>When Champion of Night is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to S until the end of the cycle.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Death" hidden="false" id="e497-9b44-e2e0-2cfd" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="2869-dfe8-de60-55b6" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="bf2f-9940-5a8c-9195" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="c6f3-0ee2-0882-096f" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="38db-8d6a-942d-58a0" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="38db-8d6a-942d-58a0">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Death" id="8131-40ef-13ac-6b00" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+          <description>When Champion of Death is attached to a friendly unit engaged in combat, roll a D6 for each base the enemy unit lost. Each score of 2 or less means the enemy unit loses another base.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Wrath" hidden="false" id="89e7-0866-fe0f-74fc" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="b1cc-1636-4c44-d428" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="e721-71b8-7cce-2696" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="7f53-4054-ec09-7ba0" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8533-2c96-22c9-0c8e" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="8533-2c96-22c9-0c8e">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Champion of Wrath" id="e4a1-0c13-0bf8-8697" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+          <description>Choose target friendly unit within 20 cm of Champion of Wrath and roll a D6 before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tomb Priest" hidden="false" id="44e0-08a0-8439-1363" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="15dd-2cdb-12be-22ff" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="fa3e-fd6a-4c86-73d7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="2a75-a2f7-32da-9327" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Tomb Priest" id="b036-a4ee-b6dc-b55e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+          <description>Each friendly unit within 10 cm of Tomb Priest may add 3 cm to the charge range.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="eb57-c246-201a-a5b9" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02"/>
+        <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="a7da-7163-dfdd-4037" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Guardian of the Underworld" hidden="false" id="8deb-da6e-74b5-cecf" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="bd7e-dfe3-7385-c612" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="4c5e-16b4-2a2f-4d74" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Sorgax" hidden="false" id="e96a-aefd-2f69-0086" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="4cab-6a29-f73d-28b6" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="f704-2c36-70c9-fbcc" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6"/>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
