@@ -154,15 +154,139 @@
         <entryLink import="true" name="Spells" hidden="false" id="3056-cc70-ab83-1efb" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" publicationId="30f0-6ecb-d1bf-eb3e" page="85" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Trygodrons" hidden="false" id="94ea-6ac8-c835-de96" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="c2ea-b444-b24f-4cdb" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Arox" hidden="false" id="1a7b-8deb-8f66-f595" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Trygodrons" hidden="false" id="89a5-7466-dfcf-86e4" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="20"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Trygodrons" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="70cb-b9bb-c149-d173" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8085-b969-3fd8-7996" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="18d0-94cc-ce97-50b7" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Immunity" id="5f73-d14d-afac-820d" hidden="false" type="rule" targetId="77c4-c412-b3ce-56e7"/>
+        <infoLink name="Creature" id="0237-d458-9aa4-32e5" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+        <infoLink name="Tearing" id="33c0-804c-e308-bc53" hidden="false" type="rule" targetId="a8d5-086f-450a-9ee7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Desauros with Sun Monolith" hidden="false" id="f861-20b9-f1ee-a76b" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="68"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="7fd8-65b9-7a41-21c7" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Arox" hidden="false" id="cb59-7774-8375-5563" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Desauros" id="fb28-eadb-7a58-e48d" hidden="false" type="profile" targetId="5147-f1a5-1d11-abb8"/>
+        <infoLink name="Fearless" id="2368-c0e1-a405-ee5e" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Primal Rampage" id="7c53-00e0-03cd-1294" hidden="false" type="rule" targetId="a4fa-4d41-9634-0342"/>
+      </infoLinks>
+      <rules>
+        <rule name="Sun Monolith" id="d74a-ef9a-3a9e-a4b8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+          <description>Roll a D6 for each Wound Desauros lost in combat. Each score of 2 or less means that target enemy unit within 20 cm is dealt 2 Wounds.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Golden Guards" hidden="false" id="c65d-84ee-96b5-9d53" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="574b-66b4-9801-f388" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Arox" hidden="false" id="d69b-b116-7021-71cf" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Golden Guards" hidden="false" id="d041-42ad-3de3-fbc9" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="19"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Golden Guards" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="d514-ea53-70e0-fa1b" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8083-7bfc-b70b-a1c8" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="109d-c7b2-45f5-8754" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Gold Armour (Save)" id="bf14-57d6-6540-1579" hidden="false" type="rule" targetId="7d7f-428a-82e6-3594"/>
+        <infoLink name="Poisonous Spit" id="7a99-b4a1-98fb-7924" hidden="false" type="rule" targetId="b613-5d82-33d0-0fb5"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="cea9-328b-d348-c575" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="18ee-f445-b8c3-e2e6" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="9673-1bda-f0ab-7e56" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Units" id="f848-99c0-d234-108e" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <sharedRules>
     <rule name="Hot Blood" id="b4f4-ea31-1618-e12e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
       <description>The Arox army may re-roll an Initiative Test.</description>
     </rule>
   </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="The Chosen" hidden="false" id="4d74-2782-6365-1a18" type="selectionEntry" targetId="e7f7-b1d9-0294-f3f2">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="a6c8-0e38-7c8a-94ac" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Primaeval" hidden="false" id="da74-72d4-9d5e-1ffa" type="selectionEntry" targetId="a661-332e-508f-ef32">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="0bad-bffb-08f0-295d" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repsolians" hidden="false" id="56d0-c1fc-7263-f960" type="selectionEntry" targetId="aa4f-19ab-9706-edd7">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="0944-370a-2289-92ad" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Sanctified" hidden="false" id="edec-d56e-b7d9-3ebb" type="selectionEntry" targetId="db11-a71b-9151-799e">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="ff57-1dee-dad8-ee86" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Forgon" hidden="false" id="ee41-b1b6-f3b4-2a87" type="selectionEntry" targetId="c004-08aa-ff87-37a5">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="0ba4-ec0a-f24d-6191" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ropuchons" hidden="false" id="0047-3813-af5c-ce81" type="selectionEntry" targetId="a17c-7081-3cb0-4d4c">
+      <categoryLinks>
+        <categoryLink name="Arox" hidden="false" id="de3d-f2cc-4d3e-1ae1" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

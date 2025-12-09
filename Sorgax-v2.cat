@@ -4,6 +4,7 @@
     <catalogueLink type="catalogue" name="Banners" id="150d-8bcd-f804-cb0a" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="668c-7041-d41f-52d6" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="4d8b-00ad-6660-8c11" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Units" id="84fd-8548-a0c7-0d62" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Abazatragon" hidden="false" id="6b89-170a-e169-b0a7" publicationId="30f0-6ecb-d1bf-eb3e" page="87" defaultAmount="1">
@@ -162,5 +163,123 @@
         <entryLink import="true" name="Magic items" hidden="false" id="f704-2c36-70c9-fbcc" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Martyrs of Voro-dan" hidden="false" id="672c-29c7-cce4-033e" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="922d-5120-bde3-4546" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Sorgax" hidden="false" id="e226-d3ff-abc3-7da7" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Martyrs of Voro-dan" hidden="false" id="79b5-5d49-5464-979d" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="19"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="bc95-4ed8-707c-3aee" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="6cf1-d5c8-6dcc-a7e2" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Martyrs of Voro-dan" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="16eb-fbc0-5cbe-379a" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">4</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Vigilant" id="11b7-fdd2-6cb7-ffb1" hidden="false" type="rule" targetId="51dd-354d-d29c-34bf"/>
+        <infoLink name="Enslaved" id="cb43-2082-69ac-731c" hidden="false" type="rule" targetId="341d-a83d-4e7a-c9df"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Desauros with Tomb Altar" hidden="false" id="eef7-201c-ea38-8dd9" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="68"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="53fc-f070-5fe4-6dcb" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Sorgax" hidden="false" id="288b-938e-cc12-b117" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Desauros" id="21d1-cc77-28ff-936b" hidden="false" type="profile" targetId="5147-f1a5-1d11-abb8"/>
+        <infoLink name="Fearless" id="bbec-3dbd-0837-db9d" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Primal Rampage" id="3288-0dec-557c-6ee9" hidden="false" type="rule" targetId="a4fa-4d41-9634-0342"/>
+      </infoLinks>
+      <rules>
+        <rule name="Tomb Altar" id="8db0-f166-0c4f-188c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <description>Desauros with Tomb Altar gains 1 Wound for each Wound it inflicts upon the enemy unit. Desauros may have a maximum of 12 Wounds.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Crushers on Scalyvars" hidden="false" id="6acd-ba24-d9fb-9b14" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Crushers on Scalyvars" hidden="false" id="9a3b-ff0d-c684-f169" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="23"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1020-7465-f67d-8266" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="bae9-759a-8393-0fd0" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Crushers on Scalyvars" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="c60f-010e-c94d-b586" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="2c16-7cc7-98bb-4c89" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Sorgax" hidden="false" id="7f19-055d-ae26-1d6b" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Battle Inspiration" id="151c-8f1c-e376-8397" hidden="false" type="rule" targetId="b8fd-5b15-901b-771c"/>
+        <infoLink name="Hammer Strike" id="1d37-603d-e30d-00a3" hidden="false" type="rule" targetId="ae68-4a4b-e028-ccc9"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Tormentors" hidden="false" id="f94c-e9d2-e982-4a8f" type="selectionEntry" targetId="dde3-7654-7a6d-69f9">
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="e2e0-d63c-0765-c62f" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scourges" hidden="false" id="f291-442c-728e-4b43" type="selectionEntry" targetId="7bc2-912a-468a-3ce5">
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="7486-6600-7c14-a9ba" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repsolians" hidden="false" id="9e51-f6f0-3b9f-2e37" type="selectionEntry" targetId="aa4f-19ab-9706-edd7">
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="e673-a157-f2cd-66e7" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Slagors" hidden="false" id="d794-4f8c-9c52-85fe" type="selectionEntry" targetId="4752-506a-07a2-4520"/>
+    <entryLink import="true" name="The Fallen" hidden="false" id="5869-9331-01b5-03bd" type="selectionEntry" targetId="a17c-7081-3cb0-4d4c">
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="7820-ee99-7bb6-f8fe" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Forgon" hidden="false" id="6552-75f0-ecc6-5017" type="selectionEntry" targetId="c004-08aa-ff87-37a5">
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="d1fb-31bf-c634-bd43" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

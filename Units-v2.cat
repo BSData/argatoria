@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="5b32-fb65-846e-642a" name="Units" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Liagulians" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="ec2b-410c-c25f-dd9e" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reptilians" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="15a1-c74c-e9d3-6daa" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Repsolians" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="42dd-5291-4f52-728a" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ropuchons" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="d79e-2f61-5ca2-bc1e" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Desauros" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="5147-f1a5-1d11-abb8" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">6</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">7</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">7</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Forgon" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="2190-5245-4366-1f8e" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">5</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slagors" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="19de-f339-86cc-7583" publicationId="30f0-6ecb-d1bf-eb3e">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Amazons" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="cf3e-aaa8-7611-eb5a" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">2</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Barbarians" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="bec9-1a93-ba58-5d60" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Giant" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="fe33-537b-cf2b-1528" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">6</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">5</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Elephanton" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="b80a-b6a1-cce8-4076" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">8</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">6</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">6</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="The Chosen" hidden="false" id="e7f7-b1d9-0294-f3f2" publicationId="30f0-6ecb-d1bf-eb3e" page="84" defaultAmount="2">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="193e-645d-bce8-13c2" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Spear Storm" id="989f-be33-62f0-5041" hidden="false" type="rule" targetId="23b8-381d-b732-e09b"/>
+        <infoLink name="Faithful" id="f18c-7925-8833-e18f" hidden="false" type="rule" targetId="b40d-a883-f45e-9f68"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Liagulians" hidden="false" id="c6c6-eb4b-2376-8a34" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="9"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Liagulians" id="9aec-afa2-d794-98a3" hidden="false" type="profile" targetId="ec2b-410c-c25f-dd9e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ea3b-4146-174c-7b2b" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="848b-2cbb-5ec4-f455" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Sanctified" hidden="false" id="db11-a71b-9151-799e" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="7b15-811b-6802-0ccb" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="The Sanctified" hidden="false" id="490c-a79b-3dfb-e83d" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3b1f-e265-137b-e6e1" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="4f49-3ccd-646b-57bc" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="The Sanctified" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="3d31-25a3-d432-6f19" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fierce" id="8b0d-71d4-903b-3392" hidden="false" type="rule" targetId="02ab-0489-2565-7e89"/>
+        <infoLink name="Faithful" id="f1a7-0fb8-366a-8b1d" hidden="false" type="rule" targetId="b40d-a883-f45e-9f68"/>
+        <infoLink name="Gold Armour (Save)" id="7752-17cb-dfd0-9247" hidden="false" type="rule" targetId="7d7f-428a-82e6-3594"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Primaeval" hidden="false" id="a661-332e-508f-ef32" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="28cf-befe-5824-afec" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Reptilians" hidden="false" id="8869-f9e0-ac65-21be" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Reptilians" id="35ca-654b-5793-a09f" hidden="false" type="profile" targetId="15a1-c74c-e9d3-6daa"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="fa21-b6a0-8687-ff61" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="33df-4bb3-e57c-6dce" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Iron Discipline" id="90c9-f0ca-fb43-5fee" hidden="false" type="rule" targetId="84ca-2235-25ec-d58f"/>
+        <infoLink name="Agile" id="68ed-3743-8bfd-2824" hidden="false" type="rule" targetId="82aa-2c7d-12dd-00e8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Repsolians" hidden="false" id="aa4f-19ab-9706-edd7" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="8559-ae35-c7e2-de2a" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Repsolians" hidden="false" id="e9ea-69e0-b009-1843" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+          <infoLinks>
+            <infoLink name="Repsolians" id="fcfd-d55e-0989-927d" hidden="false" type="profile" targetId="42dd-5291-4f52-728a"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9a50-e2a3-edaa-b463" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="14d6-382a-91b5-323c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Will to Fight" id="8798-81e3-5d37-e93b" hidden="false" type="rule" targetId="677a-45c7-d583-0c50"/>
+        <infoLink name="Battle Inspiration" id="0ecb-80c5-e8ef-4d2b" hidden="false" type="rule" targetId="b8fd-5b15-901b-771c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="dde3-7654-7a6d-69f9" publicationId="30f0-6ecb-d1bf-eb3e" page="86" defaultAmount="2">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7995-b032-6385-1802" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Reptilians" hidden="false" id="c1ca-aedf-7e6a-3612" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="47a1-095e-9e90-6d97" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="c32e-a2f7-7128-7949" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Reptilians" id="730c-217f-0fc6-a567" hidden="false" type="profile" targetId="15a1-c74c-e9d3-6daa"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Iron Discipline" id="5b33-dd13-92d9-b0ac" hidden="false" type="rule" targetId="84ca-2235-25ec-d58f"/>
+        <infoLink name="Responsive" id="cd62-5ea2-5884-bf2d" hidden="false" type="rule" targetId="a74f-0056-6e0f-40b4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Scourges" hidden="false" id="7bc2-912a-468a-3ce5" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="a4c7-0bbf-544c-7cd7" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Liagulians" hidden="false" id="a450-59f0-23c4-85fa" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4f2d-f52f-25fe-4202" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="e81a-b217-e7a8-3e46" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="9"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Liagulians" id="cebe-7b4c-2901-8bfd" hidden="false" type="profile" targetId="ec2b-410c-c25f-dd9e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Spear Storm" id="5a06-0a5a-2b3d-6c7b" hidden="false" type="rule" targetId="23b8-381d-b732-e09b"/>
+        <infoLink name="Sneaky" id="2154-8b13-c141-4fee" hidden="false" type="rule" targetId="05dd-7635-6817-3ec8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blood Priestesses" hidden="false" id="b024-7c1b-eaff-2322" publicationId="30f0-6ecb-d1bf-eb3e" page="88" defaultAmount="2">
+      <infoLinks>
+        <infoLink name="Bloodshed" id="3923-0bc3-99f4-4c74" hidden="false" type="rule" targetId="ed34-e6c4-230a-e29d" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+        <infoLink name="Light Shield Defence (Save)" id="924f-7119-cb3b-0495" hidden="false" type="rule" targetId="baab-8767-181d-76e6" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Amazons" hidden="false" id="5552-3ea6-6dba-64c4" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9220-e7a9-ed7e-543a" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="54b1-3ce8-0d44-6644" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Amazons" id="14df-ad10-fa1c-f971" hidden="false" type="profile" targetId="cf3e-aaa8-7611-eb5a"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7a9e-7ab1-50b0-63d0" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Firstborn" hidden="false" id="e863-6f9a-ca79-140e" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="1351-def3-a750-d85d" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Barbarians" hidden="false" id="cb31-fddf-2330-e9eb" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6600-84cb-4bd2-9ec0" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="e138-d0b5-daf6-1317" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Barbarians" id="705b-73c8-857e-1961" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Wild Charge" id="0ae2-444b-29ba-c0ee" hidden="false" type="rule" targetId="cc23-a337-2fda-4827" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+        <infoLink name="Fury" id="3292-0cac-cbfa-5244" hidden="false" type="rule" targetId="d05a-960e-208b-6ae0" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ravagers on Sungals" hidden="false" id="e323-a27a-db72-11a6" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="37e0-e90f-9bc3-e643" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="898f-e74c-1aea-dd70" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="4" field="898f-e74c-1aea-dd70">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ravagers on Sungals" hidden="false" id="ad91-a3bf-db34-80e1" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="20"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Ravagers on Sungals" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="038e-d613-4e8d-8356" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="66c9-75a3-6bab-b0b1" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="d79e-c430-63ef-bf15" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Terrible Damage" id="b6c4-aa8e-7495-c9f0" hidden="false" type="rule" targetId="85f5-0754-5d44-b980" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+        <infoLink name="Fury" id="36d9-1c47-0b3e-490a" hidden="false" type="rule" targetId="d05a-960e-208b-6ae0" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sozruits" hidden="false" id="bd46-4ca6-e612-9cdf" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="e0ab-d32a-da88-8efd" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="cc7c-da21-bb75-2a4f" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sozruits" hidden="false" id="705d-2748-adde-291b" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="11"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Sozruits" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="7ce9-6904-7056-b93e" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">2</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e12e-6a69-29ca-273d" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="5cbc-cb53-91da-98f9" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Scare" id="4f24-2e2c-0ca7-9eb7" hidden="false" type="rule" targetId="26e7-38c0-185b-7ea2" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+        <infoLink name="Cult" id="45dd-5dc0-3551-42d1" hidden="false" type="rule" targetId="eebf-9eef-a068-9953" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+        <infoLink name="The God of Slaughter Blessing" id="d6dd-f776-2030-0812" hidden="false" type="rule" targetId="e185-243b-f7bf-ca73" publicationId="30f0-6ecb-d1bf-eb3e" page="88"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Giant" hidden="false" id="db0e-5aab-4ae9-266d" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="43"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="8bbd-b273-bd55-f8f0" targetId="4813-f768-c66b-e833" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Giant" id="3455-20d4-4485-f599" hidden="false" type="profile" targetId="fe33-537b-cf2b-1528"/>
+        <infoLink name="Fearless" id="ac4d-99ef-00fb-e93d" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Throwing stones" id="9c3f-0b49-d833-0140" hidden="false" type="rule" targetId="9453-d5a2-8c22-a49e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Forgon" hidden="false" id="c004-08aa-ff87-37a5" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="40"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="772d-df3f-f49c-c912" targetId="9972-b434-5f13-e94b" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Forgon" id="781f-8a9c-177f-a664" hidden="false" type="profile" targetId="2190-5245-4366-1f8e"/>
+        <infoLink name="Living Catapult" id="8b92-be33-a992-65e5" hidden="false" type="rule" targetId="24b7-78b8-d050-ce71"/>
+        <infoLink name="Fearless" id="d0be-999f-d464-37c2" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Slagors" hidden="false" id="4752-506a-07a2-4520" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="4dea-e214-b136-d10d" targetId="4813-f768-c66b-e833" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Slagors" hidden="false" id="d715-172f-25c2-428b" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7ba5-cd85-2e57-c7b7" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="c68a-114a-149f-110f" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Slagors" id="d486-67c2-bf73-0ff4" hidden="false" type="profile" targetId="19de-f339-86cc-7583"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fearless" id="93c9-8eaa-e398-36c3" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Snake Move" id="fca1-2e0b-10bf-78e6" hidden="false" type="rule" targetId="be9e-766e-47fb-3246"/>
+        <infoLink name="Creature" id="cc92-1d5e-a26f-e145" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ropuchons" hidden="false" id="a17c-7081-3cb0-4d4c" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="a51b-6aae-b882-9ba7" targetId="4813-f768-c66b-e833" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ropuchons" hidden="false" id="2497-116f-d62c-8f0a" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f5a2-f3c9-cc79-f15a" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="dfec-65a5-8774-7608" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ropuchons" id="4747-5257-c7ba-747d" hidden="false" type="profile" targetId="d79e-2f61-5ca2-bc1e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Poisonous Spit" id="e00a-0083-81d4-3e5c" hidden="false" type="rule" targetId="b613-5d82-33d0-0fb5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Elephanton" hidden="false" id="0924-c267-47e8-76cd" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="88"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="67fa-2e62-aed5-f059" targetId="9972-b434-5f13-e94b" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Elephanton" id="1b06-3319-9d35-6ab0" hidden="false" type="profile" targetId="b80a-b6a1-cce8-4076"/>
+        <infoLink name="Fearless" id="3c53-7eb2-b7aa-2f82" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Trample" id="0015-3060-2093-dc25" hidden="false" type="rule" targetId="e85f-1e62-7572-7c6f"/>
+        <infoLink name="Monster" id="84fb-dd18-f0f7-f35d" hidden="false" type="rule" targetId="69b5-89b0-410a-8e8b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Brothers of Fire" hidden="false" id="693a-b963-b131-20d9" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Barbarians" hidden="false" id="1948-6499-acc7-869c" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="39c6-8fc5-43d1-24db" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="3819-487b-8027-91cb" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Barbarians" id="cb18-2337-560d-7aec" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="4e4e-6d98-1575-651b" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Focused Attack" id="72ea-e98a-20aa-c89a" hidden="false" type="rule" targetId="c800-c2e4-027e-ac6e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wolf Maidens" hidden="false" id="cf85-0d24-247e-d5d8" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="b886-7c7c-7275-64a0" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Amazons" hidden="false" id="28a7-1a08-0ceb-194d" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3fe5-efd0-b219-d41c" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="d7e5-041d-56cd-2b86" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Amazons" id="4af2-d072-300c-e76f" hidden="false" type="profile" targetId="cf3e-aaa8-7611-eb5a" publicationId="30f0-6ecb-d1bf-eb3e" page="90"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Precise Hit" id="f899-adec-2046-a431" hidden="false" type="rule" targetId="f9a7-46ac-3c07-92a0"/>
+        <infoLink name="Light Shield Defence (Save)" id="ab15-6fad-c2f2-b8a6" hidden="false" type="rule" targetId="baab-8767-181d-76e6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Riders on Gridons" hidden="false" id="947a-e485-d745-5564" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="9344-b64f-1f4f-5f65" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Riders on Gridons" hidden="false" id="682f-d51c-b2ab-26ab" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="21"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="Riders on Gridons" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="a96a-8f69-f5bc-4db0" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ac4a-f728-c3a4-2382" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="2b7f-0a25-cc3b-4839" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="49f2-b49a-45d6-be5d" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="5" field="49f2-b49a-45d6-be5d">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Focused Attack" id="15d9-77fd-f102-80f9" hidden="false" type="rule" targetId="c800-c2e4-027e-ac6e"/>
+        <infoLink name="Fierce Assault" id="b39a-9331-5a57-4947" hidden="false" type="rule" targetId="5e73-0a2b-89fd-4400"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wolf Brothers" hidden="false" id="2d53-6201-c148-dea8" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="4edc-8981-fd78-b73e" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Wolf Brothers" hidden="false" id="310c-71d2-93c8-0d89" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35a5-4364-7238-cf80" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58ce-0487-c3f9-70b8" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Wolf Brothers" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="27d8-f271-f4fe-f373" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Focused Attack" id="f992-2661-50ca-54ae" hidden="false" type="rule" targetId="c800-c2e4-027e-ac6e"/>
+        <infoLink name="Magic Runes" id="ce88-bc5f-867a-092a" hidden="false" type="rule" targetId="90be-f60e-8c9e-7d8f"/>
+        <infoLink name="Fearless" id="4bd4-caaf-b0fb-f844" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Beast Hunters" hidden="false" id="991b-cd2b-4e73-0231" publicationId="30f0-6ecb-d1bf-eb3e" page="92" defaultAmount="2">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="4d02-d1e6-b12e-c86a" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Barbarians" hidden="false" id="b6ec-cee2-5c00-a41f" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ac73-15b9-584e-04f8" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="163f-294b-bf56-99f3" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Barbarians" id="ea72-bad1-b38c-e8e5" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Momentum" id="4af5-5111-ba3a-cde2" hidden="false" type="rule" targetId="b0c0-216a-15af-6e56"/>
+        <infoLink name="Hunter’s Instinct" id="eaa6-249a-2fd6-918f" hidden="false" type="rule" targetId="3d15-feb6-7849-bfaf"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Oduns" hidden="false" id="73f9-b91d-cca2-5c48" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="5ada-4071-a696-701e" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Oduns" hidden="false" id="dc62-ce21-59c0-6a90" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="18"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a5b1-cfb5-511b-15b3" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="9fc8-30dc-4929-b1e7" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Oduns" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="b203-a01c-0a27-3a98" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Spear Storm" id="fdbd-e587-a732-51bc" hidden="false" type="rule" targetId="23b8-381d-b732-e09b"/>
+        <infoLink name="Woodiness (Save)" id="933c-16ee-f312-7e2f" hidden="false" type="rule" targetId="dd28-cab4-c506-32d8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Amazons on Spiders" hidden="false" id="2da4-abe4-4334-3374" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="2985-8e95-8018-d668" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Amazons on Spiders" hidden="false" id="82be-97c1-1faf-9295" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="19"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="98f0-d444-3332-aff1" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="2e31-f8e8-3491-78f4" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Amazons on Spiders" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="5976-7b2c-2f9a-9d48" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Venom" id="79fb-10dd-d561-a3e2" hidden="false" type="rule" targetId="ecdf-fc6f-1752-0f96"/>
+        <infoLink name="Keen Senses" id="0557-5f19-c09e-96c1" hidden="false" type="rule" targetId="ae50-0637-ba9f-0363"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="3736-e096-0a92-bd14" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="5" field="3736-e096-0a92-bd14">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Voraks" hidden="false" id="b330-741a-7df8-a4d3" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="a738-7955-6a6c-6f78" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Voraks" hidden="false" id="419a-ba15-347a-7584" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d7d2-68ea-3330-d457" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="cdb8-fc0c-b037-79f8" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Voraks" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="3418-ae71-3eea-526e">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Sweeping Slash" id="8cc9-b879-0ce3-f1b5" hidden="false" type="rule" targetId="7073-4307-0588-6d85"/>
+        <infoLink name="Brutal Trap" id="b461-5bae-17f7-3761" hidden="false" type="rule" targetId="c61d-728a-3fbc-a3f5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Fangs of Sael" hidden="false" id="4dcd-5a7a-9601-7fc1" publicationId="30f0-6ecb-d1bf-eb3e" page="98" defaultAmount="2">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7543-0038-197f-75da" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Orcs Warriors" hidden="false" id="908f-8483-5059-fc6f" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="b7aa-107e-c165-ed31" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="54a1-8c5f-f1d4-8a3f" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Orcs Warriors" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="e45e-b396-fed4-1959" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Brutality" id="5688-78e0-6e0f-ab3f" hidden="false" type="rule" targetId="128d-9275-a681-f832"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Rogues" hidden="false" id="0303-8420-e379-1937" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="c586-8d92-6097-f1ad" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Orcs Mercenaries" hidden="false" id="c235-8315-98b4-86d1" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="acb4-1d52-801a-602e" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="27a4-c50a-b136-1af7" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Orcs Mercenaries" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="ef7d-1e60-f15c-52e9" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Brawl" id="fabb-7800-2e09-d9af" hidden="false" type="rule" targetId="0269-5e3d-0d31-0faf"/>
+        <infoLink name="Sweeping Slash" id="d5a0-5081-c1a8-ca94" hidden="false" type="rule" targetId="7073-4307-0588-6d85"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Zadukats" hidden="false" id="3a85-eb99-4ce9-37f1" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="046d-3aff-8ed2-ca19" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Knuroses" hidden="false" id="1786-1ba2-32a4-3c63" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8faf-107e-17c5-fd97" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="f2c1-49b9-6a44-8232" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Knuroses" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="cc3c-0903-f027-ab93" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Envy" id="bb7b-83d0-5e9d-18d0" hidden="false" type="rule" targetId="b7ca-3591-2722-ea01"/>
+        <infoLink name="Sneaky" id="6692-7254-07ca-efc4" hidden="false" type="rule" targetId="05dd-7635-6817-3ec8"/>
+        <infoLink name="Reckless" id="b8dd-3a6e-921b-6ce7" hidden="false" type="rule" targetId="20e6-1299-771a-9c83"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Riders of Daaran" hidden="false" id="65c8-9d28-23ae-63cf" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="e76a-1ec9-35b8-7303" targetId="e020-218e-a38a-c7c5" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Riders of Daaran" hidden="false" id="d889-43ba-49b1-061a" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="22"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="b1bb-fee1-94fb-4925" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="44ec-5a48-30f5-93dc" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Riders of Daaran" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="83f3-0c08-98d9-3792" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Ambush" id="92d2-f1dc-f1e0-1e96" hidden="false" type="rule" targetId="2c1c-f488-30b0-95e7"/>
+        <infoLink name="Will to Fight" id="7778-df36-23ee-9856" hidden="false" type="rule" targetId="677a-45c7-d583-0c50"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="1411-4eb0-ad52-4ee6" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="5" field="1411-4eb0-ad52-4ee6">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

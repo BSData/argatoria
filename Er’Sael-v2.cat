@@ -4,6 +4,7 @@
     <catalogueLink type="catalogue" name="Banners" id="c1f5-07e2-e1dc-00a7" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="bac8-d23b-1ec5-4dc5" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="3d62-6408-818f-d2c1" targetId="9324-73b3-9935-4102"/>
+    <catalogueLink type="catalogue" name="Units" id="b4ad-5637-367c-f51e" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Clanlord of Er’Sael" hidden="false" id="c160-3a65-6128-0e63" publicationId="30f0-6ecb-d1bf-eb3e" page="99" defaultAmount="1">
@@ -163,8 +164,7 @@
       </categoryLinks>
       <rules>
         <rule name="Alchemist" id="fabb-7965-3109-0410" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>In addition, Alchemist may buy one elixir (magic item) that does not count to the limit of magic items. Elixirs cannot repeat in the army.
-</description>
+          <description>In addition, Alchemist may buy one elixir (magic item) that does not count to the limit of magic items. Elixirs cannot repeat in the army.</description>
         </rule>
       </rules>
       <entryLinks>
@@ -223,5 +223,206 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Nerh" hidden="false" id="3a4f-96a5-cc69-40a2" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="7d8e-532d-cbc9-c0da" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Er’Sael" hidden="false" id="464d-e49a-f80a-d556" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Black Orcs" hidden="false" id="d061-470f-e240-0659" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d079-5ff4-d197-e610" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="97a8-2e21-d894-7119" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Black Orcs" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="7d5e-648c-cbe0-cc1b" publicationId="30f0-6ecb-d1bf-eb3e" page="98">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Tearing" id="91f3-2810-e5f8-409d" hidden="false" type="rule" targetId="a8d5-086f-450a-9ee7"/>
+        <infoLink name="Rage" id="c57b-7333-d166-a334" hidden="false" type="rule" targetId="128c-1b54-3d42-c529"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Monks of the Shadow Temple" hidden="false" id="3198-afbe-df39-92a4" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="db9f-fc5a-bfdb-d894" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Er’Sael" hidden="false" id="0dff-a310-5c3d-f503" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Monks of the Shadow Temple" hidden="false" id="d2a7-9ef3-b0ea-7803" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="17"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7634-cb17-b18f-e53e" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="7fca-4087-d3f7-8ed7" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Monks of the Shadow Temple" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="d2b0-86ee-47e1-ceba" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Precise Hit" id="d5f7-d4cd-c685-2fd0" hidden="false" type="rule" targetId="f9a7-46ac-3c07-92a0"/>
+        <infoLink name="Master Ambush" id="238a-6504-85cf-2a7f" hidden="false" type="rule" targetId="1640-d67f-6d92-a6e6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Larva of Nalharap" hidden="false" id="279b-b675-d7fc-7a65" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="62"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="393c-2de7-b6a8-1885" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Er’Sael" hidden="false" id="7523-ecb6-bef9-3f21" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Larva of Nalharap" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="c9fc-d7f4-bfef-8183" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">5</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">6</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">10</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Acid Spit" id="5722-abef-df00-080c" hidden="false" type="rule" targetId="476f-5349-efa5-3091"/>
+        <infoLink name="Slowness" id="c682-b624-6390-f86b" hidden="false" type="rule" targetId="9eaa-dc6f-2cdc-7ba3"/>
+        <infoLink name="Fearless" id="4cc8-beb5-2a21-99dc" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="8e1e-aa03-a71b-b5c8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Prophet on Varanor" hidden="false" id="6e09-b6ea-c1da-086d" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="3d68-4214-ca7d-eda1" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Er’Sael" hidden="false" id="9bf6-f335-3c41-9156" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="105"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="08d0-d392-db9f-d2f2" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="08d0-d392-db9f-d2f2">
+          <conditions>
+            <condition type="atMost" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Prophet on Varanor" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="9afa-464a-b0dc-fd01" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">7</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">8</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">7</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">9</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Curse of Blood" id="e480-7fe6-bffc-3bf1" hidden="false" type="rule" targetId="88f1-2ca8-5b39-ec82"/>
+        <infoLink name="Dark Aura" id="4add-4a82-2ccd-ecc3" hidden="false" type="rule" targetId="12a9-8b20-6b5b-2011"/>
+        <infoLink name="Fearless" id="bb9a-c267-f7ae-cf6b" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Monster" id="6365-285a-c0dd-9e72" hidden="false" type="rule" targetId="69b5-89b0-410a-8e8b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Priests of Sael" hidden="false" id="1f7d-f07e-2b8b-3ae7" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="1be5-8978-61ab-d852" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Er’Sael" hidden="false" id="c37a-a43e-77de-6aec" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Priests of Sael" hidden="false" id="47eb-5cd1-66cc-8db5" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="18"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="324b-e79e-784d-417d" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="0308-555c-d1a4-ef35" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Priests of Sael" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="6b02-4af5-7d20-6b96" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="The God of Slaughter Blessing" id="21b0-d616-3c7e-b32b" hidden="false" type="rule" targetId="e185-243b-f7bf-ca73"/>
+        <infoLink name="Hammer Strike" id="ab16-f399-b393-fd37" hidden="false" type="rule" targetId="ae68-4a4b-e028-ccc9"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Fangs of Sael" hidden="false" id="f84d-6dbb-f3d3-da91" type="selectionEntry" targetId="4dcd-5a7a-9601-7fc1">
+      <categoryLinks>
+        <categoryLink name="Er’Sael" hidden="false" id="7435-2b83-ddb0-c865" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rogues" hidden="false" id="1c72-73bd-bf79-5073" type="selectionEntry" targetId="0303-8420-e379-1937">
+      <categoryLinks>
+        <categoryLink name="Er’Sael" hidden="false" id="8ff5-6383-7965-2f55" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zadukats" hidden="false" id="42a2-5fdd-201b-5eb8" type="selectionEntry" targetId="3a85-eb99-4ce9-37f1">
+      <categoryLinks>
+        <categoryLink name="Er’Sael" hidden="false" id="ac5a-a69c-0a96-9ec7" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Riders of Daaran" hidden="false" id="1160-6fdb-caa9-6e20" type="selectionEntry" targetId="65c8-9d28-23ae-63cf">
+      <categoryLinks>
+        <categoryLink name="Er’Sael" hidden="false" id="9c75-bb37-a47a-58ff" targetId="59da-0cc8-65e1-9196" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

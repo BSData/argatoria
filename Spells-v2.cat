@@ -12,9 +12,6 @@
             <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit (but not single model) within 20 cm. Roll a D6 – a score of 3 or less means a successful spell. The opponent must take a Toughness test (D6 roll) for 2 bases from that unit. Each D6 roll equal to or lesser than the unit’s Toughness means that nothing happens. Each roll higher than Toughness means that the unit loses 1 base.</characteristic>
             <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Test" typeId="107e-2ce3-33aa-618e">3-</attribute>
-          </attributes>
         </profile>
       </profiles>
       <constraints>
