@@ -5,6 +5,7 @@
     <catalogueLink type="catalogue" name="Spells" id="e80f-b52b-29b0-7920" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="6d17-a863-21bd-c820" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Items" id="3d71-f283-b41f-100f" targetId="9fd1-abc6-119d-b5a5"/>
+    <catalogueLink type="catalogue" name="Units" id="0217-cd4a-4142-440c" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Bloody Chieftain" hidden="false" id="3f3f-ecf9-b4c5-0a8e" publicationId="30f0-6ecb-d1bf-eb3e" page="89" defaultAmount="1">
@@ -160,10 +161,129 @@
         <entryLink import="true" name="Magic items" hidden="false" id="307a-55c1-61ef-de84" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Reapers" hidden="false" id="240d-8211-4f97-4503" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="d93f-8465-cc12-e8f6" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Vaendral" hidden="false" id="4e24-4bf0-0e4b-acde" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Half-Giants" hidden="false" id="865a-a71b-9bd6-ae16" type="selectionEntry" targetId="752b-7939-32cc-edc4"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Voutars" hidden="false" id="32f3-d1f3-4580-6e16" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="0b4b-2b8f-5f68-7e72" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Vaendral" hidden="false" id="c599-b8e1-16a8-afec" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Keen Senses" id="cbf0-239b-731f-4d2d" hidden="false" type="rule" targetId="ae50-0637-ba9f-0363"/>
+        <infoLink name="Brutal Trap" id="a218-d7f4-8348-fee5" hidden="false" type="rule" targetId="c61d-728a-3fbc-a3f5"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Voutars" hidden="false" id="2998-fab2-4ae9-3e9c" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e9cc-96ff-dbda-f528" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="f918-b3cf-ff5a-0815" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Voutars" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="5d46-bd07-e2cf-9f94" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="White Witches" hidden="false" id="5faa-6bd8-c95c-de60" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="b217-ba87-4f52-0cbb" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Vaendral" hidden="false" id="4ed2-272c-1418-074d" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="White Witches" hidden="false" id="1428-3f56-6813-ef2d" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5b84-a52b-3e34-5f65" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="23a7-61bb-413c-43e2" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="White Witches" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="c08f-1eb8-f19d-b8fd">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">2</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fearless" id="7e55-dac5-8c36-73aa" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Curse of the Witch" id="f8fa-06d5-ee3a-37a1" hidden="false" type="rule" targetId="7d32-4049-0b19-b287"/>
+        <infoLink name="Bloodshed" id="3924-5792-7ba2-4e79" hidden="false" type="rule" targetId="ed34-e6c4-230a-e29d"/>
+        <infoLink name="Terrible Damage" id="8161-528f-067d-5a84" hidden="false" type="rule" targetId="85f5-0754-5d44-b980"/>
+        <infoLink name="Light Shield Defence. (Save)" id="012f-eace-bda2-eadd" hidden="false" type="rule" targetId="baab-8767-181d-76e6"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule name="Born Warriors" id="0b70-851d-a958-a4de" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
       <description>The Vaendral army may re-roll any score of 1 or 6 obtained during Activation Roll.</description>
     </rule>
   </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Blood Priestesses" hidden="false" id="e3cd-ade5-e3a5-c0fd" type="selectionEntry" targetId="b024-7c1b-eaff-2322" defaultAmount="2">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="53b7-663e-52b7-e897" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Firstborn" hidden="false" id="2c7e-be88-347b-e987" type="selectionEntry" targetId="e863-6f9a-ca79-140e">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="ad0b-c1fd-08a7-dbea" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ravagers on Sungals" hidden="false" id="f28a-5300-121f-2f59" type="selectionEntry" targetId="e323-a27a-db72-11a6">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="7ef3-b324-0d51-452f" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sozruits" hidden="false" id="9bbe-31a3-135d-cb03" type="selectionEntry" targetId="bd46-4ca6-e612-9cdf">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="acb6-1718-fcc9-4216" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Reapers" hidden="false" id="8789-8afe-7571-a9d0" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="446d-6298-6775-4a5e" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Giant" hidden="false" id="066f-a101-fd84-08ec" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="e48f-274e-1a28-200c" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Elephanton" hidden="false" id="355b-8cdc-3409-9496" type="selectionEntry" targetId="0924-c267-47e8-76cd">
+      <categoryLinks>
+        <categoryLink name="Vaendral" hidden="false" id="0597-19c5-5bfd-440f" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

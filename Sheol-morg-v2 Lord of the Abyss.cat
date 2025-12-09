@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="0a99-640b-c6ce-43b9" name="Sheol-morg: Lord of the Abyss" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Banners" id="f17c-2135-ee5e-e021" targetId="e6d3-3757-73e4-6ec4"/>
-    <catalogueLink type="catalogue" name="Items" id="1589-3a05-f880-89a7" targetId="9fd1-abc6-119d-b5a5"/>
-    <catalogueLink type="catalogue" name="Spells" id="39f6-a61a-c06c-270c" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Sheol-morg: common" id="ab64-bab2-37de-beae" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
   <selectionEntries>
@@ -63,6 +60,54 @@
     <entryLink import="true" name="Warlock" hidden="false" id="2df1-ec52-0e01-ab77" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
       <categoryLinks>
         <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="ab36-53dc-e6bc-17e3" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Horned Warriors" hidden="false" id="86ad-a911-40fc-7ec9" type="selectionEntry" targetId="7e68-13bb-f148-1d2e">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7682-9ad6-7ff0-186d" targetId="7089-e041-3a8b-00af" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="eeef-221e-82f7-1648" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Fauns" hidden="false" id="2e48-5346-dc7b-9c37" type="selectionEntry" targetId="63e4-84cd-44d4-f39e">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="ac27-02c5-0129-81d0" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks" hidden="false" id="0697-6eb2-34ec-fae4" type="selectionEntry" targetId="fe8b-bebf-15f2-666e">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="6a93-b8d0-7367-73c1" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="3c87-0cfc-3b47-38f8" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ritual Guardians" hidden="false" id="831f-8e76-4cee-87c0" type="selectionEntry" targetId="526a-dcd7-0acd-4e5b">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="cd1a-c0cc-151e-364c" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="6797-57a0-74b5-6a3d" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks on Fallen Ogars" hidden="false" id="e401-46d4-f88d-a3eb" type="selectionEntry" targetId="ca96-718c-b8de-69eb">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="151c-94d1-6232-6d52" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Minotaur" hidden="false" id="4eb2-82c1-c1f7-668b" type="selectionEntry" targetId="8b88-0927-59f1-6dd8">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="5969-2678-d24c-e67e" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Black Knights on Horgars" hidden="false" id="1156-d85c-838a-9e84" type="selectionEntry" targetId="b94e-c308-d93f-1376">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="d54e-0c71-10d2-ad67" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hybrids" hidden="false" id="a765-10be-ccfe-af19" type="selectionEntry" targetId="4909-f0f4-7f17-cefe">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="7e6e-298b-9b18-6079" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hydra" hidden="false" id="4f29-507c-ddcd-f34e" type="selectionEntry" targetId="dc4c-ac3a-bbe6-2cec">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="4591-dafd-18bc-bbeb" targetId="4f13-69c6-c113-95b8" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

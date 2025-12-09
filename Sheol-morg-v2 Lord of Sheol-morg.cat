@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="f574-bbfd-2add-c0a3" name="Sheol-morg: Lord of Sheol-morg" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Banners" id="e40a-9249-78d1-3c22" targetId="e6d3-3757-73e4-6ec4"/>
-    <catalogueLink type="catalogue" name="Items" id="01ea-8632-0621-ca25" targetId="9fd1-abc6-119d-b5a5"/>
-    <catalogueLink type="catalogue" name="Spells" id="ebbd-ba22-632a-6414" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Sheol-morg: common" id="3758-fd10-755d-66e2" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
   <selectionEntries>
@@ -70,6 +67,54 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
     <entryLink import="true" name="Warlock" hidden="false" id="35b9-826e-cf06-475c" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
       <categoryLinks>
         <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="5383-dea9-bab5-f140" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ritual Guardians" hidden="false" id="7e48-dca3-8760-6b73" type="selectionEntry" targetId="526a-dcd7-0acd-4e5b">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="69d4-2f45-339c-b38a" targetId="7089-e041-3a8b-00af" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="bc2d-133d-5f38-2a68" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Fauns" hidden="false" id="03aa-bf3d-16a5-50e3" type="selectionEntry" targetId="63e4-84cd-44d4-f39e">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="8efa-27bb-bbc7-7442" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Horned Warriors" hidden="false" id="8f18-a380-5a04-b8ac" type="selectionEntry" targetId="7e68-13bb-f148-1d2e">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="ffe9-bba5-f75f-41e2" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="b77d-d4da-afc4-7a10" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks" hidden="false" id="e580-c3b3-6c5b-af8a" type="selectionEntry" targetId="fe8b-bebf-15f2-666e">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="0041-2219-2688-ed92" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="e7a5-deaf-67ba-2d48" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks on Fallen Ogars" hidden="false" id="0284-7f38-7d7a-98a1" type="selectionEntry" targetId="ca96-718c-b8de-69eb">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="7572-1e4e-17de-bce5" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Minotaur" hidden="false" id="3a2f-b320-b06c-f8e1" type="selectionEntry" targetId="8b88-0927-59f1-6dd8">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="787e-6dfc-2881-c5e6" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Black Knights on Horgars" hidden="false" id="fdd4-9889-1ac1-d914" type="selectionEntry" targetId="b94e-c308-d93f-1376">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="74a3-4da3-c4d5-2bbc" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hybrids" hidden="false" id="9575-b47c-5385-9d80" type="selectionEntry" targetId="4909-f0f4-7f17-cefe">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="8fc9-29cf-ad50-bb15" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hydra" hidden="false" id="9d1e-f697-49a2-26c8" type="selectionEntry" targetId="dc4c-ac3a-bbe6-2cec">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="7309-e05c-8aa1-6d2c" targetId="2139-b90b-706b-1410" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="7dd5-8b91-c02b-c423" name="Sheol-morg: Lord Necromancer" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Banners" id="c6f1-1c4c-42a6-dfea" targetId="e6d3-3757-73e4-6ec4"/>
-    <catalogueLink type="catalogue" name="Items" id="e785-3dbe-5a7a-9402" targetId="9fd1-abc6-119d-b5a5"/>
-    <catalogueLink type="catalogue" name="Spells" id="4e2d-edad-0c59-32ba" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Sheol-morg: common" id="cd87-4959-c30c-afdc" targetId="3c37-26cb-3246-fc2d"/>
   </catalogueLinks>
   <entryLinks>
@@ -35,6 +32,54 @@
     <entryLink import="true" name="Warlock" hidden="false" id="924e-d22c-2162-25d1" type="selectionEntry" targetId="8eea-e7f4-fc9c-e914">
       <categoryLinks>
         <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="d017-9630-3ab7-02dc" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks" hidden="false" id="de77-963b-3fe5-1fdd" type="selectionEntry" targetId="fe8b-bebf-15f2-666e">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="73ea-b672-fd76-2c30" targetId="7089-e041-3a8b-00af" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="bac1-0ccd-acbc-7ee8" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Fauns" hidden="false" id="60da-bf53-cef7-612a" type="selectionEntry" targetId="63e4-84cd-44d4-f39e">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="b44c-c48c-7c43-0aea" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Horned Warriors" hidden="false" id="909e-b277-ff11-f267" type="selectionEntry" targetId="7e68-13bb-f148-1d2e">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="6433-31df-af53-1c56" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="eab0-d73a-1a51-9e07" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ritual Guardians" hidden="false" id="01a7-e192-8555-531a" type="selectionEntry" targetId="526a-dcd7-0acd-4e5b">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="639e-f050-dfff-858f" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="65a7-ea71-6ff9-1f90" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Truhlaks on Fallen Ogars" hidden="false" id="dd1f-763e-f6a8-e015" type="selectionEntry" targetId="ca96-718c-b8de-69eb">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="718c-f38d-4d54-7558" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Minotaur" hidden="false" id="1bd3-16a7-e7f2-a4bc" type="selectionEntry" targetId="8b88-0927-59f1-6dd8">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="6511-89b7-2986-9397" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Black Knights on Horgars" hidden="false" id="3b60-f259-9777-3eea" type="selectionEntry" targetId="b94e-c308-d93f-1376">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="0daa-7745-e55b-3a80" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hybrids" hidden="false" id="cbe2-3013-3be5-75d9" type="selectionEntry" targetId="4909-f0f4-7f17-cefe">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="0003-7411-2c6a-43ea" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hydra" hidden="false" id="7d6d-395a-a5a9-49b7" type="selectionEntry" targetId="dc4c-ac3a-bbe6-2cec">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="1d54-720d-38a0-40f4" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -150,9 +150,6 @@
             <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target unit within 20 cm of the Mage. Roll a D6. A score of 4 or leass means that, in the subsequent cycle, the chosen unit’s Toughness (T) is doubled.</characteristic>
             <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Test" typeId="107e-2ce3-33aa-618e">4-</attribute>
-          </attributes>
         </profile>
       </profiles>
     </selectionEntry>
@@ -167,11 +164,32 @@
             <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm of the Mage. Roll a D6. A score of 3 or less means that, in the subsequent cycle, the chosen unit’s Mobility (M) is halved, rounded down.</characteristic>
             <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Test" typeId="107e-2ce3-33aa-618e">3-</attribute>
-          </attributes>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Half-Giants" hidden="false" id="de9f-fbf5-cf27-3781" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="4f08-751f-7bb4-707a" targetId="4813-f768-c66b-e833" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Half-Giants" hidden="false" id="752b-7939-32cc-edc4" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="20"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4548-70f6-bf53-8980" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="edf1-d621-ddbd-55cb" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Half-Giants" id="fdd9-6383-40b3-073d" hidden="false" type="profile" targetId="20ca-c7e4-a805-a34c"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Crushing Blow" id="b412-3e4a-33fa-9fb1" hidden="false" type="rule" targetId="586e-08ad-266e-845b"/>
+        <infoLink name="Cleaving" id="923d-f5ea-a73e-e986" hidden="false" type="rule" targetId="bcda-6f32-7ed6-26a5"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -194,4 +212,17 @@
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile name="Half-Giants" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="20ca-c7e4-a805-a34c" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+      <characteristics>
+        <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+        <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+        <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+        <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+        <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+        <characteristic name="A" typeId="44b7-9a60-223f-8bd3">3</characteristic>
+        <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

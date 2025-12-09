@@ -5,6 +5,7 @@
     <catalogueLink type="catalogue" name="Items" id="4127-2843-2dfe-bf56" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="c70f-b750-90b9-8667" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="b21e-98b0-4f80-1a65" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Units" id="d08c-9278-d17f-1bcd" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Gaeldaukar" hidden="false" id="9b38-dd20-21ab-eeef" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
@@ -160,5 +161,177 @@
         <entryLink import="true" name="Magic items" hidden="false" id="21f0-b36b-136a-9a51" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Trefloq" hidden="false" id="5bdd-3041-231b-f730" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="56"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="66ed-17a7-c8f3-8225" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Gaeldor" hidden="false" id="506d-60bf-fb24-f050" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Trefloq" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="bda7-8663-eddd-75b9" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">6</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">8</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">5</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Toxic Spores" id="75d2-57c3-1873-44d6" hidden="false" type="rule" targetId="a123-cd29-9377-2d93"/>
+        <infoLink name="Fearless" id="2309-82ee-f7df-e74b" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Woodiness (Save)" id="ac1f-a2ba-de97-fb3c" hidden="false" type="rule" targetId="dd28-cab4-c506-32d8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wild Creatures" hidden="false" id="2620-bb32-e15b-6102" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="b21a-89a6-b219-98bb" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Gaeldor" hidden="false" id="7ea3-90fd-f71f-3dce" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Wild Creatures" hidden="false" id="e450-92c7-a025-4446" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="18"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9fc5-bdae-519e-4cbb" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="7b61-e9cb-09e8-c186" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Wild Creatures" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="9f1f-b604-9057-3d78">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Under the spell" id="a139-79c7-e0f7-d377" hidden="false" type="rule" targetId="d3b7-ec8e-3a58-6135"/>
+        <infoLink name="Frenzy" id="150a-cb60-cec3-4d3c" hidden="false" type="rule" targetId="7fdc-a240-9260-7197"/>
+        <infoLink name="Creature" id="cf92-701d-ca4d-aa8d" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="2fa9-57b9-246a-8796" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Marmydon" hidden="false" id="afb5-9988-c435-5ed5" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="248"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="5bf1-7a1d-95b9-67c2" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Gaeldor" hidden="false" id="3046-f93b-c279-1ac2" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Marmydon" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="adb2-cfba-cbc1-98cf" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">12</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">9</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">6</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">24</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="a765-15cd-4f59-b4a9" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Roar" id="03f8-c580-3570-9d11" hidden="false" type="rule" targetId="3216-86cd-ab54-b879"/>
+        <infoLink name="Crushing Blow" id="9b29-7ea1-49df-2edc" hidden="false" type="rule" targetId="586e-08ad-266e-845b"/>
+        <infoLink name="Thick Hide (Save) " id="03d7-5bec-4419-0013" hidden="false" type="rule" targetId="ead4-7df8-2681-3a01"/>
+        <infoLink name="Fearless" id="04c9-2bd9-ca6d-92ad" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Fall of the Leviathan" id="e132-5db2-a476-c43d" hidden="false" type="rule" targetId="c504-9bf4-7d57-dfd3"/>
+        <infoLink name="Monster" id="7aaf-51fe-2a54-562b" hidden="false" type="rule" targetId="69b5-89b0-410a-8e8b"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="a765-15cd-4f59-b4a9">
+          <repeats>
+            <repeat value="1000" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Forest Dragon" hidden="false" id="3f61-0b0b-2652-7af0" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="2208-c4f0-9792-0c74" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Gaeldor" hidden="false" id="3971-51ed-7a3c-c0a3" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="96"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Forest Dragon" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="c6c7-ba01-95ba-4438" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">7</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">6</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">8</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="King of the Wild" id="d8b2-4e17-f474-d4e4" hidden="false" type="rule" targetId="fe7f-8ef0-0fec-324a"/>
+        <infoLink name="Winged Creature" id="0816-3867-109a-486c" hidden="false" type="rule" targetId="51b1-c291-9208-e4f3"/>
+        <infoLink name="Fearless" id="d4d3-b3d3-72e7-a24a" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Beast Hunters" hidden="false" id="a363-f36a-afad-68f9" type="selectionEntry" targetId="991b-cd2b-4e73-0231">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="10d8-87d7-a0e0-9eb0" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Oduns" hidden="false" id="93f5-0819-4b7b-aaeb" type="selectionEntry" targetId="73f9-b91d-cca2-5c48">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="8131-d209-6cfe-9f08" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Amazons on Spiders" hidden="false" id="abdf-d3ef-6afb-c9f3" type="selectionEntry" targetId="2da4-abe4-4334-3374">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="55d8-20e2-39e7-41c4" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Voraks" hidden="false" id="7a53-7313-ac56-49d9" type="selectionEntry" targetId="b330-741a-7df8-a4d3">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="9969-026c-2b49-e6c8" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Half-Giants" hidden="false" id="736e-7b28-d10a-9b58" type="selectionEntry" targetId="de9f-fbf5-cf27-3781" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="54c9-3f82-48ff-122a" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Slagors" hidden="false" id="3959-35cb-1e6d-4d27" type="selectionEntry" targetId="4752-506a-07a2-4520" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
+      <categoryLinks>
+        <categoryLink name="Gaeldor" hidden="false" id="199b-c538-7dea-4671" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

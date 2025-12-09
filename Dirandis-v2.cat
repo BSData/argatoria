@@ -5,6 +5,7 @@
     <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="eddd-4144-e860-b34f" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="9a52-14cc-d8de-5fe7" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Units" id="507e-66d7-12cf-a454" targetId="5b32-fb65-846e-642a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Great Hunter" hidden="false" id="aba1-a89b-9784-2df5" publicationId="30f0-6ecb-d1bf-eb3e" page="91" defaultAmount="1">
@@ -165,6 +166,108 @@
         </rule>
       </rules>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sasquatches" hidden="false" id="a346-c0fa-1191-c35c" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="8eca-d222-de8e-0c3d" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="d105-7be5-dabb-951f" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sasquatches" hidden="false" id="36c7-decf-6e07-439f" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7f84-cf6f-700f-3807" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="9bdf-2a4a-bf30-d276" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Sasquatches" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="a616-fa45-c5a7-8c2a">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">5</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Ambush" id="d840-38ad-fcaf-f575" hidden="false" type="rule" targetId="2c1c-f488-30b0-95e7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wilhars" hidden="false" id="5d2d-72cd-04e7-c7c5" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="7090-4070-d9dd-72a7" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="598b-2271-6251-e947" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Wilhars" hidden="false" id="2df7-58b1-92da-a772" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="17"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="eb08-f17e-c4c9-e5ff" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="8682-81ab-0288-a028" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Wilhars" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="b0e0-7161-6ace-7a16">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Wild Speed" id="e55c-c18d-2fff-b0f7" hidden="false" type="rule" targetId="7ac5-4cf6-8848-17ac"/>
+        <infoLink name="Creature" id="e07d-ca32-d8c3-edf4" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <comment>TODO Banner of Wolf Brotherhood</comment>
+  <entryLinks>
+    <entryLink import="true" name="Brothers of Fire" hidden="false" id="cb67-3417-1de7-2ad4" type="selectionEntry" targetId="693a-b963-b131-20d9">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="db27-13e9-0ba8-e806" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Maidens" hidden="false" id="b4f1-2bb0-3d40-9dec" type="selectionEntry" targetId="cf85-0d24-247e-d5d8">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="212c-bacf-45bf-4400" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Riders on Gridons" hidden="false" id="c17a-d20d-fa6b-5307" type="selectionEntry" targetId="947a-e485-d745-5564">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="dd25-96f6-6b0a-a34e" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Brothers" hidden="false" id="bf1c-94b7-9109-8c4f" type="selectionEntry" targetId="2d53-6201-c148-dea8">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="a677-627e-a243-2159" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Devoted" hidden="false" id="d96e-8086-0f89-608c" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="76da-dba6-9239-fcfa" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Giant" hidden="false" id="213b-8d9d-984c-33ac" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">
+      <categoryLinks>
+        <categoryLink name="Dirandis" hidden="false" id="8917-2f55-5581-da0c" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Elephanton" hidden="false" id="0c8b-2976-b9aa-83fd" type="selectionEntry" targetId="0924-c267-47e8-76cd"/>
+  </entryLinks>
 </catalogue>
