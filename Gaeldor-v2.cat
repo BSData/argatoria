@@ -244,12 +244,15 @@
         <infoLink name="Creature" id="cf92-701d-ca4d-aa8d" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
       </infoLinks>
       <modifiers>
-        <modifier type="set" value="true" field="hidden">
+        <modifier type="set" value="0" field="428b-0a07-b9a6-fff4">
           <conditions>
             <condition type="lessThan" value="1" field="selections" scope="roster" childId="2fa9-57b9-246a-8796" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="roster" shared="true" id="428b-0a07-b9a6-fff4" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Marmydon" hidden="false" id="afb5-9988-c435-5ed5" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
       <costs>
