@@ -106,7 +106,7 @@
       </entryLinks>
       <rules>
         <rule name="Your Souls Belong To Us!" id="22fd-fffc-3a65-7f97" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
-          <description>The army fields Truhlaks on Fallen Ogars as Elite Units, not Rare. If Lord Necromancer’s opponent rolls a 1 or 2 in an Initiative Test, he loses the test regardless of other rules, magic in any form, modifiers, or re-roll opportunities. In addition, if the opponent’s army has lost 5 Blood Points or more, you may roll a D6 once per cycle when activating Lord Necromancer. On a score of 2 or less, you may place a unit of The Damned* (4 bases) within 20 cm of Lord Necromancer, without an Action Die and facing any direction. In the subsequent cycles, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed.</description>
+          <description>If Lord Necromancer’s opponent rolls a 1 or 2 in an Initiative Test, he loses the test regardless of other rules, magic in any form, modifiers, or re-roll opportunities. In addition, if the opponent’s army has lost 5 Blood Points or more, you may roll a D6 once per cycle when activating Lord Necromancer. On a score of 2 or less, you may place a unit of The Damned* (4 bases) within 20 cm of Lord Necromancer, without an Action Die and facing any direction. In the subsequent cycles, the unit receives an Action Die and can be activated normally. It does not count towards lost Blood Points when destroyed.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -230,11 +230,6 @@
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
-      <rules>
-        <rule name="Champion of Ghosts" id="5e5c-aa04-9cb9-03ce" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
-          <description>Choose target friendly unit of Truhlaks or Ghosts within 20 cm of Champion of Ghosts and roll a D6. A score of 4 or 3 means that the chosen unit gains +1 to S. A score of 2 or less means that the chosen unit gains +1 to S and +1 to WS.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6346-c896-241a-4acb" includeChildSelections="true"/>
       </constraints>
@@ -245,6 +240,13 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Champion of Ghosts" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="3b7c-6ca8-0444-8a91" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Choose target friendly unit of Truhlaks or Ghosts within 20 cm of Champion of Ghosts and roll a D6. A score of 4 or 3 means that the chosen unit gains +1 to S. A score of 2 or less means that the chosen unit gains +1 to S and +1 to WS.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Catacombs" hidden="false" id="942b-b6ad-9a79-4afd" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
       <costs>
@@ -270,11 +272,13 @@
       <infoLinks>
         <infoLink name="Skeletons Champions" id="4616-fc9e-5f49-0403" hidden="false" type="rule" targetId="5b98-0b5e-f927-ea6b"/>
       </infoLinks>
-      <rules>
-        <rule name="New Rule" id="6756-aa5b-0f39-eba8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
-          <description>Choose target enemy unit within 30 cm of Champion of Catacombs and roll a D6. A score of 3 or less means the chosen unit must re-roll its highest result when rolling for the charge distance. Additionally, if any enemy unit within 15 cm takes a Prayer Test, it must roll 3 dice and choose the 2 highest results.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Catacombs" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="585e-c7a6-a05f-3924" page="138" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Choose target enemy unit within 30 cm of Champion of Catacombs and roll a D6. A score of 3 or less means the chosen unit must re-roll its highest result when rolling for the charge distance. Additionally, if any enemy unit within 15 cm takes a Prayer Test, it must roll 3 dice and choose the 2 highest results.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Champion of Graves" hidden="false" id="ae3b-0496-2aa0-9391" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
       <categoryLinks>
@@ -300,11 +304,13 @@
       <infoLinks>
         <infoLink name="Skeletons Champions" id="26b1-e4b2-9f88-5995" hidden="false" type="rule" targetId="5b98-0b5e-f927-ea6b"/>
       </infoLinks>
-      <rules>
-        <rule name="Champion of Graves" id="851b-a6ca-5856-864b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
-          <description>Choose one unit of Truhlaks or Gnils within 20 cm of Champion of Graves and roll a D6. A score of 4 or less means that the chosen unit may re-roll one D6 when rolling for the charge distance.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Graves" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="5ec3-0552-b957-ec5b" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Choose one unit of Truhlaks or Gnils within 20 cm of Champion of Graves and roll a D6. A score of 4 or less means that the chosen unit may re-roll one D6 when rolling for the charge distance.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Skeletons Command Group" hidden="false" id="9d53-3d3e-e016-a3b1" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
       <costs>
@@ -488,30 +494,40 @@ All friendly units within 5 cm of a Skeletons Command Group may use the followi
         <categoryLink name="Hero" hidden="false" id="662b-8137-f6c4-7d64" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Appendix" hidden="false" id="92ed-24c7-060e-b770" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Azargal – The Axe of the Dead" id="1c9a-1a54-12a0-3f66" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>When attached to a friendly unit, Gnat grants it +6 attacks. Furthermore, if an enemy unit is dealt a Wound during combat with the unit Gnat is attached to and is subsequently marked with a Wound, it suffers 2 further Wounds.</description>
-        </rule>
-        <rule name="Gnat" id="ada0-f80d-8bad-ed5e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>Gnat is allowed to attach to Truhlaks.</description>
-        </rule>
-        <rule name="Horned Helm" id="d37e-19da-5787-4f86" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>If the unit Gnat is attached to has Fear, the enemy unit (but not single model) must always take Panic Tests for 3 bases instead of 1 or 2. In addition, once per cycle, target friendly unit of Truhlaks within 30 cm of Gnat gets the opportunity to roll a D6 after removing its Action Die. The effects last until the end of the cycle.
-1 The unit can increase its Mobility (M) by 5 and roll again for the table. Effects are cumulative.
-2-4 The unit can increase its Strength (S) by 2
-5 The unit can turn with no limits
-6 No effect</description>
-        </rule>
-        <rule name="Grave Shield" id="cc2e-7a17-4e88-60d9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>If the unit Gnat is attached to has no save, it gains save on 1s and 2s.</description>
-        </rule>
-        <rule name="Servant of Death" id="017f-524a-717f-bb97" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>If Gnat is killed, remove his model and place a Death Counter in his place. At the start of each cycle, roll a D6. On a score of 3 or less, you may place the Gnat model, along with an Action Die, within 10 cm of the Death Counter, then remove the counter.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a466-3cb0-7c60-322b" includeChildSelections="true"/>
       </constraints>
+      <profiles>
+        <profile name="Azargal – The Axe of the Dead" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="ed11-76cd-7d93-d4f7" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a friendly unit, Gnat grants it +6 attacks. Furthermore, if an enemy unit is dealt a Wound during combat with the unit Gnat is attached to and is subsequently marked with a Wound, it suffers 2 further Wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Horned Helm" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="08ab-25e6-e071-bdd3" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the unit Gnat is attached to has Fear, the enemy unit (but not single model) must always take Panic Tests for 3 bases instead of 1 or 2. In addition, once per cycle, target friendly unit of Truhlaks within 30 cm of Gnat gets the opportunity to roll a D6 after removing its Action Die. The effects last until the end of the cycle.
+1 The unit can increase its Mobility (M) by 5 and roll again for the table. Effects are cumulative.
+2-4 The unit can increase its Strength (S) by 2
+5 The unit can turn with no limits
+6 No effect</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grave Shield" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="20d2-4e1f-0a55-3222" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the unit Gnat is attached to has no save, it gains save on 1s and 2s.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Servant of Death" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="cd47-cf9b-de7a-6abe" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If Gnat is killed, remove his model and place a Death Counter in his place. At the start of each cycle, roll a D6. On a score of 3 or less, you may place the Gnat model, along with an Action Die, within 10 cm of the Death Counter, then remove the counter.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gnat" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="900b-38a1-0b1a-e89c" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Gnat is allowed to attach to Truhlaks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>

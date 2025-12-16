@@ -68,11 +68,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Ice" id="4554-0517-0cf5-3a6b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
-          <description>When Champion of Ice is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to WS until the end of the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Ice" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="df17-c19f-6ca6-dd64" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Ice is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to WS until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Fire" hidden="false" id="3941-1f25-eca7-71f4" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
       <costs>
@@ -94,11 +96,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Fire" id="ba56-7fe8-43b2-7631" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
-          <description>When Champion of Fire is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets 3 additional dice in the Wound Test until the end of the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Fire" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="eced-cd34-b381-2eb9" page="91" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Fire is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets 3 additional dice in the Wound Test until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Storm" hidden="false" id="d39f-4ba0-d8a3-110a" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
       <costs>
@@ -120,11 +124,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Storm" id="53ff-fb78-e908-8a71" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
-          <description>After activating Champion of Storm, choose target enemy unit within 30 cm and roll a D6 for each full rank in that unit. Each score of 4 or less means that the chosen unit is dealt 1 Wound with no saves permitted.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Storm" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="e720-3c44-2228-d342" page="91" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">After activating Champion of Storm, choose target enemy unit within 30 cm and roll a D6 for each full rank in that unit. Each score of 4 or less means that the chosen unit is dealt 1 Wound with no saves permitted.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Fortune-teller" hidden="false" id="ba85-6b38-33e0-4758" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
       <costs>
@@ -140,11 +146,13 @@
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="8e93-6463-894d-7783" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="0a2a-fc1f-e3f4-4577" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
       </entryLinks>
-      <rules>
-        <rule name="Fortune-teller" id="85ca-6395-dd17-ff50" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
-          <description>If Fortune-teller is within 10 cm of Great Hunter during the Activation Roll, the player can roll a D6 once per cycle. A score of 3 or less means that the result obtained in the Activation Roll may be modified by +1 or -2. At least one unit must be activated.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Fortune-teller" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="628f-ab8d-4b82-a606" page="91" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If Fortune-teller is within 10 cm of Great Hunter during the Activation Roll, the player can roll a D6 once per cycle. A score of 3 or less means that the result obtained in the Activation Roll may be modified by +1 or -2. At least one unit must be activated.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Priest of the Old Gods" hidden="false" id="a94a-0341-5aa3-0e22" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
       <costs>
@@ -160,11 +168,13 @@
         <entryLink import="true" name="Spells" hidden="false" id="d4d2-e081-4d3b-e90b" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
         <entryLink import="true" name="Magic items" hidden="false" id="09b0-070d-55c1-7bc9" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
-      <rules>
-        <rule name="Priest of the Old Gods" id="9b1b-a5b9-a252-19e2" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="91">
-          <description>May buy magic spells and items of any value. As long as Priest of the Old Gods is on the battlefield, one more friendly unit can pray during the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Priest of the Old Gods" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="7d10-c50d-be94-e7ee" page="91" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">As long as Priest of the Old Gods is on the battlefield, one more friendly unit can pray during the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sasquatches" hidden="false" id="a346-c0fa-1191-c35c" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
       <categoryLinks>
@@ -254,7 +264,7 @@
   </selectionEntries>
   <comment>TODO Banner of Wolf Brotherhood</comment>
   <entryLinks>
-    <entryLink import="true" name="Brothers of Fire" hidden="false" id="cb67-3417-1de7-2ad4" type="selectionEntry" targetId="693a-b963-b131-20d9">
+    <entryLink import="true" name="Brothers of Fire" hidden="false" id="cb67-3417-1de7-2ad4" type="selectionEntry" targetId="693a-b963-b131-20d9" defaultAmount="">
       <categoryLinks>
         <categoryLink name="Dirandis" hidden="false" id="db27-13e9-0ba8-e806" targetId="7759-6de2-d314-078c" primary="false"/>
       </categoryLinks>

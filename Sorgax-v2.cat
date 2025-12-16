@@ -70,11 +70,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Night" id="f466-ac0e-642d-b67b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
-          <description>When Champion of Night is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to S until the end of the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Night" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="b7d9-7b4e-c3f4-37f7" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Night is attached to a friendly unit engaged in combat, roll a D6 before the enemy attacks. A score of 3 or less means that the enemy gets -1 to S until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Death" hidden="false" id="e497-9b44-e2e0-2cfd" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
       <costs>
@@ -96,11 +98,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Death" id="8131-40ef-13ac-6b00" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
-          <description>When Champion of Death is attached to a friendly unit engaged in combat, roll a D6 for each base the enemy unit lost. Each score of 2 or less means the enemy unit loses another base.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Death" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="2739-b727-958b-5f11" page="87" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Death is attached to a friendly unit engaged in combat, roll a D6 for each base the enemy unit lost. Each score of 2 or less means the enemy unit loses another base.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Wrath" hidden="false" id="89e7-0866-fe0f-74fc" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
       <costs>
@@ -122,11 +126,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Wrath" id="e4a1-0c13-0bf8-8697" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
-          <description>Choose target friendly unit within 20 cm of Champion of Wrath and roll a D6 before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Wrath" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="a4c6-b78c-d8d6-8569" page="87" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Choose target friendly unit within 20 cm of Champion of Wrath and roll a D6 before that unit makes a charge. A score of 4 or less means that the chosen unit gains +1 to WS when charging.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tomb Priest" hidden="false" id="44e0-08a0-8439-1363" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
       <costs>
@@ -138,15 +144,17 @@
         <categoryLink name="Hero" hidden="false" id="fa3e-fd6a-4c86-73d7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Sorgax" hidden="false" id="2a75-a2f7-32da-9327" targetId="689d-c183-c62d-b3b6" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Tomb Priest" id="b036-a4ee-b6dc-b55e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
-          <description>Each friendly unit within 10 cm of Tomb Priest may add 3 cm to the charge range.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="eb57-c246-201a-a5b9" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="a7da-7163-dfdd-4037" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea"/>
       </entryLinks>
+      <profiles>
+        <profile name="Tomb Priest" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="640a-357c-b4a3-d24c" page="87" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Each friendly unit within 10 cm of Tomb Priest may add 3 cm to the charge range.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Guardian of the Underworld" hidden="false" id="8deb-da6e-74b5-cecf" publicationId="30f0-6ecb-d1bf-eb3e" page="87">
       <costs>
@@ -268,27 +276,37 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4840-d66a-76a9-ce0d" includeChildSelections="true"/>
       </constraints>
-      <rules>
-        <rule name="Kor’quixos" id="f7ae-9561-3a6f-ff0b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
-          <description>The hero is communing with powerful magic, which not only affected his mind, but caused his body to become monstrous in size. Thanks to this, when attached to a friendly unit, he grants +8 attacks.</description>
-        </rule>
-        <rule name="Staff of Doom" id="e70e-e224-0668-2619" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
-          <description>If an enemy comes into base contact with Kor’quixos, it is immediately dealt D6 Wounds. In addition, once per battle, the staff’s power can be accumulated and used against enemies – roll a D6 for each enemy unit within 15 cm of Kor’quixos. A score of 3 or less means that the enemy unit loses an Action Die.</description>
-        </rule>
-        <rule name="Thanox Crown" id="a2d4-c0ca-7f66-f8a8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
-          <description>Once per battle, Kor’quixos may choose any spell he does not have and cast it without taking a test. Dispel does not work against that spell.</description>
-        </rule>
-        <rule name="Cyclopean Belt" id="209f-3f8b-5e54-2372" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
-          <description>If the unit Kor’quixos is attached to was successfully issued an order on a score of 1, once in the cycle this rule is used, the unit may use Frenzy (When charging, this unit doubles its Attacks (A) stat).</description>
-        </rule>
-        <rule name="Grim Punisher" id="a6e1-6fa0-6098-b8d0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
-          <description>The unit Kor’quixos is attached to may be forced to make a forceful move or charge. If the player chooses to do so, they may change the unit’s M stat to M 15 and roll a D6. A score of 4 or more means that one base in the unit must be removed due to enfeeblement.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells" hidden="false" id="4858-4759-9641-3ca4" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
         <entryLink import="true" name="Magic items" hidden="false" id="726e-c5f4-04e4-bc06" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
+      <profiles>
+        <profile name="Kor’quixos" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="f8c7-b7c1-6657-08cb" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">The hero is communing with powerful magic, which not only affected his mind, but caused his body to become monstrous in size. Thanks to this, when attached to a friendly unit, he grants +8 attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Staff of Doom" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1457-3ab9-2c26-e5a1" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If an enemy comes into base contact with Kor’quixos, it is immediately dealt D6 Wounds. In addition, once per battle, the staff’s power can be accumulated and used against enemies – roll a D6 for each enemy unit within 15 cm of Kor’quixos. A score of 3 or less means that the enemy unit loses an Action Die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thanox Crown" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="9824-6519-7ca0-a8bd" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Once per battle, Kor’quixos may choose any spell he does not have and cast it without taking a test. Dispel does not work against that spell.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cyclopean Belt" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="c30b-b13a-5ca3-5796" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the unit Kor’quixos is attached to was successfully issued an order on a score of 1, once in the cycle this rule is used, the unit may use Frenzy (When charging, this unit doubles its Attacks (A) stat).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grim Punisher" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="b684-b5d2-c2fa-f482" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">The unit Kor’quixos is attached to may be forced to make a forceful move or charge. If the player chooses to do so, they may change the unit’s M stat to M 15 and roll a D6. A score of 4 or more means that one base in the unit must be removed due to enfeeblement.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

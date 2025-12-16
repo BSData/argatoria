@@ -74,11 +74,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Shadow" id="b7d7-ae4f-92b1-4e4d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>Roll a D6 if an enemy unit charged a unit and is within 20 cm of Champion of Shadow. A score of 3 or less means that each 6 the enemy unit obtains in the Wound Test will inflict 1 Wound upon it..</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Shadow" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="27de-3142-37f1-0724" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Roll a D6 if an enemy unit charged a unit and is within 20 cm of Champion of Shadow. A score of 3 or less means that each 6 the enemy unit obtains in the Wound Test will inflict 1 Wound upon it..</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Sael" hidden="false" id="dab3-85fa-de0b-6c11" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <costs>
@@ -100,11 +102,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Sael" id="abe3-c9f6-9e06-35d8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>At any point in the cycle, Champion of Sael attached to a unit of Fangs of Sael may roll a D6. A score of 3 or less means that the unit is allowed to use one chosen prayer. This ability is not treated as praying by any means.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Sael" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="7bff-f79f-6a57-56f7" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">At any point in the cycle, Champion of Sael attached to a unit of Fangs of Sael may roll a D6. A score of 3 or less means that the unit is allowed to use one chosen prayer. This ability is not treated as praying by any means.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Slaughter" hidden="false" id="a986-09ce-5299-16eb" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <costs>
@@ -126,11 +130,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Slaughter" id="2a3f-1998-0aec-f104" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>If Champion of Slaughter is attached to a friendly unit that inflicted Wounds upon the enemy unit, roll a D6. A score of 2 or less allows the friendly unit to immediately perform as many new attacks as the number of Wounds it inflicted upon the enemy. The new Wounds dealt this way do not generate further attacks.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Slaughter" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="c359-3e77-996c-4333" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If Champion of Slaughter is attached to a friendly unit that inflicted Wounds upon the enemy unit, roll a D6. A score of 2 or less allows the friendly unit to immediately perform as many new attacks as the number of Wounds it inflicted upon the enemy. The new Wounds dealt this way do not generate further attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Black Shepherd" hidden="false" id="8e1e-aa03-a71b-b5c8" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <costs>
@@ -142,15 +148,17 @@
         <categoryLink name="Hero" hidden="false" id="4beb-b5e5-25f6-49e7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Er’Sael" hidden="false" id="50c2-b662-e3fb-f82e" targetId="59da-0cc8-65e1-9196" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Black Shepherd" id="d275-ec09-b51f-0cb1" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>Black Shepherd attached to a friendly unit adds +3 attacks instead of +1 and the unit has LD 7 when praying.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells" hidden="false" id="43a6-8997-711c-bf2a" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="2"/>
         <entryLink import="true" name="Magic items" hidden="false" id="778e-6832-616f-4d55" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="1"/>
       </entryLinks>
+      <profiles>
+        <profile name="Black Shepherd" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="2228-ae0c-adaf-362e" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Black Shepherd attached to a friendly unit adds +3 attacks instead of +1 and the unit has LD 7 when praying.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Alchemist" hidden="false" id="f674-3563-cad6-e22d" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <costs>
@@ -162,11 +170,6 @@
         <categoryLink name="Hero" hidden="false" id="5166-92b2-e46b-dfdc" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Er’Sael" hidden="false" id="3e04-ad04-ee20-f7a2" targetId="59da-0cc8-65e1-9196" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Alchemist" id="fabb-7965-3109-0410" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-          <description>In addition, Alchemist may buy one elixir (magic item) that does not count to the limit of magic items. Elixirs cannot repeat in the army.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="6e19-dff3-0fd4-71cf" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="7c3d-6d90-9095-f172" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>

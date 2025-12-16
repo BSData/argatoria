@@ -68,11 +68,24 @@
         <categoryLink name="Hero" hidden="false" id="5a47-acdc-f0cc-f1b7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Gaeldor" hidden="false" id="3da8-f837-ad78-dfe4" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Forest " id="23e9-c82e-f9f9-3fd5" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
-          <description>Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.</description>
-        </rule>
-      </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="83b7-1c00-a1f1-67f9">
+          <profiles>
+            <profile name="Champion of Forest " typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="834b-5a46-7e9e-4b51">
+              <characteristics>
+                <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Champion of Forest" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="97a0-4209-4483-7c2b" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Before the battle, Champion of Forest allows the army to re-roll when rolling for terrain. When Champion of Forest is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means the unit gets +1 to S in this cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Beasts" hidden="false" id="f417-aad9-1678-b4a9" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
       <costs>
@@ -94,11 +107,13 @@
         <categoryLink name="Hero" hidden="false" id="e768-4c43-4906-dd76" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Gaeldor" hidden="false" id="03d7-206b-541b-b66d" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Beasts" id="fe80-27b7-4e93-a1a9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
-          <description>Roll a D6 if General failed to issue an order to Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means that General may re-roll the failed score. Champion of Beasts attached to the listed units grants them further +2 attacks to the pool.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Beasts" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="d8a7-2efa-d107-6ef7" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Roll a D6 if General failed to issue an order to Amazons on Spiders, Forest Serpents, or Wild Creatures. A score of 4 or less means that General may re-roll the failed score. Champion of Beasts attached to the listed units grants them further +2 attacks to the pool.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Hunt" hidden="false" id="b344-a04b-8da7-2953" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
       <costs>
@@ -120,11 +135,13 @@
         <categoryLink name="Hero" hidden="false" id="fbce-abef-767c-bb42" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Gaeldor" hidden="false" id="8977-2695-758c-ec03" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Hunt" id="a369-7fbe-29e2-7794" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
-          <description>When Champion of Hunt is attached to a friendly unit engaged in combat, he may roll a D6 whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Hunt" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="5787-3ffa-52bb-8954" page="93" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Hunt is attached to a friendly unit engaged in combat, he may roll a D6 whenever the friendly unit attacks. A score of 2 or less means every score of 6 in the Weapon Skill Test counts as a successful hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Druid" hidden="false" id="e79e-9ec1-fa62-6983" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
       <costs>
@@ -136,15 +153,17 @@
         <categoryLink name="Hero" hidden="false" id="ead3-af11-ac66-50ea" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Gaeldor" hidden="false" id="142d-487b-bb24-81ca" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Druid" id="a366-6ac0-2094-bd54" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
-          <description>Each friendly unit of Oduns and each Trefloq within 10 cm of Druid can re-roll failed scores during the saving throws (Woodiness).</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="9403-b279-af2a-d964" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="7d5b-4d0b-3c0d-e156" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
       </entryLinks>
+      <profiles>
+        <profile name="Druid" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="ff8a-3058-6b7e-1b42" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Each friendly unit of Oduns and each Trefloq within 10 cm of Druid can re-roll failed scores during the saving throws (Woodiness).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="2fa9-57b9-246a-8796" publicationId="30f0-6ecb-d1bf-eb3e" page="93">
       <costs>
@@ -315,23 +334,33 @@
         <categoryLink name="Gaeldor" hidden="false" id="6566-d36d-478f-081d" targetId="8e47-50e0-8500-9a3e" primary="false"/>
         <categoryLink name="Appendix" hidden="false" id="083d-219c-aa5c-ddb9" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Mar’hauk" id="69b1-8428-a693-27d8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
-          <description>Mar’hauk mounts a powerful creature called Vitur. Thanks to Vitur, Mar’hauk grants the unit he is attached to +8 attacks.</description>
-        </rule>
-        <rule name="Ern’s Helm" id="f2be-5302-8d7e-34f9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
-          <description>When attached to a friendly unit that has no save, Mar’hauk allows it to benefit from the power of his helm. After being dealt Wounds by an enemy unit, a friendly unit may roll a D6 for each of up to 5 Wounds it has suffered. Each score of 2 or less means a cancelled Wound.</description>
-        </rule>
-        <rule name="Eagle Talon" id="89d7-64a5-89c5-d2ee" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
-          <description>A friendly unit that Mar’hauk is attached to may re-roll 4 dice in the Wound Test + 1 die for each terrain on the battlefield.</description>
-        </rule>
-        <rule name="Oaken Shield" id="1d08-3c66-aef8-d370" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
-          <description>If an enemy unit comes into contact with Mar’hauk, it does not roll for the hero’s death. Instead, Mar’hauk may be immediately placed anywhere up to 20 cm of the enemy unit. The shield can only be used once per battle.</description>
-        </rule>
-        <rule name="Vitur" id="48ac-8fdb-4e3e-167c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
-          <description>The unit that Mar’hauk on Vitur is attached to has Fear (After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead).</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Mar’hauk" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="ffb3-d033-5450-79cf" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Mar’hauk mounts a powerful creature called Vitur. Thanks to Vitur, Mar’hauk grants the unit he is attached to +8 attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ern’s Helm" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="6244-9260-0ab5-e4e1" page="149" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a friendly unit that has no save, Mar’hauk allows it to benefit from the power of his helm. After being dealt Wounds by an enemy unit, a friendly unit may roll a D6 for each of up to 5 Wounds it has suffered. Each score of 2 or less means a cancelled Wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eagle Talon" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="274a-ab2c-87c7-e8da" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">A friendly unit that Mar’hauk is attached to may re-roll 4 dice in the Wound Test + 1 die for each terrain on the battlefield.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Oaken Shield" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="b1d2-93e7-78c1-dd6b" page="149" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If an enemy unit comes into contact with Mar’hauk, it does not roll for the hero’s death. Instead, Mar’hauk may be immediately placed anywhere up to 20 cm of the enemy unit. The shield can only be used once per battle.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vitur" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="9223-9944-1ef1-0a47" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">The unit that Mar’hauk on Vitur is attached to has Fear (After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

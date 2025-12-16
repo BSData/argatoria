@@ -68,11 +68,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Blood" id="4a41-50cf-ec26-0366" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-          <description>At any point during the cycle, Champion of Blood may take a D6 test. A score of 3 or less means that all friendly units within 20 cm of Champion of Blood are granted +2 attacks to the pool if they do not have Bloodshed (This unit may re-roll all failed scores in the Wound Test). If they have Bloodshed, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Blood" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="60ae-80d4-ec03-86f8" page="89" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">At any point during the cycle, Champion of Blood may take a D6 test. A score of 3 or less means that all friendly units within 20 cm of Champion of Blood are granted +2 attacks to the pool if they do not have Bloodshed (This unit may re-roll all failed scores in the Wound Test). If they have Bloodshed, they are granted a +1 to S bonus instead. These bonuses last until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Earth" hidden="false" id="1a97-ec3d-1d43-3e5b" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <costs>
@@ -94,11 +96,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Earth" id="f990-ca00-ba27-dc2f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-          <description>Choose target enemy unit within 30 cm that is not engaged in combat and roll a D6. A score of 3 or less means the chosen unit can be moved by 10 cm in any direction, without turning.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Earth" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="10b8-b82f-5efd-427a" page="89" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Choose target enemy unit within 30 cm that is not engaged in combat and roll a D6. A score of 3 or less means the chosen unit can be moved by 10 cm in any direction, without turning.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Darkness" hidden="false" id="b459-abdd-ed04-00cb" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <costs>
@@ -120,13 +124,15 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Darkness" id="f940-1695-2962-69ad" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-          <description>When Champion of Darkness is attached to a friendly unit engaged in combat, he can roll a D6 each time the enemy unit loses its bases in this cycle. A score of 3 or less means the enemy unit must immediately take a Panic Test for as many bases as it lost in this cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Darkness" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="99f0-3886-d1fd-4880" page="89" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Darkness is attached to a friendly unit engaged in combat, he can roll a D6 each time the enemy unit loses its bases in this cycle. A score of 3 or less means the enemy unit must immediately take a Panic Test for as many bases as it lost in this cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Priestess of Lust" hidden="false" id="766e-c25e-c5ae-1485" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+    <selectionEntry type="model" import="true" name="Priestess of Lust" hidden="false" id="766e-c25e-c5ae-1485" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <costs>
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
@@ -140,13 +146,15 @@
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="646f-480c-73da-df88" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="0e79-4282-80e5-e2f8" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
       </entryLinks>
-      <rules>
-        <rule name="Priestess of Lust" id="6f62-147e-730f-52f0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-          <description>All friendly units within 10 cm of Priestess of Lust may re-roll a move range, or a failed Cold Blood Test.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Priestess of Lust" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="1c6c-036f-efb3-4a49" page="89" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">All friendly units within 10 cm of Priestess of Lust may re-roll a move range, or a failed Cold Blood Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Old Hag" hidden="false" id="a237-c50c-0a4f-bef9" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
+    <selectionEntry type="model" import="true" name="Old Hag" hidden="false" id="a237-c50c-0a4f-bef9" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <costs>
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
@@ -248,23 +256,33 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="982f-3978-531d-6ab8" includeChildSelections="true"/>
       </constraints>
-      <rules>
-        <rule name="Valeria" id="81b8-bfbd-3daa-28a7" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
-          <description>Valeria is always accompanied by Andras and Iluar, who fight fiercely along her side in the Vaendral army. Thanks to them, Valeria grants the unit she is attached to +8 attacks.</description>
-        </rule>
-        <rule name="The Chosen of the Bathed in Blood" id="207c-2304-1255-c65d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
-          <description>If the friendly General has left the battlefield, Valeria immediately takes command. The army can still use the Born Warriors special rule and use Valeria’s LD 2. Valeria cannot issue orders.</description>
-        </rule>
-        <rule name="Slayer’s Axe" id="ec5e-551f-836f-a7fd" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
-          <description>When the unit Valeria is attached to is to make a Wound Test, take up to 2 dice from the pool and roll them separately. Each score of 3 or less means the enemy unit is dealt 3 Wounds.</description>
-        </rule>
-        <rule name="Feisty Savage" id="376d-c013-9ce6-259f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
-          <description>If an enemy unit successfully charges the unit with an Action Die that Valeria is attached to, the unit may immediately remove the Action Die, position itself facing the enemy, and perform its attacks before the enemy does.</description>
-        </rule>
-        <rule name="Skull of the Priest Esn" id="cc6e-8fcd-e411-4553" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
-          <description>The power of the skull powder allows Valeria to attempt to dispel an enemy spell once per battle. A score of 3 or less means the spell has been dispelled.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Valeria" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="74a1-3998-cd6b-873c" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Valeria is always accompanied by Andras and Iluar, who fight fiercely along her side in the Vaendral army. Thanks to them, Valeria grants the unit she is attached to +8 attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Chosen of the Bathed in Blood" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="b804-cf2e-ab54-dcbf" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If the friendly General has left the battlefield, Valeria immediately takes command. The army can still use the Born Warriors special rule and use Valeria’s LD 2. Valeria cannot issue orders.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slayer’s Axe" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="7813-99cd-dfec-d47d" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When the unit Valeria is attached to is to make a Wound Test, take up to 2 dice from the pool and roll them separately. Each score of 3 or less means the enemy unit is dealt 3 Wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Feisty Savage" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="62fa-f0fd-fa14-a23d" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If an enemy unit successfully charges the unit with an Action Die that Valeria is attached to, the unit may immediately remove the Action Die, position itself facing the enemy, and perform its attacks before the enemy does.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skull of the Priest Esn" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="754c-881c-d9f0-31ff" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">The power of the skull powder allows Valeria to attempt to dispel an enemy spell once per battle. A score of 3 or less means the spell has been dispelled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
@@ -311,7 +329,7 @@
         <categoryLink name="Vaendral" hidden="false" id="0597-19c5-5bfd-440f" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Bristles" hidden="false" id="8a56-a080-a66c-0e65" type="selectionEntry" targetId="3a85-eb99-4ce9-37f1" publicationId="30f0-6ecb-d1bf-eb3e" page="153">
+    <entryLink import="true" name="Zadukats" hidden="false" id="8a56-a080-a66c-0e65" type="selectionEntry" targetId="3a85-eb99-4ce9-37f1" publicationId="30f0-6ecb-d1bf-eb3e" page="153">
       <categoryLinks>
         <categoryLink name="Mercenary Unit" hidden="false" id="1989-d044-57c0-bc69" targetId="4eea-ffdb-6cfc-9aa0" primary="true"/>
         <categoryLink name="Vaendral" hidden="false" id="6b66-539f-94ac-eded" targetId="a9ce-3085-5e84-d8c0" primary="false"/>

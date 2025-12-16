@@ -253,6 +253,11 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
         <characteristicType name="W" id="c862-16aa-6d51-e80c" kind="longText"/>
       </characteristicTypes>
     </profileType>
+    <profileType name="Ability" id="c120-4b08-0021-a1b1" hidden="false" kind="ability">
+      <characteristicTypes>
+        <characteristicType name="Description" id="0061-13d8-7fda-179e" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <sharedRules>
     <rule name="Fearless" id="94ec-74f8-3927-8a0a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
