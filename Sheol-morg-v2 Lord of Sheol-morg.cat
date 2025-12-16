@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="f574-bbfd-2add-c0a3" name="Sheol-morg: Lord of Sheol-morg" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Sheol-morg: common" id="3758-fd10-755d-66e2" targetId="3c37-26cb-3246-fc2d"/>
+    <catalogueLink type="catalogue" name="Sheol-morg: common" id="3758-fd10-755d-66e2" targetId="3c37-26cb-3246-fc2d" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Lord of Sheol-morg" hidden="false" id="434c-2468-be5d-26f4" publicationId="30f0-6ecb-d1bf-eb3e" page="97" defaultAmount="1">
@@ -98,7 +98,7 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
         <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="5383-dea9-bab5-f140" targetId="2139-b90b-706b-1410" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ritual Guardians" hidden="false" id="7e48-dca3-8760-6b73" type="selectionEntry" targetId="526a-dcd7-0acd-4e5b">
+    <entryLink import="true" name="Ritual Guardians" hidden="false" id="7e48-dca3-8760-6b73" type="selectionEntry" targetId="526a-dcd7-0acd-4e5b" defaultAmount="2">
       <categoryLinks>
         <categoryLink name="Basic Unit" hidden="false" id="69d4-2f45-339c-b38a" targetId="7089-e041-3a8b-00af" primary="true"/>
         <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="bc2d-133d-5f38-2a68" targetId="2139-b90b-706b-1410" primary="false"/>
@@ -144,6 +144,11 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
     <entryLink import="true" name="Hydra" hidden="false" id="9d1e-f697-49a2-26c8" type="selectionEntry" targetId="dc4c-ac3a-bbe6-2cec">
       <categoryLinks>
         <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="7309-e05c-8aa1-6d2c" targetId="2139-b90b-706b-1410" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ahsids" hidden="false" id="aa4f-e8fc-a57d-8d44" type="selectionEntry" targetId="f554-1c2a-bc3a-624d">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="cb3b-c78c-8527-0198" targetId="2139-b90b-706b-1410" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

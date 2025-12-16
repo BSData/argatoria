@@ -233,7 +233,23 @@
       <infoLinks>
         <infoLink name="Wild Speed" id="e55c-c18d-2fff-b0f7" hidden="false" type="rule" targetId="7ac5-4cf6-8848-17ac"/>
         <infoLink name="Creature" id="e07d-ca32-d8c3-edf4" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+        <infoLink name="Frenzy" id="ae19-770c-0638-d7b8" hidden="true" type="rule" publicationId="30f0-6ecb-d1bf-eb3e" page="75" targetId="7fdc-a240-9260-7197">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a7f-ca0b-8ef1-b2b5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="set-primary" value="e020-218e-a38a-c7c5" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a7f-ca0b-8ef1-b2b5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
   <comment>TODO Banner of Wolf Brotherhood</comment>
@@ -257,6 +273,13 @@
       <categoryLinks>
         <categoryLink name="Dirandis" hidden="false" id="a677-627e-a243-2159" targetId="7759-6de2-d314-078c" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="7089-e041-3a8b-00af" field="category">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="2a7f-ca0b-8ef1-b2b5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Half-Giants" hidden="false" id="d96e-8086-0f89-608c" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
       <categoryLinks>
