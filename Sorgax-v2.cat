@@ -253,6 +253,43 @@
         <infoLink name="Hammer Strike" id="1d37-603d-e30d-00a3" hidden="false" type="rule" targetId="ae68-4a4b-e028-ccc9"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kor’quixos" hidden="false" id="03ae-e34b-c1cd-4d81" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="49"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="1b19-fdbb-edd1-504a" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Sorgax" hidden="false" id="8534-a49c-40a0-e338" targetId="689d-c183-c62d-b3b6" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="9349-ee1f-35bb-53a6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="3690-788b-1f1e-07f8" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Mage" hidden="false" id="b09d-d697-6ae3-5cc1" targetId="ced7-cf0d-3b3f-c563" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4840-d66a-76a9-ce0d" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Kor’quixos" id="f7ae-9561-3a6f-ff0b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <description>The hero is communing with powerful magic, which not only affected his mind, but caused his body to become monstrous in size. Thanks to this, when attached to a friendly unit, he grants +8 attacks.</description>
+        </rule>
+        <rule name="Staff of Doom" id="e70e-e224-0668-2619" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <description>If an enemy comes into base contact with Kor’quixos, it is immediately dealt D6 Wounds. In addition, once per battle, the staff’s power can be accumulated and used against enemies – roll a D6 for each enemy unit within 15 cm of Kor’quixos. A score of 3 or less means that the enemy unit loses an Action Die.</description>
+        </rule>
+        <rule name="Thanox Crown" id="a2d4-c0ca-7f66-f8a8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <description>Once per battle, Kor’quixos may choose any spell he does not have and cast it without taking a test. Dispel does not work against that spell.</description>
+        </rule>
+        <rule name="Cyclopean Belt" id="209f-3f8b-5e54-2372" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <description>If the unit Kor’quixos is attached to was successfully issued an order on a score of 1, once in the cycle this rule is used, the unit may use Frenzy (When charging, this unit doubles its Attacks (A) stat).</description>
+        </rule>
+        <rule name="Grim Punisher" id="a6e1-6fa0-6098-b8d0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="145">
+          <description>The unit Kor’quixos is attached to may be forced to make a forceful move or charge. If the player chooses to do so, they may change the unit’s M stat to M 15 and roll a D6. A score of 4 or more means that one base in the unit must be removed due to enfeeblement.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="4858-4759-9641-3ca4" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="726e-c5f4-04e4-bc06" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Tormentors" hidden="false" id="f94c-e9d2-e982-4a8f" type="selectionEntry" targetId="dde3-7654-7a6d-69f9">
@@ -271,10 +308,13 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Slagors" hidden="false" id="d794-4f8c-9c52-85fe" type="selectionEntry" targetId="4752-506a-07a2-4520"/>
-    <entryLink import="true" name="The Fallen" hidden="false" id="5869-9331-01b5-03bd" type="selectionEntry" targetId="a17c-7081-3cb0-4d4c">
+    <entryLink import="true" name="Ropuchons" hidden="false" id="5869-9331-01b5-03bd" type="selectionEntry" targetId="a17c-7081-3cb0-4d4c">
       <categoryLinks>
         <categoryLink name="Sorgax" hidden="false" id="7820-ee99-7bb6-f8fe" targetId="689d-c183-c62d-b3b6" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="The Fallen" field="name"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Forgon" hidden="false" id="6552-75f0-ecc6-5017" type="selectionEntry" targetId="c004-08aa-ff87-37a5">
       <categoryLinks>

@@ -111,5 +111,413 @@
       </rules>
       <comment>TODO: The damned</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rotgant" hidden="false" id="de09-8507-427a-6e16" publicationId="30f0-6ecb-d1bf-eb3e" page="134">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="47"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Appendix" hidden="false" id="ed44-1d95-35c1-0cb5" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Rare Unit" hidden="false" id="85a8-9dd4-5847-b28f" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="1798-9357-43fb-81a6" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="bc70-d5fa-31a6-b855" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="bc70-d5fa-31a6-b855">
+          <repeats>
+            <repeat value="1000" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Rotgant" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="ed47-b5e4-3c46-2a42" publicationId="30f0-6ecb-d1bf-eb3e" page="134">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">6</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">5</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Sower of Graves" id="baf4-b747-7b9c-8ad7" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="134">
+          <description>When charging, Rotgant may roll a D6. The result determines the number of additional attacks it gains. However, on a roll of 6, Rotgant does not make any attacks. Instead, it stumbles and crashes directly into the enemy. Roll 2D6 – both the enemy and the Rotgant suffer that many Wounds. No saves are permitted against the Wounds caused by the Rotgant’s fall.</description>
+        </rule>
+        <rule name="Mage Hunter" id="0d4b-0fb7-ea00-d7ce" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="134">
+          <description>When Rotgant comes into contact with an enemy Mage, it eliminates them from play on a roll of 4 or less, instead of the usual 2 or less.</description>
+        </rule>
+        <rule name="Captured Artefacts" id="0b45-e3a6-2512-9b43" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="134">
+          <description>Once per battle, Rotgant can use a magic item, but must roll a D6 to see which item he has grabbed. Roll a D6.
+1-2 Scroll of Daze. Target enemy unit with WS 3 or greater gets -1 to WS.
+3-4 Ring of Destruction. Target unit gets +1 to S.
+6 Sack of Stuff. Unfortunately, upon examining the contents, Rotgant loses interest in the artefacts it has acquired. If Rotgant has an Action Die, it loses it.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Fearless" id="1236-b76c-de6a-32dd" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ghosts" hidden="false" id="5dba-a1a4-3341-d7e8" publicationId="30f0-6ecb-d1bf-eb3e" page="135">
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="0591-980a-b70d-37c5" targetId="7089-e041-3a8b-00af" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="6539-0fc8-af73-a31c" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="5318-c445-f6df-3cb3" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ghosts" hidden="false" id="8752-9801-1f03-2fdf" publicationId="30f0-6ecb-d1bf-eb3e" page="135">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="16" field="selections" scope="parent" shared="true" id="6398-b37b-f0ed-44cd-min" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="6398-b37b-f0ed-44cd-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Ghosts" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="b4f6-873e-0e7b-cc33" publicationId="30f0-6ecb-d1bf-eb3e" page="135">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">0</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">0</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">0</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3afd-54d2-07c3-42e9" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Aura of Destruction" id="8d6b-fdcc-f5aa-d97a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="135">
+          <description>The Ghosts’ aura grants their weapons extraordinary properties. Ghosts do not make Wound Tests. Instead, each successful hit in the Weapon Skill Test automatically inflicts 1 Wound, and any roll of 1 on the Weapon Skill Test inflicts 2 Wounds. No saves are permitted against these attacks.</description>
+        </rule>
+        <rule name="Ethereal" id="62e9-7271-488d-16a8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="135">
+          <description>An enemy unit may only perform a Wound Test against Ghosts if it either has a Mage attached or has successfully performed a prayer before making its attack.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Keen Senses" id="6ffb-64c6-56f1-c67e" hidden="false" type="rule" targetId="ae50-0637-ba9f-0363"/>
+        <infoLink name="Fearless" id="5180-67a9-2252-66e8" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Creature" id="ab84-99cc-314a-1ebe" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="3afd-54d2-07c3-42e9">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="aba5-b126-738c-1854" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Ghosts" hidden="false" id="aba5-b126-738c-1854" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="098d-c604-9629-9fa3" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="f4bf-1a48-9547-8eee" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="1077-50a1-9c93-c5f1" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="a4a7-bc01-e74b-dfc3" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Skeletons Champions" id="df74-20a3-b6cd-5af0" hidden="false" type="rule" targetId="5b98-0b5e-f927-ea6b"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <rules>
+        <rule name="Champion of Ghosts" id="5e5c-aa04-9cb9-03ce" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+          <description>Choose target friendly unit of Truhlaks or Ghosts within 20 cm of Champion of Ghosts and roll a D6. A score of 4 or 3 means that the chosen unit gains +1 to S. A score of 2 or less means that the chosen unit gains +1 to S and +1 to WS.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6346-c896-241a-4acb" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="6346-c896-241a-4acb">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Catacombs" hidden="false" id="942b-b6ad-9a79-4afd" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="af44-e2de-d850-322f" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="093c-1e6b-6a2e-b5c5" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="0264-5d5d-77ee-7dba" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="1b92-9519-78dc-5e26" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7b58-7e93-4d2e-aea9" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="7b58-7e93-4d2e-aea9">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Skeletons Champions" id="4616-fc9e-5f49-0403" hidden="false" type="rule" targetId="5b98-0b5e-f927-ea6b"/>
+      </infoLinks>
+      <rules>
+        <rule name="New Rule" id="6756-aa5b-0f39-eba8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+          <description>Choose target enemy unit within 30 cm of Champion of Catacombs and roll a D6. A score of 3 or less means the chosen unit must re-roll its highest result when rolling for the charge distance. Additionally, if any enemy unit within 15 cm takes a Prayer Test, it must roll 3 dice and choose the 2 highest results.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Champion of Graves" hidden="false" id="ae3b-0496-2aa0-9391" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+      <categoryLinks>
+        <categoryLink name="Champion" hidden="false" id="009d-b72b-ce0d-f7b8" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="5f1f-85df-9c60-a895" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="8ccd-9c5b-ddc4-30e2" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="123e-104d-affe-210f" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="11"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="29f1-3416-bcce-7091" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="29f1-3416-bcce-7091">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Skeletons Champions" id="26b1-e4b2-9f88-5995" hidden="false" type="rule" targetId="5b98-0b5e-f927-ea6b"/>
+      </infoLinks>
+      <rules>
+        <rule name="Champion of Graves" id="851b-a6ca-5856-864b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+          <description>Choose one unit of Truhlaks or Gnils within 20 cm of Champion of Graves and roll a D6. A score of 4 or less means that the chosen unit may re-roll one D6 when rolling for the charge distance.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skeletons Command Group" hidden="false" id="9d53-3d3e-e016-a3b1" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Command Group" hidden="false" id="4c4c-b5c6-e399-dcb8" targetId="ebd4-eb4c-38d6-ee11" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="7797-531b-1969-5f46" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="2d39-369c-1c33-3faa" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="d3c9-ce56-8e28-d8e9" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Skeletons Command Group" id="3204-37be-4bbd-8533" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
+          <description>The specific magical aura of the Skeletons Command Groups prevents them from attaching to any units, as doing so would disrupt their ability to effectively support the army. If an enemy unit comes into contact with such a Command Group and fails to eliminate it, the Command Group must be repositioned up to 15 cm away, to any location on the battlefield.
+
+
+All friendly units within 5 cm of a Skeletons Command Group may use the following rules:
+- After declaring a charge, the unit can (even despite the difficulties or obstacles) roll 3D6 for the charge instead of the roll that it could normally make, and choose the two highest dice rolls to make the charge.
+- The unit can make a special sideways or backwards move up to 10 cm + D6 instead of its standard move or charge.
+- After each lost combat, the unit of Truhlaks is allowed to re-roll a D6 roll for the additional Wounds it receives (Corpse Horde).</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Magic Banners" hidden="false" id="ef99-f650-d935-b03a" type="selectionEntryGroup" targetId="a82d-5866-f907-b48a"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Damned" hidden="false" id="6ca0-82a1-f947-cef1" publicationId="30f0-6ecb-d1bf-eb3e" page="139" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="ba46-ae6d-b238-6d90" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="The Damned" hidden="false" id="246a-8bcd-67a4-04ea" publicationId="30f0-6ecb-d1bf-eb3e" page="139" defaultAmount="4">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4fe4-405b-9d32-1f03" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="17da-90dd-31e2-fd70" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="The Damned" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="8f50-cc6c-f521-9b8d" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">3</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">2</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fearless" id="ccf8-1584-d1d7-0e9c" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Creature" id="49c7-2bfe-21ec-0b28" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+      <rules>
+        <rule name="Evil Feeds Evil" id="5da0-aaee-b713-8d06" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
+          <description>If Lord Necromancer attempts to summon a unit of the Damned, and there is already such a unit on the battlefield under his command, he may choose to reinforce the existing unit instead of creating a new one. When doing so, he may roll the summoning test on a 4 or less (instead of 2 or less) to summon 4 bases of the Damned. If the result is a 1, 8 bases are summoned instead of 4. A unit of the Damned may never exceed 16 bases in total.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gnils" hidden="false" id="9eb0-90eb-3463-3012" publicationId="30f0-6ecb-d1bf-eb3e" page="136">
+      <categoryLinks>
+        <categoryLink name="Elite Unit" hidden="false" id="9f01-9be7-47f0-95e3" targetId="e020-218e-a38a-c7c5" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="d5af-5b45-07c5-8e07" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="2dbd-7b33-40ec-1b4d" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Gnils" hidden="false" id="d4f7-27c8-d44a-aade" publicationId="30f0-6ecb-d1bf-eb3e" page="136">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7986-5658-ddd8-c8b1" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="3a13-bae8-a414-883b" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Gnils" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="d133-772b-4231-fd5c" publicationId="30f0-6ecb-d1bf-eb3e" page="136">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fearless" id="b8db-5e19-1806-eb16" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Creature" id="c0a7-d99e-1305-5f34" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+      <rules>
+        <rule name="Rot" id="9510-9061-e50a-1be7" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="136">
+          <description>The enemy unit (but not single model) with WS better than 2 gains -1 to WS when attacking Gnils.</description>
+        </rule>
+        <rule name="Bloodthirst" id="4cf2-caeb-16de-f56a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="136">
+          <description>The unit has +1 to A when charging an enemy unit or +2 to A when charging an enemy unit that has a Horde rule.</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="ae3b-0496-2aa0-9391" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mementors" hidden="false" id="4982-ad1c-8c46-303d" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="7edc-e930-8eb9-8e56" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="4194-36be-deeb-c81f" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="a225-5d1a-f04d-b61a" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Mementors" hidden="false" id="66f6-3979-0e13-232e" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="19"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c1cb-a751-eb0e-db04" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="41e6-fd06-d7b4-075d" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Mementors" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="4efe-1106-1dd0-5bc6" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">3</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fear" id="8847-eb9b-a787-73af" hidden="false" type="rule" targetId="d7d0-c3d0-bdd1-6cae"/>
+        <infoLink name="Fearless" id="dc60-bdc1-d305-6054" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+        <infoLink name="Creature" id="bcff-a45e-afb9-a8c8" hidden="false" type="rule" targetId="a55b-3121-3d83-4ad8"/>
+      </infoLinks>
+      <rules>
+        <rule name="The Eternal Generals" id="bb5b-4106-dcd5-6044" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+          <description>If there is at least one unit of Mementors fielded in the army, the pool of General’s orders in the army is increased by 1.</description>
+        </rule>
+        <rule name="Memento Ultionis" id="20e3-c2e0-a6b3-27f6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+          <description>Mementors add D6 attacks to the pool when fighting an enemy unit that has a Champion attached, or 2D6 attacks if it’s a General or a Legendary Hero.</description>
+        </rule>
+        <rule name="Self-reliant" id="8ba9-67ee-5101-5668" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="137">
+          <description>No heroes can attach to this unit.</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="942b-b6ad-9a79-4afd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gnat" hidden="false" id="1a3d-e124-d9c7-c63c" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="57"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="4e17-d20b-451a-106e" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Sheol-morg Lord Necromancer" hidden="false" id="dbcc-6670-d9b3-5f71" targetId="34fc-0aaa-8ed7-84c3" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="662b-8137-f6c4-7d64" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="92ed-24c7-060e-b770" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Azargal – The Axe of the Dead" id="1c9a-1a54-12a0-3f66" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>When attached to a friendly unit, Gnat grants it +6 attacks. Furthermore, if an enemy unit is dealt a Wound during combat with the unit Gnat is attached to and is subsequently marked with a Wound, it suffers 2 further Wounds.</description>
+        </rule>
+        <rule name="Gnat" id="ada0-f80d-8bad-ed5e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>Gnat is allowed to attach to Truhlaks.</description>
+        </rule>
+        <rule name="Horned Helm" id="d37e-19da-5787-4f86" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>If the unit Gnat is attached to has Fear, the enemy unit (but not single model) must always take Panic Tests for 3 bases instead of 1 or 2. In addition, once per cycle, target friendly unit of Truhlaks within 30 cm of Gnat gets the opportunity to roll a D6 after removing its Action Die. The effects last until the end of the cycle.
+1 The unit can increase its Mobility (M) by 5 and roll again for the table. Effects are cumulative.
+2-4 The unit can increase its Strength (S) by 2
+5 The unit can turn with no limits
+6 No effect</description>
+        </rule>
+        <rule name="Grave Shield" id="cc2e-7a17-4e88-60d9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>If the unit Gnat is attached to has no save, it gains save on 1s and 2s.</description>
+        </rule>
+        <rule name="Servant of Death" id="017f-524a-717f-bb97" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>If Gnat is killed, remove his model and place a Death Counter in his place. At the start of each cycle, roll a D6. On a score of 3 or less, you may place the Gnat model, along with an Action Die, within 10 cm of the Death Counter, then remove the counter.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a466-3cb0-7c60-322b" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule name="Skeletons Champions" id="5b98-0b5e-f927-ea6b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="138">
+      <description>The specific magical aura of the Skeletons Champions prevents them from attaching to any units, as doing so would disrupt their ability to effectively support the army. If an enemy unit comes into contact with such a Champion and fails to eliminate it, the Champion must be repositioned up to 15 cm away, to any location on the battlefield.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

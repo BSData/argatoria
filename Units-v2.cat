@@ -908,5 +908,47 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Skaals" hidden="false" id="ae7d-c1e4-eacf-d277" publicationId="30f0-6ecb-d1bf-eb3e" page="150">
+      <categoryLinks>
+        <categoryLink name="Mercenary Unit" hidden="false" id="afb7-0d17-537e-75bf" targetId="4eea-ffdb-6cfc-9aa0" primary="true"/>
+        <categoryLink name="Appendix" hidden="false" id="441f-a3f4-af1f-a697" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Skaals" hidden="false" id="b0db-4b6b-c196-69ba" publicationId="30f0-6ecb-d1bf-eb3e" page="150">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="2d49-cb30-8b5d-d66f" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="77d6-4243-9363-0484" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Skaals" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="3c29-b3e7-4d14-effd" publicationId="30f0-6ecb-d1bf-eb3e" page="150">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Snares" id="c74f-9718-7dab-c501" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="150">
+          <description>If the enemy unit successfully charges this unit, before the enemy’s attacks, take a D6 test for using the snares. A score of 4 or less means the enemy is dealt D6 Wounds with no saves permitted. If the Skaals unit is a Horde, it can re-roll the test for using the snares and a successful test means the enemy is dealt D6+2 Wounds instead, with no saves permitted.</description>
+        </rule>
+        <rule name="Tracking" id="4cc8-d2c5-04a8-e382" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="150">
+          <description>If the opponent has a Creature unit or a single model on the table after their entire army has been deployed, Skaals may be repositioned to be in 30 cm of that unit or single model but at least 30 cm away from other enemy units (even in the enemy’s deployment zone).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Vigilant" id="e785-5d4b-b4e8-d650" hidden="false" type="rule" targetId="51dd-354d-d29c-34bf"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
