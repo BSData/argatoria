@@ -51,11 +51,6 @@
         <categoryLink name="Hero" hidden="false" id="2795-7147-3f7b-8407" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Arox" hidden="false" id="8d48-fbac-0d72-b70a" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Sun" id="0b38-95a1-c26b-419a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
-          <description>When Champion of Sun is attached to a friendly unit engaged in combat, you may roll a D6. A score of 2 or less means that the enemy unit must re-roll all scores of 1 both in its Weapon Skill Test and Wound Test until the end of the cycle.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="201d-c9fb-3291-412c" includeChildSelections="true"/>
       </constraints>
@@ -66,6 +61,13 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Champion of Sun" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="c8de-ea3e-28b0-0933" page="85" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Sun is attached to a friendly unit engaged in combat, you may roll a D6. A score of 2 or less means that the enemy unit must re-roll all scores of 1 both in its Weapon Skill Test and Wound Test until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Nature" hidden="false" id="dffd-7966-a8e3-88fb" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
       <costs>
@@ -77,11 +79,6 @@
         <categoryLink name="Hero" hidden="false" id="e7c4-a8ad-b353-acb8" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Arox" hidden="false" id="b730-f677-c703-cb8d" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Nature" id="738a-5f98-99bc-806a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
-          <description>When activating any unit within 10 cm of Champion of Nature, you may roll a D6. A score of 4 or less means that the unit may turn with no limits and add 3 cm to its move or charge range.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2f6f-2014-f322-278a" includeChildSelections="true"/>
       </constraints>
@@ -92,6 +89,13 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Champion of Nature" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="ed45-2987-eea4-481e" page="85" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When activating any unit within 10 cm of Champion of Nature, you may roll a D6. A score of 4 or less means that the unit may turn with no limits and add 3 cm to its move or charge range.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Gods" hidden="false" id="3c00-bf33-6125-bd05" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
       <costs>
@@ -103,11 +107,6 @@
         <categoryLink name="Hero" hidden="false" id="863f-d6ca-9a7b-2b11" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Arox" hidden="false" id="8cbc-ee64-5dda-274c" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Champion of Gods" id="e15a-083a-003f-29b7" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
-          <description>When Champion of Gods is attached to a friendly unit engaged in combat, you may roll a D6 before the fight. A score of 3 or less means that the unit can re-roll all failed scores during the Weapon Skill Test or the Wound Test.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3fc8-73c8-c903-69c0" includeChildSelections="true"/>
       </constraints>
@@ -118,6 +117,13 @@
           </conditions>
         </modifier>
       </modifiers>
+      <profiles>
+        <profile name="Champion of Gods" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="aef7-670f-1687-f7e3" page="85" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Gods is attached to a friendly unit engaged in combat, you may roll a D6 before the fight. A score of 3 or less means that the unit can re-roll all failed scores during the Weapon Skill Test or the Wound Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mystic of the Reborn" hidden="false" id="28b1-5ae2-3b91-d5ca" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
       <costs>
@@ -133,11 +139,13 @@
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="e302-3ad0-7a15-b4e2" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2" publicationId="30f0-6ecb-d1bf-eb3e" page="85"/>
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="9e62-3320-0bdf-715c" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1" publicationId="30f0-6ecb-d1bf-eb3e" page="85"/>
       </entryLinks>
-      <rules>
-        <rule name="Mystic of the Reborn" id="6d22-d9d6-d31a-c64b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
-          <description>Each friendly unit within 10 cm of Mystic of the Reborn has a charge range of M + 6 cm + D6 (instead of M + 2D6 cm). A unit can never use the Mystic’s ability at the same time it uses a Command Group bonus allowing to roll 3D6 for the charge.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Mystic of the Reborn" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="3db7-318a-73b7-3243" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Each friendly unit within 10 cm of Mystic of the Reborn has a charge range of M + 6 cm + D6 (instead of M + 2D6 cm). A unit can never use the Mystic’s ability at the same time it uses a Command Group bonus allowing to roll 3D6 for the charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sun Seer" hidden="false" id="7448-a74d-7d57-0830" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
       <costs>
@@ -259,20 +267,28 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b087-1052-c406-9e73" includeChildSelections="true"/>
       </constraints>
-      <rules>
-        <rule name="Armour of the Sun Cities" id="516f-7594-6b0d-a72c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
-          <description>Xan’toag can be eliminated by the enemy from the game only on a score of 1. In addition, a friendly unit that does not have any save and has Xan’toag attached, may roll a D6 for each of up to 3 Wounds it has suffered. Each score of 3 or less means a cancelled Wound.</description>
-        </rule>
-        <rule name="Dragon Spear" id="a43f-1190-35b5-2daa" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
-          <description>When attached to a friendly unit, Xan’toag grants it +8 attacks. If an enemy single model comes in contact with Xan’toag, it is immediately dealt D6 Wounds. If the enemy model survived, it can perform a test for eliminating Xan’toag.</description>
-        </rule>
-        <rule name="Trustees of the Club" id="6ed1-1f05-c5b5-9bdf" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
-          <description>Before the battle, replace one base from target friendly unit of Liagulians with the Trustees of the Club. This unit gains Fearless (This unit always passes a Cold Blood Test and a Panic Test) and Will to Fight (If this unit destroyed an enemy unit, it can regroup up to 10 cm instead of 5 cm.) until the end of the battle. If Xan’toag is attached to this unit, it has Strength 4 instead of 3.</description>
-        </rule>
-        <rule name="Ropuchon Hero" id="e6dc-782d-3e37-157a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
-          <description>Xan’toag attached to a friendly unit of Ropuchons or Golden Guards grants them Frenzy (When charging, this unit doubles its Attacks (A) stat).</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Ropuchon Hero" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="b772-8360-c488-96c1" page="143" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Xan’toag attached to a friendly unit of Ropuchons or Golden Guards grants them Frenzy (When charging, this unit doubles its Attacks (A) stat).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Trustees of the Club" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="2179-569f-efc1-a5f6" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Before the battle, replace one base from target friendly unit of Liagulians with the Trustees of the Club. This unit gains Fearless (This unit always passes a Cold Blood Test and a Panic Test) and Will to Fight (If this unit destroyed an enemy unit, it can regroup up to 10 cm instead of 5 cm.) until the end of the battle. If Xan’toag is attached to this unit, it has Strength 4 instead of 3.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Armour of the Sun Cities" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="54d3-4885-702c-3070" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Xan’toag can be eliminated by the enemy from the game only on a score of 1. In addition, a friendly unit that does not have any save and has Xan’toag attached, may roll a D6 for each of up to 3 Wounds it has suffered. Each score of 3 or less means a cancelled Wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dragon Spear" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="d54f-943d-5c09-2f88" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a friendly unit, Xan’toag grants it +8 attacks. If an enemy single model comes in contact with Xan’toag, it is immediately dealt D6 Wounds. If the enemy model survived, it can perform a test for eliminating Xan’toag.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>

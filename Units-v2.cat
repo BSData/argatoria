@@ -500,7 +500,7 @@
         <infoLink name="Monster" id="84fb-dd18-f0f7-f35d" hidden="false" type="rule" targetId="69b5-89b0-410a-8e8b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Brothers of Fire" hidden="false" id="693a-b963-b131-20d9" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
+    <selectionEntry type="upgrade" import="true" name="Brothers of Fire" hidden="false" id="693a-b963-b131-20d9" publicationId="30f0-6ecb-d1bf-eb3e" page="90" defaultAmount="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Barbarians" hidden="false" id="1948-6499-acc7-869c" publicationId="30f0-6ecb-d1bf-eb3e" page="90">
           <costs>

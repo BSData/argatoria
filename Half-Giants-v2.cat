@@ -44,17 +44,29 @@
         <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="f618-14a2-1b7b-a22d" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="-1" field="f618-14a2-1b7b-a22d">
+        <modifier type="set" value="1" field="f618-14a2-1b7b-a22d">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="2" field="f618-14a2-1b7b-a22d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Arena" id="ca59-f7dc-162f-ae0a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
-          <description>When attached to a friendly unit, Champion of Arena grants +5 attacks instead of +4. In addition, before the enemy unit’s attacks, Champion of Arena may roll 2D6. The higher result of the two dice determines the number of attacks the enemy unit loses from its pool.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Arena" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="416e-0229-b94e-ded4" page="147" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When attached to a friendly unit, Champion of Arena grants +5 attacks instead of +4. In addition, before the enemy unit’s attacks, Champion of Arena may roll 2D6. The higher result of the two dice determines the number of attacks the enemy unit loses from its pool.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of the Boundless" hidden="false" id="411d-4f0f-980e-8751" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
       <costs>
@@ -69,17 +81,29 @@
         <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="490b-5e75-bd21-4574" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="-1" field="490b-5e75-bd21-4574">
+        <modifier type="set" value="1" field="490b-5e75-bd21-4574">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="2" field="490b-5e75-bd21-4574">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of the Boundless" id="6e27-1a68-748c-631c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
-          <description>When attached to a friendly unit, Champion of the Boundless grants +5 attacks instead of +4. In addition, in his own activation, when attached to a friendly unit that was not issued an order in this cycle, he may roll a D6. A score of 2 or less means that the unit regains an Action Die and must be activated immediately.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of the Boundless" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="31c5-fb27-f7bf-a5f1" page="147" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When attached to a friendly unit, Champion of the Boundless grants +5 attacks instead of +4. In addition, in his own activation, when attached to a friendly unit that was not issued an order in this cycle, he may roll a D6. A score of 2 or less means that the unit regains an Action Die and must be activated immediately.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Spellweaver" hidden="false" id="4b3d-547e-a489-3a89" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
       <costs>
@@ -104,11 +128,13 @@
         <entryLink import="true" name="Spellweaver Spells" hidden="false" id="7f7b-cfec-eb38-a511" type="selectionEntryGroup" targetId="fea0-25ef-eab0-908f" publicationId="30f0-6ecb-d1bf-eb3e" page="147" sortIndex="1"/>
         <entryLink import="true" name="Magic items" hidden="false" id="9c4f-3185-5610-0519" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6"/>
       </entryLinks>
-      <rules>
-        <rule name="Spellweaver" id="d863-181f-9667-4f97" hidden="false" page="147" publicationId="30f0-6ecb-d1bf-eb3e">
-          <description>May buy magic spells and items of any value. When attached to a friendly unit, Spellweaver grants +4 attacks instead of +1. A friendly Half-Giants unit to which Spellweaver is attached may roll 3D6 for a Prayer Test and choose any two results.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Spellweaver" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="c90b-97bc-0a75-65f2" page="147" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">May buy magic spells and items of any value. When attached to a friendly unit, Spellweaver grants +4 attacks instead of +1. A friendly Half-Giants unit to which Spellweaver is attached may roll 3D6 for a Prayer Test and choose any two results.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Pakun" hidden="false" id="5fba-eb86-faf5-1561" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
       <costs>
@@ -119,23 +145,26 @@
         <categoryLink name="Hero" hidden="false" id="169c-0151-7f43-12b9" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Legendary Hero" hidden="false" id="83c2-52c3-0f6b-dc13" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
       </categoryLinks>
-      <rules>
-        <rule name="Pakun" id="3728-70e8-b2a2-6adc" hidden="false">
-          <description>Pakun can be fielded in every army that may deploy the units of Half-Giants, regardless of the number of other heroes. Pakun has the special items and abilities listed below.</description>
-        </rule>
-        <rule name="Crusher" id="b310-c39b-1763-ed73" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
-          <description>Thanks to this mysterious artefact hammer, Pakun grants the unit he is attached to additional D6+6 attacks. In addition, the unit Pakun is attached to changes its Strength (S) to 4 if it has lesser.</description>
-        </rule>
-        <rule name="Oklar" id="4f95-4d86-2850-be01" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
-          <description>An enemy unit attacking a unit that Pakun is attached to must subtract 3 dice from the pool.</description>
-        </rule>
-        <rule name="Dark Humour" id="fe3b-2111-402a-03ef" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
-          <description>If Pakun is attached to a friendly Half-Giants unit, the unit may add or subtract 1 from its LD during any test.</description>
-        </rule>
-      </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="de99-13f2-fc9c-f82e" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
+      <profiles>
+        <profile name="Oklar" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="d7e9-b36f-1bae-2257" page="148" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">An enemy unit attacking a unit that Pakun is attached to must subtract 3 dice from the pool.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dark Humour" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="5019-6e08-6de4-81c9" page="148" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If Pakun is attached to a friendly Half-Giants unit, the unit may add or subtract 1 from its LD during any test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crusher" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="f0b4-96d3-8acc-e551" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Thanks to this mysterious artefact hammer, Pakun grants the unit he is attached to additional D6+6 attacks. In addition, the unit Pakun is attached to changes its Strength (S) to 4 if it has lesser.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>

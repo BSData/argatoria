@@ -51,20 +51,28 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f301-6481-73af-51a8" includeChildSelections="true"/>
       </constraints>
-      <rules>
-        <rule name="Myrnos" id="fa13-957b-c28c-65b2" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>Driven by a whirlwind of madness, Myrnos always grants 5 attacks + 1 attack for each rank of the unit he is attached to.</description>
-        </rule>
-        <rule name="Azzantir, Axe of Malice" id="1d93-1cd3-32c5-61d3" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>If an enemy unit (but not single model) loses combat against a unit Myrnos is attached to, roll four D6s before the enemy takes a Cold Blood Test. For each score of 4 or less, Myrnos inflicts 1 additional Wound on the enemy unit. Any double of 6 means that the unit Myrnos is attached to loses 1 base.</description>
-        </rule>
-        <rule name="Hunger for Murder" id="8b6e-c2ef-34b2-d3c6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>The regrouping range of the unit Myrnos is attached to is 3D6 cm instead of 5 cm.</description>
-        </rule>
-        <rule name="Servant’s Girdle" id="d24c-14b7-e0fe-df5f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
-          <description>If Myrnos is eliminated from battle, he does not count as a Blood Point for the opponent.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Myrnos" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="2111-75ff-6502-8784" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Driven by a whirlwind of madness, Myrnos always grants 5 attacks + 1 attack for each rank of the unit he is attached to.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hunger for Murder" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="c3f2-d641-8fdd-2ec2" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">The regrouping range of the unit Myrnos is attached to is 3D6 cm instead of 5 cm.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Azzantir, Axe of Malice" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="d9f0-5630-b701-f6fd" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If an enemy unit (but not single model) loses combat against a unit Myrnos is attached to, roll four D6s before the enemy takes a Cold Blood Test. For each score of 4 or less, Myrnos inflicts 1 additional Wound on the enemy unit. Any double of 6 means that the unit Myrnos is attached to loses 1 base.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Servant’s Girdle" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="1bb6-1398-8df9-5901" page="141" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If Myrnos is eliminated from battle, he does not count as a Blood Point for the opponent.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

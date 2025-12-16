@@ -40,11 +40,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Gehenna" id="054c-afac-f9ab-555a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
-          <description>When Champion of Gehenna is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means that one stat (except W) of the unit can be increased by 1 until the end of the cycle.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Gehenna" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="3cd3-8f62-efa0-7804" page="97" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">When Champion of Gehenna is attached to a friendly unit engaged in combat, roll a D6 before the fight. A score of 3 or less means that one stat (except W) of the unit can be increased by 1 until the end of the cycle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Hordes" hidden="false" id="7c9f-c971-5469-4b74" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
       <costs>
@@ -65,11 +67,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of Hordes" id="687d-7ba6-6be6-4f00" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
-          <description>Roll a D6 if the unit with Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test, and if the unit was not a Horde or it lost the Horde rule, it gains (regains) the Horde rule.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of Hordes" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="2663-2bf4-ef32-8b25" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Roll a D6 if the unit with Champion of Hordes attached made a successful charge or has been charged. A score of 3 or less means the unit which has at least 12 bases may re-roll all failed scores in the Weapon Skill Test, and if the unit was not a Horde or it lost the Horde rule, it gains (regains) the Horde rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of the Dark Gods" hidden="false" id="bd52-5ff4-5096-b19d" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
       <costs>
@@ -90,11 +94,13 @@
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule name="Champion of the Dark Gods" id="a68f-5072-8487-2a90" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
-          <description>If Champion of the Dark Gods is attached to a friendly unit engaged in combat, he always adds +5 attacks instead of +4. In addition, you may roll a D6 before the enemy unit’s attacks. A score of 3 or less means the enemy must, according to your choice, re-roll all successful scores in the Weapon Skill Test or the Wound Test.</description>
-        </rule>
-      </rules>
+      <profiles>
+        <profile name="Champion of the Dark Gods" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="c481-2ea4-cffa-f638" page="97" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If Champion of the Dark Gods is attached to a friendly unit engaged in combat, he always adds +5 attacks instead of +4. In addition, you may roll a D6 before the enemy unit’s attacks. A score of 3 or less means the enemy must, according to your choice, re-roll all successful scores in the Weapon Skill Test or the Wound Test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Curser" hidden="false" id="f4f8-e737-12f1-f494" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
       <costs>
@@ -105,15 +111,17 @@
         <categoryLink name="Mage" hidden="false" id="428a-6037-5150-6f68" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
         <categoryLink name="Hero" hidden="false" id="272e-4fb0-3cc2-0c49" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Curser" id="410a-6839-623b-b802" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
-          <description>All enemy units within 30 cm of Curser get -2 cm to the charge range.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells &lt;= 6pts" hidden="false" id="4e7c-eea7-0299-6325" type="selectionEntryGroup" targetId="626f-4e1b-4c07-bb02" sortIndex="1"/>
         <entryLink import="true" name="Magic Items &lt;= 6pts" hidden="false" id="3b20-c03d-1fa5-a0b1" type="selectionEntryGroup" targetId="e75a-cbeb-298b-78ea" sortIndex="2"/>
       </entryLinks>
+      <profiles>
+        <profile name="Curser" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="10fd-ab1e-9a28-8422" page="97" publicationId="30f0-6ecb-d1bf-eb3e">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">All enemy units within 30 cm of Curser get -2 cm to the charge range.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="8eea-e7f4-fc9c-e914" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
       <costs>
@@ -124,15 +132,17 @@
         <categoryLink name="Mage" hidden="false" id="1724-c974-40f4-8ad3" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
         <categoryLink name="Hero" hidden="false" id="8e8f-c3be-1414-a2d6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
       </categoryLinks>
-      <rules>
-        <rule name="Warlock" id="ef92-a537-1de8-c895" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
-          <description>All friendly units within 20 cm of Warlock may re-roll a failed Prayer Test when praying for Fury.</description>
-        </rule>
-      </rules>
       <entryLinks>
         <entryLink import="true" name="Spells" hidden="false" id="82b6-16d3-7d26-6ebe" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
         <entryLink import="true" name="Magic items" hidden="false" id="db68-da80-358d-69d3" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
+      <profiles>
+        <profile name="Warlock" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="f623-80d9-9670-519f" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">All friendly units within 20 cm of Warlock may re-roll a failed Prayer Test when praying for Fury.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Dark Fauns" hidden="false" id="63e4-84cd-44d4-f39e" publicationId="30f0-6ecb-d1bf-eb3e" page="96">
       <categoryLinks>
