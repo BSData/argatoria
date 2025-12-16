@@ -951,4 +951,7 @@
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Banners" id="0831-b007-5670-2f4e" targetId="e6d3-3757-73e4-6ec4"/>
+  </catalogueLinks>
 </catalogue>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="9a20-8d65-b4d3-37ed" name="Banner of God Nathel Units" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Units" id="ec29-49d0-7d66-c110" targetId="5b32-fb65-846e-642a"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="The Chosen" hidden="false" id="de3b-1757-9031-530f" targetId="e7f7-b1d9-0294-f3f2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="92f9-64c4-3028-c36f" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Sanctified" hidden="false" id="27ae-a5a4-0972-5731" targetId="db11-a71b-9151-799e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="94ee-4e43-9bf3-b8f1" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Primaeval" hidden="false" id="6bef-4b84-4c75-3bc0" targetId="a661-332e-508f-ef32" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="a111-d133-612b-6b57" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repsolians" hidden="false" id="c81e-2882-8c28-6c5c" targetId="aa4f-19ab-9706-edd7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="da4f-9937-cb67-f5b0" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tormentors" hidden="false" id="d4a8-d475-0e24-1e11" targetId="dde3-7654-7a6d-69f9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="efe1-546b-5f29-6992" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scourges" hidden="false" id="2944-a792-2258-c0d0" targetId="7bc2-912a-468a-3ce5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="0972-ea9a-f6ae-83bc" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Priestesses" hidden="false" id="a809-7740-ed44-caa7" targetId="b024-7c1b-eaff-2322" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="edc6-f054-8690-c06f" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Firstborn" hidden="false" id="7b97-1b47-0d1c-a085" targetId="e863-6f9a-ca79-140e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="2fad-6a17-65e4-4ce3" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ravagers on Sungals" hidden="false" id="828c-c322-8771-3e48" targetId="e323-a27a-db72-11a6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="e5c9-b441-3dc9-e741" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sozruits" hidden="false" id="d6bd-ad8d-9de9-c286" targetId="bd46-4ca6-e612-9cdf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="be7c-26a5-611d-f53c" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Brothers of Fire" hidden="false" id="7ffd-32eb-f995-09dd" targetId="693a-b963-b131-20d9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="be5d-19d6-1680-1bd0" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Maidens" hidden="false" id="7362-d52a-46fb-44de" targetId="cf85-0d24-247e-d5d8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="b624-148c-a952-e33c" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Riders on Gridons" hidden="false" id="28f1-9949-a98b-df0f" targetId="947a-e485-d745-5564" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="44d3-5d5e-2ad0-8180" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Brothers" hidden="false" id="77be-7628-6bfc-7176" targetId="2d53-6201-c148-dea8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="ead7-3126-eee1-e2b2" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Beast Hunters" hidden="false" id="04a2-e247-e94f-5448" targetId="991b-cd2b-4e73-0231" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="42d5-ff51-758c-69ca" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Oduns" hidden="false" id="5597-8f75-b846-1092" targetId="73f9-b91d-cca2-5c48" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="7422-de72-9758-a96e" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Amazons on Spiders" hidden="false" id="bc52-3da6-7a02-6360" targetId="2da4-abe4-4334-3374" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="5d87-5778-6f0d-ff7a" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Voraks" hidden="false" id="b6a4-aaa8-d8ac-e109" targetId="b330-741a-7df8-a4d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="3659-c175-44f8-e264" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fangs of Sael" hidden="false" id="88b6-a52e-127b-aac5" targetId="4dcd-5a7a-9601-7fc1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="3f00-4ee5-6be5-f710" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rogues" hidden="false" id="3ba8-2f6d-7ab2-7e78" targetId="0303-8420-e379-1937" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="a53b-77b2-bc72-9ef5" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zadukats" hidden="false" id="bafb-551a-fd4f-e848" targetId="3a85-eb99-4ce9-37f1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="abec-503b-e55f-325a" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Riders of Daaran" hidden="false" id="ef8f-b3e9-7ba9-9ae8" targetId="65c8-9d28-23ae-63cf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="The Deceived" hidden="false" id="85ed-ba52-38d0-aa5e" targetId="3dea-37b3-34a2-f076" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="The Deceived" id="3dea-37b3-34a2-f076" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <description>You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.</description>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8939-2558-12e5-6abf" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="8939-2558-12e5-6abf">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="8d0d-5b53-b71e-440d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+  </categoryEntries>
+</catalogue>

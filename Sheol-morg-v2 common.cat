@@ -5,6 +5,7 @@
     <catalogueLink type="catalogue" name="Items" id="0eb2-1f28-3495-8b6c" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="66e5-9a4d-f6b9-54d5" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Units" id="d914-190a-664e-0151" targetId="5b32-fb65-846e-642a"/>
+    <catalogueLink type="catalogue" name="Banner of God Nathel Units" id="10b2-c2ac-222f-6f05" targetId="9a20-8d65-b4d3-37ed" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Command Group" hidden="false" id="8628-e889-806c-329b" publicationId="30f0-6ecb-d1bf-eb3e" page="97">
@@ -448,6 +449,44 @@
         <infoLink name="Born in the Abyss" id="1fb8-6810-6c82-fbf8" hidden="false" type="rule" targetId="82c8-08a9-732c-1031"/>
         <infoLink name="Dark Vomit" id="66c9-83a0-bd0f-6551" hidden="false" type="rule" targetId="508c-d887-a95b-6ea1"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ahsids" hidden="false" id="f554-1c2a-bc3a-624d" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="2195-74d6-ce66-71ca" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7c72-eeb3-3d98-dff1" targetId="7089-e041-3a8b-00af" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Barbarians" hidden="false" id="fbbf-8c48-3cdb-dc2e" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7807-1048-2e7f-7b7d" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="e98e-08a2-0815-e171" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Barbarians" id="a28a-3ed6-1448-5bd9" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60" publicationId="30f0-6ecb-d1bf-eb3e" page="77"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Possession" id="5250-5362-ed55-b918" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <description>When charged by the Ahsids, the enemy unit (but not single model) must take a Cold Blood Test. If the enemy unit fails the test and has an Action Die, it gets -1 to WS until the end of the cycle. If the enemy unit fails the test and does not have an Action Die, it must take a Panic Test for 3 bases.</description>
+        </rule>
+        <rule name="Human Monsters" id="54d9-017f-637f-7060" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
+          <description>As long as this unit has at least two full ranks, it has +1 to S.</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="set" value="1" field="2195-74d6-ce66-71ca">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a044-2b2c-b08a-1e2f" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

@@ -226,7 +226,6 @@
           </conditionGroups>
         </modifier>
       </modifiers>
-      <comment>TODO: Avantur</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of the Heralds of Torment" hidden="false" id="9715-9083-9b34-2bb2" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
       <costs>
@@ -394,7 +393,6 @@
           </characteristics>
         </profile>
       </profiles>
-      <comment>TODO: Priestesses of Enslavement</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of God Nathel" hidden="false" id="8d0d-5b53-b71e-440d" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
       <costs>
@@ -449,7 +447,6 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
           </conditionGroups>
         </modifier>
       </modifiers>
-      <comment>TODO Ahsids</comment>
       <profiles>
         <profile name="Banner of God Seth" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="8f71-6266-7602-581a" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
           <characteristics>

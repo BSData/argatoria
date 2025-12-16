@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="0a99-640b-c6ce-43b9" name="Sheol-morg: Lord of the Abyss" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Sheol-morg: common" id="ab64-bab2-37de-beae" targetId="3c37-26cb-3246-fc2d"/>
+    <catalogueLink type="catalogue" name="Sheol-morg: common" id="ab64-bab2-37de-beae" targetId="3c37-26cb-3246-fc2d" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Lord of the Abyss" hidden="false" id="dae9-71f4-da0c-8584" publicationId="30f0-6ecb-d1bf-eb3e" page="97" defaultAmount="1">
@@ -29,6 +29,49 @@
       <entryLinks>
         <entryLink import="true" name="Artefacts" hidden="false" id="692a-3ffa-5e2f-6151" type="selectionEntryGroup" targetId="6502-887c-b695-528f"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Priestesses of Enslavement" hidden="false" id="d2d3-b262-af6a-da10" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8f92-d8bb-87a2-8855" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Basic Unit" hidden="false" id="7561-cf4d-3ead-b0fa" targetId="7089-e041-3a8b-00af" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="e2cc-5add-4dab-5011" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="8f92-d8bb-87a2-8855">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="bd56-8114-c730-8363" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Amazons" hidden="false" id="62f9-d07f-bf85-beb9" publicationId="30f0-6ecb-d1bf-eb3e">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4130-9243-83fa-fbfe" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="5ac5-9ffa-6a9e-b1fb" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Amazons" id="2579-f712-0c12-721d" hidden="false" type="profile" targetId="cf3e-aaa8-7611-eb5a" publicationId="30f0-6ecb-d1bf-eb3e" page="76"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Dark Charm" id="40ea-0d4b-ab1f-b82d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
+          <description>When attacking this unit, the enemy unit must re-roll all 1s and 2s in the Weapon Skill Test. The result of the re-rolls must be accepted.</description>
+        </rule>
+        <rule name="War Dance" id="4eac-326f-d5cd-a5ce" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
+          <description>Once per cycle, before this unit or the enemy unit attacks, decide which war dance this unit will perform until the end of the cycle.
+
+
+- “Whirlwind of Death” –  The unit gets +1 to S.
+- “Whirlwind of Ecstasy” –  Each Wound inflicted upon this unit may be cancelled by a whirlwind of blades and shields. Roll a D6 for each inflicted Wound. Each score of 2 or less means a cancelled Wound.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -62,7 +105,7 @@
         <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="ab36-53dc-e6bc-17e3" targetId="4f13-69c6-c113-95b8" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Horned Warriors" hidden="false" id="86ad-a911-40fc-7ec9" type="selectionEntry" targetId="7e68-13bb-f148-1d2e">
+    <entryLink import="true" name="Horned Warriors" hidden="false" id="86ad-a911-40fc-7ec9" type="selectionEntry" targetId="7e68-13bb-f148-1d2e" defaultAmount="2">
       <categoryLinks>
         <categoryLink name="Basic Unit" hidden="false" id="7682-9ad6-7ff0-186d" targetId="7089-e041-3a8b-00af" primary="true"/>
         <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="eeef-221e-82f7-1648" targetId="4f13-69c6-c113-95b8" primary="false"/>
@@ -108,6 +151,11 @@
     <entryLink import="true" name="Hydra" hidden="false" id="4f29-507c-ddcd-f34e" type="selectionEntry" targetId="dc4c-ac3a-bbe6-2cec">
       <categoryLinks>
         <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="4591-dafd-18bc-bbeb" targetId="4f13-69c6-c113-95b8" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ahsids" hidden="false" id="7aee-f40c-cdb1-c4fe" type="selectionEntry" targetId="f554-1c2a-bc3a-624d">
+      <categoryLinks>
+        <categoryLink name="Sheol-morg Lord of the Abyss" hidden="false" id="ea98-a43f-756d-3062" targetId="4f13-69c6-c113-95b8" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
