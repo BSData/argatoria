@@ -301,6 +301,38 @@
         <infoLink name="Fearless" id="d4d3-b3d3-72e7-a24a" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mar’hauk" hidden="false" id="5025-79fc-bc26-1474" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="43"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8938-f6ca-6443-da0b" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="9d7b-6709-c4f5-1ad9" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="122e-71c6-f605-c8ca" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Gaeldor" hidden="false" id="6566-d36d-478f-081d" targetId="8e47-50e0-8500-9a3e" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="083d-219c-aa5c-ddb9" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Mar’hauk" id="69b1-8428-a693-27d8" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <description>Mar’hauk mounts a powerful creature called Vitur. Thanks to Vitur, Mar’hauk grants the unit he is attached to +8 attacks.</description>
+        </rule>
+        <rule name="Ern’s Helm" id="f2be-5302-8d7e-34f9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <description>When attached to a friendly unit that has no save, Mar’hauk allows it to benefit from the power of his helm. After being dealt Wounds by an enemy unit, a friendly unit may roll a D6 for each of up to 5 Wounds it has suffered. Each score of 2 or less means a cancelled Wound.</description>
+        </rule>
+        <rule name="Eagle Talon" id="89d7-64a5-89c5-d2ee" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <description>A friendly unit that Mar’hauk is attached to may re-roll 4 dice in the Wound Test + 1 die for each terrain on the battlefield.</description>
+        </rule>
+        <rule name="Oaken Shield" id="1d08-3c66-aef8-d370" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <description>If an enemy unit comes into contact with Mar’hauk, it does not roll for the hero’s death. Instead, Mar’hauk may be immediately placed anywhere up to 20 cm of the enemy unit. The shield can only be used once per battle.</description>
+        </rule>
+        <rule name="Vitur" id="48ac-8fdb-4e3e-167c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <description>The unit that Mar’hauk on Vitur is attached to has Fear (After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead).</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Beast Hunters" hidden="false" id="a363-f36a-afad-68f9" type="selectionEntry" targetId="991b-cd2b-4e73-0231">
@@ -327,11 +359,18 @@
       <categoryLinks>
         <categoryLink name="Gaeldor" hidden="false" id="54c9-3f82-48ff-122a" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="Iron Oaks" field="name"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Slagors" hidden="false" id="3959-35cb-1e6d-4d27" type="selectionEntry" targetId="4752-506a-07a2-4520" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
       <categoryLinks>
         <categoryLink name="Gaeldor" hidden="false" id="199b-c538-7dea-4671" targetId="8e47-50e0-8500-9a3e" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="Forest Serpents" field="name"/>
+      </modifiers>
     </entryLink>
+    <entryLink import="true" name="Skaals" hidden="false" id="ce05-2575-0fcd-8c7f" type="selectionEntry" targetId="ae7d-c1e4-eacf-d277"/>
   </entryLinks>
 </catalogue>

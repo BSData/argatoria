@@ -161,15 +161,6 @@
         <entryLink import="true" name="Magic items" hidden="false" id="307a-55c1-61ef-de84" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Reapers" hidden="false" id="240d-8211-4f97-4503" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
-      <categoryLinks>
-        <categoryLink name="Rare Unit" hidden="false" id="d93f-8465-cc12-e8f6" targetId="4813-f768-c66b-e833" primary="true"/>
-        <categoryLink name="Vaendral" hidden="false" id="4e24-4bf0-0e4b-acde" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Half-Giants" hidden="false" id="865a-a71b-9bd6-ae16" type="selectionEntry" targetId="752b-7939-32cc-edc4"/>
-      </entryLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Voutars" hidden="false" id="32f3-d1f3-4580-6e16" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
       <categoryLinks>
         <categoryLink name="Unique Unit" hidden="false" id="0b4b-2b8f-5f68-7e72" targetId="9972-b434-5f13-e94b" primary="true"/>
@@ -240,8 +231,40 @@
         <infoLink name="Curse of the Witch" id="f8fa-06d5-ee3a-37a1" hidden="false" type="rule" targetId="7d32-4049-0b19-b287"/>
         <infoLink name="Bloodshed" id="3924-5792-7ba2-4e79" hidden="false" type="rule" targetId="ed34-e6c4-230a-e29d"/>
         <infoLink name="Terrible Damage" id="8161-528f-067d-5a84" hidden="false" type="rule" targetId="85f5-0754-5d44-b980"/>
-        <infoLink name="Light Shield Defence. (Save)" id="012f-eace-bda2-eadd" hidden="false" type="rule" targetId="baab-8767-181d-76e6"/>
+        <infoLink name="Light Shield Defence (Save)" id="012f-eace-bda2-eadd" hidden="false" type="rule" targetId="baab-8767-181d-76e6"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Valeria" hidden="false" id="75ba-957d-4299-495a" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="520f-94b5-ae8e-e856" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="3766-c446-b3ff-951e" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="2db3-6382-6049-82c7" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="9303-4f8c-c5b3-369a" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="41"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="982f-3978-531d-6ab8" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Valeria" id="81b8-bfbd-3daa-28a7" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <description>Valeria is always accompanied by Andras and Iluar, who fight fiercely along her side in the Vaendral army. Thanks to them, Valeria grants the unit she is attached to +8 attacks.</description>
+        </rule>
+        <rule name="The Chosen of the Bathed in Blood" id="207c-2304-1255-c65d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <description>If the friendly General has left the battlefield, Valeria immediately takes command. The army can still use the Born Warriors special rule and use Valeria’s LD 2. Valeria cannot issue orders.</description>
+        </rule>
+        <rule name="Slayer’s Axe" id="ec5e-551f-836f-a7fd" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <description>When the unit Valeria is attached to is to make a Wound Test, take up to 2 dice from the pool and roll them separately. Each score of 3 or less means the enemy unit is dealt 3 Wounds.</description>
+        </rule>
+        <rule name="Feisty Savage" id="376d-c013-9ce6-259f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <description>If an enemy unit successfully charges the unit with an Action Die that Valeria is attached to, the unit may immediately remove the Action Die, position itself facing the enemy, and perform its attacks before the enemy does.</description>
+        </rule>
+        <rule name="Skull of the Priest Esn" id="cc6e-8fcd-e411-4553" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <description>The power of the skull powder allows Valeria to attempt to dispel an enemy spell once per battle. A score of 3 or less means the spell has been dispelled.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
@@ -270,10 +293,13 @@
         <categoryLink name="Vaendral" hidden="false" id="acb6-1718-fcc9-4216" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="The Reapers" hidden="false" id="8789-8afe-7571-a9d0" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
+    <entryLink import="true" name="Half-Giants" hidden="false" id="8789-8afe-7571-a9d0" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
       <categoryLinks>
         <categoryLink name="Vaendral" hidden="false" id="446d-6298-6775-4a5e" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="The Reapers" field="name"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Giant" hidden="false" id="066f-a101-fd84-08ec" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">
       <categoryLinks>
@@ -284,6 +310,16 @@
       <categoryLinks>
         <categoryLink name="Vaendral" hidden="false" id="0597-19c5-5bfd-440f" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bristles" hidden="false" id="8a56-a080-a66c-0e65" type="selectionEntry" targetId="3a85-eb99-4ce9-37f1" publicationId="30f0-6ecb-d1bf-eb3e" page="153">
+      <categoryLinks>
+        <categoryLink name="Mercenary Unit" hidden="false" id="1989-d044-57c0-bc69" targetId="4eea-ffdb-6cfc-9aa0" primary="true"/>
+        <categoryLink name="Vaendral" hidden="false" id="6b66-539f-94ac-eded" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="7bee-48aa-c82e-2c92" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="Bristles" field="name"/>
+      </modifiers>
     </entryLink>
   </entryLinks>
 </catalogue>

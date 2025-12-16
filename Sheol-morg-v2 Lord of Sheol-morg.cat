@@ -37,6 +37,35 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
       </rules>
       <comment>TODO Should Feear be part of General&apos;s rule?</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Myrnos" hidden="false" id="52f7-b27c-3cd8-a099" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="40"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="1eb8-147f-8961-2f30" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Sheol-morg Lord of Sheol-morg" hidden="false" id="65a0-0168-c312-2b64" targetId="2139-b90b-706b-1410" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="50b4-f65e-7746-d216" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="a3d3-cb55-3abe-ee23" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f301-6481-73af-51a8" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Myrnos" id="fa13-957b-c28c-65b2" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>Driven by a whirlwind of madness, Myrnos always grants 5 attacks + 1 attack for each rank of the unit he is attached to.</description>
+        </rule>
+        <rule name="Azzantir, Axe of Malice" id="1d93-1cd3-32c5-61d3" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>If an enemy unit (but not single model) loses combat against a unit Myrnos is attached to, roll four D6s before the enemy takes a Cold Blood Test. For each score of 4 or less, Myrnos inflicts 1 additional Wound on the enemy unit. Any double of 6 means that the unit Myrnos is attached to loses 1 base.</description>
+        </rule>
+        <rule name="Hunger for Murder" id="8b6e-c2ef-34b2-d3c6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>The regrouping range of the unit Myrnos is attached to is 3D6 cm instead of 5 cm.</description>
+        </rule>
+        <rule name="Servant’s Girdle" id="d24c-14b7-e0fe-df5f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="141">
+          <description>If Myrnos is eliminated from battle, he does not count as a Blood Point for the opponent.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Command Group" hidden="false" id="b779-396b-8c9d-2372" type="selectionEntry" targetId="8628-e889-806c-329b">

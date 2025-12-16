@@ -245,6 +245,35 @@
         <infoLink name="Poisonous Spit" id="7a99-b4a1-98fb-7924" hidden="false" type="rule" targetId="b613-5d82-33d0-0fb5"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Xan’toag" hidden="false" id="a67a-3a64-b4a0-cf95" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="44"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="6c5a-13a4-0cca-c75f" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Arox" hidden="false" id="2682-d988-fdfc-802e" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+        <categoryLink name="Hero" hidden="false" id="a776-e137-183a-5a45" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="1a6c-0778-8150-80b3" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b087-1052-c406-9e73" includeChildSelections="true"/>
+      </constraints>
+      <rules>
+        <rule name="Armour of the Sun Cities" id="516f-7594-6b0d-a72c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <description>Xan’toag can be eliminated by the enemy from the game only on a score of 1. In addition, a friendly unit that does not have any save and has Xan’toag attached, may roll a D6 for each of up to 3 Wounds it has suffered. Each score of 3 or less means a cancelled Wound.</description>
+        </rule>
+        <rule name="Dragon Spear" id="a43f-1190-35b5-2daa" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <description>When attached to a friendly unit, Xan’toag grants it +8 attacks. If an enemy single model comes in contact with Xan’toag, it is immediately dealt D6 Wounds. If the enemy model survived, it can perform a test for eliminating Xan’toag.</description>
+        </rule>
+        <rule name="Trustees of the Club" id="6ed1-1f05-c5b5-9bdf" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <description>Before the battle, replace one base from target friendly unit of Liagulians with the Trustees of the Club. This unit gains Fearless (This unit always passes a Cold Blood Test and a Panic Test) and Will to Fight (If this unit destroyed an enemy unit, it can regroup up to 10 cm instead of 5 cm.) until the end of the battle. If Xan’toag is attached to this unit, it has Strength 4 instead of 3.</description>
+        </rule>
+        <rule name="Ropuchon Hero" id="e6dc-782d-3e37-157a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="143">
+          <description>Xan’toag attached to a friendly unit of Ropuchons or Golden Guards grants them Frenzy (When charging, this unit doubles its Attacks (A) stat).</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="cea9-328b-d348-c575" targetId="e6d3-3757-73e4-6ec4"/>

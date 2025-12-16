@@ -258,10 +258,13 @@
         <categoryLink name="Dirandis" hidden="false" id="a677-627e-a243-2159" targetId="7759-6de2-d314-078c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="The Devoted" hidden="false" id="d96e-8086-0f89-608c" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
+    <entryLink import="true" name="Half-Giants" hidden="false" id="d96e-8086-0f89-608c" type="selectionEntry" targetId="de9f-fbf5-cf27-3781">
       <categoryLinks>
         <categoryLink name="Dirandis" hidden="false" id="76da-dba6-9239-fcfa" targetId="7759-6de2-d314-078c" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="The Devoted" field="name"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Giant" hidden="false" id="213b-8d9d-984c-33ac" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">
       <categoryLinks>
@@ -269,5 +272,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Elephanton" hidden="false" id="0c8b-2976-b9aa-83fd" type="selectionEntry" targetId="0924-c267-47e8-76cd"/>
+    <entryLink import="true" name="Skaals" hidden="false" id="864b-2e9b-00ca-2cd9" type="selectionEntry" targetId="ae7d-c1e4-eacf-d277"/>
   </entryLinks>
 </catalogue>

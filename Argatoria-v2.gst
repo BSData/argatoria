@@ -90,6 +90,7 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     <categoryEntry name="Rare Unit" id="4813-f768-c66b-e833" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84"/>
     <categoryEntry name="Unique Unit" id="9972-b434-5f13-e94b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
     <categoryEntry name="Mercenary Unit" id="4eea-ffdb-6cfc-9aa0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e"/>
+    <categoryEntry name="Appendix" id="3337-e6b7-f06f-9aec" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="133"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Open" id="455a-a4de-f7ca-3561" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
