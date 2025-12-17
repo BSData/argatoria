@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b65a-83b3-a2a6-5c4a" name="Er’Sael" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b65a-83b3-a2a6-5c4a" name="Er’Sael" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="c1f5-07e2-e1dc-00a7" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="bac8-d23b-1ec5-4dc5" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="3d62-6408-818f-d2c1" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Units" id="b4ad-5637-367c-f51e" targetId="5b32-fb65-846e-642a"/>
+    <catalogueLink type="catalogue" name="Default Force Organization" id="3345-00d3-46a3-bb8d" targetId="9521-bb0a-af4b-497a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Clanlord of Er’Sael" hidden="false" id="c160-3a65-6128-0e63" publicationId="30f0-6ecb-d1bf-eb3e" page="99" defaultAmount="1">

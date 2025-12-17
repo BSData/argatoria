@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="3c37-26cb-3246-fc2d" name="Sheol-morg: common" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="3c37-26cb-3246-fc2d" name="Sheol-morg: common" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="f342-dd7c-be6b-5a3b" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="0eb2-1f28-3495-8b6c" targetId="9fd1-abc6-119d-b5a5"/>
@@ -499,4 +499,22 @@
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
+  <forceEntries>
+    <forceEntry name="Open" id="c853-4826-c528-ee38" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="c95d-5fd9-96cc-63ca" publicationId="30f0-6ecb-d1bf-eb3e" page="64" targetId="e196-2339-4bc0-2d4f"/>
+        <categoryLink name="Command Group" hidden="false" id="2dfa-490f-f8eb-1b48" targetId="ebd4-eb4c-38d6-ee11"/>
+        <categoryLink name="Hero" hidden="false" id="103e-3b0a-beb3-57d9" targetId="0b0b-5bbc-9d5e-9b0c"/>
+        <categoryLink name="Champion" hidden="false" id="2167-76e6-b99b-66d9" targetId="4f06-0f92-65f2-1c81"/>
+        <categoryLink name="Mage" hidden="false" id="17f4-9c5d-e498-a6c6" targetId="ced7-cf0d-3b3f-c563"/>
+        <categoryLink name="Legendary Hero" hidden="false" id="4945-c6a6-acb5-cb86" targetId="b8ea-5e96-acf3-4bca"/>
+        <categoryLink name="Basic Unit" hidden="false" id="3b63-e4c7-5e64-9821" targetId="7089-e041-3a8b-00af"/>
+        <categoryLink name="Elite Unit" hidden="false" id="cb07-c17c-799e-86ce" targetId="e020-218e-a38a-c7c5"/>
+        <categoryLink name="Rare Unit" hidden="false" id="9622-4ba1-15c5-0d9d" targetId="4813-f768-c66b-e833"/>
+        <categoryLink name="Unique Unit" hidden="false" id="2ef3-12b0-e7e7-4670" targetId="9972-b434-5f13-e94b"/>
+        <categoryLink name="Mercenary Unit" hidden="false" id="fb68-7e47-1863-d93e" targetId="4eea-ffdb-6cfc-9aa0"/>
+        <categoryLink name="The Deceived" hidden="false" id="adec-1aa0-5c5e-e1f6" targetId="3dea-37b3-34a2-f076"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
 </catalogue>

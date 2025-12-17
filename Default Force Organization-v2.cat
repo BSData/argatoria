@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="9521-bb0a-af4b-497a" name="Default Force Organization" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Open" id="455a-a4de-f7ca-3561" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
+      <categoryLinks>
+        <categoryLink name="General" hidden="false" id="72db-743b-80e3-fe83" publicationId="30f0-6ecb-d1bf-eb3e" page="64" targetId="e196-2339-4bc0-2d4f"/>
+        <categoryLink name="Command Group" hidden="false" id="19be-0fee-1844-d902" targetId="ebd4-eb4c-38d6-ee11"/>
+        <categoryLink name="Hero" hidden="false" id="800e-5868-2b2d-0f12" targetId="0b0b-5bbc-9d5e-9b0c"/>
+        <categoryLink name="Champion" hidden="false" id="6d1d-949a-3ce1-7413" targetId="4f06-0f92-65f2-1c81"/>
+        <categoryLink name="Mage" hidden="false" id="dcd5-84d5-fe54-4879" targetId="ced7-cf0d-3b3f-c563"/>
+        <categoryLink name="Legendary Hero" hidden="false" id="e502-44ac-d439-16d7" targetId="b8ea-5e96-acf3-4bca"/>
+        <categoryLink name="Basic Unit" hidden="false" id="017c-36f6-6227-3156" targetId="7089-e041-3a8b-00af"/>
+        <categoryLink name="Elite Unit" hidden="false" id="20d7-e725-5c2b-38a6" targetId="e020-218e-a38a-c7c5"/>
+        <categoryLink name="Rare Unit" hidden="false" id="53aa-6a20-c282-189c" targetId="4813-f768-c66b-e833"/>
+        <categoryLink name="Unique Unit" hidden="false" id="39e5-dda1-7ccf-f34a" targetId="9972-b434-5f13-e94b"/>
+        <categoryLink name="Mercenary Unit" hidden="false" id="9b66-aee7-d478-c5bf" targetId="4eea-ffdb-6cfc-9aa0"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+</catalogue>

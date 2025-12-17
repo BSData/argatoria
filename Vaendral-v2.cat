@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="f59a-6830-9b04-b553" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Spells" id="e80f-b52b-29b0-7920" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Half-Giants" id="6d17-a863-21bd-c820" targetId="001e-221b-d752-9e75" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Items" id="3d71-f283-b41f-100f" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Units" id="0217-cd4a-4142-440c" targetId="5b32-fb65-846e-642a"/>
+    <catalogueLink type="catalogue" name="Default Force Organization" id="e076-e19e-cf7c-956e" targetId="9521-bb0a-af4b-497a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Bloody Chieftain" hidden="false" id="3f3f-ecf9-b4c5-0a8e" publicationId="30f0-6ecb-d1bf-eb3e" page="89" defaultAmount="1">
