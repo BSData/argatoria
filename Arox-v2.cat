@@ -296,6 +296,7 @@
     <catalogueLink type="catalogue" name="Items" id="18ee-f445-b8c3-e2e6" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="9673-1bda-f0ab-7e56" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Units" id="f848-99c0-d234-108e" targetId="5b32-fb65-846e-642a"/>
+    <catalogueLink type="catalogue" name="Default Force Organization" id="f82b-cbeb-1c22-b9b9" targetId="9521-bb0a-af4b-497a"/>
   </catalogueLinks>
   <sharedRules>
     <rule name="Hot Blood" id="b4f4-ea31-1618-e12e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84">

@@ -19,8 +19,16 @@ Issuing orders:
 At any point during the Heroes actions, a General may issue an order to a friendly unit. The chosen unit must be within 30 cm from the General, but it doesn’t have to be visible. Roll a D6. A score of 4 or less means a successful order. The unit that was issued an order by the General can immediately perform any action as if it has just been activated. The General has three attempts to issue an order during the entire battle and may attempt to issue only one order per cycle.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="977c-a005-d322-2ee5-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="977c-a005-d322-2ee5-max" includeChildSelections="true"/>
+      </constraints>
     </categoryEntry>
-    <categoryEntry name="Hero" id="0b0b-5bbc-9d5e-9b0c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="64"/>
+    <categoryEntry name="Hero" id="0b0b-5bbc-9d5e-9b0c" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="64">
+      <constraints>
+        <constraint type="min" value="4" field="selections" scope="roster" shared="true" id="1ac7-73ef-b2d9-23bf" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry name="Vaendral" id="a9ce-3085-5e84-d8c0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
       <description>Helper category for checking army type</description>
     </categoryEntry>
@@ -36,6 +44,22 @@ At any point during the Heroes actions, a General may issue an order to a friend
 * Panic Tests of the unit that is not a Horde are successful on a score of 3 or less.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="b157-2e5d-bda1-6f45" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="e3af-03de-8de2-424e" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="2" field="b157-2e5d-bda1-6f45">
+          <conditions>
+            <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="e3af-03de-8de2-424e">
+          <conditions>
+            <condition type="atLeast" value="1500" field="selections" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Champion" id="4f06-0f92-65f2-1c81" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="64">
       <rules>
@@ -43,6 +67,22 @@ At any point during the Heroes actions, a General may issue an order to a friend
           <description>If a Champion is attached to a friendly unit, that unit gets +4 attacks when attacking the enemy.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="d08b-b9b2-d49d-11f9" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="7614-e941-faa3-1c37" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="d08b-b9b2-d49d-11f9">
+          <conditions>
+            <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="6" field="7614-e941-faa3-1c37">
+          <conditions>
+            <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Mage" id="ced7-cf0d-3b3f-c563" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="64">
       <rules>
@@ -50,6 +90,16 @@ At any point during the Heroes actions, a General may issue an order to a friend
           <description>If a Mage is attached to a friendly unit, that unit gets +1 attack when attacking the enemy. Each Mage gives a friendly army an additional prayer in the cycle. Mages have access to magic spells and items which they can buy before the battle.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="7c6d-0ce4-e7c2-4670" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="7c6d-0ce4-e7c2-4670">
+          <repeats>
+            <repeat value="500" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Legendary Hero" id="b8ea-5e96-acf3-4bca" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="64">
       <rules>
@@ -60,6 +110,16 @@ At any point during the Heroes actions, a General may issue an order to a friend
 Legendary Heroes cannot repeat in an army, and if both players want to deploy the same Legendary Hero, they must roll a D6. A lower score is allowed to deploy the given hero, while the opponent must spend his remaining points otherwise.</description>
         </rule>
       </rules>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3b15-f80d-9962-37b2" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="3b15-f80d-9962-37b2">
+          <repeats>
+            <repeat value="1000" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </categoryEntry>
     <categoryEntry name="Sorgax" id="689d-c183-c62d-b3b6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="86">
       <description>Helper category for checking army type</description>
@@ -85,144 +145,62 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     <categoryEntry name="Sheol-morg Lord of Sheol-morg" id="2139-b90b-706b-1410" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
       <description>Helper category for checking army type</description>
     </categoryEntry>
-    <categoryEntry name="Basic Unit" id="7089-e041-3a8b-00af" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
-    <categoryEntry name="Elite Unit" id="e020-218e-a38a-c7c5" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
-    <categoryEntry name="Rare Unit" id="4813-f768-c66b-e833" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84"/>
-    <categoryEntry name="Unique Unit" id="9972-b434-5f13-e94b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
-    <categoryEntry name="Mercenary Unit" id="4eea-ffdb-6cfc-9aa0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e"/>
+    <categoryEntry name="Basic Unit" id="7089-e041-3a8b-00af" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="76c5-e74f-8129-60cc" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="4" field="76c5-e74f-8129-60cc">
+          <conditions>
+            <condition type="greaterThan" value="1000" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Elite Unit" id="e020-218e-a38a-c7c5" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="ccb2-226e-afaf-8d77" includeChildSelections="true"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="ff12-d71c-1356-59f8" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="ff12-d71c-1356-59f8">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="7089-e041-3a8b-00af" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Rare Unit" id="4813-f768-c66b-e833" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="84">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="cb3f-eaa9-855d-2129" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="8" field="cb3f-eaa9-855d-2129">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Unique Unit" id="9972-b434-5f13-e94b" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c001-56b1-a0ef-00da" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="6" field="c001-56b1-a0ef-00da">
+          <conditions>
+            <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+    <categoryEntry name="Mercenary Unit" id="4eea-ffdb-6cfc-9aa0" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="cbfa-e1eb-3250-5eb1" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry name="Appendix" id="3337-e6b7-f06f-9aec" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="133"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry name="Open" id="455a-a4de-f7ca-3561" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
-      <categoryLinks>
-        <categoryLink name="General" hidden="false" id="72db-743b-80e3-fe83" publicationId="30f0-6ecb-d1bf-eb3e" page="64" targetId="e196-2339-4bc0-2d4f">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d91a-cc35-cae0-ae3b-min" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d91a-cc35-cae0-ae3b-max" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Command Group" hidden="false" id="19be-0fee-1844-d902" targetId="ebd4-eb4c-38d6-ee11">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="fc19-a591-a622-47de" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b087-9914-164c-431c" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="2" field="fc19-a591-a622-47de">
-              <conditions>
-                <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="6" field="b087-9914-164c-431c">
-              <conditions>
-                <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Hero" hidden="false" id="800e-5868-2b2d-0f12" targetId="0b0b-5bbc-9d5e-9b0c">
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="roster" shared="true" id="3962-d20d-5c2c-c801" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Champion" hidden="false" id="6d1d-949a-3ce1-7413" targetId="4f06-0f92-65f2-1c81">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="15cb-2540-d7b6-8be6" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="7fbf-7bea-2c9b-a61a" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="1" field="7fbf-7bea-2c9b-a61a">
-              <conditions>
-                <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="6" field="15cb-2540-d7b6-8be6">
-              <conditions>
-                <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Mage" hidden="false" id="dcd5-84d5-fe54-4879" targetId="ced7-cf0d-3b3f-c563">
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3c10-d65f-b20a-0649" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="3c10-d65f-b20a-0649">
-              <repeats>
-                <repeat value="500" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Legendary Hero" hidden="false" id="e502-44ac-d439-16d7" targetId="b8ea-5e96-acf3-4bca">
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8fa7-ba7a-491e-2498" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="8fa7-ba7a-491e-2498">
-              <repeats>
-                <repeat value="1000" repeats="1" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Basic Unit" hidden="false" id="017c-36f6-6227-3156" targetId="7089-e041-3a8b-00af">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="a8dc-0f61-bd33-b64e" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="4" field="a8dc-0f61-bd33-b64e">
-              <conditions>
-                <condition type="greaterThan" value="1000" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Elite Unit" hidden="false" id="20d7-e725-5c2b-38a6" targetId="e020-218e-a38a-c7c5">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="41a3-acbf-b13d-bab7" includeChildSelections="true" includeChildForces="true"/>
-            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8a28-b72f-bf3c-6339" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="8a28-b72f-bf3c-6339">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="roster" childId="7089-e041-3a8b-00af" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Rare Unit" hidden="false" id="53aa-6a20-c282-189c" targetId="4813-f768-c66b-e833">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="3c06-a5b2-7398-ccd1" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="8" field="3c06-a5b2-7398-ccd1">
-              <conditions>
-                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Unique Unit" hidden="false" id="39e5-dda1-7ccf-f34a" targetId="9972-b434-5f13-e94b">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="5d65-00ec-fd8d-4ac4" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="6" field="5d65-00ec-fd8d-4ac4">
-              <conditions>
-                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Mercenary Unit" hidden="false" id="9b66-aee7-d478-c5bf" targetId="4eea-ffdb-6cfc-9aa0">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="90e4-f9bb-cd5e-27af" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <publications>
     <publication name="Argatoria 2nd Edition Rulebook (PDF)" id="30f0-6ecb-d1bf-eb3e" hidden="false" shortName="rulebook" publisherUrl="https://www.spellcrow.com/argatoria-2nd-edition-rulebook-pdf-english-p-1242.html" publisher="Argatoria 2nd Edition Rulebook (PDF) – English" publicationDate="2025-09-27"/>
   </publications>

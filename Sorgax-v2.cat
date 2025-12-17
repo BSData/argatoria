@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="150d-8bcd-f804-cb0a" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="668c-7041-d41f-52d6" targetId="9fd1-abc6-119d-b5a5"/>
     <catalogueLink type="catalogue" name="Spells" id="4d8b-00ad-6660-8c11" targetId="9324-73b3-9935-4102"/>
     <catalogueLink type="catalogue" name="Units" id="84fd-8548-a0c7-0d62" targetId="5b32-fb65-846e-642a"/>
+    <catalogueLink type="catalogue" name="Default Force Organization" id="f914-8110-dabb-3076" targetId="9521-bb0a-af4b-497a"/>
   </catalogueLinks>
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Abazatragon" hidden="false" id="6b89-170a-e169-b0a7" publicationId="30f0-6ecb-d1bf-eb3e" page="87" defaultAmount="1">
