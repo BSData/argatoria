@@ -200,9 +200,11 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
       </constraints>
     </categoryEntry>
     <categoryEntry name="Appendix" id="3337-e6b7-f06f-9aec" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="133"/>
+    <categoryEntry name="Marauders" id="b66e-897e-2874-0011" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
   </categoryEntries>
   <publications>
     <publication name="Argatoria 2nd Edition Rulebook (PDF)" id="30f0-6ecb-d1bf-eb3e" hidden="false" shortName="rulebook" publisherUrl="https://www.spellcrow.com/argatoria-2nd-edition-rulebook-pdf-english-p-1242.html" publisher="Argatoria 2nd Edition Rulebook (PDF) – English" publicationDate="2025-09-27"/>
+    <publication name="GitHub" id="7431-bb6f-32ed-bd7f" hidden="false" publisherUrl="https://github.com/BSData/argatoria"/>
   </publications>
   <costTypes>
     <costType name="Points" id="78f2-651d-2f2e-98bf" defaultCostLimit="750"/>
@@ -468,6 +470,9 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     </rule>
     <rule name="Dark Aura" id="12a9-8b20-6b5b-2011" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <description>Once per battle, in any cycle, after the Initiative Test, regardless of the number of friendly Prophets, you may decide that your army becomes shrouded in Dark Aura. The opponent’s army cannot use magic items, spells and prayers until the end of the cycle.</description>
+    </rule>
+    <rule name="Marauders" id="ca33-aaa2-3aaa-7c33" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+      <description>Each unit you have deployed on the battlefield, consisting of the maximum number of bases (16 bases), allows you to place a free additional unit called Marauders. This unit always has 4 bases, is the same type as the 16 bases that allowed it to be deployed, and is deployed without adding to the army cost. Such a unit does not count to the limit of units that can be deployed in the army, and is not treated as a unit in the required minimum. The Marauders unit cannot be expanded or combined with other Marauders. The enemy gains Blood Points as normal for defeating Marauders.</description>
     </rule>
   </sharedRules>
 </gameSystem>

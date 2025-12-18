@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="97e8-608f-9a83-af5b" name="Arox" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="97e8-608f-9a83-af5b" name="Arox" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Sox’Augatir" hidden="false" id="6800-f216-bdb6-d8ff" publicationId="30f0-6ecb-d1bf-eb3e" page="85" defaultAmount="1">
       <costs>
@@ -191,6 +191,35 @@
             <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="18d0-94cc-ce97-50b7" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Trygodrons" hidden="true" id="3bb5-3920-9631-d209" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2d0c-4c9b-45a2-1852-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2d0c-4c9b-45a2-1852-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Trygodrons" id="5464-eacf-5561-a610" hidden="false" type="profile" targetId="70cb-b9bb-c149-d173"/>
+            <infoLink name="Marauders" id="619a-ba00-ca05-d45d" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="abdd-1690-48d0-e047" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="2d0c-4c9b-45a2-1852-min"/>
+                <modifier type="set" value="4" field="2d0c-4c9b-45a2-1852-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="89a5-7466-dfcf-86e4" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Immunity" id="5f73-d14d-afac-820d" hidden="false" type="rule" targetId="77c4-c412-b3ce-56e7"/>
@@ -246,6 +275,35 @@
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8083-7bfc-b70b-a1c8" includeChildSelections="false"/>
             <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="109d-c7b2-45f5-8754" includeChildSelections="false"/>
           </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Golden Guards" hidden="true" id="474c-31c9-d225-b417" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="89e0-eac4-baae-5e3d-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="89e0-eac4-baae-5e3d-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Golden Guards" id="f706-2599-b8f1-0bec" hidden="false" type="profile" targetId="d514-ea53-70e0-fa1b"/>
+            <infoLink name="Marauders" id="b8b6-ffb8-795b-fb6f" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="3afb-d188-c9ae-0547" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="89e0-eac4-baae-5e3d-min"/>
+                <modifier type="set" value="4" field="89e0-eac4-baae-5e3d-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d041-42ad-3de3-fbc9" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -338,6 +396,7 @@
       <modifiers>
         <modifier type="set" value="Bristles" field="name"/>
         <modifier type="remove" value="e020-218e-a38a-c7c5" field="category"/>
+        <modifier type="set" value="Marauders: Bristles" field="name" affects="self.entries.ff71-520c-0555-d24a"/>
       </modifiers>
       <categoryLinks>
         <categoryLink name="Mercenary Unit" hidden="false" id="0887-d94d-9197-4444" targetId="4eea-ffdb-6cfc-9aa0" primary="true"/>

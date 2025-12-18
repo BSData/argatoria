@@ -256,6 +256,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Nerh" hidden="true" id="3403-d8ad-84bf-e62b" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0ffd-ab9a-a95e-31ba-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0ffd-ab9a-a95e-31ba-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Black Orcs" id="3577-6416-d187-531b" hidden="false" type="profile" targetId="7d5e-648c-cbe0-cc1b"/>
+            <infoLink name="Marauders" id="a75e-1deb-a017-f20b" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="2464-7e7d-6856-24d4" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="0ffd-ab9a-a95e-31ba-min"/>
+                <modifier type="set" value="4" field="0ffd-ab9a-a95e-31ba-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d061-470f-e240-0659" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Tearing" id="91f3-2810-e5f8-409d" hidden="false" type="rule" targetId="a8d5-086f-450a-9ee7"/>
@@ -290,6 +319,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Monks of the Shadow Temple" hidden="true" id="5b29-ba1b-8b9b-ad8f" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5efd-00ff-a5d6-e86f-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5efd-00ff-a5d6-e86f-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Monks of the Shadow Temple" id="080a-e740-ffc8-2f45" hidden="false" type="profile" targetId="d2b0-86ee-47e1-ceba"/>
+            <infoLink name="Marauders" id="deec-f01c-176b-61af" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="f06d-d4e0-136d-ea86" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="5efd-00ff-a5d6-e86f-min"/>
+                <modifier type="set" value="4" field="5efd-00ff-a5d6-e86f-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d2a7-9ef3-b0ea-7803" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -399,6 +457,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Priests of Sael" hidden="true" id="239d-d54a-5b57-b860" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2720-9beb-7568-38c0-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2720-9beb-7568-38c0-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Priests of Sael" id="e1fc-9d4d-a5de-2f4b" hidden="false" type="profile" targetId="6b02-4af5-7d20-6b96"/>
+            <infoLink name="Marauders" id="e80d-6a73-92cb-689c" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="e020-af07-92ac-2ce3" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="2720-9beb-7568-38c0-min"/>
+                <modifier type="set" value="4" field="2720-9beb-7568-38c0-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="47eb-5cd1-66cc-8db5" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

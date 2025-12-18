@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="cc42-fe10-8d98-3386" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
@@ -206,6 +206,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Sasquatches" hidden="true" id="a562-cba5-baae-457f" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2b91-f863-a9b0-2817-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2b91-f863-a9b0-2817-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Sasquatches" id="feb0-f76b-acc5-3b48" hidden="false" type="profile" targetId="a616-fa45-c5a7-8c2a"/>
+            <infoLink name="Marauders" id="02fe-01f4-ca31-b55c" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="0d34-2b72-647d-623c" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="2b91-f863-a9b0-2817-min"/>
+                <modifier type="set" value="4" field="2b91-f863-a9b0-2817-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="36c7-decf-6e07-439f" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Ambush" id="d840-38ad-fcaf-f575" hidden="false" type="rule" targetId="2c1c-f488-30b0-95e7"/>
@@ -239,6 +268,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Wilhars" hidden="true" id="296c-f36a-5a42-0b20" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e6ab-ea92-8177-f76b-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e6ab-ea92-8177-f76b-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Wilhars" id="4624-807e-5b7e-12bd" hidden="false" type="profile" targetId="b0e0-7161-6ace-7a16"/>
+            <infoLink name="Marauders" id="7dc7-c586-d55f-d498" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="f7eb-ceb3-fac1-83c3" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="e6ab-ea92-8177-f76b-min"/>
+                <modifier type="set" value="4" field="e6ab-ea92-8177-f76b-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="2df7-58b1-92da-a772" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -297,6 +355,7 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="The Devoted" field="name"/>
+        <modifier type="set" value="Marauders: The Devoted" field="name" affects="self.entries.27ca-a135-f9fd-2fd3"/>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Giant" hidden="false" id="213b-8d9d-984c-33ac" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">

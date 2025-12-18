@@ -59,6 +59,35 @@
             <infoLink name="Amazons" id="2579-f712-0c12-721d" hidden="false" type="profile" targetId="cf3e-aaa8-7611-eb5a" publicationId="30f0-6ecb-d1bf-eb3e" page="76"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Priestesses of Enslavement" hidden="true" id="0b51-d2a7-a619-f345" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1229-91bb-fe92-ad43-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="1229-91bb-fe92-ad43-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Amazons" id="6118-aa42-e021-1137" hidden="false" type="profile" targetId="cf3e-aaa8-7611-eb5a"/>
+            <infoLink name="Marauders" id="b7e1-87f4-8dd7-2c98" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="ea9b-4b10-441f-943f" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="1229-91bb-fe92-ad43-min"/>
+                <modifier type="set" value="4" field="1229-91bb-fe92-ad43-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="62f9-d07f-bf85-beb9" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <rules>
         <rule name="Dark Charm" id="40ea-0d4b-ab1f-b82d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="76">

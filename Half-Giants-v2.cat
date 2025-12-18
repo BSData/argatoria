@@ -214,6 +214,35 @@
             <infoLink name="Half-Giants" id="fdd9-6383-40b3-073d" hidden="false" type="profile" targetId="20ca-c7e4-a805-a34c"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Half-Giants" hidden="true" id="27ca-a135-f9fd-2fd3" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="16cc-bcbd-637b-cbc0-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="16cc-bcbd-637b-cbc0-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Half-Giants" id="8ea3-41cb-d581-3fc5" hidden="false" type="profile" targetId="20ca-c7e4-a805-a34c"/>
+            <infoLink name="Marauders" id="b09d-1a83-21e2-6966" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="8983-7be4-5e70-e18e" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="16cc-bcbd-637b-cbc0-min"/>
+                <modifier type="set" value="4" field="16cc-bcbd-637b-cbc0-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="752b-7939-32cc-edc4" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Crushing Blow" id="b412-3e4a-33fa-9fb1" hidden="false" type="rule" targetId="586e-08ad-266e-845b"/>

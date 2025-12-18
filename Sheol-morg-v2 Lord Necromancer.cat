@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7dd5-8b91-c02b-c423" name="Sheol-morg: Lord Necromancer" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="7dd5-8b91-c02b-c423" name="Sheol-morg: Lord Necromancer" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Sheol-morg: common" id="cd87-4959-c30c-afdc" targetId="3c37-26cb-3246-fc2d" importRootEntries="true"/>
   </catalogueLinks>
@@ -349,8 +349,8 @@ All friendly units within 5 cm of a Skeletons Command Group may use the followi
             <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
           </costs>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4fe4-405b-9d32-1f03" includeChildSelections="false"/>
-            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="17da-90dd-31e2-fd70" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9409-4669-405a-4a5b-min" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9409-4669-405a-4a5b-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="The Damned" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="8f50-cc6c-f521-9b8d" publicationId="30f0-6ecb-d1bf-eb3e" page="139">
@@ -407,6 +407,35 @@ All friendly units within 5 cm of a Skeletons Command Group may use the followi
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Gnils" hidden="true" id="64d1-d0b8-37f1-4827" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7c4d-52a5-bec3-1462-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7c4d-52a5-bec3-1462-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Gnils" id="dc8b-7a08-cfd2-e5c3" hidden="false" type="profile" targetId="d133-772b-4231-fd5c"/>
+            <infoLink name="Marauders" id="61dd-c321-dcf0-f823" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="4ee4-c5f7-8303-54be" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="7c4d-52a5-bec3-1462-min"/>
+                <modifier type="set" value="4" field="7c4d-52a5-bec3-1462-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d4f7-27c8-d44a-aade" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Fearless" id="b8db-5e19-1806-eb16" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
@@ -457,6 +486,35 @@ All friendly units within 5 cm of a Skeletons Command Group may use the followi
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Mementors" hidden="true" id="8486-56d8-a56c-d5fd" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5e78-aff1-e3af-f092-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5e78-aff1-e3af-f092-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Mementors" id="8e40-5b9c-dca1-0b3e" hidden="false" type="profile" targetId="4efe-1106-1dd0-5bc6"/>
+            <infoLink name="Marauders" id="cadb-d7a9-b353-1993" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="3562-18ba-f8b5-ea78" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="5e78-aff1-e3af-f092-min"/>
+                <modifier type="set" value="4" field="5e78-aff1-e3af-f092-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="66f6-3979-0e13-232e" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
