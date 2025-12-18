@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="General" id="e196-2339-4bc0-2d4f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>As long as General is on the battlefield, his army may use the army special rule and add General’s LD during Initiative Tests.</description>
