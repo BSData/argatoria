@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="9521-bb0a-af4b-497a" name="Default Force Organization" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="9521-bb0a-af4b-497a" name="Default Force Organization" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry name="Open" id="455a-a4de-f7ca-3561" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e">
       <categoryLinks>
@@ -14,6 +14,12 @@
         <categoryLink name="Rare Unit" hidden="false" id="53aa-6a20-c282-189c" targetId="4813-f768-c66b-e833"/>
         <categoryLink name="Unique Unit" hidden="false" id="39e5-dda1-7ccf-f34a" targetId="9972-b434-5f13-e94b"/>
         <categoryLink name="Mercenary Unit" hidden="false" id="9b66-aee7-d478-c5bf" targetId="4eea-ffdb-6cfc-9aa0"/>
+        <categoryLink name="Options" hidden="false" id="c1a1-a733-ce36-69d6" targetId="cbbe-9aca-6aa9-f029">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="9684-aa97-72b5-4180-min" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9684-aa97-72b5-4180-max" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

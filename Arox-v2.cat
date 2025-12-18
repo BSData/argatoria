@@ -100,7 +100,7 @@
     <selectionEntry type="model" import="true" name="Champion of Gods" hidden="false" id="3c00-bf33-6125-bd05" publicationId="30f0-6ecb-d1bf-eb3e" page="85">
       <costs>
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
-        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="11"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
       <categoryLinks>
         <categoryLink name="Champion" hidden="false" id="08e1-d9cb-63c2-0536" targetId="4f06-0f92-65f2-1c81" primary="true"/>
