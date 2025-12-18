@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="f59a-6830-9b04-b553" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Spells" id="e80f-b52b-29b0-7920" targetId="9324-73b3-9935-4102"/>
@@ -203,6 +203,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Voutars" hidden="true" id="658b-dd66-25ee-6506" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a53e-8425-03a2-d32e-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="a53e-8425-03a2-d32e-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Voutars" id="524a-418a-db10-ff74" hidden="false" type="profile" targetId="5d46-bd07-e2cf-9f94"/>
+            <infoLink name="Marauders" id="f949-3acb-bd39-2dbc" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="3b7c-3449-2b30-1286" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="a53e-8425-03a2-d32e-min"/>
+                <modifier type="set" value="4" field="a53e-8425-03a2-d32e-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="2998-fab2-4ae9-3e9c" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="White Witches" hidden="false" id="5faa-6bd8-c95c-de60" publicationId="30f0-6ecb-d1bf-eb3e" page="89">
@@ -233,6 +262,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: White Witches" hidden="true" id="49b5-7315-e28c-1d1a" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1492-6b26-7668-4400-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="1492-6b26-7668-4400-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="White Witches" id="2c86-4d52-5c77-f9a8" hidden="false" type="profile" targetId="c08f-1eb8-f19d-b8fd"/>
+            <infoLink name="Marauders" id="275a-919f-b745-cd33" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="73b3-1244-6480-9464" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="1492-6b26-7668-4400-min"/>
+                <modifier type="set" value="4" field="1492-6b26-7668-4400-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="1428-3f56-6813-ef2d" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -318,6 +376,7 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="The Reapers" field="name"/>
+        <modifier type="set" value="Marauders: The Reapers" field="name" affects="self.entries.27ca-a135-f9fd-2fd3"/>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Giant" hidden="false" id="066f-a101-fd84-08ec" type="selectionEntry" targetId="db0e-5aab-4ae9-266d">
@@ -339,6 +398,7 @@
       <modifiers>
         <modifier type="set" value="Bristles" field="name"/>
         <modifier type="remove" value="e020-218e-a38a-c7c5" field="category"/>
+        <modifier type="set" value="Marauders: Bristles" field="name" affects="self.entries.ff71-520c-0555-d24a"/>
       </modifiers>
     </entryLink>
   </entryLinks>

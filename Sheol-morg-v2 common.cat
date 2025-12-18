@@ -172,6 +172,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Dark Fauns" hidden="true" id="90b4-34e5-0e55-52bc" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3f57-0b85-c503-d0dc-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="3f57-0b85-c503-d0dc-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Dark Fauns" id="772a-bff7-9255-da91" hidden="false" type="profile" targetId="4698-cbe1-c724-db44"/>
+            <infoLink name="Marauders" id="9e76-2927-75c8-ccec" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="0e73-04e9-ddc2-2751" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="3f57-0b85-c503-d0dc-min"/>
+                <modifier type="set" value="4" field="3f57-0b85-c503-d0dc-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="946e-df2e-da0f-b0b0" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Fierce" id="32e7-4a5a-f18b-4002" hidden="false" type="rule" targetId="02ab-0489-2565-7e89"/>
@@ -202,6 +231,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Horned Warriors" hidden="true" id="1a8c-21a7-ffa2-9d65" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5d2c-6a02-fd37-8457-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5d2c-6a02-fd37-8457-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Horned Warriors" id="7470-a716-043a-f117" hidden="false" type="profile" targetId="865c-e714-db29-8983"/>
+            <infoLink name="Marauders" id="e181-8d7f-2586-f471" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="1157-0254-3aa5-5041" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="5d2c-6a02-fd37-8457-min"/>
+                <modifier type="set" value="4" field="5d2c-6a02-fd37-8457-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="0b8c-a7a6-bdbe-0532" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -242,13 +300,35 @@
               </characteristics>
             </profile>
           </profiles>
-          <modifiers>
-            <modifier type="set" value="20" field="6ebf-2df1-75b8-b65f">
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Truhlaks" hidden="true" id="3bbe-665f-3bd1-848d" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c4bf-d9fe-321a-b317-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c4bf-d9fe-321a-b317-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Skeletons" id="dc0e-32f0-b77c-936e" hidden="false" type="profile" targetId="3991-d6c4-9fd2-8776"/>
+            <infoLink name="Marauders" id="3f06-0202-16ad-b93c" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="06c5-341b-bfb0-2af6" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="c4bf-d9fe-321a-b317-min"/>
+                <modifier type="set" value="4" field="c4bf-d9fe-321a-b317-max"/>
+              </modifiers>
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="34fc-0aaa-8ed7-84c3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d5ff-5fd2-894c-f853" shared="true"/>
               </conditions>
-            </modifier>
-          </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -283,6 +363,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Ritual Guardians" hidden="true" id="d282-c300-b043-1296" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4b4b-06ef-6eb7-c643-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4b4b-06ef-6eb7-c643-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Kozars" id="889c-f717-0ddc-b7c1" hidden="false" type="profile" targetId="8c70-dc68-abfb-2052"/>
+            <infoLink name="Marauders" id="7864-b7dc-4400-a3b6" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="b014-3440-345b-9e3b" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="4b4b-06ef-6eb7-c643-min"/>
+                <modifier type="set" value="4" field="4b4b-06ef-6eb7-c643-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="b428-74d6-5894-e6e9" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -326,6 +435,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Truhlaks on Fallen Ogars" hidden="true" id="70be-9df3-637a-c841" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="cf24-c2f8-d824-6e16-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="cf24-c2f8-d824-6e16-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Truhlaks on Fallen Ogars" id="747e-b10b-1ddf-655a" hidden="false" type="profile" targetId="975f-4c5f-6dcc-e44a"/>
+            <infoLink name="Marauders" id="74d8-0ab2-a7f2-53e0" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="0dea-5797-f3a5-3a1a" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="cf24-c2f8-d824-6e16-min"/>
+                <modifier type="set" value="4" field="cf24-c2f8-d824-6e16-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="f5ac-6dab-cc26-7caa" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -389,6 +527,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Black Knights on Horgars" hidden="true" id="1e5a-a1e7-ccf3-0b76" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="38d9-6947-aadd-6e78-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="38d9-6947-aadd-6e78-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Black Knights on Horgars" id="3107-1a92-4780-e952" hidden="false" type="profile" targetId="ca5c-74a6-700d-e2a5"/>
+            <infoLink name="Marauders" id="62e3-db97-8511-4958" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="0708-5f0c-7a9b-da90" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="38d9-6947-aadd-6e78-min"/>
+                <modifier type="set" value="4" field="38d9-6947-aadd-6e78-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="73a8-479f-f697-d053" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Heavy Armour (Save)" id="9488-759c-b871-a47d" hidden="false" type="rule" targetId="3ebd-e420-98f9-9aeb"/>
@@ -425,6 +592,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Hybrids" hidden="true" id="09b5-5f58-5a7a-c4a0" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="134e-94bf-181a-fc0e-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="134e-94bf-181a-fc0e-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hybrids" id="c8d2-2737-0990-560f" hidden="false" type="profile" targetId="6f0b-3bfd-c3f6-a104"/>
+            <infoLink name="Marauders" id="f1b3-1da8-2c3d-4760" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="84f0-69c6-b1fe-a846" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="134e-94bf-181a-fc0e-min"/>
+                <modifier type="set" value="4" field="134e-94bf-181a-fc0e-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="9a3f-75d8-c3d2-f5d4" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -480,6 +676,35 @@
           <infoLinks>
             <infoLink name="Barbarians" id="a28a-3ed6-1448-5bd9" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60" publicationId="30f0-6ecb-d1bf-eb3e" page="77"/>
           </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Ahsids" hidden="true" id="2fcc-862c-1567-9abb" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="78cd-9f67-d78a-cb72-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="78cd-9f67-d78a-cb72-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Barbarians" id="8d68-c653-ce9f-5a13" hidden="false" type="profile" targetId="bec9-1a93-ba58-5d60"/>
+            <infoLink name="Marauders" id="5f49-679a-fed4-a7b3" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="8167-531a-22f0-d21f" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="78cd-9f67-d78a-cb72-min"/>
+                <modifier type="set" value="4" field="78cd-9f67-d78a-cb72-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="fbbf-8c48-3cdb-dc2e" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <rules>

@@ -201,6 +201,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Martyrs of Voro-dan" hidden="true" id="9024-6546-3d5b-486d" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2426-ed88-c243-3871-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2426-ed88-c243-3871-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Martyrs of Voro-dan" id="4d90-4809-0725-3ce2" hidden="false" type="profile" targetId="16eb-fbc0-5cbe-379a"/>
+            <infoLink name="Marauders" id="42f2-b297-59c9-4131" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="07a5-7e17-a41f-6242" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="2426-ed88-c243-3871-min"/>
+                <modifier type="set" value="4" field="2426-ed88-c243-3871-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="79b5-5d49-5464-979d" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Vigilant" id="11b7-fdd2-6cb7-ffb1" hidden="false" type="rule" targetId="51dd-354d-d29c-34bf"/>
@@ -251,6 +280,35 @@
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Crushers on Scalyvars" hidden="true" id="b184-9d98-0d30-aa5e" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aef5-810e-469e-952f-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="aef5-810e-469e-952f-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Crushers on Scalyvars" id="c9b1-d9f1-0c46-0173" hidden="false" type="profile" targetId="c60f-010e-c94d-b586"/>
+            <infoLink name="Marauders" id="de7c-4fdf-c9a4-1c9f" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="539b-c3c3-b434-0a4e" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="aef5-810e-469e-952f-min"/>
+                <modifier type="set" value="4" field="aef5-810e-469e-952f-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="9a3b-ff0d-c684-f169" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>

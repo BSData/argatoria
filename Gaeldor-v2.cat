@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9874-f2e6-7b34-f70a" name="Gaeldor" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9874-f2e6-7b34-f70a" name="Gaeldor" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="3414-27e1-c3e9-da68" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="4127-2843-2dfe-bf56" targetId="9fd1-abc6-119d-b5a5"/>
@@ -238,6 +238,35 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Wild Creatures" hidden="true" id="74ec-dd4d-9168-e18e" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e1fd-cf7b-b00a-02f2-min" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e1fd-cf7b-b00a-02f2-max" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Wild Creatures" id="9226-a81c-96fe-ed5a" hidden="false" type="profile" targetId="9f1f-b604-9057-3d78"/>
+            <infoLink name="Marauders" id="a5d7-5dfc-4638-9b42" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="3b3b-b660-1d64-1ea4" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="e1fd-cf7b-b00a-02f2-min"/>
+                <modifier type="set" value="4" field="e1fd-cf7b-b00a-02f2-max"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="e450-92c7-a025-4446" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Under the spell" id="a139-79c7-e0f7-d377" hidden="false" type="rule" targetId="d3b7-ec8e-3a58-6135"/>
@@ -394,6 +423,7 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="Iron Oaks" field="name"/>
+        <modifier type="set" value="Marauders: Iron Oaks" field="name" affects="self.entries.27ca-a135-f9fd-2fd3"/>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Slagors" hidden="false" id="3959-35cb-1e6d-4d27" type="selectionEntry" targetId="4752-506a-07a2-4520" publicationId="30f0-6ecb-d1bf-eb3e" page="92">
@@ -402,6 +432,7 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="Forest Serpents" field="name"/>
+        <modifier type="set" value="Marauders: Forest Serpents" field="name" affects="self.entries.0b27-af87-9978-7274"/>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Skaals" hidden="false" id="ce05-2575-0fcd-8c7f" type="selectionEntry" targetId="ae7d-c1e4-eacf-d277">
