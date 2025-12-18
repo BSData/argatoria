@@ -224,21 +224,21 @@
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9fc5-bdae-519e-4cbb" includeChildSelections="false"/>
             <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="7b61-e9cb-09e8-c186" includeChildSelections="false"/>
           </constraints>
+          <profiles>
+            <profile name="Wild Creatures" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="9f1f-b604-9057-3d78">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
-      <profiles>
-        <profile name="Wild Creatures" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="9f1f-b604-9057-3d78">
-          <characteristics>
-            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">5</characteristic>
-            <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
-            <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
-            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">4</characteristic>
-            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
-            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
-            <characteristic name="W" typeId="c862-16aa-6d51-e80c">3</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink name="Under the spell" id="a139-79c7-e0f7-d377" hidden="false" type="rule" targetId="d3b7-ec8e-3a58-6135"/>
         <infoLink name="Frenzy" id="150a-cb60-cec3-4d3c" hidden="false" type="rule" targetId="7fdc-a240-9260-7197"/>
