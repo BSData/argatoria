@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="General" id="e196-2339-4bc0-2d4f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>As long as General is on the battlefield, his army may use the army special rule and add General’s LD during Initiative Tests.</description>
@@ -201,6 +201,9 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     </categoryEntry>
     <categoryEntry name="Appendix" id="3337-e6b7-f06f-9aec" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="133"/>
     <categoryEntry name="Marauders" id="b66e-897e-2874-0011" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82"/>
+    <categoryEntry name="Options" id="cbbe-9aca-6aa9-f029" hidden="false">
+      <description>Helper category for list building options</description>
+    </categoryEntry>
   </categoryEntries>
   <publications>
     <publication name="Argatoria 2nd Edition Rulebook (PDF)" id="30f0-6ecb-d1bf-eb3e" hidden="false" shortName="rulebook" publisherUrl="https://www.spellcrow.com/argatoria-2nd-edition-rulebook-pdf-english-p-1242.html" publisher="Argatoria 2nd Edition Rulebook (PDF) – English" publicationDate="2025-09-27"/>
@@ -208,7 +211,7 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
   </publications>
   <costTypes>
     <costType name="Points" id="78f2-651d-2f2e-98bf" defaultCostLimit="750"/>
-    <costType name="Bases" id="4f83-a514-6b6a-5475" defaultCostLimit="-1"/>
+    <costType name="Bases" id="4f83-a514-6b6a-5475" defaultCostLimit="-1" hidden="true"/>
   </costTypes>
   <profileTypes>
     <profileType name="General" id="a4ee-546b-71a6-4250" hidden="false" kind="model">
@@ -475,4 +478,81 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
       <description>Each unit you have deployed on the battlefield, consisting of the maximum number of bases (16 bases), allows you to place a free additional unit called Marauders. This unit always has 4 bases, is the same type as the 16 bases that allowed it to be deployed, and is deployed without adding to the army cost. Such a unit does not count to the limit of units that can be deployed in the army, and is not treated as a unit in the required minimum. The Marauders unit cannot be expanded or combined with other Marauders. The enemy gains Blood Points as normal for defeating Marauders.</description>
     </rule>
   </sharedRules>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="50b7-ac13-d2cd-da08" defaultAmount="1">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="27cf-af52-5eba-d235-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="27cf-af52-5eba-d235-max" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Use competitive play rules" hidden="false" id="d93e-ad8b-24f4-06e6" publicationId="30f0-6ecb-d1bf-eb3e" page="132">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6b9-2a41-1bc0-008f" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b180-1ffe-8e7a-aee9" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="Too few bases - expected 40" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="40" field="4f83-a514-6b6a-5475" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="750" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1000" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d93e-ad8b-24f4-06e6" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Too few bases - expected 50" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="50" field="4f83-a514-6b6a-5475" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1000" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1250" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d93e-ad8b-24f4-06e6" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Too few bases - expected 60" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="60" field="4f83-a514-6b6a-5475" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1250" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d93e-ad8b-24f4-06e6" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" value="Too few bases - expected 70" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="70" field="4f83-a514-6b6a-5475" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="d93e-ad8b-24f4-06e6" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Competitive play" id="791a-77ec-75a7-e3b9" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="132">
+              <description>Each player’s army must contain:
+– at least 40 bases for 750 army points
+– at least 50 bases for 1000 army points
+– at least 60 bases for 1250 army points
+– at least 70 bases for 1500 army points</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Options" hidden="false" id="74e4-4089-081d-a501" targetId="cbbe-9aca-6aa9-f029" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </gameSystem>
