@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="General" id="e196-2339-4bc0-2d4f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>As long as General is on the battlefield, his army may use the army special rule and add General’s LD during Initiative Tests.</description>
@@ -239,6 +239,11 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     <profileType name="Ability" id="c120-4b08-0021-a1b1" hidden="false" kind="ability">
       <characteristicTypes>
         <characteristicType name="Description" id="0061-13d8-7fda-179e" kind="longText"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Prayer" id="e8f1-0214-ce58-bfc4" hidden="false" kind="spell">
+      <characteristicTypes>
+        <characteristicType name="Description" id="469a-b464-dd49-ad04" kind="longText"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -553,6 +558,62 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
       <categoryLinks>
         <categoryLink name="Options" hidden="false" id="74e4-4089-081d-a501" targetId="cbbe-9aca-6aa9-f029" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Prayers" hidden="false" id="ca9d-9ce5-552a-8956" type="selectionEntry" targetId="a750-0ab0-7a5c-fd16" defaultAmount="1" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="a8a8-d706-65d5-49e0-min" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8a8-d706-65d5-49e0-max" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Prayers" hidden="false" id="a750-0ab0-7a5c-fd16" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+      <profiles>
+        <profile name="Agility" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="ea22-1f7a-c326-92cc" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">The unit that will move or charge has the right to double the score on one of the dice.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Nature’s Wrath" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="9d94-230d-cea9-4ef4" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">If the unit makes a successful charge against an enemy unit (but not single model), roll a D6. Compare the results:
+1-2 The charged enemy unit must immediately take a Panic Test for its 3 bases.
+3-4 The charged enemy unit must immediately take a Panic Test for its 2 bases.
+5-6 The charged enemy unit must immediately take a Panic Test for its 1 base.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enemy’s Misfortune" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="b219-fd61-dd30-1819" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">The unit can select an enemy unit within 20 cm. During the enemy’s Weapon Skill Test, the enemy must re-roll all successful scores.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fortune" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="8572-5c31-0fa2-63dd" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">The unit may re-roll the failed scores in the Weapon Skill Test.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Strength" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="d5a3-38a0-9585-c616" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">The unit may re-roll the failed scores in the Wound Test during a combat in which it was already engaged.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Courage" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="422c-cf9b-faed-4e34" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">All Panic Tests taken by this unit are treated as successful.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fury" typeId="e8f1-0214-ce58-bfc4" typeName="Prayer" hidden="false" id="afd4-ba0d-0ee2-5d31" publicationId="30f0-6ecb-d1bf-eb3e" page="63">
+          <characteristics>
+            <characteristic name="Description" typeId="469a-b464-dd49-ad04">If the unit makes a successful charge, it gets a bonus of +3 attacks to the pool.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </gameSystem>
