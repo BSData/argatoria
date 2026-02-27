@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1a1c-6515-e810-1107" name="Sorgax" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="150d-8bcd-f804-cb0a" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="668c-7041-d41f-52d6" targetId="9fd1-abc6-119d-b5a5"/>
@@ -367,6 +367,78 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vorgulians" hidden="false" id="d720-3b3e-56b0-b960" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="91ea-e81e-4b68-d5fd" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Sorgax" hidden="false" id="d01f-9840-0169-c0b8" targetId="689d-c183-c62d-b3b6" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="0da2-4d10-27d1-d3ff" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Vorgulians" hidden="false" id="0434-588f-3c77-3c7f" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="2515-0f53-6541-a257" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="8720-979f-df82-136f" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Vorgulians" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="9fa1-76a1-8242-f6bd" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">30</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Vorgulians" hidden="true" id="b086-9af6-0c05-2152" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6e2a-7994-b4d9-fb53" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="68d3-da8b-112b-40b4" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Vorgulians" id="2a93-a3c3-3164-59fe" hidden="false" type="profile" targetId="9fa1-76a1-8242-f6bd"/>
+            <infoLink name="Marauders" id="4e90-0ef1-a266-7e5f" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="7e55-5eff-5ab1-ffe7" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="6e2a-7994-b4d9-fb53"/>
+                <modifier type="set" value="4" field="68d3-da8b-112b-40b4"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="0434-588f-3c77-3c7f" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Extremely Keen Hearing" id="5a5e-b5bf-4c1a-463a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+          <description>This unit can be issued orders from any place on the battlefield. Additionally, if charged from the flank or rear (and not engaged in combat), it may immediately turn to face the attacker.</description>
+        </rule>
+        <rule name="Self-reliant" id="9d69-cb83-9e14-0e82" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+          <description>No heroes can attach to this unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Agile Flight" id="a3ec-2878-9146-41ec" hidden="false" type="rule" targetId="ae73-be14-42e7-1290"/>
+      </infoLinks>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Tormentors" hidden="false" id="f94c-e9d2-e982-4a8f" type="selectionEntry" targetId="dde3-7654-7a6d-69f9">
@@ -384,7 +456,22 @@
         <categoryLink name="Sorgax" hidden="false" id="e673-a157-f2cd-66e7" targetId="689d-c183-c62d-b3b6" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Slagors" hidden="false" id="d794-4f8c-9c52-85fe" type="selectionEntry" targetId="4752-506a-07a2-4520"/>
+    <entryLink import="true" name="Slagors" hidden="false" id="d794-4f8c-9c52-85fe" type="selectionEntry" targetId="4752-506a-07a2-4520">
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="remove" value="4813-f768-c66b-e833" field="category"/>
+            <modifier type="set-primary" value="7089-e041-3a8b-00af" field="category"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d9a1-392b-4b08-5f04" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="Sorgax" hidden="false" id="eec9-8c7a-520e-7540" targetId="689d-c183-c62d-b3b6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Ropuchons" hidden="false" id="5869-9331-01b5-03bd" type="selectionEntry" targetId="a17c-7081-3cb0-4d4c">
       <categoryLinks>
         <categoryLink name="Sorgax" hidden="false" id="7820-ee99-7bb6-f8fe" targetId="689d-c183-c62d-b3b6" primary="false"/>

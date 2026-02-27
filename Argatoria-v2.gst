@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.1" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.2" battleScribeVersion="2.03" revision="6" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="General" id="e196-2339-4bc0-2d4f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>As long as General is on the battlefield, his army may use the army special rule and add General’s LD during Initiative Tests.</description>
@@ -204,6 +204,7 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     <categoryEntry name="Options" id="cbbe-9aca-6aa9-f029" hidden="false">
       <description>Helper category for list building options</description>
     </categoryEntry>
+    <categoryEntry name="Unique Unit Without Limits" id="10d2-30d7-d100-62ec" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="156"/>
   </categoryEntries>
   <publications>
     <publication name="Argatoria 2nd Edition Rulebook (PDF)" id="30f0-6ecb-d1bf-eb3e" hidden="false" shortName="rulebook" publisherUrl="https://www.spellcrow.com/argatoria-2nd-edition-rulebook-pdf-english-p-1242.html" publisher="Argatoria 2nd Edition Rulebook (PDF) – English" publicationDate="2025-09-27"/>
@@ -468,7 +469,7 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
       <description>The enemy unit cannot use charge bonuses and independent bonuses while charging this unit. If this unit consists of 8 bases or less, when both armies are deployed and the opponent finishes making any free moves he is allowed to make before the battle, you may deploy this unit anywhere on the battlefield, but not closer than 20 cm from the enemy. If this unit consists of more than 8 bases, it must be deployed in a standard way, but can make a free move before the battle.</description>
     </rule>
     <rule name="Acid Spit" id="476f-5349-efa5-3091" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
-      <description>When the enemy unit declares a charge against Larva of Nalharap, roll a D6 for the acid spit. A score of 2 or less means that the enemy unit is hit by the acid and loses 2 Wounds with no saves permitted. In addition, the charge is automatically failed and the enemy must follow the rules of a failed charge.</description>
+      <description>When the enemy unit declares a charge against Larva of Nalharap, roll a D6 for the acid spit. A score of 3 or less means that the enemy unit is hit by the acid and loses 2 Wounds with no saves permitted. In addition, the charge is automatically failed and the enemy must follow the rules of a failed charge.</description>
     </rule>
     <rule name="Slowness" id="9eaa-dc6f-2cdc-7ba3" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="99">
       <description>Due to its sluggishness and bulk, Larva can never roll more than one D6 when rolling for the charge range.</description>
@@ -481,6 +482,9 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     </rule>
     <rule name="Marauders" id="ca33-aaa2-3aaa-7c33" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>Each unit you have deployed on the battlefield, consisting of the maximum number of bases (16 bases), allows you to place a free additional unit called Marauders. This unit always has 4 bases, is the same type as the 16 bases that allowed it to be deployed, and is deployed without adding to the army cost. Such a unit does not count to the limit of units that can be deployed in the army, and is not treated as a unit in the required minimum. The Marauders unit cannot be expanded or combined with other Marauders. The enemy gains Blood Points as normal for defeating Marauders.</description>
+    </rule>
+    <rule name="Agile Flight" id="ae73-be14-42e7-1290" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
+      <description>This unit can move or charge over any obstacles, including terrain or other units. The unit may turn after completing its movement instead of before moving. The unit can get into base contact with an enemy hero only after completing its movement and any turning. It cannot roll a D6 for the hero’s death; an enemy hero dies only if it cannot attach to a friendly unit or use its special rules.</description>
     </rule>
   </sharedRules>
   <selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="001e-221b-d752-9e75" name="Half-Giants" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="001e-221b-d752-9e75" name="Half-Giants" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="9389-6c40-daad-d816" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Spells" id="7412-7043-55b9-e024" targetId="9324-73b3-9935-4102"/>
@@ -21,19 +21,53 @@
       <modifiers>
         <modifier type="set" value="-1" field="a861-1d6d-9d95-6152">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="de9f-fbf5-cf27-3781" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <rules>
         <rule name="Half-Giants Command Group" id="3149-8176-448c-54dd" hidden="false" page="147" publicationId="30f0-6ecb-d1bf-eb3e">
-          <description>As long as this Command Group is attached to a friendly Half-Giants unit or a Basic Unit in the army, any orders issued to the unit by the General can be re-rolled.</description>
+          <description>As long as this Command Group is attached to a friendly Half-Giants unit or a Basic Unit in the army, any orders issued to the unit by the General can be re-rolled. For more rules see Heroes – Command Group.
+
+
+One Half-Giants Command Group may buy a special magic banner (Banner of Avantur) that is not counted to the limit of magic banners in an army.</description>
         </rule>
       </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Banner of Avantur" hidden="false" id="f636-7d23-f3e0-ec50" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="1"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Banner of Avantur" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="a3e2-05a3-aaa1-1ced" publicationId="30f0-6ecb-d1bf-eb3e" page="151">
+              <characteristics>
+                <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army with this banner gains access to the Heroes of Avantur.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="b185-bbec-e97d-011f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="1" field="b185-bbec-e97d-011f">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="8e47-50e0-8500-9a3e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a9ce-3085-5e84-d8c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7759-6de2-d314-078c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of Arena" hidden="false" id="a74a-36fa-4fd0-7193" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="18"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
       <categoryLinks>
@@ -46,7 +80,7 @@
       <modifiers>
         <modifier type="set" value="1" field="f618-14a2-1b7b-a22d">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="f636-7d23-f3e0-ec50" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="f618-14a2-1b7b-a22d">
@@ -54,7 +88,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f636-7d23-f3e0-ec50" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -70,7 +104,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Champion of the Boundless" hidden="false" id="411d-4f0f-980e-8751" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="28"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="23"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
       <categoryLinks>
@@ -83,7 +117,7 @@
       <modifiers>
         <modifier type="set" value="1" field="490b-5e75-bd21-4574">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="f636-7d23-f3e0-ec50" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
         <modifier type="set" value="2" field="490b-5e75-bd21-4574">
@@ -91,7 +125,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f636-7d23-f3e0-ec50" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -120,7 +154,7 @@
       <modifiers>
         <modifier type="set" value="-1" field="c7b7-5448-9bca-3155">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d7cd-945c-8173-b79d" shared="true" includeChildSelections="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="f636-7d23-f3e0-ec50" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -176,8 +210,9 @@
       <profiles>
         <profile name="Toughening" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="e398-1c4d-6da3-310e" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
           <characteristics>
-            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target unit within 20 cm of the Mage. Roll a D6. A score of 4 or leass means that, in the subsequent cycle, the chosen unit’s Toughness (T) is doubled.</characteristic>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target unit (but not single model) within 20 cm of the Mage and perform a Magic Test. If successful, in the subsequent cycle, the chosen unit’s Toughness (T) is doubled.</characteristic>
             <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+            <characteristic name="Range" typeId="db42-af6c-cab0-cb61">20 cm</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -190,8 +225,9 @@
       <profiles>
         <profile name="Drowsiness" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="77a4-1594-6a07-4667" publicationId="30f0-6ecb-d1bf-eb3e" page="147">
           <characteristics>
-            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm of the Mage. Roll a D6. A score of 3 or less means that, in the subsequent cycle, the chosen unit’s Mobility (M) is halved, rounded down.</characteristic>
+            <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit within 30 cm of the Mage and perform a Magic Test. If successful, in the subsequent cycle, the chosen unit’s Mobility (M) is halved, rounded down.</characteristic>
             <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">3-</characteristic>
+            <characteristic name="Range" typeId="db42-af6c-cab0-cb61">30 cm</characteristic>
           </characteristics>
         </profile>
       </profiles>

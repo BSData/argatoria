@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b65a-83b3-a2a6-5c4a" name="Er’Sael" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b65a-83b3-a2a6-5c4a" name="Er’Sael" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="c1f5-07e2-e1dc-00a7" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="bac8-d23b-1ec5-4dc5" targetId="9fd1-abc6-119d-b5a5"/>
@@ -492,6 +492,47 @@
         <infoLink name="The God of Slaughter Blessing" id="21b0-d616-3c7e-b32b" hidden="false" type="rule" targetId="e185-243b-f7bf-ca73"/>
         <infoLink name="Hammer Strike" id="ab16-f399-b393-fd37" hidden="false" type="rule" targetId="ae68-4a4b-e028-ccc9"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Gidrak" hidden="false" id="9b91-dfc0-b3c2-9eea" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="42"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="2090-78b7-e411-c30d" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Appendix" hidden="false" id="0d3b-498a-431e-5f85" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Er’Sael" hidden="false" id="8e0c-c191-d0f7-51b2" targetId="59da-0cc8-65e1-9196" primary="false"/>
+        <categoryLink name="Mage" hidden="false" id="9d08-f75a-0d5b-7444" targetId="ced7-cf0d-3b3f-c563" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Magic items" hidden="false" id="ba70-db68-015c-e08a" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+        <entryLink import="true" name="Spells" hidden="false" id="90a9-6074-8fa9-e42b" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a402-94db-ded3-9415" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Ting Chi Skull Mask" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="e561-973b-8667-679a" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">If the Er’Sael army ties with an enemy during the Initiative Test, it gains a +1 bonus when re-rolling.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Priestly Sash" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="3716-fe09-faa5-e7eb" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">Instead of moving normally, Gidrak may perform a special teleportation to join any friendly Priests of Sael unit on the battlefield. If the Priests of Sael unit with Gidrak attached becomes the target of an enemy spell or magic item, roll a D6. On a result of 4 or less, the spell or item is dispersed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Storm Staff &amp; Ritual Scythe" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="24e8-261e-f974-4838" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When Gidrak is attached to a friendly unit, he grants it +4 attacks instead of +1. Additionally, no saves are permitted against the attacks of the unit with Gidrak attached.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spell Thief" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="695a-5a1a-9ea3-4eb2" publicationId="30f0-6ecb-d1bf-eb3e" page="149">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">While within 30 cm of an enemy mage, Gidrak may cast that mage’s spells.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="e6d3-3757-73e4-6ec4" name="Banners" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="e6d3-3757-73e4-6ec4" name="Banners" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType name="Magic Banner" id="528b-7cf3-4106-313f" hidden="false" kind="weapon">
       <characteristicTypes>
@@ -198,35 +198,6 @@
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Banner of Avantur" hidden="false" id="d7cd-945c-8173-b79d" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
-      <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
-        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
-      </costs>
-      <constraints>
-        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="3af3-00c0-1bce-6d6b" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
-      <profiles>
-        <profile name="Banner of Avantur" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="3bd3-23d4-144c-f0a2" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
-          <characteristics>
-            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Buying this banner, the army gets access to Half-Giant heroes described elsewhere in this book.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <modifiers>
-        <modifier type="set" value="1" field="3af3-00c0-1bce-6d6b">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a9ce-3085-5e84-d8c0" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7759-6de2-d314-078c" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="8e47-50e0-8500-9a3e" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of the Heralds of Torment" hidden="false" id="9715-9083-9b34-2bb2" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
       <costs>
         <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
@@ -252,7 +223,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of the Wolf Brotherhood" hidden="false" id="2a7f-ca0b-8ef1-b2b5" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="20"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -298,7 +269,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of the Great Menagerie" hidden="false" id="dad0-0ed7-b2ec-d3e8" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="6"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -373,7 +344,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of Goddess Ehidne" hidden="false" id="bd56-8114-c730-8363" publicationId="30f0-6ecb-d1bf-eb3e" page="76">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="11"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -396,7 +367,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of God Nathel" hidden="false" id="8d0d-5b53-b71e-440d" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="30"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -422,14 +393,14 @@
 
 
 The Deceived.
-You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.</characteristic>
+You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) from any army other than Sheol-morg, taking into account the standard limits and requirements for Basic and Elite Units in an army. The Marauders rule applies as normal. These are beings who succumbed to the deceptive whispers of Nathel and joined his great procession.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of God Seth" hidden="false" id="a044-2b2c-b08a-1e2f" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="25"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -457,7 +428,7 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of God Duur" hidden="false" id="b963-4ac5-58c1-3698" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -479,14 +450,14 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
       <profiles>
         <profile name="Banner of God Duur" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="c8fc-126f-d786-3981" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
           <characteristics>
-            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Target enemy unit is dealt 1 Wound for each 6 (obtained as a final result, after all re-rolls) it obtains in the Wound Test against the unit with this Command Group attached. In addition, if the enemy unit has any save, it must re-roll successful saving throws.</characteristic>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">When the enemy unit is making a Wound Test against the unit with this Command Group attached, it may be dealt Wounds itself. For each 6 the enemy unit obtains in such Wound Test (after any re-rolls), it is dealt 1 Wound. In addition, if the enemy unit has any save, it must re-roll successful saving throws when fighting against the unit with this Command Group attached.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Banner of Death" hidden="false" id="6bcc-4a1e-0e84-2db7" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="9"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
       </costs>
       <constraints>
@@ -502,7 +473,147 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
       <profiles>
         <profile name="Banner of Death" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="1f0f-d26a-8b84-6537" publicationId="30f0-6ecb-d1bf-eb3e" page="77">
           <characteristics>
-            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The range of abilities of the Command Group with this banner is 10 cm. In addition, all enemy units within 10 cm of this Command Group must re-roll successful Panic Tests.</characteristic>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The range of abilities of the Command Group with this banner is 10 cm. In addition, all enemy units within 20 cm of this Command Group must re-roll successful Panic Tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Resolve" hidden="false" id="41f5-e9c3-5ca6-e0d4" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="7"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e10b-ec53-279d-083e" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Banner of Resolve" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="c873-c875-441e-92a1" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">If you may activate only one unit in your turn, you may activate one additional (this means you can activate two units instead of one).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Ancient Forest" hidden="false" id="c19f-7ba0-ad85-3cea" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="6a1c-02a5-f91e-e425" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="6a1c-02a5-f91e-e425">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="8e47-50e0-8500-9a3e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Ancient Forest" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="9ec9-5de0-23cc-c604" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">In the army with this banner, Trefloqs must choose their species – Elm or Oak.
+In addition, the army is allowed to field 1 unit of Old Ones (Oduns) – 19 pts/base.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Conquest" hidden="false" id="62db-27e0-30c0-ed97" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="12"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="60b3-c5c8-ab48-3e64" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="60b3-c5c8-ab48-3e64">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="59da-0cc8-65e1-9196" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of Conquest" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="29e4-aa48-f073-48b3" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">A friendly unit that is activated as first in the cycle always receives a bonus of +5 cm to move or charge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Ugruk-hor" hidden="false" id="0c17-c748-1ec7-9fed" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="10"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="c477-e037-4ee3-4153" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="c477-e037-4ee3-4153">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="59da-0cc8-65e1-9196" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of Ugruk-hor" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="8de2-ff2f-cb65-4f7b" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Units in the army can add a rank of Marauders to the Horde that allowed to deploy them (such a Horde consists of 20 bases). Hordes consisting of exactly 20 bases may have orders issued to them by the General re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of the Serpent" hidden="false" id="d9a1-392b-4b08-5f04" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="0344-1382-1f34-391d" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="0344-1382-1f34-391d">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="689d-c183-c62d-b3b6" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of the Serpent" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="6118-5bb5-9cad-aae2">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">The army carrying this banner fields Slagors as Basic Units instead of Rare Units. Additionally, empowered by the banner’s magic, Slagors enter a battle trance that allows them to re-roll their WS Test when charging.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banner of Advance" hidden="false" id="6b3f-9fc4-3a3e-ab07" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="8"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="5fad-fa2f-6f3f-f713" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="5fad-fa2f-6f3f-f713">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e36e-5a5d-a1e6-02ba" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Banner of Advance" typeId="528b-7cf3-4106-313f" typeName="Magic Banner" hidden="false" id="6f61-ea77-d417-ce32" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+          <characteristics>
+            <characteristic name="Description" typeId="469d-bf8e-c6f6-3d7e">Ability range of this banner is 20 cm. All friendly units within this range do not lose charge bonuses when charging at an enemy Horde. In addition, each friendly unit within this range gains a bonus of +D6 cm when regrouping.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -511,29 +622,34 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magic Banners" id="a82d-5866-f907-b48a" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="74">
       <entryLinks>
-        <entryLink import="true" name="Banner of Glory" hidden="false" id="562b-2ff8-e864-6800" type="selectionEntry" targetId="b270-d42c-3720-ad3f"/>
-        <entryLink import="true" name="Battle Banner" hidden="false" id="9ed2-d8db-37da-b210" type="selectionEntry" targetId="3aa8-23d4-62b5-3807"/>
-        <entryLink import="true" name="Blessed Banner" hidden="false" id="a1a5-cbaa-4d01-a81e" type="selectionEntry" targetId="7afc-f537-6252-f2a2"/>
-        <entryLink import="true" name="Banner of Courage" hidden="false" id="b5d2-3fc7-88a0-b277" type="selectionEntry" targetId="7499-cceb-1f5f-665f"/>
-        <entryLink import="true" name="Banner of Persistence" hidden="false" id="cab0-d9da-df37-6e28" type="selectionEntry" targetId="b8fa-760e-073c-f1d7"/>
-        <entryLink import="true" name="Banner of Prudence" hidden="false" id="136c-fe3e-d844-062f" type="selectionEntry" targetId="e592-31fb-80e5-d686"/>
-        <entryLink import="true" name="Banner of Destruction" hidden="false" id="1f50-2a9c-a4cf-15a4" type="selectionEntry" targetId="978c-8402-1233-355f"/>
-        <entryLink import="true" name="Banner of Command" hidden="false" id="2915-61f6-5b76-1d46" type="selectionEntry" targetId="27d3-73e4-9d39-b6ac"/>
-        <entryLink import="true" name="Banner of Power" hidden="false" id="77dd-259c-c0ec-e10b" type="selectionEntry" targetId="fe35-781f-685f-cc97"/>
-        <entryLink import="true" name="Banner of the Bathed in Blood" hidden="false" id="30b9-4fb9-f293-3184" type="selectionEntry" targetId="fcc3-ca02-d201-76fd"/>
-        <entryLink import="true" name="Banner of the Lords of Beasts" hidden="false" id="7963-737a-d490-b9b9" type="selectionEntry" targetId="52ea-a8af-bfa2-2b89"/>
-        <entryLink import="true" name="Banner of Avantur" hidden="false" id="aad5-3c9e-0e94-9af6" type="selectionEntry" targetId="d7cd-945c-8173-b79d"/>
-        <entryLink import="true" name="Banner of the Heralds of Torment" hidden="false" id="2b4f-7eb5-764f-9276" type="selectionEntry" targetId="9715-9083-9b34-2bb2"/>
-        <entryLink import="true" name="Banner of the Wolf Brotherhood" hidden="false" id="a566-778f-587d-98d8" type="selectionEntry" targetId="2a7f-ca0b-8ef1-b2b5"/>
-        <entryLink import="true" name="Banner of the Gods’ Slayers" hidden="false" id="aba6-55c3-707d-1894" type="selectionEntry" targetId="f241-2cb9-5ce1-8f48"/>
-        <entryLink import="true" name="Banner of the Great Menagerie" hidden="false" id="0a46-d5f5-44e1-1c40" type="selectionEntry" targetId="dad0-0ed7-b2ec-d3e8"/>
-        <entryLink import="true" name="Banner of the Unbending" hidden="false" id="468a-c72e-8bda-5a70" type="selectionEntry" targetId="ad5c-3e90-6c86-ac22"/>
-        <entryLink import="true" name="Baner of the Hotbloods" hidden="false" id="89f3-ce84-1a24-27e6" type="selectionEntry" targetId="e0b5-03ef-b8cf-6a61"/>
-        <entryLink import="true" name="Banner of Goddess Ehidne" hidden="false" id="50bf-fb92-95ed-e075" type="selectionEntry" targetId="bd56-8114-c730-8363"/>
-        <entryLink import="true" name="Banner of God Nathel" hidden="false" id="b69c-3e6a-2e4b-6711" type="selectionEntry" targetId="8d0d-5b53-b71e-440d"/>
-        <entryLink import="true" name="Banner of God Seth" hidden="false" id="9786-2cb2-1f43-faeb" type="selectionEntry" targetId="a044-2b2c-b08a-1e2f"/>
-        <entryLink import="true" name="Banner of God Duur" hidden="false" id="d780-3e6b-284e-8be4" type="selectionEntry" targetId="b963-4ac5-58c1-3698"/>
-        <entryLink import="true" name="Banner of Death" hidden="false" id="3354-37ca-6ff8-ee40" type="selectionEntry" targetId="6bcc-4a1e-0e84-2db7"/>
+        <entryLink import="true" name="Banner of Glory" hidden="false" id="562b-2ff8-e864-6800" type="selectionEntry" targetId="b270-d42c-3720-ad3f" sortIndex="8"/>
+        <entryLink import="true" name="Battle Banner" hidden="false" id="9ed2-d8db-37da-b210" type="selectionEntry" targetId="3aa8-23d4-62b5-3807" sortIndex="27"/>
+        <entryLink import="true" name="Blessed Banner" hidden="false" id="a1a5-cbaa-4d01-a81e" type="selectionEntry" targetId="7afc-f537-6252-f2a2" sortIndex="28"/>
+        <entryLink import="true" name="Banner of Courage" hidden="false" id="b5d2-3fc7-88a0-b277" type="selectionEntry" targetId="7499-cceb-1f5f-665f" sortIndex="5"/>
+        <entryLink import="true" name="Banner of Persistence" hidden="false" id="cab0-d9da-df37-6e28" type="selectionEntry" targetId="b8fa-760e-073c-f1d7" sortIndex="13"/>
+        <entryLink import="true" name="Banner of Prudence" hidden="false" id="136c-fe3e-d844-062f" type="selectionEntry" targetId="e592-31fb-80e5-d686" sortIndex="15"/>
+        <entryLink import="true" name="Banner of Destruction" hidden="false" id="1f50-2a9c-a4cf-15a4" type="selectionEntry" targetId="978c-8402-1233-355f" sortIndex="7"/>
+        <entryLink import="true" name="Banner of Command" hidden="false" id="2915-61f6-5b76-1d46" type="selectionEntry" targetId="27d3-73e4-9d39-b6ac" sortIndex="3"/>
+        <entryLink import="true" name="Banner of Power" hidden="false" id="77dd-259c-c0ec-e10b" type="selectionEntry" targetId="fe35-781f-685f-cc97" sortIndex="14"/>
+        <entryLink import="true" name="Banner of the Bathed in Blood" hidden="false" id="30b9-4fb9-f293-3184" type="selectionEntry" targetId="fcc3-ca02-d201-76fd" sortIndex="18"/>
+        <entryLink import="true" name="Banner of the Lords of Beasts" hidden="false" id="7963-737a-d490-b9b9" type="selectionEntry" targetId="52ea-a8af-bfa2-2b89" sortIndex="22"/>
+        <entryLink import="true" name="Banner of the Heralds of Torment" hidden="false" id="2b4f-7eb5-764f-9276" type="selectionEntry" targetId="9715-9083-9b34-2bb2" sortIndex="21"/>
+        <entryLink import="true" name="Banner of the Wolf Brotherhood" hidden="false" id="a566-778f-587d-98d8" type="selectionEntry" targetId="2a7f-ca0b-8ef1-b2b5" sortIndex="25"/>
+        <entryLink import="true" name="Banner of the Gods’ Slayers" hidden="false" id="aba6-55c3-707d-1894" type="selectionEntry" targetId="f241-2cb9-5ce1-8f48" sortIndex="19"/>
+        <entryLink import="true" name="Banner of the Great Menagerie" hidden="false" id="0a46-d5f5-44e1-1c40" type="selectionEntry" targetId="dad0-0ed7-b2ec-d3e8" sortIndex="20"/>
+        <entryLink import="true" name="Banner of the Unbending" hidden="false" id="468a-c72e-8bda-5a70" type="selectionEntry" targetId="ad5c-3e90-6c86-ac22" sortIndex="24"/>
+        <entryLink import="true" name="Baner of the Hotbloods" hidden="false" id="89f3-ce84-1a24-27e6" type="selectionEntry" targetId="e0b5-03ef-b8cf-6a61" sortIndex="1"/>
+        <entryLink import="true" name="Banner of Goddess Ehidne" hidden="false" id="50bf-fb92-95ed-e075" type="selectionEntry" targetId="bd56-8114-c730-8363" sortIndex="12"/>
+        <entryLink import="true" name="Banner of God Nathel" hidden="false" id="b69c-3e6a-2e4b-6711" type="selectionEntry" targetId="8d0d-5b53-b71e-440d" sortIndex="10"/>
+        <entryLink import="true" name="Banner of God Seth" hidden="false" id="9786-2cb2-1f43-faeb" type="selectionEntry" targetId="a044-2b2c-b08a-1e2f" sortIndex="11"/>
+        <entryLink import="true" name="Banner of God Duur" hidden="false" id="d780-3e6b-284e-8be4" type="selectionEntry" targetId="b963-4ac5-58c1-3698" sortIndex="9"/>
+        <entryLink import="true" name="Banner of Death" hidden="false" id="3354-37ca-6ff8-ee40" type="selectionEntry" targetId="6bcc-4a1e-0e84-2db7" sortIndex="6"/>
+        <entryLink import="true" name="Banner of Resolve" hidden="false" id="6add-78cc-03b1-d08c" type="selectionEntry" targetId="41f5-e9c3-5ca6-e0d4" sortIndex="16"/>
+        <entryLink import="true" name="Banner of the Ancient Forest" hidden="false" id="d291-6909-781f-54b0" type="selectionEntry" targetId="c19f-7ba0-ad85-3cea" publicationId="30f0-6ecb-d1bf-eb3e" page="75" sortIndex="17"/>
+        <entryLink import="true" name="Banner of Conquest" hidden="false" id="17d6-3a0e-65ac-69d0" type="selectionEntry" targetId="62db-27e0-30c0-ed97" publicationId="30f0-6ecb-d1bf-eb3e" page="75" sortIndex="4"/>
+        <entryLink import="true" name="Banner of Ugruk-hor" hidden="false" id="56cf-61a3-503d-7720" type="selectionEntry" targetId="0c17-c748-1ec7-9fed" publicationId="30f0-6ecb-d1bf-eb3e" page="75" sortIndex="26"/>
+        <entryLink import="true" name="Banner of the Serpent" hidden="false" id="1372-3634-3666-d6c9" type="selectionEntry" targetId="d9a1-392b-4b08-5f04" publicationId="30f0-6ecb-d1bf-eb3e" page="75" sortIndex="23"/>
+        <entryLink import="true" name="Banner of Advance" hidden="false" id="0255-1183-1577-6ecd" type="selectionEntry" targetId="6b3f-9fc4-3a3e-ab07" sortIndex="2"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="fe74-3ecd-a6c0-c03d" includeChildSelections="true" includeChildForces="true"/>
@@ -547,4 +663,18 @@ You may field 1 Basic Unit or 1 Elite Unit (paying its standard cost per base) 
       </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <categoryEntries>
+    <categoryEntry name="Banner of the Ancient Forest: Old Ones" id="ad34-8c86-370d-3884" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="75">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="a8dc-e07b-2a28-8ac8" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="a8dc-e07b-2a28-8ac8">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="c19f-7ba0-ad85-3cea" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+  </categoryEntries>
 </catalogue>

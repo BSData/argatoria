@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d73c-f332-202c-fade" name="Vaendral" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="f59a-6830-9b04-b553" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Spells" id="e80f-b52b-29b0-7920" targetId="9324-73b3-9935-4102"/>
@@ -343,6 +343,119 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Krakkars" hidden="false" id="92e8-3e42-7dc6-0316" publicationId="30f0-6ecb-d1bf-eb3e" page="156">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="38"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="5fe4-0763-679f-3d04" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="5fe4-0763-679f-3d04">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="a237-c50c-0a4f-bef9" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Krakkars" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="8cbd-204b-4245-f647" publicationId="30f0-6ecb-d1bf-eb3e" page="156">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">4</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">30</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">2</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">2</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">2</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">10</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Agile Flight" id="88ed-a77c-bdc8-909d" hidden="false" type="rule" targetId="ae73-be14-42e7-1290" publicationId="30f0-6ecb-d1bf-eb3e" page="156"/>
+        <infoLink name="Fearless" id="7e6a-a122-ab23-6eba" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a" publicationId="30f0-6ecb-d1bf-eb3e" page="156"/>
+      </infoLinks>
+      <rules>
+        <rule name="Predator" id="b6d2-ec3c-c1eb-2391" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="156">
+          <description>When this unit is attacking an enemy’s flank, its WS and S are increased by 1, and if attacking an enemy’s rear, its WS and S are increased by 2.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="Appendix" hidden="false" id="c44f-e0b8-2b38-e010" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Vaendral" hidden="false" id="f27c-6376-dcd0-cbc5" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+        <categoryLink name="Unique Unit Without Limits" hidden="false" id="343f-ee3f-c2e5-4689" targetId="10d2-30d7-d100-62ec" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gladiators of the Black Sun" hidden="false" id="12cc-38d7-a3c4-ed5a" publicationId="30f0-6ecb-d1bf-eb3e" page="157">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="cc6b-220a-e981-00a7" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Vaendral" hidden="false" id="cad0-13c8-279b-2319" targetId="a9ce-3085-5e84-d8c0" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="9bbf-45d0-9d49-1fe9" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Gladiators of the Black Sun" hidden="false" id="09d8-a231-ec24-4973" publicationId="30f0-6ecb-d1bf-eb3e" page="157">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="004a-317a-73e6-8455" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="e35f-35d1-3b3e-8a79" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Gladiators of the Black Sun" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="3d39-8459-1bee-4ff2" publicationId="30f0-6ecb-d1bf-eb3e" page="157">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">3</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Gladiators of the Black Sun" hidden="true" id="111d-4660-676e-2a56" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="57c0-b6ee-1f5e-2916" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="472b-5147-06bd-5cf9" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Gladiators of the Black Sun" id="285e-0948-63d4-a8eb" hidden="false" type="profile" targetId="3d39-8459-1bee-4ff2"/>
+            <infoLink name="Marauders" id="8d48-dd8a-f2d2-40cc" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="7d0e-6239-704d-f880" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="57c0-b6ee-1f5e-2916"/>
+                <modifier type="set" value="4" field="472b-5147-06bd-5cf9"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="09d8-a231-ec24-4973" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fierce" id="e6d6-c40b-1fce-0a15" hidden="false" type="rule" targetId="02ab-0489-2565-7e89"/>
+        <infoLink name="Enslaved" id="3e9d-d946-3e09-3642" hidden="false" type="rule" targetId="341d-a83d-4e7a-c9df"/>
+      </infoLinks>
+      <rules>
+        <rule name="Rapid Strike" id="8c0d-e3b3-967c-ff4e" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="157">
+          <description>If the Gladiators unit attacks an enemy unit that has an Action Die, the Gladiators’ WS is increased to 4.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule name="Born Warriors" id="0b70-851d-a958-a4de" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="88">
@@ -399,6 +512,7 @@
         <modifier type="set" value="Bristles" field="name"/>
         <modifier type="remove" value="e020-218e-a38a-c7c5" field="category"/>
         <modifier type="set" value="Marauders: Bristles" field="name" affects="self.entries.ff71-520c-0555-d24a"/>
+        <modifier type="set" value="14" field="78f2-651d-2f2e-98bf" affects="self.entries.1786-1ba2-32a4-3c63"/>
       </modifiers>
     </entryLink>
   </entryLinks>

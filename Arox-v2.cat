@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="97e8-608f-9a83-af5b" name="Arox" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="97e8-608f-9a83-af5b" name="Arox" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Sox’Augatir" hidden="false" id="6800-f216-bdb6-d8ff" publicationId="30f0-6ecb-d1bf-eb3e" page="85" defaultAmount="1">
       <costs>
@@ -347,6 +347,44 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Naulen" hidden="false" id="1a56-bc02-7017-ff19" publicationId="30f0-6ecb-d1bf-eb3e" page="144">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="102"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Unique Unit" hidden="false" id="0290-9394-b837-fe01" targetId="9972-b434-5f13-e94b" primary="true"/>
+        <categoryLink name="Arox" hidden="false" id="4731-aef2-abd2-6c66" targetId="e36e-5a5d-a1e6-02ba" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="1f01-2708-2383-8f34" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Naulen" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="271c-b1a6-1787-f80f" publicationId="30f0-6ecb-d1bf-eb3e" page="144">
+          <characteristics>
+            <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">7</characteristic>
+            <characteristic name="M" typeId="879f-49c0-b3a8-c586">15</characteristic>
+            <characteristic name="WS" typeId="716f-8261-c374-f462">4</characteristic>
+            <characteristic name="S" typeId="65de-0c6b-9559-e9d4">5</characteristic>
+            <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">6</characteristic>
+            <characteristic name="A" typeId="44b7-9a60-223f-8bd3">4</characteristic>
+            <characteristic name="W" typeId="c862-16aa-6d51-e80c">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Smash" id="e853-eeba-63a0-96d4" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="144">
+          <description>When charging, instead of gaining a +1 bonus to Strength (S), the unit’s Strength (S) is doubled.</description>
+        </rule>
+        <rule name="Forced Advance" id="28db-721e-1fa9-c0fd" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="144">
+          <description>A Naulen cannot regroup after defeating an enemy. Instead, it must roll 3D6 and move forward a distance equal to the result. If it encounters an enemy unit, it is treated as charging, and attacks must be resolved immediately. If it encounters a friendly unit, the Naulen stops 1 cm away from it. The friendly unit in the path takes 2 Wounds. If it reaches terrain or the edge of the table, it stops 5 cm away. If the Naulen does not encounter any units, it may turn to face any direction after completing its forced move.</description>
+        </rule>
+        <rule name="Devotee" id="266c-e0ec-c04b-1ad6" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="144">
+          <description>Naulen is a single model, but it is allowed to pray.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Fearless" id="fc66-ffc3-20f5-8a96" hidden="false" type="rule" targetId="94ec-74f8-3927-8a0a"/>
+      </infoLinks>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="cc42-fe10-8d98-3386" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
@@ -323,6 +323,333 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Northern Guard" hidden="false" id="7f17-bcef-0934-d221" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <categoryLinks>
+        <categoryLink name="Rare Unit" hidden="false" id="0ad8-ed98-e94f-564e" targetId="4813-f768-c66b-e833" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="e78b-e336-8118-413d" targetId="7759-6de2-d314-078c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="26ad-5968-ae0f-c3f5" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Northern Guard" hidden="false" id="d716-33bc-148f-e2c7" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="18"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3b10-0fd3-228f-3552" includeChildSelections="false"/>
+            <constraint type="max" value="16" field="selections" scope="parent" shared="true" id="d991-5741-58f4-e2a2" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Northern Guard" typeId="2de0-9d39-bac9-d765" typeName="Unit" hidden="false" id="ee07-218f-bfc9-3f8d" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+              <characteristics>
+                <characteristic name="LD" typeId="cf8f-1c29-2b6f-3031">6</characteristic>
+                <characteristic name="M" typeId="879f-49c0-b3a8-c586">10</characteristic>
+                <characteristic name="WS" typeId="716f-8261-c374-f462">3</characteristic>
+                <characteristic name="S" typeId="65de-0c6b-9559-e9d4">3</characteristic>
+                <characteristic name="T" typeId="c9bb-0a5f-7e53-c580">4</characteristic>
+                <characteristic name="A" typeId="44b7-9a60-223f-8bd3">2</characteristic>
+                <characteristic name="W" typeId="c862-16aa-6d51-e80c">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Marauders: Northern Guard" hidden="true" id="6dec-9fe2-e330-dfff" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
+          <costs>
+            <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+            <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="149b-df75-0a8d-4d24" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="8e5e-2dd5-92de-5534" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Northern Guard" id="8acf-0764-6fb5-c7b2" hidden="false" type="profile" targetId="ee07-218f-bfc9-3f8d"/>
+            <infoLink name="Marauders" id="4e18-6ab5-fb3e-6012" hidden="false" type="rule" targetId="ca33-aaa2-3aaa-7c33"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Marauders" hidden="false" id="8ed3-3db5-4734-279d" targetId="b66e-897e-2874-0011" primary="false"/>
+          </categoryLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden"/>
+                <modifier type="set" value="4" field="149b-df75-0a8d-4d24"/>
+                <modifier type="set" value="4" field="8e5e-2dd5-92de-5534"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="16" field="selections" scope="parent" childId="d716-33bc-148f-e2c7" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Master Ambush" id="2489-8b7c-473b-573e" hidden="false" type="rule" targetId="1640-d67f-6d92-a6e6"/>
+      </infoLinks>
+      <rules>
+        <rule name="Counter" id="49a1-71d2-69ef-a0f3" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <description>If an enemy unit charged the Northern Guard unit, the Northern Guard unit will benefit from charge bonuses during its next activation in this cycle.</description>
+        </rule>
+        <rule name="Perfect Shield Defence. (Save)" id="973d-1053-62c9-dc1d" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <description>For each Wound this unit is dealt, roll a D6 for Perfect Shield Defence. Each score of 2 or 1 means a cancelled Wound.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Winter Songs" hidden="false" id="dad7-45ea-8d55-6ae8" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="7999-d070-cb1b-dfd2" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="ea14-0e78-1b62-d43b" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Champion" hidden="false" id="e24f-b571-5ab5-f860" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="0717-53b5-fd82-fcff" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="2" field="7999-d070-cb1b-dfd2">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="7999-d070-cb1b-dfd2">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Champion of Winter Songs" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="566b-b85b-848e-2f8c" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If the Champion is attached to a friendly Northern Guard or Sasquatches unit, you may roll a D6. On a score of 4 or less, until the end of the cycle the unit may increase its LD to 8 or reduce it to 4, depending on the situation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Northern Guard" hidden="false" id="3bed-79d8-c3a9-6ab9" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="13"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8fb7-bc2f-7fcc-f465" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="acf5-4a38-8b9b-574e" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Champion" hidden="false" id="e307-eaa0-beec-223f" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="867a-ff90-0dc7-bba3" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="2" field="8fb7-bc2f-7fcc-f465">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="8fb7-bc2f-7fcc-f465">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Champion of Northern Guard" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="26b9-7b6f-4453-40d4" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">If an enemy unit makes a successful charge against the Northern Guard unit that has this Champion attached, you may roll a D6. The result is the number of attacks the enemy must subtract from their pool.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion with Snow Horn" hidden="false" id="3b19-f204-883a-7a4d" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="16"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="bd86-2f4c-2067-ca72" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="81b2-adde-7ea7-33fe" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Champion" hidden="false" id="a81c-5fb3-30d8-dacd" targetId="4f06-0f92-65f2-1c81" primary="true"/>
+        <categoryLink name="Dirandis" hidden="false" id="76b6-be03-726b-06a5" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="2" field="bd86-2f4c-2067-ca72">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="bd86-2f4c-2067-ca72">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Champion with Snow Horn" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="f163-68e5-d22a-4bbc" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Once per battle, the Champion with Snow Horn may roll a D6 to summon a Sasquatches unit onto the battlefield. On a result of 3 or less, you may place a rank of 4 Sasquatch bases within 15 cm of the Champion and at least 5 cm away from any enemy, facing any direction, without an Action Die.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Champion of Winter Songs" hidden="false" id="6566-0b65-6574-10de" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="d4db-199b-7284-1038" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Hero" hidden="false" id="c18d-b8b2-9dc9-4cd7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="7a76-8500-d5ef-a9cb" targetId="7759-6de2-d314-078c" primary="false"/>
+        <categoryLink name="Mage" hidden="false" id="b81a-1ad6-ab04-b06f" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="2" field="d4db-199b-7284-1038">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="1500" field="limit::78f2-651d-2f2e-98bf" scope="roster" childId="any" shared="true" includeChildSelections="true"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="d4db-199b-7284-1038">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7f17-bcef-0934-d221" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a346-c0fa-1191-c35c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Magic items" hidden="false" id="dce8-54bd-22da-1842" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+        <entryLink import="true" name="Spells" hidden="false" id="4e8d-855c-6872-13fa" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="1" field="26c6-9df3-b1d1-9f6a"/>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Intense Blizzard" hidden="false" id="d75c-3429-96a7-886a" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b226-5b8e-294f-c8fe-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b226-5b8e-294f-c8fe-max"/>
+              </constraints>
+              <profiles>
+                <profile name="Intense Blizzard" typeId="c24f-eb97-d49f-12c9" typeName="Spell" hidden="false" id="0cae-a7fd-5eed-0ea4" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+                  <characteristics>
+                    <characteristic name="Description" typeId="fada-0619-6d75-fefe">Choose target enemy unit or units within 20 cm that are not engaged in combat and perform a Magic Test. If successful, move the unit or units 5 cm forwards or backwards in a straight line.</characteristic>
+                    <characteristic name="Test" typeId="bf6f-5cc5-80ba-b400">4-</characteristic>
+                    <characteristic name="Range" typeId="bbdc-5607-2dcc-d61f">20 cm</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vohdalir The Fearless" hidden="false" id="49ee-a8e2-2e36-3db5" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="44"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a586-70c7-35bd-5461" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Legendary Hero" hidden="false" id="f5d6-7ba8-fd65-9316" targetId="b8ea-5e96-acf3-4bca" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="27b5-f0af-3ed5-1ee6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="07b2-ae19-42a4-7532" targetId="3337-e6b7-f06f-9aec" primary="false"/>
+        <categoryLink name="Dirandis" hidden="false" id="32f8-9446-6e5d-331b" targetId="7759-6de2-d314-078c" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ancient Ancestral Axe" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="80a9-7421-2826-8fef" publicationId="30f0-6ecb-d1bf-eb3e" page="161">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">This axe, passed down through generations, allows Vohdalir and his companion Etho to grant a friendly unit they are attached to +8 attacks. Additionally, no saves are permitted against the attacks of the unit with Vohdalir attached.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Etho the Grim" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="93a8-cc24-e599-da61" publicationId="30f0-6ecb-d1bf-eb3e" page="161">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">This brooding Gridon may turn into a volcano of fury during combat, striking enemies with reckless abandon. If the unit with Vohdalir attached charges, roll a D6 to see if Etho goes into a frenzy. On a score of 3 or less, Etho is enraged, and you may add +D6 attacks to the unit’s total. If the result is 6, roll another D6 and add those attacks as well. If you get a 6 again, roll another D6 for further additional attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wolf Crown" typeId="88d9-934a-85e6-e7a3" typeName="Item" hidden="false" id="4ef7-766e-adaa-af56" publicationId="30f0-6ecb-d1bf-eb3e" page="161">
+          <characteristics>
+            <characteristic name="Description" typeId="d8cb-c37d-4eab-001d">When attached to a unit of Wolf Maidens or Wilhars, Vohdalir increases their WS to 4.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fear Only the Gods" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="aade-79ec-6090-1273" publicationId="30f0-6ecb-d1bf-eb3e" page="161">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Vohdalir attached to a friendly unit grants it Fearless.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
