@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8971-e576-a1e6-f7f5" name="Dirandis" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Banners" id="cc42-fe10-8d98-3386" targetId="e6d3-3757-73e4-6ec4"/>
     <catalogueLink type="catalogue" name="Items" id="43ad-0573-4b51-2b2f" targetId="9fd1-abc6-119d-b5a5"/>
@@ -408,6 +408,7 @@
         <categoryLink name="Hero" hidden="false" id="ea14-0e78-1b62-d43b" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Champion" hidden="false" id="e24f-b571-5ab5-f860" targetId="4f06-0f92-65f2-1c81" primary="true"/>
         <categoryLink name="Dirandis" hidden="false" id="0717-53b5-fd82-fcff" targetId="7759-6de2-d314-078c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="12f1-5d6e-b674-fe64" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="7999-d070-cb1b-dfd2">
@@ -458,6 +459,7 @@
         <categoryLink name="Hero" hidden="false" id="acf5-4a38-8b9b-574e" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Champion" hidden="false" id="e307-eaa0-beec-223f" targetId="4f06-0f92-65f2-1c81" primary="true"/>
         <categoryLink name="Dirandis" hidden="false" id="867a-ff90-0dc7-bba3" targetId="7759-6de2-d314-078c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="fb91-5d3f-30f2-9d9a" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="8fb7-bc2f-7fcc-f465">
@@ -508,6 +510,7 @@
         <categoryLink name="Hero" hidden="false" id="81b2-adde-7ea7-33fe" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Champion" hidden="false" id="a81c-5fb3-30d8-dacd" targetId="4f06-0f92-65f2-1c81" primary="true"/>
         <categoryLink name="Dirandis" hidden="false" id="76b6-be03-726b-06a5" targetId="7759-6de2-d314-078c" primary="false"/>
+        <categoryLink name="Appendix" hidden="false" id="75ec-3150-5482-d4e3" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="bd86-2f4c-2067-ca72">
@@ -546,9 +549,9 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Champion of Winter Songs" hidden="false" id="6566-0b65-6574-10de" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
+    <selectionEntry type="model" import="true" name="Priest of Gunnar" hidden="false" id="6566-0b65-6574-10de" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
       <costs>
-        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="15"/>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="14"/>
         <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
       </costs>
       <constraints>
@@ -558,6 +561,7 @@
         <categoryLink name="Hero" hidden="false" id="c18d-b8b2-9dc9-4cd7" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
         <categoryLink name="Dirandis" hidden="false" id="7a76-8500-d5ef-a9cb" targetId="7759-6de2-d314-078c" primary="false"/>
         <categoryLink name="Mage" hidden="false" id="b81a-1ad6-ab04-b06f" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Appendix" hidden="false" id="1fd5-f18a-3210-f808" targetId="3337-e6b7-f06f-9aec" primary="false"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="2" field="d4db-199b-7284-1038">
@@ -592,7 +596,7 @@
         <entryLink import="true" name="Magic items" hidden="false" id="dce8-54bd-22da-1842" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
         <entryLink import="true" name="Spells" hidden="false" id="4e8d-855c-6872-13fa" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1">
           <modifiers>
-            <modifier type="set" value="1" field="26c6-9df3-b1d1-9f6a"/>
+            <modifier type="set" value="2" field="26c6-9df3-b1d1-9f6a"/>
           </modifiers>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Intense Blizzard" hidden="false" id="d75c-3429-96a7-886a" publicationId="30f0-6ecb-d1bf-eb3e" page="160">
