@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.2" battleScribeVersion="2.03" revision="6" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-151e-f433-5ee7-6686" name="Argatoria v 2.2" battleScribeVersion="2.03" revision="7" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="General" id="e196-2339-4bc0-2d4f" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="82">
       <description>As long as General is on the battlefield, his army may use the army special rule and add General’s LD during Initiative Tests.</description>
@@ -485,6 +485,9 @@ Legendary Heroes cannot repeat in an army, and if both players want to deploy t
     </rule>
     <rule name="Agile Flight" id="ae73-be14-42e7-1290" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="148">
       <description>This unit can move or charge over any obstacles, including terrain or other units. The unit may turn after completing its movement instead of before moving. The unit can get into base contact with an enemy hero only after completing its movement and any turning. It cannot roll a D6 for the hero’s death; an enemy hero dies only if it cannot attach to a friendly unit or use its special rules.</description>
+    </rule>
+    <rule name="Predator" id="1e3d-b7eb-0c9f-2d12" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="156">
+      <description>When this unit is attacking an enemy’s flank, its WS and S are increased by 1, and if attacking an enemy’s rear, its WS and S are increased by 2.</description>
     </rule>
   </sharedRules>
   <selectionEntries>
