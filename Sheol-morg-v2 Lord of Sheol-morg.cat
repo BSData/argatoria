@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="f574-bbfd-2add-c0a3" name="Sheol-morg: Lord of Sheol-morg" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="f574-bbfd-2add-c0a3" name="Sheol-morg: Lord of Sheol-morg" gameSystemId="sys-151e-f433-5ee7-6686" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Sheol-morg: common" id="3758-fd10-755d-66e2" targetId="3c37-26cb-3246-fc2d" importRootEntries="true"/>
   </catalogueLinks>
@@ -26,13 +26,7 @@
       </entryLinks>
       <rules>
         <rule name="Ab... huul! Daaqul, salib!!!" id="ac93-0227-2728-0779" hidden="false" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
-          <description>The army always fields Ritual Master (Mage). Ritual Master is fielded for free, counts to the Mages limit, and may buy magic spells and items of any value. Before the battle, he performs a special ritual. Roll a D6 to check which bonuses the units will have during the battle.
-1–2 Ritual of Beast
-Basic and Elite Units in the army have their move and charge ranges increased by 2 cm.
-3–4 Ritual of Pain
-Basic and Elite Units in the army that have no save receive save. Each such unit may always roll a D6 for each Wound it is dealt. Each score of 1 means a cancelled Wound.
-5–6 Ritual of Fear
-Basic and Elite Units in the army have Fear. Fear. After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead.</description>
+          <description>The army always fields Ritual Master (Mage).</description>
         </rule>
       </rules>
       <comment>TODO Should Feear be part of General&apos;s rule?</comment>
@@ -73,6 +67,37 @@ Basic and Elite Units in the army have Fear. Fear. After a successful charge wi
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ritual Master" hidden="false" id="0b09-e26e-843b-c135" publicationId="30f0-6ecb-d1bf-eb3e" page="95" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Mage" hidden="false" id="22aa-2442-2865-b5ae" targetId="ced7-cf0d-3b3f-c563" primary="true"/>
+        <categoryLink name="Hero" hidden="false" id="91b9-ace8-4b4b-ece6" targetId="0b0b-5bbc-9d5e-9b0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="78f2-651d-2f2e-98bf" value="0"/>
+        <cost name="Bases" typeId="4f83-a514-6b6a-5475" value="1"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Spells" hidden="false" id="1262-9aaa-cdb3-61ca" type="selectionEntryGroup" targetId="ff1a-1e2a-e88c-753c" sortIndex="1"/>
+        <entryLink import="true" name="Magic items" hidden="false" id="58d5-9665-60c7-81ef" type="selectionEntryGroup" targetId="6af6-0fae-4634-bdf6" sortIndex="2"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Ab... huul! Daaqul, salib!!!" typeId="c120-4b08-0021-a1b1" typeName="Ability" hidden="false" id="dd9a-d559-6f17-9a33" publicationId="30f0-6ecb-d1bf-eb3e" page="95">
+          <characteristics>
+            <characteristic name="Description" typeId="0061-13d8-7fda-179e">Before the battle, Ritual Master performs a special ritual. Roll a D6 to check which bonuses the units will have during the battle.
+1–2 Ritual of Beast
+Basic and Elite Units in the army have their move and charge ranges increased by 2 cm.
+3–4 Ritual of Pain
+Basic and Elite Units in the army that have no save receive save. Each such unit may always roll a D6 for each Wound it is dealt. Each score of 1 means a cancelled Wound.
+5–6 Ritual of Fear
+Basic and Elite Units in the army have Fear. Fear. After a successful charge with this unit, the enemy unit (but not single model) must take a Panic Test for 1 base. If this unit is a Horde, the enemy must take a Panic Test for 2 bases instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="4dbc-f409-e3d4-5963-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4dbc-f409-e3d4-5963-max" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
